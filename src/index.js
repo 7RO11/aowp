@@ -5,6 +5,8 @@ import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
+import BuildPrompt from "./BuildPrompt";
+import Select from "./Select";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +16,14 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About />,
+  },
+  {
+    path: "/buildprompt",
+    element: <BuildPrompt />,
+  },
+  {
+    path: "/select",
+    element: <Select />,
   },
 ]);
 

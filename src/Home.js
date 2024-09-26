@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "./ith.png";
 import "./App.css";
+import Footer from "./Footer";
 
 function Home() {
   return (
@@ -10,21 +11,14 @@ function Home() {
         <img src={logo} className="App-logo" alt="logo" />
 
         <p>What are you looking for?</p>
-        <Link className="Homelink" to={"builds"}>
+        <Link className="Homelink" to={"/buildprompt"}>
           Build recommendation?
         </Link>
-        <Link className="Homelink" to={"profs"}>
+        <Link className="Homelink" to={"/profs"}>
           Profession recommendation?
         </Link>
       </div>
-      <div className="footer">
-        <Link className="Homelink" to={"about"}>
-          About
-        </Link>
-        <Link className="Homelink" to={"index"}>
-          Index
-        </Link>
-      </div>
+      <Footer />
     </div>
   );
 }

@@ -39,3 +39,16 @@ h1 {
   max-width: 80vw;
   text-align: left;
 }
+
+.select {
+  display: flex;
+  gap: 1vw;
+}
+
+.grayed {
+  color: gray;
+}
+
+.white {
+  color: white;
+}

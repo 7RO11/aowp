@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./App.css";
+import Footer from "./Footer";
 
 function About() {
   return (
@@ -16,17 +17,7 @@ function About() {
           common pool options that may be viable, but less than ideal.
         </p>
       </div>
-      <div className="footer">
-        <Link className="Homelink" to={"/"}>
-          Home
-        </Link>
-        <Link className="Homelink" to={"about"}>
-          About
-        </Link>
-        <Link className="Homelink" to={"index"}>
-          Index
-        </Link>
-      </div>
+      <Footer />
     </div>
   );
 }
