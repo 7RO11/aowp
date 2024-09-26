@@ -1,29 +1,42 @@
+import { Link, useParams } from "react-router-dom";
 import "./App.css";
+import db from "./Itemdb";
 
 function Items(props) {
+  const { type } = useParams();
+
   function isGray(level, min, max) {
     if (level >= min && level <= max) {
       return false;
     }
     return true;
   }
-  let items = [
-    { name: "Starting Weapons", min: 1, max: 15 },
-    { name: "Howling Skull", min: 30, max: 50 },
-    { name: "Skull of Misery/Despair", min: 175, max: 220 },
-  ];
+  let key = 0;
+  let section = Object.keys(db[type]);
   return (
     <div>
-      {items.map((item) => {
+      {section.map((item) => {
+        key++;
         return (
           <p
+            onClick={() => {
+              console.log(item);
+              props.setDesc(true);
+              props.setType(db[type][item].type);
+              props.setName(item);
+            }}
             className={
-              isGray(Number(props.level), item.min, item.max)
+              isGray(
+                Number(props.level),
+                db[type][item].min,
+                db[type][item].max
+              )
                 ? "grayed"
                 : "white"
             }
+            key={key}
           >
-            {item.name}
+            {item}
           </p>
         );
       })}
