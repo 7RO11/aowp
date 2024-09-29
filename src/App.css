@@ -56,3 +56,52 @@ h1 {
 .select A {
   color: #61dafb;
 }
+
+.slider {
+  width: 80vw;
+  appearance: none;
+  background: yellow;
+  border-radius: 5px;
+}
+
+.slider::-webkit-slider-thumb {
+  background: black;
+  height: 4vh;
+  border-color: yellow;
+  border-width: 3px;
+}
+
+.slider::-moz-range-thumb {
+  background: black;
+  height: 4vh;
+  border-color: yellow;
+  border-width: 3px;
+}
+
+.redBold {
+  color: red;
+  font-weight: bold;
+}
+
+.whiteBold {
+  color: white;
+  font-weight: bolder;
+}
+
+.goldBold {
+  color: gold;
+  font-weight: bold;
+}
+
+.statsTable tr:nth-child(even) {
+  background-color: #424957;
+}
+
+.statsTable {
+  border-width: 2px;
+  border-color: white;
+}
+
+.statsTable td {
+  padding: 1vh;
+}
