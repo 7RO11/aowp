@@ -9,13 +9,11 @@ function Home() {
       <div className="App-header">
         <h1>Anarchy Online Weapon Pathing</h1>
         <img src={logo} className="App-logo" alt="logo" />
-
-        <p>What are you looking for?</p>
         <Link className="Homelink" to={"/buildprompt"}>
-          Build recommendation?
+          Build Index
         </Link>
         <Link className="Homelink" to={"/profs"}>
-          Profession recommendation?
+          Profession Index
         </Link>
       </div>
       <Footer />

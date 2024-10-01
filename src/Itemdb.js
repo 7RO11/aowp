@@ -20,7 +20,7 @@ const db = {
         },
         dual: {
           value: "Yes",
-          quality: "whiteBold",
+          quality: "",
         },
         aSpeed: {
           value: "1s",
@@ -40,7 +40,7 @@ const db = {
         },
         maxDamage: {
           value: "112",
-          quality: "whiteBold",
+          quality: "goldBold",
         },
         attackCap: {
           value: "700",
@@ -52,7 +52,7 @@ const db = {
         },
         multi: {
           value: "112",
-          quality: "whiteBold",
+          quality: "goldBold",
         },
         specials: {
           value: "Fast Attack",
@@ -61,7 +61,7 @@ const db = {
         reqs: {
           "1hb": {
             value: "305",
-            quality: "redBold",
+            quality: "goldBold",
           },
           "Fast Attack": {
             value: "116",

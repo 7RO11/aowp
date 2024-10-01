@@ -100,8 +100,10 @@ h1 {
 .statsTable {
   border-width: 2px;
   border-color: white;
+  width: 80vw;
 }
 
 .statsTable td {
   padding: 1vh;
+  width: 50%;
 }

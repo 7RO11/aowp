@@ -25,6 +25,10 @@ const router = createBrowserRouter([
     path: "/select/:type",
     element: <Select />,
   },
+  {
+    path: "/item/:type/:item",
+    element: <Description />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

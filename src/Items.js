@@ -18,25 +18,22 @@ function Items(props) {
       {section.map((item) => {
         key++;
         return (
-          <p
-            onClick={() => {
-              console.log(item);
-              props.setDesc(true);
-              props.setType(db[type][item].type);
-              props.setName(item);
-            }}
-            className={
-              isGray(
-                Number(props.level),
-                db[type][item].min,
-                db[type][item].max
-              )
-                ? "grayed"
-                : "white"
-            }
-            key={key}
-          >
-            {item}
+          <p>
+            <Link
+              to={`/item/${db[type][item].type}/${db[type][item].name}`}
+              className={
+                isGray(
+                  Number(props.level),
+                  db[type][item].min,
+                  db[type][item].max
+                )
+                  ? "grayed"
+                  : "white"
+              }
+              key={key}
+            >
+              {item}
+            </Link>
           </p>
         );
       })}
