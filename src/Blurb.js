@@ -11,6 +11,7 @@ function Blurb(props) {
         if (word === "TOTW") {
           return (
             <a
+              target="_blank"
               key={key}
               href="https://www.ao-universe.com/guides/classic-ao/location-guides-5/temple-of-three-winds-loot-table"
               className="Homelink"
@@ -19,14 +20,39 @@ function Blurb(props) {
             </a>
           );
         }
+        if (word === "TOTW.") {
+          return (
+            <a
+              target="_blank"
+              key={key}
+              href="https://www.ao-universe.com/guides/classic-ao/location-guides-5/temple-of-three-winds-loot-table"
+              className="Homelink"
+            >
+              TOTW.
+            </a>
+          );
+        }
         if (word === "IS.") {
           return (
             <a
+              target="_blank"
               key={key}
               href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/the-inner-sanctum"
               className="Homelink"
             >
               IS.
+            </a>
+          );
+        }
+        if (word === "COH.") {
+          return (
+            <a
+              target="_blank"
+              key={key}
+              href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/mid-level-encounter/the-crypt-of-home"
+              className="Homelink"
+            >
+              COH.
             </a>
           );
         }
