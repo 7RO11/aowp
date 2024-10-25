@@ -26,6 +26,13 @@ h1 {
 
 .Homelink {
   color: #61dafb;
+  padding: 4px;
+}
+
+.Homelinknospac {
+  color: #61dafb;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .footer {
@@ -106,4 +113,22 @@ h1 {
 .statsTable td {
   padding: 1vh;
   width: 50%;
+}
+
+.legend {
+  background-color: gray;
+  border-radius: 50%;
+  font-size: large;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.ohNo {
+  padding: 4px;
+}
+
+.bsBox {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
 }

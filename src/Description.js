@@ -1,20 +1,46 @@
 import { useParams } from "react-router-dom";
 import "./App.css";
+import { Tooltip } from "react-tooltip";
 import Footer from "./Footer";
 import db from "./Itemdb";
+import Blurb from "./Blurb";
 
 function Description() {
   let { item, type } = useParams();
   let itemDisplay = db[type][item];
   let key = 0;
+  if (!itemDisplay) {
+    return (
+      <div className="App">
+        <div className="App-header">
+          <h2>who?</h2>
+
+          <p>Fill out the stats bucko</p>
+        </div>
+        <Footer />
+      </div>
+    );
+  }
+  let blurb = itemDisplay.blurb;
+
   return (
     <div className="App">
       <div className="App-header">
         <h2>{itemDisplay.name}</h2>
-        <p className="blurb">{itemDisplay.blurb}</p>
+        <Blurb blurb={blurb} />
         {itemDisplay.stats ? (
           <div>
-            <h3>Stats</h3>
+            <h3>
+              Stats
+              <sup data-tooltip-id="legend" className="legend">
+                {""}?
+              </sup>
+            </h3>
+            <Tooltip id="legend" place="bottom">
+              <p>White: Nothing of note</p>
+              <p className="goldBold">Gold: Excellent</p>
+              <p className="redBold">Red: Important to know/flaw</p>
+            </Tooltip>
             <table className="statsTable">
               <tbody>
                 <tr>

@@ -18,7 +18,7 @@ function Items(props) {
       {section.map((item) => {
         key++;
         return (
-          <p>
+          <p key={key}>
             <Link
               to={`/item/${db[type][item].type}/${db[type][item].name}`}
               className={
@@ -30,7 +30,6 @@ function Items(props) {
                   ? "grayed"
                   : "white"
               }
-              key={key}
             >
               {item}
             </Link>

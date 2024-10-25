@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "react-tooltip/dist/react-tooltip.css";
 import Home from "./Home";
 import About from "./About";
 import BuildPrompt from "./BuildPrompt";
