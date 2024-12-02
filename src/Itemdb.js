@@ -1,357 +1,352 @@
 const db = {
-  "1hb": {
+  "1h Blunt": {
     "Howling Skull": {
       name: "Howling Skull",
       min: 30,
       max: 50,
-      type: "1hb",
-      blurb: "Drops in TOTW from named mobs. Easy to obtain.",
+      type: "1h Blunt",
+      blurb:
+        "Drops from named mobs in TOTW. Easy to obtain. Replaced by Skull_of_Lamentation & Skull_of_Woe.",
       stats: {
-        ql: {
-          value: "SPECIAL",
-          quality: "redBold",
-        },
-        dual: {
-          value: "Yes",
-          quality: "",
-        },
-        aSpeed: {
-          value: "1s",
-          quality: "goldBold",
-        },
-        rSpeed: {
-          value: "1s",
-          quality: "goldBold",
-        },
-        range: {
-          value: "3m",
-          quality: "",
-        },
-        minDamage: {
-          value: "28",
-          quality: "",
-        },
-        maxDamage: {
-          value: "112",
-          quality: "goldBold",
-        },
-        attackCap: {
-          value: "700",
-          quality: "goldBold",
-        },
-        init: {
-          value: "Melee",
-          quality: "",
-        },
-        multi: {
-          value: "112",
-          quality: "goldBold",
-        },
-        specials: {
-          value: "Fast Attack",
-          quality: "",
-        },
+        ql: { value: "SPECIAL", quality: "r" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "1s", quality: "g" },
+        rSpeed: { value: "1s", quality: "g" },
+        range: { value: "3 m", quality: "" },
+        minDamage: { value: "28", quality: "" },
+        maxDamage: { value: "112", quality: "g" },
+        critMod: { value: "6", quality: "" },
+        attackCap: { value: "700", quality: "" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "112", quality: "g" },
+        specials: { value: "Fast Attack", quality: "" },
         reqs: {
-          "1hb": {
-            value: "305",
-            quality: "goldBold",
-          },
-          "Fast Attack": {
-            value: "116",
-            quality: "",
-          },
+          "1h Blunt": { value: "305", quality: "g" },
+          "Fast attack": { value: "116", quality: "" },
         },
+        mods: {},
       },
     },
     "Skull of Misery": {
       name: "Skull of Misery",
       min: 175,
       max: 220,
-      type: "1hb",
+      type: "1h Blunt",
       blurb:
-        "Drops in third floor IS. Very hard to obtain. Right hand only. Compliments Skull_of_Despair.",
+        "Drops in third floor IS. Very hard to obtain. Left hand only. One of the best in class, on RK. Low MBS limits end game potential. Compliments Skull_of_Despair.",
       stats: {
-        ql: {
-          value: "SPECIAL",
-          quality: "redBold",
-        },
-        dual: {
-          value: "Yes",
-          quality: "",
-        },
-        aSpeed: {
-          value: "2.2s",
-          quality: "",
-        },
-        rSpeed: {
-          value: "1.2s",
-          quality: "goldBold",
-        },
-        range: {
-          value: "3m",
-          quality: "",
-        },
-        minDamage: {
-          value: "120",
-          quality: "",
-        },
-        maxDamage: {
-          value: "506",
-          quality: "goldBold",
-        },
-        attackCap: {
-          value: "1200",
-          quality: "",
-        },
-        init: {
-          value: "Melee",
-          quality: "",
-        },
-        multi: {
-          value: "904",
-          quality: "redBold",
-        },
-        specials: {
-          value: "Fast Attack",
-          quality: "",
-        },
+        ql: { value: "SPECIAL", quality: "r" },
+        dual: { value: "Yes", quality: "r" },
+        aSpeed: { value: "2.2s", quality: "" },
+        rSpeed: { value: "1.2s", quality: "g" },
+        range: { value: "3 m", quality: "" },
+        minDamage: { value: "120", quality: "" },
+        maxDamage: { value: "506", quality: "g" },
+        critMod: { value: "104", quality: "" },
+        attackCap: { value: "1200", quality: "r" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "904", quality: "r" },
+        specials: { value: "Fast Attack", quality: "" },
         reqs: {
-          "1hb": {
-            value: "1049",
-            quality: "redBold",
-          },
-          "Fast Attack": {
-            value: "809",
-            quality: "",
-          },
+          "1h Blunt": { value: "1049", quality: "r" },
+          "Fast attack": { value: "809", quality: "" },
         },
+        mods: { "Max health": { value: "25", quality: "" } },
       },
     },
   },
-  "1he": {
+  "1h Edged": {
     Chiroptera: {
       name: "Chiroptera",
       min: 80,
       max: 150,
-      type: "1he",
+      type: "1h Edged",
       blurb:
         "Drops from Cenobite Shadows in COH. Difficult to obtain. Enf and Adv only. Comes in 5 QLs.",
       stats: {
-        ql: {
-          value: "100",
-          quality: "redBold",
-        },
-        dual: {
-          value: "Yes",
-          quality: "",
-        },
-        aSpeed: {
-          value: "1.25s",
-          quality: "goldBold",
-        },
-        rSpeed: {
-          value: "1.25s",
-          quality: "goldBold",
-        },
-        range: {
-          value: "2m",
-          quality: "",
-        },
-        minDamage: {
-          value: "50",
-          quality: "",
-        },
-        maxDamage: {
-          value: "450",
-          quality: "goldBold",
-        },
-        attackCap: {
-          value: "1000",
-          quality: "",
-        },
-        init: {
-          value: "Melee",
-          quality: "",
-        },
-        multi: {
-          value: "750",
-          quality: "redBold",
-        },
+        ql: { value: "100", quality: "r" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "1.25s", quality: "g" },
+        rSpeed: { value: "1.25s", quality: "g" },
+        range: { value: "2 m", quality: "" },
+        minDamage: { value: "50", quality: "" },
+        maxDamage: { value: "450", quality: "g" },
+        critMod: { value: "50", quality: "" },
+        attackCap: { value: "1000", quality: "" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "750", quality: "r" },
         specials: {
           value: "Fast Attack, Sneak Attack, Brawl, Dimach",
-          quality: "goldBold",
+          quality: "g",
         },
         reqs: {
-          Profession: {
-            value: "Adventurer or Enforcer",
-            quality: "redBold",
-          },
-          "1he": {
-            value: "751",
-            quality: "goldBold",
-          },
-          Brawl: {
-            value: "451",
-            quality: "",
-          },
-          "Fast Attack": {
-            value: "376",
-            quality: "",
-          },
-          "Sneak Attack": {
-            value: "376",
-            quality: "",
-          },
-          Dimach: {
-            value: "151",
-            quality: "",
-          },
+          Profession: { value: "Adventurer or Enforcer", quality: "r" },
+          "1h Edged": { value: "751", quality: "g" },
+          "Sneak attack": { value: "376", quality: "" },
+          "Fast attack": { value: "376", quality: "" },
+          Brawl: { value: "451", quality: "" },
+          Dimach: { value: "151", quality: "" },
         },
+        mods: { "Nano pool": { value: "20", quality: "" } },
       },
     },
   },
-  "2hb": {
+  "2h Blunt": {
     Howlet: {
       name: "Howlet",
       min: 80,
       max: 150,
-      type: "2hb",
+      type: "2h Blunt",
       blurb:
         "Drops from Cenobite Shadows in COH. Difficult to obtain. Enf and MP only. Comes in 5 QLs.",
       stats: {
-        ql: {
-          value: "100",
-          quality: "redBold",
-        },
-        dual: {
-          value: "No",
-          quality: "",
-        },
-        aSpeed: {
-          value: "1.25s",
-          quality: "goldBold",
-        },
-        rSpeed: {
-          value: "1.25s",
-          quality: "goldBold",
-        },
-        range: {
-          value: "3m",
-          quality: "",
-        },
-        minDamage: {
-          value: "75",
-          quality: "",
-        },
-        maxDamage: {
-          value: "550",
-          quality: "goldBold",
-        },
-        attackCap: {
-          value: "1000",
-          quality: "",
-        },
-        init: {
-          value: "Melee",
-          quality: "",
-        },
-        multi: {
-          value: "N/A",
-          quality: "",
-        },
-        specials: {
-          value: "Fast Attack, Brawl, Dimach",
-          quality: "goldBold",
-        },
+        ql: { value: "100", quality: "r" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1.25s", quality: "g" },
+        rSpeed: { value: "1.25s", quality: "g" },
+        range: { value: "3 m", quality: "" },
+        minDamage: { value: "75", quality: "" },
+        maxDamage: { value: "550", quality: "g" },
+        critMod: { value: "75", quality: "" },
+        attackCap: { value: "1000", quality: "" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Fast Attack, Brawl, Dimach", quality: "g" },
         reqs: {
-          Profession: {
-            value: "Meta-Physicist or Enforcer",
-            quality: "redBold",
-          },
-          "2hb": {
-            value: "751",
-            quality: "goldBold",
-          },
-          Brawl: {
-            value: "451",
-            quality: "",
-          },
-          "Fast Attack": {
-            value: "376",
-            quality: "",
-          },
-          Dimach: {
-            value: "151",
-            quality: "",
-          },
+          Profession: { value: "Meta-Physicist or Enforcer", quality: "r" },
+          "2h Blunt": { value: "751", quality: "g" },
+          "Fast attack": { value: "376", quality: "" },
+          Brawl: { value: "451", quality: "" },
+          Dimach: { value: "151", quality: "" },
+        },
+        mods: { "Nano pool": { value: "20", quality: "" } },
+      },
+    },
+  },
+  "2h Edged": {
+    "Stygian Desolator": {
+      name: "Stygian Desolator",
+      min: 50,
+      max: 130,
+      type: "2h Edged",
+      blurb:
+        "Aztur the Immortal's sword. Drops in TOTW. Difficult to obtain. Hits have a 6% to activate its proc, which applies a DOT and AAD/AAO debuff. Exceptional damage profile with a high MBS gives it a lot of potential. Arguably the best weapon in class and often a fallback choice for professions with poor weapon paths.",
+      stats: {
+        ql: { value: "SPECIAL", quality: "r" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1s", quality: "g" },
+        rSpeed: { value: "3.3s", quality: "r" },
+        range: { value: "3 m", quality: "" },
+        minDamage: { value: "75", quality: "" },
+        maxDamage: { value: "331", quality: "g" },
+        critMod: { value: "33", quality: "" },
+        attackCap: { value: "800", quality: "g" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Fast Attack", quality: "" },
+        reqs: {
+          "2h Edged": { value: "434", quality: "g" },
+          "Fast attack": { value: "245", quality: "" },
+        },
+        mods: {
+          "Max health": { value: "20", quality: "" },
+          "Energy AC": { value: "80", quality: "" },
         },
       },
     },
   },
-  "2he": {
-    "Stygian Desolator": {
-      name: "Stygian Desolator",
-      min: 50,
-      max: 150,
-      type: "2he",
+  Shotgun: {
+    "Krutt Assault 219 Waltzing Queen Special": {
+      name: "Krutt Assault 219 Waltzing Queen Special",
+      min: 60,
+      max: 200,
+      type: "Shotgun",
+      auno: "https://auno.org/ao/db.php?id=124284",
       blurb:
-        "Aztur the Immortal's sword. Drops in TOTW. Difficult to obtain. Hits have a 6% to activate its proc, which applies a DOT and AAD/AAO debuff. One of the best weapons on RK and often a fallback choice for professions with poor weapon paths.",
+        "Blitzable and part of common loot pools. Model listed is QL 184 interpolation. Notorious crit shotgun.",
       stats: {
-        ql: {
-          value: "SPECIAL",
-          quality: "redBold",
-        },
-        dual: {
-          value: "No",
-          quality: "",
-        },
-        aSpeed: {
-          value: "1s",
-          quality: "goldBold",
-        },
-        rSpeed: {
-          value: "3.3s",
-          quality: "",
-        },
-        range: {
-          value: "3m",
-          quality: "",
-        },
-        minDamage: {
-          value: "75",
-          quality: "",
-        },
-        maxDamage: {
-          value: "331",
-          quality: "goldBold",
-        },
-        attackCap: {
-          value: "800",
-          quality: "",
-        },
-        init: {
-          value: "Melee",
-          quality: "",
-        },
-        multi: {
-          value: "N/A",
-          quality: "",
-        },
-        specials: {
-          value: "Fast Attack",
-          quality: "",
-        },
+        ql: { value: "Interpolated", quality: "r" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "2.13s", quality: "" },
+        rSpeed: { value: "2.5s", quality: "" },
+        range: { value: "22 m", quality: "" },
+        minDamage: { value: "29", quality: "r" },
+        maxDamage: { value: "178", quality: "r" },
+        critMod: { value: "1143", quality: "g" },
+        attackCap: { value: "2301", quality: "g" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Fling Shot", quality: "" },
         reqs: {
-          "2he": {
-            value: "434",
-            quality: "goldBold",
-          },
-          "Fast Attack": {
-            value: "246",
-            quality: "",
-          },
+          Shotgun: { value: "794", quality: "" },
+          "Fling shot": { value: "398", quality: "" },
+        },
+        mods: {
+          Stamina: { value: "24", quality: "" },
+          Intelligence: { value: "24", quality: "" },
+          "Computer literacy": { value: "20", quality: "" },
         },
       },
+    },
+  },
+  Rifle: {
+    "Assassins FDA Caterwaul 913": {
+      name: "Assassins FDA Caterwaul 913",
+      min: 1,
+      max: 200,
+      type: "Rifle",
+      blurb:
+        "Blitzable and part of common loot pools. Model listed is QL 200 interpolation. Classic agent rifle with good crits and regular damage.",
+      stats: {
+        ql: { value: "Interpolated", quality: "r" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "2.9s", quality: "" },
+        rSpeed: { value: "1.1s", quality: "g" },
+        range: { value: "28 m", quality: "" },
+        minDamage: { value: "10", quality: "" },
+        maxDamage: { value: "410", quality: "g" },
+        critMod: { value: "280", quality: "g" },
+        attackCap: { value: "1330", quality: "g" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Aimed Shot", quality: "" },
+        reqs: {
+          Profession: { value: "Agent", quality: "" },
+          Rifle: { value: "941", quality: "" },
+          "Aimed shot": { value: "471", quality: "" },
+        },
+        mods: {
+          Concealment: { value: "10", quality: "" },
+          "NCU memory": { value: "8", quality: "" },
+        },
+      },
+      auno: "https://auno.org/ao/db.php?id=160192",
+    },
+  },
+  Pistol: {
+    "Solar Powered Tinker Pistol": {
+      name: "Solar Powered Tinker Pistol",
+      min: 1,
+      max: 220,
+      type: "Pistol",
+      blurb:
+        'Pistol built_from_the_starting_solar_powered_pistol. Right hand only. Model listed is QL 1 interpolation. One of the few "leveling weapons" in the game. Has to be upgraded with items roughly every 40 levels. End game variants are powerful but weapon smithing checks can make it hard to use off-class.',
+      stats: {
+        ql: { value: "Interpolated", quality: "r" },
+        dual: { value: "Yes", quality: "r" },
+        aSpeed: { value: "1.7s", quality: "" },
+        rSpeed: { value: "1.2s", quality: "g" },
+        range: { value: "15 m", quality: "" },
+        minDamage: { value: "3", quality: "" },
+        maxDamage: { value: "16", quality: "g" },
+        critMod: { value: "20", quality: "g" },
+        attackCap: { value: "", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "", quality: "" },
+        reqs: {
+          Pistol: { value: "9", quality: "" },
+          "Weapon smithing": { value: "6", quality: "r" },
+        },
+        mods: {
+          "Max Health": { value: "1", quality: "" },
+          "Max Nano": { value: "1", quality: "" },
+          Tutoring: { value: "1", quality: "" },
+        },
+      },
+      auno: "https://auno.org/ao/db.php?id=164489",
+    },
+  },
+  Smg: {
+    "Gamma Ejector": {
+      name: "Gamma Ejector",
+      min: 41,
+      max: 100,
+      type: "Smg",
+      blurb:
+        "Drops from bodyguards in Foremans. Difficult to obtain at its level min. A decent smg in a drought. Virtually right hand only because of the multi check.",
+      stats: {
+        ql: { value: "68", quality: "" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "1s", quality: "g" },
+        rSpeed: { value: "3s", quality: "r" },
+        range: { value: "20 m", quality: "" },
+        minDamage: { value: "14", quality: "" },
+        maxDamage: { value: "215", quality: "g" },
+        critMod: { value: "78", quality: "" },
+        attackCap: { value: "", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "495", quality: "r" },
+        specials: { value: "Burst", quality: "" },
+        reqs: {
+          Smg: { value: "278", quality: "" },
+          Burst: { value: "210", quality: "" },
+          Level: { value: "41", quality: "r" },
+        },
+        mods: {},
+      },
+      auno: "https://auno.org/ao/db.php?id=156770",
+    },
+  },
+  "Assault rifle": {
+    "Neutrino Flash": {
+      name: "Neutrino Flash",
+      min: 40,
+      max: 100,
+      type: "Assault rifle",
+      blurb:
+        "Drops from Notum Habit in Steps_of_Madness. Difficult to obtain. The best early game assault rifle with good damage and fast attacks. Hits have a 5% chance to proc a reflect shutdown.",
+      stats: {
+        ql: { value: "50", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1s", quality: "g" },
+        rSpeed: { value: "1s", quality: "g" },
+        range: { value: "21 m", quality: "" },
+        minDamage: { value: "50", quality: "" },
+        maxDamage: { value: "160", quality: "g" },
+        critMod: { value: "75", quality: "" },
+        attackCap: { value: "730", quality: "g" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Burst", quality: "" },
+        reqs: {
+          "Assault rifle": { value: "301", quality: "g" },
+          Burst: { value: "151", quality: "" },
+        },
+        mods: {},
+      },
+      auno: "https://auno.org/ao/db.php?id=152027",
+    },
+  },
+  Piercing: {
+    "Fear-forged Blade": {
+      name: "Fear-forged Blade",
+      min: 40,
+      max: 80,
+      type: "Piercing",
+      blurb:
+        "Drops from Unrelenting Fear in Steps_of_Madness. Moderately difficult to obtain. The best early game piercing weapon. Hits have a 5% chance to proc a DOT.",
+      stats: {
+        ql: { value: "50", quality: "" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "1.08s", quality: "g" },
+        rSpeed: { value: "1.3s", quality: "g" },
+        range: { value: "1 m", quality: "r" },
+        minDamage: { value: "45", quality: "" },
+        maxDamage: { value: "125", quality: "g" },
+        critMod: { value: "50", quality: "" },
+        attackCap: { value: "720", quality: "g" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "122", quality: "g" },
+        specials: { value: "Fast Attack, Sneak Attack", quality: "" },
+        reqs: {
+          Piercing: { value: "301", quality: "g" },
+          "Sneak attack": { value: "151", quality: "" },
+          "Fast attack": { value: "101", quality: "" },
+        },
+        mods: { Piercing: { value: "20", quality: "" } },
+      },
+      auno: "https://auno.org/ao/db.php?id=151903",
     },
   },
 };

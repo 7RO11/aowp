@@ -38,9 +38,10 @@ function Description() {
             </h3>
             <Tooltip id="legend" place="bottom">
               <p>White: Nothing of note</p>
-              <p className="goldBold">Gold: Excellent</p>
-              <p className="redBold">Red: Important to know/flaw</p>
+              <p className="g">Gold: Excellent</p>
+              <p className="r">Red: Important to know/flaw</p>
             </Tooltip>
+
             <table className="statsTable">
               <tbody>
                 <tr>
@@ -55,9 +56,24 @@ function Description() {
                     -
                     <span className={itemDisplay.stats.maxDamage.quality}>
                       {itemDisplay.stats.maxDamage.value}
+                    </span>{" "}
+                    <span className={itemDisplay.stats.critMod.quality}>
+                      ({itemDisplay.stats.critMod.value})
                     </span>
+                    <sup data-tooltip-id="crit" className="legend">
+                      {""}?
+                    </sup>
+                    <Tooltip id="crit" place="bottom">
+                      <p className="crit">
+                        The number in parenthesis is the{" "}
+                        <span className="whiteBold">critical modifier.</span>{" "}
+                        Crit mods significantly higher than max damage suggest
+                        that this may be a crit weapon.
+                      </p>
+                    </Tooltip>
                   </td>
                 </tr>
+
                 <tr>
                   <td className={itemDisplay.stats.aSpeed.quality}>
                     AS: {itemDisplay.stats.aSpeed.value}

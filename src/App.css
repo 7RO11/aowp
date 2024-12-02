@@ -85,7 +85,7 @@ h1 {
   border-width: 3px;
 }
 
-.redBold {
+.r {
   color: red;
   font-weight: bold;
 }
@@ -95,7 +95,7 @@ h1 {
   font-weight: bolder;
 }
 
-.goldBold {
+.g {
   color: gold;
   font-weight: bold;
 }
@@ -132,4 +132,8 @@ h1 {
   flex-wrap: wrap;
   padding: 0.5rem;
   padding-left: 2em;
+}
+
+.crit {
+  max-width: 25vw;
 }
