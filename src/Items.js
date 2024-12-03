@@ -14,7 +14,7 @@ function Items(props) {
     "Fixer",
     "Keeper",
     "Martial Artist",
-    "Meta-physicist",
+    "Meta-Physicist",
     "Nano-technician",
     "Shade",
     "Soldier",

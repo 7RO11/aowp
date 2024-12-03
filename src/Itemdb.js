@@ -26,7 +26,7 @@ const db = {
         },
         mods: {},
       },
-      profs: ["Enforcer", "Meta-Physcist"],
+      profs: ["Enforcer", "Meta-Physicist"],
     },
     "Skull of Misery": {
       name: "Skull of Misery",
@@ -54,7 +54,7 @@ const db = {
         },
         mods: { "Max health": { value: "25", quality: "" } },
       },
-      profs: ["Enforcer", "Meta-Physcist"],
+      profs: ["Enforcer", "Meta-Physicist"],
     },
   },
   "1h Edged": {
@@ -124,7 +124,7 @@ const db = {
         },
         mods: { "Nano pool": { value: "20", quality: "" } },
       },
-      profs: ["Enforcer", "Meta-Physcist"],
+      profs: ["Enforcer", "Meta-Physicist"],
     },
   },
   "2h Edged": {
