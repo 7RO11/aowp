@@ -27,6 +27,9 @@ function BuildPrompt() {
           <Link to={"/select/Assault rifle"}>Assault rifle</Link>
           <Link to={"/select/Piercing"}>Piercing</Link>
         </div>
+        <div className="select">
+          <Link to={"/select/Martial arts"}>Martial Arts</Link>
+        </div>
       </div>
       <Footer />
     </div>

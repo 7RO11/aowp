@@ -26,6 +26,7 @@ const db = {
         },
         mods: {},
       },
+      profs: ["Enforcer", "Meta-Physcist"],
     },
     "Skull of Misery": {
       name: "Skull of Misery",
@@ -53,6 +54,7 @@ const db = {
         },
         mods: { "Max health": { value: "25", quality: "" } },
       },
+      profs: ["Enforcer", "Meta-Physcist"],
     },
   },
   "1h Edged": {
@@ -89,6 +91,7 @@ const db = {
         },
         mods: { "Nano pool": { value: "20", quality: "" } },
       },
+      profs: ["Enforcer", "Adventurer"],
     },
   },
   "2h Blunt": {
@@ -121,6 +124,7 @@ const db = {
         },
         mods: { "Nano pool": { value: "20", quality: "" } },
       },
+      profs: ["Enforcer", "Meta-Physcist"],
     },
   },
   "2h Edged": {
@@ -153,6 +157,7 @@ const db = {
           "Energy AC": { value: "80", quality: "" },
         },
       },
+      profs: ["Enforcer", "Keeper"],
     },
   },
   Shotgun: {
@@ -187,6 +192,7 @@ const db = {
           "Computer literacy": { value: "20", quality: "" },
         },
       },
+      profs: ["Trader"],
     },
   },
   Rifle: {
@@ -221,6 +227,7 @@ const db = {
         },
       },
       auno: "https://auno.org/ao/db.php?id=160192",
+      profs: ["Agent"],
     },
   },
   Pistol: {
@@ -255,6 +262,7 @@ const db = {
         },
       },
       auno: "https://auno.org/ao/db.php?id=164489",
+      profs: ["Engineer", "Adventurer"],
     },
   },
   Smg: {
@@ -286,6 +294,7 @@ const db = {
         mods: {},
       },
       auno: "https://auno.org/ao/db.php?id=156770",
+      profs: ["Fixer", "Soldier"],
     },
   },
   "Assault rifle": {
@@ -316,6 +325,7 @@ const db = {
         mods: {},
       },
       auno: "https://auno.org/ao/db.php?id=152027",
+      profs: ["Soldier"],
     },
   },
   Piercing: {
@@ -347,6 +357,43 @@ const db = {
         mods: { Piercing: { value: "20", quality: "" } },
       },
       auno: "https://auno.org/ao/db.php?id=151903",
+      profs: ["Shade"],
+    },
+  },
+  "Martial arts": {
+    "Lotus Parry Stick": {
+      name: "Lotus Parry Stick",
+      min: 1,
+      max: 125,
+      type: "Martial arts",
+      blurb:
+        "Blitzable and part of common loot pools. Model listed is QL 200 interpolation. Hard for MAs to use because of the 1hb and multi check, but sees some use on traders due to high damage from MA drain transfers.",
+      stats: {
+        ql: { value: "Interpolated", quality: "r" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "2.5s", quality: "" },
+        rSpeed: { value: "3.5s", quality: "r" },
+        range: { value: "3 m", quality: "" },
+        minDamage: { value: "50", quality: "" },
+        maxDamage: { value: "350", quality: "" },
+        critMod: { value: "350", quality: "" },
+        attackCap: { value: "2300", quality: "g" },
+        init: { value: "Physical", quality: "r" },
+        multi: { value: "777", quality: "r" },
+        specials: { value: "Brawl, Dimach", quality: "" },
+        reqs: {
+          "Martial arts": { value: "806", quality: "" },
+          "1h Blunt": { value: "537", quality: "" },
+          Brawl: { value: "537", quality: "" },
+          Dimach: { value: "180", quality: "" },
+        },
+        mods: {
+          Parry: { value: "100", quality: "" },
+          "Evade close": { value: "100", quality: "" },
+        },
+      },
+      auno: "https://auno.org/ao/db.php?id=152357",
+      profs: ["Martial Artist", "Trader"],
     },
   },
 };

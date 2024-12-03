@@ -12,7 +12,7 @@ function Home() {
         <Link className="Homelink" to={"/buildprompt"}>
           Build Index
         </Link>
-        <Link className="Homelink" to={"/profs"}>
+        <Link className="Homelink" to={"/profprompt"}>
           Profession Index
         </Link>
       </div>

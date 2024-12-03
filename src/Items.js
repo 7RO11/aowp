@@ -4,6 +4,44 @@ import db from "./Itemdb";
 
 function Items(props) {
   const { type } = useParams();
+  const profs = [
+    "Adventurer",
+    "Agent",
+    "Bureaucrat",
+    "Doctor",
+    "Enforcer",
+    "Engineer",
+    "Fixer",
+    "Keeper",
+    "Martial Artist",
+    "Meta-physicist",
+    "Nano-technician",
+    "Shade",
+    "Soldier",
+    "Trader",
+  ];
+
+  let isProf = false;
+
+  for (let prof of profs) {
+    if (type === prof) {
+      isProf = true;
+    }
+  }
+  let section = [];
+  if (isProf) {
+    for (const wtype in db) {
+      for (const item in db[wtype]) {
+        for (const prof of db[wtype][item]["profs"]) {
+          if (prof === type) {
+            section.push(db[wtype][item]);
+          }
+        }
+      }
+    }
+  } else {
+    section = Object.keys(db[type]);
+  }
 
   function isGray(level, min, max) {
     if (level >= min && level <= max) {
@@ -12,8 +50,7 @@ function Items(props) {
     return true;
   }
   let key = 0;
-  let section = Object.keys(db[type]);
-  return (
+  return !isProf ? (
     <div>
       {section.map((item) => {
         key++;
@@ -32,6 +69,26 @@ function Items(props) {
               }
             >
               {item}
+            </Link>
+          </p>
+        );
+      })}
+    </div>
+  ) : (
+    <div>
+      {section.map((item) => {
+        key++;
+        return (
+          <p key={key}>
+            <Link
+              to={`/item/${item.type}/${item.name}`}
+              className={
+                isGray(Number(props.level), item.min, item.max)
+                  ? "grayed"
+                  : "white"
+              }
+            >
+              {item.name}
             </Link>
           </p>
         );

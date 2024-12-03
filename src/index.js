@@ -8,6 +8,8 @@ import About from "./About";
 import BuildPrompt from "./BuildPrompt";
 import Select from "./Select";
 import Description from "./Description";
+import ProfPrompt from "./ProfPrompt";
+import Windex from "./Windex";
 
 const router = createBrowserRouter([
   {
@@ -23,12 +25,20 @@ const router = createBrowserRouter([
     element: <BuildPrompt />,
   },
   {
+    path: "/profprompt",
+    element: <ProfPrompt />,
+  },
+  {
     path: "/select/:type",
     element: <Select />,
   },
   {
     path: "/item/:type/:item",
     element: <Description />,
+  },
+  {
+    path: "/index",
+    element: <Windex />,
   },
 ]);
 
