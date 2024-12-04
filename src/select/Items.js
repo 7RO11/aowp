@@ -31,9 +31,22 @@ function Items(props) {
   if (isProf) {
     for (const wtype in db) {
       for (const item in db[wtype]) {
-        for (const prof of db[wtype][item]["profs"]) {
-          if (prof === type) {
-            section.push(db[wtype][item]);
+        if (db[wtype][item]["versions"]) {
+          for (const version of db[wtype][item].versions) {
+            if (version.prk) {
+              continue;
+            }
+            for (const prof of version["profs"]) {
+              if (prof === type) {
+                section.push(version);
+              }
+            }
+          }
+        } else {
+          for (const prof of db[wtype][item]["profs"]) {
+            if (prof === type) {
+              section.push(db[wtype][item]);
+            }
           }
         }
       }

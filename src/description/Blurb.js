@@ -127,7 +127,19 @@ function Blurb(props) {
             </a>
           );
         }
-
+        if (word === "craftable_with_weapon_upgrade_kits.") {
+          return (
+            <a
+              target="_blank"
+              key={key}
+              href="https://www.ao-universe.com/guides/classic-ao/tradeskill-guides-6/weapon-4/the--000-weapon-upgrades"
+              className="bsLink"
+              rel="noreferrer"
+            >
+              craftable with weapon upgrade kits.
+            </a>
+          );
+        }
         return (
           <span className="ohNo" key={key}>
             {word}

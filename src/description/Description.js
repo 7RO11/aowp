@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { Tooltip } from "react-tooltip";
 import Blurb from "./Blurb";
@@ -7,8 +8,18 @@ import Stage from "../stage/Stage";
 
 function Description() {
   let { item, type } = useParams();
+  let [isPRK, setPRK] = useState(false);
   let itemDisplay = db[type][item];
   let key = 0;
+
+  if (itemDisplay.versions) {
+    for (const item of itemDisplay.versions) {
+      if (item.prk === isPRK) {
+        itemDisplay = item;
+      }
+    }
+  }
+  let blurb = itemDisplay.blurb;
   if (!itemDisplay) {
     return (
       <Stage>
@@ -17,8 +28,6 @@ function Description() {
       </Stage>
     );
   }
-  let blurb = itemDisplay.blurb;
-
   return (
     <Stage>
       <div className="header">
@@ -26,6 +35,22 @@ function Description() {
         <a id="auno" target="_blank" rel="noreferrer" href={itemDisplay.auno}>
           auno
         </a>
+        {db[type][item].versions ? (
+          <>
+            <label className="switch">
+              <input
+                type="checkbox"
+                onChange={() => {
+                  setPRK(!isPRK);
+                }}
+              />
+              <span className="sliderPRK round"></span>
+            </label>
+            <span id="PRK">PRK?</span>
+          </>
+        ) : (
+          <></>
+        )}
       </div>
 
       <Blurb blurb={blurb} />

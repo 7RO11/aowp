@@ -2,14 +2,17 @@
   align-self: center;
   color: orange;
   font-size: 1.5em;
-  padding-top: 0.3em;
-  padding-left: 0.3em;
+  padding-top: 0.3vw;
+  padding-left: 0.3vw;
 }
 
 #auno:hover {
   color: orangered;
 }
 
+.crit {
+  max-width: 25vw;
+}
 /* classnames shortened to make weapon data entry easier */
 .g {
   color: gold;
@@ -53,8 +56,77 @@
 .statsTable tr:nth-child(even) {
   background-color: rgb(80, 80, 80);
 }
-.crit {
-  max-width: 25vw;
+
+#PRK {
+  align-self: center;
+  color: magenta;
+  font-size: 1.5em;
+  margin-left: 0.1em;
+  padding-top: 0.3vw;
+  padding-left: 0.3vw;
+  text-decoration: underline;
+  user-select: none;
+}
+
+/* slider switch */
+.switch {
+  align-self: center;
+  margin-left: 1em;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.sliderPRK {
+  padding-left: 0;
+  width: 60px;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: gray;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.sliderPRK.round {
+  border-radius: 34px;
+}
+
+.sliderPRK.round:before {
+  border-radius: 50%;
+}
+
+.sliderPRK:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: gainsboro;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .sliderPRK:before {
+  background-color: magenta;
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+input:checked + .sliderPRK {
+  background-color: rgb(100, 100, 100);
 }
 
 /* blurb */
