@@ -69,7 +69,11 @@ function Items(props) {
         return (
           <p key={key}>
             <Link
-              to={`/item/${db[type][item].type}/${db[type][item].name}`}
+              to={
+                db[type][item].type
+                  ? `/item/${db[type][item].type}/${db[type][item].name}`
+                  : `/item/${db[type][item]["versions"][0].type}/${db[type][item]["versions"][0].name}`
+              }
               className={
                 isGray(
                   Number(props.level),
