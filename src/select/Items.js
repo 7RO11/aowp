@@ -1,6 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import "./App.css";
-import db from "./Itemdb";
+import db from "../Itemdb";
 
 function Items(props) {
   const { type } = useParams();

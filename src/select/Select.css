@@ -1,0 +1,39 @@
+.grayed {
+  color: gray;
+  transition: 0.2s;
+}
+
+.grayed:hover {
+  color: red;
+}
+
+.white {
+  color: gainsboro;
+  transition: 0.2s;
+}
+
+.white:hover {
+  color: red;
+}
+
+.slider {
+  background: gold;
+  width: 100%;
+}
+
+/* we cant have nice things */
+.slider::-webkit-slider-thumb {
+  background: black;
+  border-color: gold;
+  border-width: 3px;
+  cursor: pointer;
+  height: 4vh;
+}
+
+.slider::-moz-range-thumb {
+  background: black;
+  border-color: gold;
+  border-width: 3px;
+  cursor: pointer;
+  height: 4vh;
+}

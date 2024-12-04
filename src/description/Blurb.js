@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "./App.css";
 
 function Blurb(props) {
   let ohno = props.blurb.split(" ");
@@ -14,7 +13,7 @@ function Blurb(props) {
               target="_blank"
               key={key}
               href="https://www.ao-universe.com/guides/classic-ao/location-guides-5/temple-of-three-winds-loot-table"
-              className="Homelink"
+              className="bsLink"
               rel="noreferrer"
             >
               TOTW
@@ -27,7 +26,7 @@ function Blurb(props) {
               target="_blank"
               key={key}
               href="https://www.ao-universe.com/guides/classic-ao/location-guides-5/temple-of-three-winds-loot-table"
-              className="Homelink"
+              className="bsLink"
               rel="noreferrer"
             >
               TOTW.
@@ -40,7 +39,7 @@ function Blurb(props) {
               target="_blank"
               key={key}
               href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/the-inner-sanctum"
-              className="Homelink"
+              className="bsLink"
               rel="noreferrer"
             >
               IS.
@@ -53,7 +52,7 @@ function Blurb(props) {
               target="_blank"
               key={key}
               href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/mid-level-encounter/the-crypt-of-home"
-              className="Homelink"
+              className="bsLink"
               rel="noreferrer"
             >
               COH.
@@ -66,7 +65,7 @@ function Blurb(props) {
               target="_blank"
               key={key}
               href="https://www.ao-universe.com/guides/classic-ao/quests-guides-3/biomare-quests-foremans"
-              className="Homelink"
+              className="bsLink"
               rel="noreferrer"
             >
               Foremans.
@@ -79,7 +78,7 @@ function Blurb(props) {
               target="_blank"
               key={key}
               href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/low-level-encounter/steps-of-madness"
-              className="Homelink"
+              className="bsLink"
               rel="noreferrer"
             >
               Steps of Madness.
@@ -91,7 +90,7 @@ function Blurb(props) {
             <Link
               key={key}
               to="/item/1h Blunt/Skull of Despair"
-              className="Homelinknospac"
+              className="bsLink"
             >
               Skull of Despair.
             </Link>
@@ -102,7 +101,7 @@ function Blurb(props) {
             <Link
               key={key}
               to="/item/1h Blunt/Skull of Lamentation"
-              className="Homelinknospac"
+              className="bsLink"
             >
               Skull of Lamentation
             </Link>
@@ -110,11 +109,7 @@ function Blurb(props) {
         }
         if (word === "Skull_of_Woe.") {
           return (
-            <Link
-              key={key}
-              to="/item/1h Blunt/Skull of Woe"
-              className="Homelinknospac"
-            >
+            <Link key={key} to="/item/1h Blunt/Skull of Woe" className="bsLink">
               Skull of Woe.
             </Link>
           );
@@ -125,7 +120,7 @@ function Blurb(props) {
               target="_blank"
               key={key}
               href="https://www.ao-universe.com/guides/classic-ao/tradeskill-guides-6/weapon-4/improved-solar-powered-pistol"
-              className="Homelink"
+              className="bsLink"
               rel="noreferrer"
             >
               built from the starting solar powered pistol.

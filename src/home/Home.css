@@ -1,0 +1,9 @@
+.homeLink {
+  color: gainsboro;
+  font-size: 4em;
+  transition: 0.2s;
+}
+
+.homeLink:hover {
+  color: red;
+}

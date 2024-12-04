@@ -1,0 +1,8 @@
+.indexLink {
+  color: whitesmoke;
+  font-size: 1.5em;
+}
+
+.indexLink:hover {
+  color: red;
+}

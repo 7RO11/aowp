@@ -1,0 +1,45 @@
+.app {
+  background: rgb(40, 40, 40);
+  background: linear-gradient(rgba(40, 40, 40, 1) 0%, rgba(50, 50, 50, 1) 100%);
+  color: gainsboro;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.footer {
+  background: rgb(40, 40, 40);
+  background: linear-gradient(rgba(30, 30, 30, 1) 0%, rgba(40, 40, 40, 1) 100%);
+  bottom: 0;
+  border-top: gainsboro solid 1px;
+  font-size: 2em;
+  position: fixed;
+  padding-bottom: 0.5vh;
+  padding-top: 0.5vh;
+  width: 100%;
+}
+
+.footer a,
+span {
+  padding-left: 1.5vw;
+}
+
+.footerLink {
+  color: gainsboro;
+  transition: 0.2s;
+}
+
+.footerLink:hover {
+  color: red;
+}
+
+img {
+  border-right: solid 1px gainsboro;
+  max-height: 1em;
+  padding-right: 0.75em;
+}

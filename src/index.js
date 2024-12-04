@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "react-tooltip/dist/react-tooltip.css";
-import Home from "./Home";
-import About from "./About";
-import BuildPrompt from "./BuildPrompt";
-import Select from "./Select";
-import Description from "./Description";
-import ProfPrompt from "./ProfPrompt";
-import Windex from "./Windex";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import About from "./about/About";
+import BuildPrompt from "./buildPrompt/BuildPrompt";
+import Description from "./description/Description";
+import Home from "./home/Home";
+import "./index.css";
+import ProfPrompt from "./profPrompt/ProfPrompt";
+import Select from "./select/Select";
+import Windex from "./windex/Windex";
 
 const router = createBrowserRouter([
   {
