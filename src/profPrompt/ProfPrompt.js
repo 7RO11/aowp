@@ -4,7 +4,7 @@ import Stage from "../stage/Stage";
 function ProfPrompt() {
   return (
     <Stage>
-      <h1>Which Build?</h1>
+      <h1>Which Profession?</h1>
       <div className="select">
         <Link to={"/select/Adventurer"}>Adventurer</Link>
         <Link to={"/select/Agent"}>Agent</Link>

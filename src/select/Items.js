@@ -75,11 +75,19 @@ function Items(props) {
                   : `/item/${db[type][item]["versions"][0].type}/${db[type][item]["versions"][0].name}`
               }
               className={
-                isGray(
-                  Number(props.level),
-                  db[type][item].min,
-                  db[type][item].max
-                )
+                db[type][item].type
+                  ? isGray(
+                      Number(props.level),
+                      db[type][item].min,
+                      db[type][item].max
+                    )
+                    ? "grayed"
+                    : "white"
+                  : isGray(
+                      Number(props.level),
+                      db[type][item]["versions"][0].min,
+                      db[type][item]["versions"][0].max
+                    )
                   ? "grayed"
                   : "white"
               }
@@ -97,9 +105,21 @@ function Items(props) {
         return (
           <p key={key}>
             <Link
-              to={`/item/${item.type}/${item.name}`}
+              to={
+                item.type
+                  ? `/item/${item.type}/${item.name}`
+                  : `/item/${item["versions"][0].type}/${item["versions"][0].name}`
+              }
               className={
-                isGray(Number(props.level), item.min, item.max)
+                item.type
+                  ? isGray(Number(props.level), item.min, item.max)
+                    ? "grayed"
+                    : "white"
+                  : isGray(
+                      Number(props.level),
+                      item["versions"][0].min,
+                      item["versions"][0].max
+                    )
                   ? "grayed"
                   : "white"
               }

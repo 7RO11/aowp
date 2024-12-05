@@ -2,7 +2,7 @@
   align-self: center;
   color: orange;
   font-size: 1.5em;
-  padding-top: 0.3vw;
+  padding-top: 0.5vw;
   padding-left: 0.3vw;
 }
 
@@ -57,12 +57,16 @@
   background-color: rgb(80, 80, 80);
 }
 
+.statsTable.bottom {
+  padding-bottom: 15vh;
+}
+
 #PRK {
   align-self: center;
   color: magenta;
   font-size: 1.5em;
   margin-left: 0.1em;
-  padding-top: 0.3vw;
+  padding-top: 0.5vw;
   padding-left: 0.3vw;
   text-decoration: underline;
   user-select: none;
@@ -76,6 +80,12 @@
   display: inline-block;
   width: 60px;
   height: 34px;
+}
+
+@media only screen and (max-width: 650px) {
+  .switch {
+    flex-basis: 30vw;
+  }
 }
 
 .switch input {
@@ -131,11 +141,7 @@ input:checked + .sliderPRK {
 
 /* blurb */
 .bsBox {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
   font-size: 1.5em;
-  padding: 0.5rem;
 }
 
 .bsLink {
@@ -143,5 +149,5 @@ input:checked + .sliderPRK {
 }
 
 .ohNo {
-  padding: 4px;
+  padding: 0;
 }

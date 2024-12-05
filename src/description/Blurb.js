@@ -16,7 +16,7 @@ function Blurb(props) {
               className="bsLink"
               rel="noreferrer"
             >
-              TOTW
+              {"TOTW "}
             </a>
           );
         }
@@ -29,7 +29,7 @@ function Blurb(props) {
               className="bsLink"
               rel="noreferrer"
             >
-              TOTW.
+              {"TOTW. "}
             </a>
           );
         }
@@ -42,7 +42,7 @@ function Blurb(props) {
               className="bsLink"
               rel="noreferrer"
             >
-              IS.
+              {"IS. "}
             </a>
           );
         }
@@ -55,7 +55,7 @@ function Blurb(props) {
               className="bsLink"
               rel="noreferrer"
             >
-              COH.
+              {"COH. "}
             </a>
           );
         }
@@ -68,7 +68,7 @@ function Blurb(props) {
               className="bsLink"
               rel="noreferrer"
             >
-              Foremans.
+              {"Foremans. "}
             </a>
           );
         }
@@ -81,7 +81,7 @@ function Blurb(props) {
               className="bsLink"
               rel="noreferrer"
             >
-              Steps of Madness.
+              {"Steps of Madness. "}
             </a>
           );
         }
@@ -92,7 +92,7 @@ function Blurb(props) {
               to="/item/1h Blunt/Skull of Despair"
               className="bsLink"
             >
-              Skull of Despair.
+              {"Skull of Despair. "}
             </Link>
           );
         }
@@ -103,14 +103,14 @@ function Blurb(props) {
               to="/item/1h Blunt/Skull of Lamentation"
               className="bsLink"
             >
-              Skull of Lamentation
+              {"Skull of Lamentation "}
             </Link>
           );
         }
         if (word === "Skull_of_Woe.") {
           return (
             <Link key={key} to="/item/1h Blunt/Skull of Woe" className="bsLink">
-              Skull of Woe.
+              {"Skull of Woe. "}
             </Link>
           );
         }
@@ -123,7 +123,7 @@ function Blurb(props) {
               className="bsLink"
               rel="noreferrer"
             >
-              built from the starting solar powered pistol.
+              {"built from the starting solar powered pistol. "}
             </a>
           );
         }
@@ -136,13 +136,13 @@ function Blurb(props) {
               className="bsLink"
               rel="noreferrer"
             >
-              craftable with weapon upgrade kits.
+              {"craftable with weapon upgrade kits. "}
             </a>
           );
         }
         return (
           <span className="ohNo" key={key}>
-            {word}
+            {word + " "}
           </span>
         );
       })}

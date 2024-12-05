@@ -13,19 +13,23 @@ function Windex() {
           // come on
           // eslint-disable-next-line
           Object.keys(db).map((section) => {
-            key++;
-            for (const item in db[section]) {
+            return Object.keys(db[section]).map((item) => {
+              key++;
               return (
                 <p key={key}>
                   <Link
-                    to={`/item/${db[section][item].type}/${db[section][item].name}`}
+                    to={
+                      db[section][item].type
+                        ? `/item/${db[section][item].type}/${db[section][item].name}`
+                        : `/item/${db[section][item]["versions"][0].type}/${db[section][item]["versions"][0].name}`
+                    }
                     className="indexLink"
                   >
                     {item}
                   </Link>
                 </p>
               );
-            }
+            });
           })
         }
       </div>

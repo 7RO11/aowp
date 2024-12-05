@@ -9,8 +9,23 @@ import Stage from "../stage/Stage";
 function Description() {
   let { item, type } = useParams();
   let [isPRK, setPRK] = useState(false);
-  let itemDisplay = db[type][item];
+  let itemDisplay;
+  try {
+    itemDisplay = db[type][item];
+  } catch (error) {
+    itemDisplay = false;
+  }
+
   let key = 0;
+
+  if (!itemDisplay) {
+    return (
+      <Stage>
+        <h2>who?</h2>
+        <p>Fill out the stats bucko</p>
+      </Stage>
+    );
+  }
 
   if (itemDisplay.versions) {
     for (const item of itemDisplay.versions) {
@@ -20,14 +35,7 @@ function Description() {
     }
   }
   let blurb = itemDisplay.blurb;
-  if (!itemDisplay) {
-    return (
-      <Stage>
-        <h2>who?</h2>
-        <p>Fill out the stats bucko</p>
-      </Stage>
-    );
-  }
+
   return (
     <Stage>
       <div className="header">
@@ -134,7 +142,7 @@ function Description() {
             </tbody>
           </table>
           <h1>Requirements</h1>
-          <table className="statsTable">
+          <table className="statsTable bottom">
             <tbody>
               {Object.keys(itemDisplay.stats.reqs).map((req) => {
                 return (
