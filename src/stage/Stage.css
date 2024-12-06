@@ -5,6 +5,24 @@
   min-height: 100vh;
 }
 
+@media only screen and (max-height: 900px) {
+  .app {
+    padding-bottom: 5vh;
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  .app {
+    padding-bottom: 15vh;
+  }
+}
+
+@media only screen and (max-height: 400px) {
+  .app {
+    padding-bottom: 25vh;
+  }
+}
+
 .content {
   display: flex;
   flex-direction: column;

@@ -7,8 +7,8 @@ function Windex() {
   let key = 0;
   return (
     <Stage>
-      <h2>Anarchy Online Weapon Pathing</h2>
-      <div>
+      <h1>Anarchy Online Weapon Pathing Index</h1>
+      <div className="windy">
         {
           // come on
           // eslint-disable-next-line

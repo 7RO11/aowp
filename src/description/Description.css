@@ -129,6 +129,12 @@
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .switch {
+    flex-basis: 60vw;
+  }
+}
+
 .switch input {
   opacity: 0;
   width: 0;

@@ -96,6 +96,17 @@ function Blurb(props) {
             </Link>
           );
         }
+        if (word === "Skull_of_Misery.") {
+          return (
+            <Link
+              key={key}
+              to="/item/1h Blunt/Skull of Misery"
+              className="bsLink"
+            >
+              {"Skull of Misery. "}
+            </Link>
+          );
+        }
         if (word === "Skull_of_Lamentation") {
           return (
             <Link
@@ -104,6 +115,39 @@ function Blurb(props) {
               className="bsLink"
             >
               {"Skull of Lamentation "}
+            </Link>
+          );
+        }
+        if (word === "Skull_of_Lamentation.") {
+          return (
+            <Link
+              key={key}
+              to="/item/1h Blunt/Skull of Lamentation"
+              className="bsLink"
+            >
+              {"Skull of Lamentation."}
+            </Link>
+          );
+        }
+        if (word === "Howling_Skull.") {
+          return (
+            <Link
+              key={key}
+              to="/item/1h Blunt/Howling Skull"
+              className="bsLink"
+            >
+              {"Howling Skull. "}
+            </Link>
+          );
+        }
+        if (word === "Mortiig_Beaters.") {
+          return (
+            <Link
+              key={key}
+              to="/item/1h Blunt/Mortiig Beater of Torture"
+              className="bsLink"
+            >
+              {"Mortiig Beaters."}
             </Link>
           );
         }
