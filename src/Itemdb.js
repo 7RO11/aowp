@@ -6,7 +6,7 @@ const db = {
       max: 50,
       type: "1h Blunt",
       blurb:
-        "Drops from named mobs in TOTW. Easy to obtain. Replaced by Skull_of_Lamentation & Skull_of_Woe.",
+        "Drops from named mobs in TOTW. Replaced by Skull_of_Lamentation & Skull_of_Woe.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -28,6 +28,7 @@ const db = {
       },
       profs: ["Enforcer", "Meta-Physicist"],
       auno: "https://auno.org/ao/db.php?id=204750",
+      diff: 2,
     },
     "Skull of Misery": {
       name: "Skull of Misery",
@@ -35,7 +36,7 @@ const db = {
       max: 220,
       type: "1h Blunt",
       blurb:
-        "Drops in third floor IS. Very hard to obtain. Left hand only. One of the best in class, on RK. Low MBS limits end game potential. Compliments Skull_of_Despair.",
+        "Drops in third floor IS. Left hand only. One of the best in class, on RK. Low MBS limits end game potential. Compliments Skull_of_Despair.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "Yes", quality: "r" },
@@ -57,6 +58,7 @@ const db = {
       },
       profs: ["Enforcer", "Meta-Physicist"],
       auno: "https://auno.org/ao/db.php?id=206059",
+      diff: 6,
     },
   },
   "1h Edged": {
@@ -66,7 +68,7 @@ const db = {
       max: 150,
       type: "1h Edged",
       blurb:
-        "Drops from Cenobite Shadows in COH. Difficult to obtain. Enf and Adv only. Model listed is QL 100 interpolation. Comes in 5 QLs.",
+        "Drops from Cenobite Shadows in COH. Enf and Adv only. Model listed is QL 100 interpolation. Comes in 5 QLs.",
       stats: {
         ql: { value: "100-105", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -95,6 +97,7 @@ const db = {
       },
       profs: ["Enforcer", "Adventurer"],
       auno: "https://auno.org/ao/db.php?id=246710",
+      diff: 4,
     },
   },
   "2h Blunt": {
@@ -104,7 +107,7 @@ const db = {
       max: 150,
       type: "2h Blunt",
       blurb:
-        "Drops from Cenobite Shadows in COH. Difficult to obtain. Enf and MP only. Model listed is QL 100 interpolation. Comes in 5 QLs.",
+        "Drops from Cenobite Shadows in COH. Enf and MP only. Model listed is QL 100 interpolation. Comes in 5 QLs.",
       stats: {
         ql: { value: "100-105", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -129,6 +132,7 @@ const db = {
       },
       profs: ["Enforcer", "Meta-Physicist"],
       auno: "https://auno.org/ao/db.php?id=246705",
+      diff: 4,
     },
     "Neleb's Nightmare Battlerod": {
       versions: [
@@ -138,7 +142,7 @@ const db = {
           max: 125,
           type: "2h Blunt",
           blurb:
-            "Neleb the Deranged's rod. The weapon base drops from Neleb, and is then upgraded with items you find in Steps_of_Madness. Very difficult to obtain. The best early game 2h Blunt weapon due to high damage and low equip checks. Hits transfer 5 nano from the target to the user.",
+            "Neleb the Deranged's rod. The weapon base drops from Neleb, and is then upgraded with items you find in Steps_of_Madness. The best early game 2h Blunt weapon due to high damage and low equip checks. Hits transfer 5 nano from the target to the user.",
           stats: {
             ql: { value: "53", quality: "" },
             dual: { value: "No", quality: "" },
@@ -161,6 +165,7 @@ const db = {
           profs: ["Enforcer", "Meta-Physicist", "Doctor"],
           prk: false,
           auno: "https://auno.org/ao/db.php?id=274955&patch=18085300",
+          diff: 5,
         },
         {
           name: "Neleb's Nightmare Battlerod",
@@ -168,7 +173,7 @@ const db = {
           max: 125,
           type: "2h Blunt",
           blurb:
-            "Neleb the Deranged's rod. The weapon base drops from Neleb, and is then upgraded with items you find in Steps_of_Madness. Very difficult to obtain. The best early game 2h Blunt weapon due to high damage and low equip checks. Hits transfer 20 nano from the target to the user, making it a popular choice among enforcers and doctors to cast heals in prolonged engagements.",
+            "Neleb the Deranged's rod. The weapon base drops from Neleb, and is then upgraded with items you find in Steps_of_Madness. The best early game 2h Blunt weapon due to high damage and low equip checks. Hits transfer 20 nano from the target to the user, making it a popular choice among enforcers and doctors to cast heals in prolonged engagements.",
           stats: {
             ql: { value: "53", quality: "" },
             dual: { value: "No", quality: "" },
@@ -191,6 +196,7 @@ const db = {
           profs: ["Enforcer", "Meta-Physicist", "Doctor"],
           prk: true,
           auno: "https://auno.org/ao/db.php?id=274955&patch=17090000",
+          diff: 5,
         },
       ],
     },
@@ -202,7 +208,7 @@ const db = {
       max: 130,
       type: "2h Edged",
       blurb:
-        "Aztur the Immortal's sword. Drops in TOTW. Difficult to obtain. Hits have a 6% to activate its proc, which applies a DOT and AAD/AAO debuff. Exceptional damage profile with a high MBS gives it a lot of potential. Arguably the best weapon in class and often a fallback choice for professions with poor weapon paths.",
+        "Aztur the Immortal's sword. Drops in TOTW. Hits have a 6% to activate its proc, which applies a DOT and AAD/AAO debuff. Exceptional damage profile with a high MBS gives it a lot of potential. Arguably the best weapon in class and often a fallback choice for professions with poor weapon paths.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "No", quality: "" },
@@ -227,6 +233,7 @@ const db = {
       },
       profs: ["Enforcer", "Keeper"],
       auno: "https://auno.org/ao/db.php?id=204755",
+      diff: 5,
     },
   },
   Shotgun: {
@@ -262,6 +269,7 @@ const db = {
         },
       },
       profs: ["Trader"],
+      diff: 2,
     },
   },
   Rifle: {
@@ -297,6 +305,7 @@ const db = {
       },
       auno: "https://auno.org/ao/db.php?id=160192",
       profs: ["Agent"],
+      diff: 2,
     },
   },
   Pistol: {
@@ -332,6 +341,7 @@ const db = {
       },
       auno: "https://auno.org/ao/db.php?id=164489",
       profs: ["Engineer", "Adventurer", "Nano-technician"],
+      diff: 69,
     },
     "Dark Pistol of The Revoked": {
       name: "Dark Pistol of The Revoked",
@@ -339,7 +349,7 @@ const db = {
       max: 175,
       type: "Pistol",
       blurb:
-        'Drops from Dark Cenobites & Summoners in COH. Moderately difficult to obtain, the mobs can be accessed in the entrance before you need a team to go deeper. Left hand and Bureaucrat only. Model listed is QL 100 interpolation. Named "Dark Pistol" in the 75-94 range.',
+        'Drops from Dark Cenobites & Summoners in COH. The mobs can be accessed in the entrance before you need a team to go deeper. Left hand and Bureaucrat only. Model listed is QL 100 interpolation. Named "Dark Pistol" in the 75-94 range.',
       stats: {
         ql: { value: "75-94 + 100", quality: "r" },
         dual: { value: "Yes", quality: "r" },
@@ -367,6 +377,7 @@ const db = {
       profs: ["Bureaucrat"],
       prk: false,
       auno: "https://auno.org/ao/db.php?id=245223",
+      diff: 3,
     },
   },
   Smg: {
@@ -376,7 +387,7 @@ const db = {
       max: 100,
       type: "Smg",
       blurb:
-        "Drops from bodyguards in Foremans. Difficult to obtain at its level min. A decent smg in a drought. Virtually right hand only because of the multi check.",
+        "Drops from bodyguards in Foremans. A decent smg in a drought. Virtually right hand only because of the multi check.",
       stats: {
         ql: { value: "68", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -399,6 +410,7 @@ const db = {
       },
       auno: "https://auno.org/ao/db.php?id=156770",
       profs: ["Fixer", "Soldier"],
+      diff: 4,
     },
   },
   "Assault rifle": {
@@ -408,7 +420,7 @@ const db = {
       max: 100,
       type: "Assault rifle",
       blurb:
-        "Drops from Notum Habit in Steps_of_Madness. Difficult to obtain. The best early game assault rifle with good damage and fast attacks. Hits have a 5% chance to proc a reflect shutdown.",
+        "Drops from Notum Habit in Steps_of_Madness. The best early game assault rifle with good damage and fast attacks. Hits have a 5% chance to proc a reflect shutdown.",
       stats: {
         ql: { value: "50", quality: "" },
         dual: { value: "No", quality: "" },
@@ -430,6 +442,7 @@ const db = {
       },
       auno: "https://auno.org/ao/db.php?id=152027",
       profs: ["Soldier"],
+      diff: 4,
     },
   },
   Piercing: {
@@ -439,7 +452,7 @@ const db = {
       max: 80,
       type: "Piercing",
       blurb:
-        "Drops from Unrelenting Fear in Steps_of_Madness. Moderately difficult to obtain. The best early game piercing weapon. Hits have a 5% chance to proc a DOT.",
+        "Drops from Unrelenting Fear in Steps_of_Madness. The best early game piercing weapon. Hits have a 5% chance to proc a DOT.",
       stats: {
         ql: { value: "50", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -462,6 +475,7 @@ const db = {
       },
       auno: "https://auno.org/ao/db.php?id=151903",
       profs: ["Shade"],
+      diff: 4,
     },
   },
   "Martial arts": {
@@ -498,6 +512,7 @@ const db = {
       },
       auno: "https://auno.org/ao/db.php?id=152357",
       profs: ["Martial Artist", "Trader"],
+      diff: 2,
     },
     "Nano-Charged Stun Glove - 870": {
       versions: [
@@ -507,7 +522,7 @@ const db = {
           max: 200,
           type: "Martial arts",
           blurb:
-            "Sold in stores and craftable_with_weapon_upgrade_kits. Easy to obtain. Model listed is QL 300 variant of the highest upgrade tier. Popular among traders for the additional attack bar to proc perks.",
+            "Sold in stores and craftable_with_weapon_upgrade_kits. Model listed is QL 300 variant of the highest upgrade tier. Popular among traders for the additional attack bar to proc perks.",
           stats: {
             ql: { value: "1-300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -532,6 +547,7 @@ const db = {
           profs: ["Trader", "Martial Artist"],
           prk: false,
           auno: "https://auno.org/ao/db.php?id=271047&ql=200",
+          diff: 1,
         },
         {
           name: "Nano-Charged Stun Glove - 870",
@@ -539,7 +555,7 @@ const db = {
           max: 200,
           type: "1h Blunt",
           blurb:
-            "Last known to be buyable from Weapon Fragment stores in ICC and craftable_with_weapon_upgrade_kits. Easy to obtain. Model listed is QL 300 variant of the highest upgrade tier. Popular among traders for the additional attack bar to proc perks. Uses 1h Blunt skill instead of Martial Arts.",
+            "Last known to be buyable from Weapon Fragment stores in ICC and craftable_with_weapon_upgrade_kits. Model listed is QL 300 variant of the highest upgrade tier. Popular among traders for the additional attack bar to proc perks. Uses 1h Blunt skill instead of Martial Arts.",
           stats: {
             ql: { value: "1-300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -564,6 +580,7 @@ const db = {
           profs: ["Enforcer", "Meta-Physicist", "Trader"],
           prk: true,
           auno: "https://auno.org/ao/db.php?id=271047&patch=17060000",
+          diff: 0,
         },
       ],
     },

@@ -13,6 +13,41 @@
 .crit {
   max-width: 25vw;
 }
+
+#diff {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+}
+
+#diff .colors {
+  min-width: 10em;
+  min-height: 1em;
+  background: rgb(128, 128, 128);
+  background: linear-gradient(
+    90deg,
+    rgba(128, 128, 128, 1) 0%,
+    rgba(0, 200, 0, 1) 16%,
+    rgba(173, 255, 47, 1) 33%,
+    rgba(255, 215, 0, 1) 50%,
+    rgba(255, 165, 0, 1) 66%,
+    rgba(255, 0, 0, 1) 83%,
+    rgba(178, 34, 34, 1) 100%
+  );
+}
+
+.diffBox {
+  width: 100%;
+}
+
+.hard {
+  float: right;
+}
+
+#diff span {
+  padding: 0;
+}
 /* classnames shortened to make weapon data entry easier */
 .g {
   color: gold;
@@ -59,6 +94,12 @@
 
 .statsTable.bottom {
   padding-bottom: 15vh;
+}
+
+.swords {
+  align-self: center;
+  font-size: 3em;
+  padding-left: 0;
 }
 
 #PRK {

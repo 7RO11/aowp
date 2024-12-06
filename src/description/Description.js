@@ -35,11 +35,71 @@ function Description() {
     }
   }
   let blurb = itemDisplay.blurb;
-
+  function getColor(diff) {
+    switch (diff) {
+      default:
+        return "royalblue";
+      case 0:
+        return "gray";
+      case 1:
+        return "rgb(0, 200, 0)";
+      case 2:
+        return "greenyellow";
+      case 3:
+        return "gold";
+      case 4:
+        return "orange";
+      case 5:
+        return "red";
+      case 6:
+        return "firebrick";
+      case 69:
+        return "royalblue";
+    }
+  }
   return (
     <Stage>
       <div className="header">
         <h1>{itemDisplay.name}</h1>
+        <span
+          className={"swords"}
+          style={{ color: getColor(itemDisplay.diff) }}
+          data-tooltip-id="diff"
+        >
+          ⚔
+        </span>
+        <Tooltip id="diff" place="bottom">
+          <div className="colors"></div>
+          <div className="diffBox">
+            <span className="easy">Easy</span>{" "}
+            <span className="hard">Hard</span>
+          </div>
+
+          {/* <p>Gray: Trivial to obtain by yourself.</p>
+          <p>Green: Easy to obtain by yourself.</p>
+          <p>
+            Light Green: Easy to obtain by yourself, might take some time. Light
+            tradeskills.
+          </p>
+          <p>
+            Yellow: Moderately difficult to obtain by yourself, general dungeon
+            mobs. Putting points or time into tradeskills.
+          </p>
+          <p>
+            Orange: Difficult to obtain by yourself. Dungeon mid-bosses or
+            strong mobs. Rare loot. May require finding an outside tradeskiller.
+          </p>
+          <p>
+            Red: Very difficult to obtain by yourself. Dungeon bosses or raid
+            mobs. Rare/Ultra rare loot. May require finding an outside
+            tradeskiller with awkward or very high skill checks.
+          </p>
+          <p>
+            Dark Red: Nearly impossible to obtain by yourself. The strongest of
+            mobs or raid bosses. Rare/Ultra rare loot. May require finding an
+            outside tradeskiller with awkward or very high skill checks.
+          </p> */}
+        </Tooltip>
         <a id="auno" target="_blank" rel="noreferrer" href={itemDisplay.auno}>
           auno
         </a>
@@ -60,7 +120,6 @@ function Description() {
           <></>
         )}
       </div>
-
       <Blurb blurb={blurb} />
       {itemDisplay.stats ? (
         <div>
