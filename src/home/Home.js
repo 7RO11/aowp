@@ -6,12 +6,18 @@ function Home() {
   return (
     <Stage>
       <h1>Anarchy Online Weapon Pathing</h1>
-      <Link className="homeLink" to={"/buildprompt"}>
-        Build Index
-      </Link>
-      <Link className="homeLink" to={"/profprompt"}>
-        Profession Index
-      </Link>
+      <div>
+        <p>
+          <Link className="homeLink" to={"/buildprompt"}>
+            Build Index
+          </Link>
+        </p>
+        <p>
+          <Link className="homeLink" to={"/profprompt"}>
+            Profession Index
+          </Link>
+        </p>
+      </div>
     </Stage>
   );
 }

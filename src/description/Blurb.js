@@ -219,8 +219,19 @@ function Blurb(props) {
               className="bsLink"
               rel="noreferrer"
             >
-              {"Obediency_Enforcer. "}
+              {"Obediency Enforcer. "}
             </a>
+          );
+        }
+        if (word === "Frozen_Tear_of_Uklesh.") {
+          return (
+            <Link
+              key={key}
+              to="/item/1h Edged/Frozen Tear of Uklesh"
+              className="bsLink"
+            >
+              {"Frozen Tear of Uklesh. "}
+            </Link>
           );
         }
 

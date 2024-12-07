@@ -8,6 +8,7 @@ import Description from "./description/Description";
 import Home from "./home/Home";
 import "./index.css";
 import ProfPrompt from "./profPrompt/ProfPrompt";
+import Policy from "./policy/Policy";
 import Select from "./select/Select";
 import Windex from "./windex/Windex";
 
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "/index",
     element: <Windex />,
+  },
+  {
+    path: "/policy",
+    element: <Policy />,
   },
 ]);
 

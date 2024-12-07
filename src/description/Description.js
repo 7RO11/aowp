@@ -74,31 +74,6 @@ function Description() {
             <span className="easy">Easy</span>{" "}
             <span className="hard">Hard</span>
           </div>
-
-          {/* <p>Gray: Trivial to obtain by yourself.</p>
-          <p>Green: Easy to obtain by yourself.</p>
-          <p>
-            Light Green: Easy to obtain by yourself, might take some time. Light
-            tradeskills.
-          </p>
-          <p>
-            Yellow: Moderately difficult to obtain by yourself, general dungeon
-            mobs. Putting points or time into tradeskills.
-          </p>
-          <p>
-            Orange: Difficult to obtain by yourself. Dungeon mid-bosses or
-            strong mobs. Rare loot. May require finding an outside tradeskiller.
-          </p>
-          <p>
-            Red: Very difficult to obtain by yourself. Dungeon bosses or raid
-            mobs. Rare/Ultra rare loot. May require finding an outside
-            tradeskiller with awkward or very high skill checks.
-          </p>
-          <p>
-            Dark Red: Nearly impossible to obtain by yourself. The strongest of
-            mobs or raid bosses. Rare/Ultra rare loot. May require finding an
-            outside tradeskiller with awkward or very high skill checks.
-          </p> */}
         </Tooltip>
         <a id="auno" target="_blank" rel="noreferrer" href={itemDisplay.auno}>
           auno

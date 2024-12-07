@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./About.css";
 import Stage from "../stage/Stage";
 
@@ -19,6 +20,11 @@ function About() {
         subjective to my own biases and experiences as a largely froob 1-150
         player. What I may consider "difficult to obtain" could be trivial if
         you have someone or something (ao#, level 200 osbs) hand it to you.
+      </p>
+      <p className="blurb">
+        <Link to={"/policy"} className="policyLink">
+          AOWP difficulty policy
+        </Link>
       </p>
       <p className="blurb">
         The logo is drawn by me, based off the Atchisson Assault Shotgun.
