@@ -184,6 +184,46 @@ function Blurb(props) {
             </a>
           );
         }
+        if (word === "Subway.") {
+          return (
+            <a
+              target="_blank"
+              key={key}
+              href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/low-level-encounter/condemned-subway"
+              className="bsLink"
+              rel="noreferrer"
+            >
+              {"Subway. "}
+            </a>
+          );
+        }
+        if (word === "Dynas.") {
+          return (
+            <a
+              target="_blank"
+              key={key}
+              href="https://www.ao-universe.com/guides/classic-ao/gameplay-guides-6/dyna-camps"
+              className="bsLink"
+              rel="noreferrer"
+            >
+              {"Dynas. "}
+            </a>
+          );
+        }
+        if (word === "Obediency_Enforcer.") {
+          return (
+            <a
+              target="_blank"
+              key={key}
+              href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/obediency-enforcer"
+              className="bsLink"
+              rel="noreferrer"
+            >
+              {"Obediency_Enforcer. "}
+            </a>
+          );
+        }
+
         return (
           <span className="ohNo" key={key}>
             {word + " "}
