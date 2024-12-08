@@ -234,6 +234,39 @@ function Blurb(props) {
             </Link>
           );
         }
+        if (word === "Energy_Scythe.") {
+          return (
+            <Link
+              key={key}
+              to="/item/2h Edged/Energy Scythe"
+              className="bsLink"
+            >
+              {"Energy Scythe. "}
+            </Link>
+          );
+        }
+        if (word === "Frost_Scythe_of_the_Legionnaire.") {
+          return (
+            <Link
+              key={key}
+              to="/item/2h Edged/Frost Scythe of the Legionnaire"
+              className="bsLink"
+            >
+              {"Frost Scythe of the Legionnaire. "}
+            </Link>
+          );
+        }
+        if (word === "Stygian_Desolator.") {
+          return (
+            <Link
+              key={key}
+              to="/item/2h Edged/Stygian Desolator"
+              className="bsLink"
+            >
+              {"Stygian Desolator. "}
+            </Link>
+          );
+        }
 
         return (
           <span className="ohNo" key={key}>
