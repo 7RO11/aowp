@@ -4,8 +4,14 @@ import Stage from "../stage/Stage";
 function Policy() {
   return (
     <Stage>
-      <h1>What is this?</h1>
+      <h1>AOWP difficulty policy</h1>
       <div className="policyBox">
+        <p>
+          This poilcy assumes the worst possible conditions. 1 player solo, no
+          OSBs, typical drop rates. In cases where it is impossible to solo
+          (COH), the difficulty is bumped +1.
+        </p>
+        <hr />
         <p>
           <span style={{ color: "gray" }}>Gray:</span> Trivial to obtain by
           yourself.
