@@ -13,13 +13,16 @@ function BuildPrompt() {
         <Link to={"/select/1h Edged"}>1 Handed Edged</Link>
         <Link to={"/select/2h Edged"}>2 Handed Edged</Link>
         <Link to={"/select/Martial arts"}>Martial Arts</Link>
+        <Link to={"/select/Melee energy"}>Melee Energy</Link>
         <Link to={"/select/Piercing"}>Piercing</Link>
         <h1>Ranged</h1>
         <Link to={"/select/Assault rifle"}>Assault Rifle</Link>
-        <Link to={"/select/Shotgun"}>Shotgun</Link>
-        <Link to={"/select/Smg"}>Smg</Link>
+        <Link to={"/select/Bow"}>Bow</Link>
+        <Link to={"/select/Grenade"}>Grenade</Link>
         <Link to={"/select/Pistol"}>Pistol</Link>
         <Link to={"/select/Rifle"}>Rifle</Link>
+        <Link to={"/select/Shotgun"}>Shotgun</Link>
+        <Link to={"/select/Smg"}>Smg</Link>
       </div>
     </Stage>
   );

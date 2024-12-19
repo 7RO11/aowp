@@ -17,6 +17,11 @@
   width: 1.75em;
 }
 
+/* just gonna borrow the slider css from the desc files since it wont change */
+.prkBox {
+  display: flex;
+}
+
 .white {
   color: gainsboro;
   transition: 0.2s;

@@ -1,17 +1,10 @@
+import { v4 } from "uuid";
 import db from "../Itemdb";
-import ItemFragment from "./Fragment";
+import ItemFragment from "./ItemFragment";
 
 function Section(props) {
   return Object.keys(db[props.section]).map((item) => {
-    // who did this
-    return (
-      <ItemFragment
-        key={props.key}
-        key69={props.key}
-        item={item}
-        section={props.section}
-      />
-    );
+    return <ItemFragment key={v4()} item={item} section={props.section} />;
   });
 }
 

@@ -7,8 +7,8 @@ import "./Description.css";
 import Stage from "../stage/Stage";
 
 function Description() {
-  let { item, type } = useParams();
-  let [isPRK, setPRK] = useState(false);
+  const { item, type } = useParams();
+  const [isPRK, setPRK] = useState(false);
   let itemDisplay;
   try {
     itemDisplay = db[type][item];
@@ -75,9 +75,13 @@ function Description() {
             <span className="hard">Hard</span>
           </div>
         </Tooltip>
-        <a id="auno" target="_blank" rel="noreferrer" href={itemDisplay.auno}>
-          auno
-        </a>
+        {itemDisplay.auno ? (
+          <a id="auno" target="_blank" rel="noreferrer" href={itemDisplay.auno}>
+            auno
+          </a>
+        ) : (
+          <></>
+        )}
         {db[type][item].versions ? (
           <>
             <label className="switch">

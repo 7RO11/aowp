@@ -22,7 +22,7 @@ function Items(props) {
 
   let isProf = false;
 
-  for (let prof of profs) {
+  for (const prof of profs) {
     if (type === prof) {
       isProf = true;
     }
@@ -44,7 +44,10 @@ function Items(props) {
           }
         } else {
           for (const prof of db[wtype][item]["profs"]) {
-            if (prof === type) {
+            if (prof === type && !db[wtype][item]["prk"]) {
+              section.push(db[wtype][item]);
+            }
+            if (prof === type && db[wtype][item]["prk"] && props.isPRK) {
               section.push(db[wtype][item]);
             }
           }
@@ -52,7 +55,20 @@ function Items(props) {
       }
     }
   } else {
-    section = Object.keys(db[type]);
+    section = Object.keys(db[type]).filter((item) => {
+      if (db[type][item]["prk"] && props.isPRK) {
+        return true;
+      }
+      if (!db[type][item]["prk"] && props.isPRK) {
+        return true;
+      }
+      if (!db[type][item]["prk"] && !props.isPRK) {
+        return true;
+      }
+      if (db[type][item]["prk"] && !props.isPRK) {
+        return false;
+      }
+    });
   }
 
   function isGray(level, min, max) {

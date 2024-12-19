@@ -1,7 +1,19 @@
 function Slider(props) {
   return (
     <div>
-      <h1>Slide to adjust level</h1>
+      <div className="prkBox">
+        <h1>Slide to adjust level</h1>
+        <label className="switch">
+          <input
+            type="checkbox"
+            onChange={() => {
+              props.setPRK(!props.isPRK);
+            }}
+          />
+          <span className="sliderPRK round"></span>
+        </label>
+        <span id="PRK">PRK?</span>
+      </div>
       <div>
         <input
           type="range"
@@ -15,7 +27,7 @@ function Slider(props) {
         />
       </div>
       <form className="numberIn">
-        <label for="quantity">or input into this field </label>
+        <label htmlFor="quantity">or input into this field </label>
         <input
           name="quantity"
           className="numField"

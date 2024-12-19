@@ -3,7 +3,7 @@ import db from "../Itemdb";
 
 function ItemFragment(props) {
   return (
-    <p key={props.key69}>
+    <p>
       <Link
         to={
           db[props.section][props.item].type
