@@ -55,6 +55,8 @@ function Items(props) {
       }
     }
   } else {
+    // ok bucko
+    // eslint-disable-next-line
     section = Object.keys(db[type]).filter((item) => {
       if (db[type][item]["prk"] && props.isPRK) {
         return true;
@@ -79,7 +81,7 @@ function Items(props) {
   }
   let key = 0;
   return !isProf ? (
-    <div>
+    <div className="itemBox" style={{ minHeight: `${section.length * 4}em` }}>
       {section.map((item) => {
         key++;
         return (
@@ -115,7 +117,7 @@ function Items(props) {
       })}
     </div>
   ) : (
-    <div>
+    <div className="itemBox" style={{ minHeight: `${section.length * 4}em` }}>
       {section.map((item) => {
         key++;
         return (

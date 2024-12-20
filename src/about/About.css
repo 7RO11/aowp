@@ -1,5 +1,14 @@
+.aboutLink {
+  color: magenta;
+}
+
 .blurb {
   font-size: 1.5em;
+  margin-bottom: 1vh;
+}
+
+hr {
+  width: 100%;
 }
 
 .policyLink {

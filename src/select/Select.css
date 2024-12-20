@@ -7,6 +7,10 @@
   color: red;
 }
 
+.itemBox p {
+  font-size: 1.5em;
+}
+
 .numberIn {
   margin-top: 0.5em;
   font-size: 1.5em;
