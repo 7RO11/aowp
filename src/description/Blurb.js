@@ -121,6 +121,19 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "Mercenaries_Raid.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/the-mercenaries"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Mercenaries Raid."}
+                </a>{" "}
+              </Fragment>
+            );
           // tradeskills
           case "built_from_the_starting_solar_powered_pistol.":
             return (
@@ -145,6 +158,19 @@ function Blurb(props) {
                   rel="noreferrer"
                 >
                   {"craftable with weapon upgrade kits."}
+                </a>{" "}
+              </Fragment>
+            );
+          case "viral_weapon_upgrades_tradeskills.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/alien-invasion/tradeskill-guides-3/weapon-2/viral-weapon-upgrades"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"viral weapon upgrades tradeskills."}
                 </a>{" "}
               </Fragment>
             );
@@ -196,6 +222,14 @@ function Blurb(props) {
                   className="bsLink"
                 >
                   {"Mortiig Beaters."}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Blood_Bat,":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/1h Blunt/Blood Bat" className="bsLink">
+                  {"Blood Bat,"}
                 </Link>{" "}
               </Fragment>
             );

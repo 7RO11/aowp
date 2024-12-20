@@ -1,5 +1,44 @@
 const db = {
   "1h Blunt": {
+    // to do list
+    // need more info
+    // https://auno.org/ao/db.php?id=160198
+    // time gated items
+    // https://auno.org/ao/db.php?id=304616 ao birthday event
+    "Premium Arctic Metaplast Mace": {
+      name: "Premium Arctic Metaplast Mace",
+      min: 1,
+      max: 200,
+      type: "1h Blunt",
+      blurb:
+        "One of the viral_weapon_upgrades_tradeskills. Weapon base is blitzable and in common pools. Viral Weapon Upgrade drops from aliens. Model listed is QL 200 interpolation. Extra attack bar gives it more potential than the usual 1h Blunt offerings.",
+      stats: {
+        ql: { value: "1-200", quality: "" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "2s", quality: "" },
+        rSpeed: { value: "1.75s", quality: "" },
+        range: { value: "2 m", quality: "" },
+        minDamage: { value: "115", quality: "" },
+        maxDamage: { value: "500", quality: "g" },
+        critMod: { value: "290", quality: "" },
+        attackCap: { value: "1800", quality: "g" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "1050", quality: "" },
+        specials: { value: "Fast Attack, Brawl", quality: "" },
+        reqs: {
+          "Expansion sets": { value: "Alien Invasion", quality: "r" },
+          "1h Blunt": { value: "1101", quality: "" },
+          "Fast attack": { value: "551", quality: "" },
+          Brawl: { value: "661", quality: "" },
+          "Martial arts (optional)": { value: "1499", quality: "r" },
+        },
+        mods: { "Max health": { value: "30", quality: "" } },
+      },
+      profs: ["Enforcer", "Meta-Physicist", "Trader"],
+      prk: false,
+      diff: 3,
+      auno: "https://auno.org/ao/db.php?id=249035",
+    },
     "Howling Skull": {
       name: "Howling Skull",
       min: 30,
@@ -127,6 +166,84 @@ const db = {
       diff: 4,
       auno: "https://auno.org/ao/db.php?id=246355",
     },
+    "Blood Bat": {
+      name: "Blood Bat",
+      min: 175,
+      max: 220,
+      type: "1h Blunt",
+      blurb:
+        "Drops from Ian Warr during the Mercenaries_Raid. Enforcer Only. An RK alternative to the Skull_of_Misery. Lots of specials but suffers from low MBS. +235 Max Health mod.",
+      stats: {
+        ql: { value: "200", quality: "" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "2.75s", quality: "" },
+        rSpeed: { value: "2.15s", quality: "" },
+        range: { value: "4 m", quality: "" },
+        minDamage: { value: "40", quality: "" },
+        maxDamage: { value: "540", quality: "g" },
+        critMod: { value: "225", quality: "" },
+        attackCap: { value: "1200", quality: "r" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "914", quality: "" },
+        specials: {
+          value: "Fast Attack, Sneak Attack, Brawl, Dimach",
+          quality: "g",
+        },
+        reqs: {
+          Profession: { value: "Enforcer", quality: "r" },
+          "1h Blunt": { value: "1101", quality: "" },
+          "Sneak attack": { value: "551", quality: "" },
+          "Fast attack": { value: "551", quality: "" },
+          Brawl: { value: "661", quality: "" },
+          Dimach: { value: "221", quality: "" },
+        },
+        mods: {
+          "Max health": { value: "235", quality: "" },
+          "Chemical AC": { value: "155", quality: "" },
+          "Melee init": { value: "12", quality: "" },
+        },
+      },
+      profs: ["Enforcer"],
+      prk: false,
+      diff: 6,
+      auno: "https://auno.org/ao/db.php?id=165130",
+    },
+    "Blood Mace": {
+      name: "Blood Mace",
+      min: 175,
+      max: 220,
+      type: "1h Blunt",
+      blurb:
+        "Drops from Ian Warr during the Mercenaries_Raid. Less restrictive and powerful than the Blood_Bat, but doesn't lose out on MBS. +200 Max Health mod.",
+      stats: {
+        ql: { value: "200", quality: "" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "2.8s", quality: "" },
+        rSpeed: { value: "2s", quality: "" },
+        range: { value: "4 m", quality: "" },
+        minDamage: { value: "50", quality: "" },
+        maxDamage: { value: "520", quality: "g" },
+        critMod: { value: "150", quality: "" },
+        attackCap: { value: "1750", quality: "g" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "826", quality: "" },
+        specials: { value: "Fast Attack, Brawl", quality: "" },
+        reqs: {
+          "1h Blunt": { value: "1151", quality: "" },
+          "Fast attack": { value: "576", quality: "" },
+          Brawl: { value: "691", quality: "" },
+        },
+        mods: {
+          "Max health": { value: "200", quality: "" },
+          "Poison AC": { value: "150", quality: "" },
+          "Melee init": { value: "25", quality: "" },
+        },
+      },
+      profs: ["Enforcer", "Meta-Physicist"],
+      prk: false,
+      diff: 6,
+      auno: "https://auno.org/ao/db.php?id=165127",
+    },
     "Skull of Misery": {
       name: "Skull of Misery",
       min: 175,
@@ -145,7 +262,7 @@ const db = {
         critMod: { value: "104", quality: "" },
         attackCap: { value: "1200", quality: "r" },
         init: { value: "Melee", quality: "" },
-        multi: { value: "904", quality: "r" },
+        multi: { value: "904", quality: "" },
         specials: { value: "Fast Attack", quality: "" },
         reqs: {
           "1h Blunt": { value: "1049", quality: "r" },
@@ -175,7 +292,7 @@ const db = {
         critMod: { value: "33", quality: "" },
         attackCap: { value: "1200", quality: "r" },
         init: { value: "Melee", quality: "" },
-        multi: { value: "904", quality: "r" },
+        multi: { value: "904", quality: "" },
         specials: { value: "", quality: "" },
         reqs: { "1h Blunt": { value: "1049", quality: "r" } },
         mods: { "Max health": { value: "25", quality: "" } },
