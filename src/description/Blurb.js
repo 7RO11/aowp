@@ -108,6 +108,20 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "Juggernaut_raid.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/omni-pol-command-juggernauts"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Juggernaut raid."}
+                </a>{" "}
+              </Fragment>
+            );
+
           case "Obediency_Enforcer.":
             return (
               <Fragment key={v4()}>
@@ -332,6 +346,14 @@ function Blurb(props) {
               </Fragment>
             );
           // SMG
+          case "Blackbirds":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Smg/Blinded Blackbird" className="bsLink">
+                  {"Blackbirds"}
+                </Link>{" "}
+              </Fragment>
+            );
           case "Light_Suppressor.":
             return (
               <Fragment key={v4()}>
