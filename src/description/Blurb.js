@@ -148,6 +148,20 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "Nano-Charged_weapon_and_a_bunch_of_SL_parts.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/shadowlands/tradeskill-guides-5/weapon-3/perennium-weapons"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Nano-Charged weapon and a bunch of SL parts."}
+                </a>{" "}
+              </Fragment>
+            );
+
           case "craftable_with_weapon_upgrade_kits.":
             return (
               <Fragment key={v4()}>
@@ -158,6 +172,32 @@ function Blurb(props) {
                   rel="noreferrer"
                 >
                   {"craftable with weapon upgrade kits."}
+                </a>{" "}
+              </Fragment>
+            );
+          case "sealed_weapon_receptacles.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/tradeskill-guides-6/weapon-4/sealed-weapon-receptacles"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"sealed weapon receptacles."}
+                </a>{" "}
+              </Fragment>
+            );
+          case "Tradeskilled_from_Mausser_Particle_Streamer.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/tradeskill-guides-6/weapon-4/mausser-chemical-streamer"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Tradeskilled from_Mausser Particle Streamer."}
                 </a>{" "}
               </Fragment>
             );
@@ -288,6 +328,45 @@ function Blurb(props) {
               <Fragment key={v4()}>
                 <Link to="/item/2h Edged/Stygian Desolator" className="bsLink">
                   {"Stygian Desolator."}
+                </Link>{" "}
+              </Fragment>
+            );
+          // SMG
+          case "Light_Suppressor.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Smg/Light Suppressor" className="bsLink">
+                  {"Light Suppressor."}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Mausser_Chemical_Streamer.":
+            return (
+              <Fragment key={v4()}>
+                <Link
+                  to="/item/Smg/Mausser Chemical Streamer"
+                  className="bsLink"
+                >
+                  {"Mausser Chemical Streamer."}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Mausser_Particle_Streamer":
+            return (
+              <Fragment key={v4()}>
+                <Link
+                  to="/item/Smg/Mausser Particle Streamer"
+                  className="bsLink"
+                >
+                  {"Mausser Particle Streamer"}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Sleekmaster_Classic.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Smg/Sleekmaster Classic" className="bsLink">
+                  {"Sleekmaster Classic."}
                 </Link>{" "}
               </Fragment>
             );
