@@ -113,6 +113,13 @@
   user-select: none;
 }
 
+.question {
+  text-decoration: underline;
+  font-size: 1em;
+  font-style: italic;
+  padding-left: 0.2em;
+}
+
 /* slider switch */
 .switch {
   align-self: center;

@@ -8,6 +8,44 @@
   color: red;
 }
 
+.qNavBox {
+  display: flex;
+  width: 25%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .qNavBox {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .qNavBox {
+    width: 100%;
+  }
+}
+
+.qNavBox div {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.qNavBox div a {
+  color: gainsboro;
+  font-size: 1.5em;
+  transition: 0.2s;
+}
+
+.qNavBox div a:hover {
+  color: red;
+}
+
+.sectionHeadWin {
+  color: aliceblue;
+  font-style: italic;
+}
+
 .windy {
   padding-bottom: 15vh;
 }

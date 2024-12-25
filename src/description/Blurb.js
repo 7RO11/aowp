@@ -95,6 +95,20 @@ function Blurb(props) {
               </Fragment>
             );
           // encounters
+
+          case "3_different_raids.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/legacy-of-the-xan/tradeskill-guides-2/weapons/xan-weapon-upgrade"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"3 different raids."}
+                </a>{" "}
+              </Fragment>
+            );
           case "Dynas.":
             return (
               <Fragment key={v4()}>
@@ -135,6 +149,7 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+
           case "Mercenaries_Raid.":
             return (
               <Fragment key={v4()}>
@@ -145,6 +160,19 @@ function Blurb(props) {
                   rel="noreferrer"
                 >
                   {"Mercenaries Raid."}
+                </a>{" "}
+              </Fragment>
+            );
+          case "The_Beast_raid.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/shadowlands/quests-guides-2/pandemonium/pandemonium-2"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"The Beast raid."}
                 </a>{" "}
               </Fragment>
             );
@@ -202,6 +230,7 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+
           case "Tradeskilled_from_Mausser_Particle_Streamer.":
             return (
               <Fragment key={v4()}>
@@ -212,6 +241,19 @@ function Blurb(props) {
                   rel="noreferrer"
                 >
                   {"Tradeskilled from_Mausser Particle Streamer."}
+                </a>{" "}
+              </Fragment>
+            );
+          case "turn_spirit_weapon.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/shadowlands/tradeskill-guides-5/weapon-3/turn-spirit-weapons"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"turn-spirit weapon."}
                 </a>{" "}
               </Fragment>
             );
@@ -354,11 +396,35 @@ function Blurb(props) {
                 </Link>{" "}
               </Fragment>
             );
+          case "Envy_of_the_Xan.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Smg/Envy of the Xan" className="bsLink">
+                  {"Envy of the Xan."}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Inamorata_Blaster.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Smg/Inamorata Blaster" className="bsLink">
+                  {"Inamorata Blaster."}
+                </Link>{" "}
+              </Fragment>
+            );
           case "Light_Suppressor.":
             return (
               <Fragment key={v4()}>
                 <Link to="/item/Smg/Light Suppressor" className="bsLink">
                   {"Light Suppressor."}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Lord_of_Envy.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Smg/Lord of Envy" className="bsLink">
+                  {"Lord of Envy."}
                 </Link>{" "}
               </Fragment>
             );
@@ -381,6 +447,14 @@ function Blurb(props) {
                   className="bsLink"
                 >
                   {"Mausser Particle Streamer"}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Sacrosanct_Blaster.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Smg/Sacrosanct Blaster" className="bsLink">
+                  {"Sacrosanct Blaster."}
                 </Link>{" "}
               </Fragment>
             );

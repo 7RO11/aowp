@@ -119,6 +119,15 @@ function Description() {
               <tr>
                 <td className={itemDisplay.stats.ql.quality}>
                   QL: {itemDisplay.stats.ql.value}
+                  <Tooltip id="ql" place="bottom">
+                    <div className="colors"></div>
+                    <div className="diffBox">
+                      Stats are of the highest QL unless stated otherwise above.
+                    </div>
+                  </Tooltip>
+                  <sup data-tooltip-id="ql" className="question">
+                    ?
+                  </sup>
                 </td>
                 <td>
                   DMG:
@@ -132,7 +141,7 @@ function Description() {
                   <span className={itemDisplay.stats.critMod.quality}>
                     ({itemDisplay.stats.critMod.value})
                   </span>
-                  <sup data-tooltip-id="crit" className="legend">
+                  <sup data-tooltip-id="crit" className="question">
                     ?
                   </sup>
                   <Tooltip id="crit" place="bottom">

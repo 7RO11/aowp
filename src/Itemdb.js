@@ -1327,13 +1327,16 @@ const db = {
   Smg: {
     // need more info
     // https://auno.org/ao/db.php?id=160209
-    "Blinded Blackbird": {
-      name: "Blinded Blackbird",
+    // should it be added ?
+    // https://auno.org/ao/db.php?id=233247&ql=200
+    // https://auno.org/ao/db.php?id=211225&ql=200
+    Blackbird: {
+      name: "Blackbird",
       min: 80,
       max: 200,
       type: "Smg",
       blurb:
-        "Drops from Cenobite Shadows in COH. Profession locked to Fixer and Soldier. Model listed is QL 105 interpolation. Stats vary significantly across the 5 QLs. Cream of the crop RK SMG.",
+        "Drops from Cenobite Shadows in COH. Profession locked to Fixer and Soldier. Stats vary significantly across the 5 QLs. Cream of the crop RK SMG.",
       stats: {
         ql: { value: "100-105", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -1362,13 +1365,91 @@ const db = {
       diff: 4,
       auno: "https://auno.org/ao/db.php?id=246724",
     },
+    "Envy of the Xan": {
+      versions: [
+        {
+          name: "Envy of the Xan",
+          min: 200,
+          max: 220,
+          type: "Smg",
+          blurb:
+            "Upgrade result from Lord_of_Envy. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+          stats: {
+            ql: { value: "300", quality: "" },
+            dual: { value: "Yes", quality: "" },
+            aSpeed: { value: "1.2s", quality: "g" },
+            rSpeed: { value: "1.2s", quality: "g" },
+            range: { value: "25 m", quality: "" },
+            minDamage: { value: "268", quality: "g" },
+            maxDamage: { value: "408", quality: "g" },
+            critMod: { value: "288", quality: "" },
+            attackCap: { value: "2750", quality: "" },
+            init: { value: "Ranged", quality: "" },
+            multi: { value: "1750", quality: "" },
+            specials: { value: "Burst, Full Auto", quality: "" },
+            reqs: {
+              "Title level": { value: "6", quality: "r" },
+              "Expansion sets": { value: "Legacy of the Xan?", quality: "r" },
+              Smg: { value: "2251", quality: "" },
+              Burst: { value: "1689", quality: "" },
+              "Full auto": { value: "1689", quality: "" },
+            },
+            mods: {
+              "Max health": { value: "300", quality: "" },
+              "Offense modifier": { value: "15", quality: "" },
+              "Defense modifier": { value: "15", quality: "" },
+            },
+          },
+          profs: ["Fixer", "Soldier"],
+          prk: false,
+          diff: 6,
+          auno: "https://auno.org/ao/db.php?id=280724&patch=18085300",
+        },
+        {
+          name: "Envy of the Xan",
+          min: 200,
+          max: 220,
+          type: "Smg",
+          blurb:
+            "Upgrade result from Lord_of_Envy. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+          stats: {
+            ql: { value: "300", quality: "" },
+            dual: { value: "Yes", quality: "" },
+            aSpeed: { value: "1.2s", quality: "g" },
+            rSpeed: { value: "1.2s", quality: "g" },
+            range: { value: "25 m", quality: "" },
+            minDamage: { value: "268", quality: "g" },
+            maxDamage: { value: "408", quality: "g" },
+            critMod: { value: "288", quality: "" },
+            attackCap: { value: "2750", quality: "" },
+            init: { value: "Ranged", quality: "" },
+            multi: { value: "1750", quality: "" },
+            specials: { value: "Burst, Full Auto", quality: "" },
+            reqs: {
+              Smg: { value: "2251", quality: "" },
+              Burst: { value: "1689", quality: "" },
+              "Full auto": { value: "1689", quality: "" },
+            },
+            mods: {
+              "Max health": { value: "300", quality: "" },
+              "Offense modifier": { value: "15", quality: "" },
+              "Defense modifier": { value: "15", quality: "" },
+            },
+          },
+          profs: ["Fixer", "Soldier"],
+          prk: true,
+          diff: 6,
+          auno: "https://auno.org/ao/db.php?id=280724&patch=18085300",
+        },
+      ],
+    },
     "Gamma Ejector": {
       name: "Gamma Ejector",
       min: 41,
       max: 100,
       type: "Smg",
       blurb:
-        "Drops from bodyguards in Foremans. A decent smg in a drought. Virtually right hand only because of the multi check.",
+        "Drops from bodyguards in Foremans. Hard to obtain when you pass the reqs, the bodyguards are likely to be 40 levels higher than you. A decent smg in a drought. Virtually right hand only because of the multi check.",
       stats: {
         ql: { value: "68", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -1393,13 +1474,85 @@ const db = {
       profs: ["Fixer", "Soldier"],
       diff: 4,
     },
+    "Illicit Laser Backup": {
+      name: "Illicit Laser Backup",
+      min: 1,
+      max: 200,
+      type: "Smg",
+      blurb:
+        "Blitzable and part of common loot pools. Fixer only. Hard hitting RK pistol SMG. Low burst cycle.",
+      stats: {
+        ql: { value: "1-200", quality: "" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "3s", quality: "r" },
+        rSpeed: { value: "1.35s", quality: "" },
+        range: { value: "30 m", quality: "" },
+        minDamage: { value: "1", quality: "r" },
+        maxDamage: { value: "460", quality: "g" },
+        critMod: { value: "300", quality: "g" },
+        attackCap: { value: "1400", quality: "g" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "772", quality: "" },
+        specials: { value: "Burst", quality: "" },
+        reqs: {
+          Profession: { value: "Fixer", quality: "r" },
+          Smg: { value: "811", quality: "g" },
+          Pistol: { value: "541", quality: "r" },
+          Burst: { value: "676", quality: "" },
+        },
+        mods: {
+          Stamina: { value: "10", quality: "" },
+          "Duck explosives": { value: "30", quality: "" },
+          "Evade close": { value: "20", quality: "" },
+        },
+      },
+      profs: ["Fixer"],
+      prk: false,
+      diff: 2,
+      auno: "https://auno.org/ao/db.php?id=233798",
+    },
+    "Inamorata Blaster": {
+      name: "Inamorata Blaster",
+      min: 1,
+      max: 220,
+      type: "Smg",
+      blurb:
+        "Drops from Redeemed mobs in the Shadowlands. Can be upgraded to a turn_spirit_weapon. Effectively an omni Sacrosanct_Blaster. The base is on par with the usual radiant RK selection, but can be improved past it.",
+      stats: {
+        ql: { value: "1-300", quality: "r" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1.5s", quality: "" },
+        rSpeed: { value: "1.5s", quality: "" },
+        range: { value: "25 m", quality: "" },
+        minDamage: { value: "75", quality: "" },
+        maxDamage: { value: "500", quality: "" },
+        critMod: { value: "75", quality: "" },
+        attackCap: { value: "1900", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "", quality: "r" },
+        reqs: {
+          "Faction Unredeemed": { value: "35001", quality: "r" },
+          "Expansion sets": { value: "Shadowlands", quality: "r" },
+          Smg: { value: "1601", quality: "" },
+        },
+        mods: {
+          "Max health": { value: "200", quality: "" },
+          "Max nano": { value: "100", quality: "" },
+        },
+      },
+      profs: ["Fixer", "Soldier"],
+      prk: false,
+      diff: 3,
+      auno: "https://auno.org/ao/db.php?id=212242",
+    },
     "Juggernaut Rear Mitrailleuse": {
       name: "Juggernaut Rear Mitrailleuse",
       min: 175,
       max: 200,
       type: "Smg",
       blurb:
-        "Drops during the Juggernaut_raid. Clan only. Model listed is QL 225 interpolation. Somewhat better damage profile than other unlocked pure SMGs, but generally overlooked since the raid is challenging and infrequent.",
+        "Drops during the Juggernaut_raid. Clan only. Somewhat better damage profile than other unlocked pure SMGs, but generally overlooked since the raid is challenging and infrequent.",
       stats: {
         ql: { value: "200-225", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -1428,13 +1581,49 @@ const db = {
       diff: 6,
       auno: "https://auno.org/ao/db.php?id=207252",
     },
+    "Light Miasma Beamer": {
+      name: "Light Miasma Beamer",
+      min: 20,
+      max: 60,
+      type: "Smg",
+      blurb:
+        "Drops from Dynas. Fixer only. Decent early game SMG with a low barrier to entry. String crits but most fixers won't have any.",
+      stats: {
+        ql: { value: "40-50", quality: "r" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "1.15s", quality: "g" },
+        rSpeed: { value: "1.65s", quality: "" },
+        range: { value: "20 m", quality: "" },
+        minDamage: { value: "1", quality: "r" },
+        maxDamage: { value: "80", quality: "" },
+        critMod: { value: "160", quality: "g" },
+        attackCap: { value: "2500", quality: "g" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "191", quality: "" },
+        specials: { value: "Burst", quality: "" },
+        reqs: {
+          Profession: { value: "Fixer", quality: "r" },
+          Smg: { value: "192", quality: "g" },
+          Burst: { value: "144", quality: "" },
+        },
+        mods: {
+          "Dodge ranged": { value: "8", quality: "" },
+          "Run speed": { value: "16", quality: "" },
+          "Breaking and entry": { value: "12", quality: "" },
+        },
+      },
+      profs: ["Fixer"],
+      prk: false,
+      diff: 3,
+      auno: "https://auno.org/ao/db.php?id=208042",
+    },
     "Light Suppressor": {
       name: "Light Suppressor",
       min: 1,
       max: 200,
       type: "Smg",
       blurb:
-        "Blitzable, drops from common loot pools, and shop buyable. Model listed is QL 200 interpolation. What it lacks in damage it makes up for in accessibility. Effectively a higher req, higher damage version of Sleekmaster_Classic.",
+        "Blitzable, drops from common loot pools, and shop buyable. What it lacks in damage it makes up for in accessibility. Effectively a higher req, higher damage version of Sleekmaster_Classic.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -1460,13 +1649,49 @@ const db = {
       diff: 2,
       auno: "https://auno.org/ao/db.php?id=160151",
     },
+    "Lord of Envy": {
+      name: "Lord of Envy",
+      min: 200,
+      max: 220,
+      type: "Smg",
+      blurb:
+        "Drops during The_Beast_raid. Overall a weak SMG, only really notable for its min damage. Upgrades to Envy_of_the_Xan.",
+      stats: {
+        ql: { value: "300", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "2s", quality: "" },
+        rSpeed: { value: "2s", quality: "" },
+        range: { value: "25 m", quality: "" },
+        minDamage: { value: "250", quality: "g" },
+        maxDamage: { value: "275", quality: "" },
+        critMod: { value: "275", quality: "g" },
+        attackCap: { value: "2500", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Burst", quality: "" },
+        reqs: {
+          "Title level": { value: "6", quality: "r" },
+          Smg: { value: "2251", quality: "r" },
+          Burst: { value: "1689", quality: "" },
+        },
+        mods: {
+          "Max health": { value: "350", quality: "" },
+          "Matter metamorphosis": { value: "30", quality: "" },
+          "Dodge ranged": { value: "90", quality: "" },
+        },
+      },
+      profs: ["Fixer", "Solider"],
+      prk: false,
+      diff: 6,
+      auno: "https://auno.org/ao/db.php?id=244843",
+    },
     "Manex Catastrophe": {
       name: "Manex Catastrophe",
       min: 1,
       max: 200,
       type: "Smg",
       blurb:
-        "Drops from Dynas. Model listed is QL 200 interpolation. The hardest hitting SMG in the game. Full aggro to make it usable is an antipattern for the solo fixer.",
+        "Drops from Dynas. The hardest hitting SMG in the game. Full aggro to make it usable is an antipattern for the solo fixer.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -1497,7 +1722,7 @@ const db = {
       max: 200,
       type: "Smg",
       blurb:
-        "Tradeskilled_from_Mausser_Particle_Streamer. Mausser_Particle_Streamer is in common loot pools, shops and is blitzable. Model listed is QL 200 interpolation. Little bit better than MPS.",
+        "Tradeskilled_from_Mausser_Particle_Streamer. Mausser_Particle_Streamer is in common loot pools, shops and is blitzable. Little bit better than MPS.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -1528,7 +1753,7 @@ const db = {
       max: 200,
       type: "Smg",
       blurb:
-        "Part common loot pools, shops and is blitzable. Model listed is QL 200 interpolation. Tradeskills into Mausser_Chemical_Streamer. Typically used as a holdout weapon until you can get something better.",
+        "Part common loot pools, shops and is blitzable. Tradeskills into Mausser_Chemical_Streamer. Typically used as a holdout weapon until you can get something better.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -1559,7 +1784,7 @@ const db = {
       max: 200,
       type: "Smg",
       blurb:
-        "Drops from Mortiig bosses in Elysium, Shadowlands. Fixer only. Notable locations include Spade Beach and Eastfang. Model list is QL 125 interpolation. Every 5 levels it gets a different adjective in its name. High damage profile and low reqs make it an attractive weapon for mid-late game. Limited end game use due to low MBS.",
+        "Drops from Mortiig bosses in Elysium, Shadowlands. Fixer only. Notable locations include Spade Beach and Eastfang. Every 5 levels it gets a different adjective in its name. High damage profile and low reqs make it an attractive weapon for mid-late game. Limited end game use due to low MBS.",
       stats: {
         ql: { value: "100-125", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -1586,71 +1811,6 @@ const db = {
       diff: 4,
       auno: "https://auno.org/ao/db.php?id=246333",
     },
-    // https://auno.org/ao/db.php?id=157635 too similar to include
-    "OT Kerans Automatic Grinner": {
-      name: "OT Kerans Automatic Grinner",
-      min: 1,
-      max: 200,
-      type: "Smg",
-      blurb:
-        "Blitzable, drops from common loot pools, and shop buyable. Model listed is QL 200 interpolation. An unremarkable holdout SMG.",
-      stats: {
-        ql: { value: "1-200", quality: "" },
-        dual: { value: "No", quality: "" },
-        aSpeed: { value: "1.5s", quality: "" },
-        rSpeed: { value: "1.45s", quality: "" },
-        range: { value: "27 m", quality: "" },
-        minDamage: { value: "1", quality: "" },
-        maxDamage: { value: "295", quality: "" },
-        critMod: { value: "295", quality: "g" },
-        attackCap: { value: "2500", quality: "g" },
-        init: { value: "Ranged", quality: "" },
-        multi: { value: "", quality: "" },
-        specials: { value: "Burst", quality: "" },
-        reqs: {
-          Smg: { value: "946", quality: "" },
-          Burst: { value: "710", quality: "" },
-        },
-        mods: { Sense: { value: "6", quality: "" } },
-      },
-      profs: ["Fixer", "Soldier"],
-      prk: false,
-      diff: 2,
-      auno: "https://auno.org/ao/db.php?id=160480",
-    },
-    "Perennium Beamer": {
-      name: "Perennium Beamer",
-      min: 40,
-      max: 200,
-      type: "Smg",
-      blurb:
-        "Crafted from a Nano-Charged_weapon_and_a_bunch_of_SL_parts. Fixer only. Model listed is QL 200 interpolation. Starts at QL 50. Excellent damage profile but arduous crafting recipe.",
-      stats: {
-        ql: { value: "50-200", quality: "r" },
-        dual: { value: "No", quality: "" },
-        aSpeed: { value: "1s", quality: "g" },
-        rSpeed: { value: "1s", quality: "g" },
-        range: { value: "20 m", quality: "" },
-        minDamage: { value: "175", quality: "" },
-        maxDamage: { value: "425", quality: "g" },
-        critMod: { value: "150", quality: "" },
-        attackCap: { value: "1500", quality: "g" },
-        init: { value: "Ranged", quality: "" },
-        multi: { value: "", quality: "" },
-        specials: { value: "Burst", quality: "" },
-        reqs: {
-          "Expansion sets": { value: "Shadowlands", quality: "r" },
-          Profession: { value: "Fixer", quality: "r" },
-          Smg: { value: "1001", quality: "" },
-          Burst: { value: "751", quality: "" },
-        },
-        mods: { "Experience modifier": { value: "4", quality: "" } },
-      },
-      profs: ["Fixer"],
-      prk: false,
-      diff: 5,
-      auno: "https://auno.org/ao/db.php?id=246421",
-    },
     "MTI - Russian Good Day": {
       versions: [
         {
@@ -1659,7 +1819,7 @@ const db = {
           max: 200,
           type: "Smg",
           blurb:
-            "Blitzable, drops from common loot pools, and shop buyable. Model listed is QL 200 interpolation. An unremarkable holdout SMG.",
+            "Blitzable, drops from common loot pools, and shop buyable. A little bit faster than some other holdouts.",
           stats: {
             ql: { value: "1-200", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -1690,7 +1850,7 @@ const db = {
           max: 200,
           type: "Smg",
           blurb:
-            "Blitzable, drops from common loot pools, and shop buyable from trader shops. Model listed is QL 200 interpolation. A little bit faster than some other holdouts.",
+            "Blitzable, drops from common loot pools, and shop buyable from trader shops. A little bit faster than some other holdouts.",
           stats: {
             ql: { value: "1-200", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -1717,13 +1877,113 @@ const db = {
         },
       ],
     },
+    // https://auno.org/ao/db.php?id=157635 too similar to include
+    "OT Kerans Automatic Grinner": {
+      name: "OT Kerans Automatic Grinner",
+      min: 1,
+      max: 200,
+      type: "Smg",
+      blurb:
+        "Blitzable, drops from common loot pools, and shop buyable. An unremarkable holdout SMG.",
+      stats: {
+        ql: { value: "1-200", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1.5s", quality: "" },
+        rSpeed: { value: "1.45s", quality: "" },
+        range: { value: "27 m", quality: "" },
+        minDamage: { value: "1", quality: "" },
+        maxDamage: { value: "295", quality: "" },
+        critMod: { value: "295", quality: "g" },
+        attackCap: { value: "2500", quality: "g" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Burst", quality: "" },
+        reqs: {
+          Smg: { value: "946", quality: "" },
+          Burst: { value: "710", quality: "" },
+        },
+        mods: { Sense: { value: "6", quality: "" } },
+      },
+      profs: ["Fixer", "Soldier"],
+      prk: false,
+      diff: 2,
+      auno: "https://auno.org/ao/db.php?id=160480",
+    },
+    "Perennium Beamer": {
+      name: "Perennium Beamer",
+      min: 40,
+      max: 200,
+      type: "Smg",
+      blurb:
+        "Crafted from a Nano-Charged_weapon_and_a_bunch_of_SL_parts. Fixer only. Starts at QL 50. Excellent damage profile but arduous crafting recipe.",
+      stats: {
+        ql: { value: "50-200", quality: "r" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1s", quality: "g" },
+        rSpeed: { value: "1s", quality: "g" },
+        range: { value: "20 m", quality: "" },
+        minDamage: { value: "175", quality: "" },
+        maxDamage: { value: "425", quality: "g" },
+        critMod: { value: "150", quality: "" },
+        attackCap: { value: "1500", quality: "g" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Burst", quality: "" },
+        reqs: {
+          "Expansion sets": { value: "Shadowlands", quality: "r" },
+          Profession: { value: "Fixer", quality: "r" },
+          Smg: { value: "1001", quality: "" },
+          Burst: { value: "751", quality: "" },
+        },
+        mods: { "Experience modifier": { value: "4", quality: "" } },
+      },
+      profs: ["Fixer"],
+      prk: false,
+      diff: 5,
+      auno: "https://auno.org/ao/db.php?id=246421",
+    },
+    "Sacrosanct Blaster": {
+      name: "Sacrosanct Blaster",
+      min: 1,
+      max: 200,
+      type: "Smg",
+      blurb:
+        "Drops from Unredeemed mobs in the Shadowlands. Can be upgraded to a turn_spirit_weapon. Effectively a clan Inamorata_Blaster. The base is on par with the usual radiant RK selection, but can be improved past it.",
+      stats: {
+        ql: { value: "1-300", quality: "r" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1.5s", quality: "" },
+        rSpeed: { value: "1.5s", quality: "" },
+        range: { value: "25 m", quality: "" },
+        minDamage: { value: "75", quality: "" },
+        maxDamage: { value: "500", quality: "" },
+        critMod: { value: "75", quality: "" },
+        attackCap: { value: "1900", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "", quality: "r" },
+        reqs: {
+          "Faction Redeemed": { value: "35001", quality: "r" },
+          "Expansion sets": { value: "Shadowlands", quality: "r" },
+          Smg: { value: "1601", quality: "" },
+        },
+        mods: {
+          "Max health": { value: "200", quality: "" },
+          "Max nano": { value: "100", quality: "" },
+        },
+      },
+      profs: ["Fixer", "Soldier"],
+      prk: false,
+      diff: 3,
+      auno: "https://auno.org/ao/db.php?id=212252",
+    },
     "Sleekmaster Classic": {
       name: "Sleekmaster Classic",
       min: 1,
       max: 200,
       type: "Smg",
       blurb:
-        "Blitzable, drops from common loot pools, and shop buyable. Model listed is QL 200 interpolation. What it lacks in damage it makes up for in accessibility. Effectively a lower req, lower damage version of Light_Suppressor.",
+        "Blitzable, drops from common loot pools, and shop buyable.  What it lacks in damage it makes up for in accessibility. Effectively a lower req, lower damage version of Light_Suppressor.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -1755,7 +2015,7 @@ const db = {
       max: 200,
       type: "Smg",
       blurb:
-        'Somewhat rare SMG that comes from sealed_weapon_receptacles. Model listed is QL 200 interpolation. Comes in 4 different flavors, but the "Shells" version is the most competitive. Shotgun check may be awkward for fixers. Defense checks against duck explosions.',
+        'Somewhat rare SMG that comes from sealed_weapon_receptacles. Comes in 4 different flavors, but the "Shells" version is the most competitive. Shotgun check may be awkward for fixers. Defense checks against duck explosions.',
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -1786,12 +2046,12 @@ const db = {
       max: 200,
       type: "Smg",
       blurb:
-        "Drops from Dynas. Fixer only. Model listed is QL 150 interpolation. Overall medicore dual-wield SMG. Time is likely better spent farming for Blackbirds than this, but it is passable.",
+        "Drops from Dynas. Fixer only. Overall medicore dual-wield SMG. Time is likely better spent farming for Blackbirds than this, but it is passable.",
       stats: {
         ql: { value: "140-150", quality: "r" },
         dual: { value: "Yes", quality: "" },
-        aSpeed: { value: "2.5s", quality: "" },
-        rSpeed: { value: "2.5s", quality: "" },
+        aSpeed: { value: "2.5s", quality: "r" },
+        rSpeed: { value: "2.5s", quality: "r" },
         range: { value: "24 m", quality: "" },
         minDamage: { value: "50", quality: "" },
         maxDamage: { value: "300", quality: "" },
@@ -1823,7 +2083,7 @@ const db = {
       max: 220,
       type: "Smg",
       blurb:
-        "Drops from Spirits in Inferno. Fixer only. Model listed is QL 260 interpolation. Stats are fixed between QLs except MBS. High crits and damage min let this gun push past what Blackbirds can do.",
+        "Drops from Spirits in Inferno, Shadowlands. Fixer only. Stats are fixed between QLs except MBS. High crits, damage min and MBS help this gun push past what Blackbirds can do.",
       stats: {
         ql: { value: "240-260", quality: "r" },
         dual: { value: "No", quality: "" },
