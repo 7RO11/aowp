@@ -1454,7 +1454,7 @@ const db = {
       max: 200,
       type: "Smg",
       blurb:
-        "One of the viral_weapon_upgrades_tradeskills. Weapon base is blitzable and in common pools. Viral Weapon Upgrade drops from aliens. Model listed is QL 200 interpolation. Better damage profile than most common SMGs, and full auto.",
+        "One of the viral_weapon_upgrades_tradeskills. Weapon base is blitzable and in common pools. Viral Weapon Upgrade drops from aliens. Better damage profile than most common SMGs, and full auto.",
       stats: {
         ql: { value: "1-184", quality: "r" },
         dual: { value: "No", quality: "" },
