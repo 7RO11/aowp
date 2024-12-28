@@ -109,6 +109,19 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "aliens.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/alien-invasion/quests-guides/sector-10-alien-playfield"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"aliens."}
+                </a>{" "}
+              </Fragment>
+            );
           case "Dynas.":
             return (
               <Fragment key={v4()}>
@@ -135,7 +148,19 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
-
+          case "Mercenaries_Raid.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/the-mercenaries"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Mercenaries Raid."}
+                </a>{" "}
+              </Fragment>
+            );
           case "Obediency_Enforcer.":
             return (
               <Fragment key={v4()}>
@@ -150,16 +175,16 @@ function Blurb(props) {
               </Fragment>
             );
 
-          case "Mercenaries_Raid.":
+          case "Sector_07_aliens.":
             return (
               <Fragment key={v4()}>
                 <a
                   target="_blank"
-                  href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/the-mercenaries"
+                  href="https://www.ao-universe.com/guides/alien-invasion/quests-guides/sector-07-alien-playfield"
                   className="bsLink"
                   rel="noreferrer"
                 >
-                  {"Mercenaries Raid."}
+                  {"Sector 07 aliens."}
                 </a>{" "}
               </Fragment>
             );
@@ -231,6 +256,19 @@ function Blurb(props) {
               </Fragment>
             );
 
+          case "different_special_attacks.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/alien-invasion/tradeskill-guides-3/weapon-2/upgrading-alien-weapons"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"different special attacks."}
+                </a>{" "}
+              </Fragment>
+            );
           case "Tradeskilled_from_Mausser_Particle_Streamer.":
             return (
               <Fragment key={v4()}>
@@ -270,6 +308,20 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "with_alien_materials.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/lost-eden/tradeskill-guides/weapon/upgrading-ofab-weapons"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"with alien materials."}
+                </a>{" "}
+              </Fragment>
+            );
+
           // soft links inside aowp
           // 1hb
           case "Howling_Skull.":
@@ -447,6 +499,22 @@ function Blurb(props) {
                   className="bsLink"
                 >
                   {"Mausser Particle Streamer"}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Mk_5,":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Smg/Ofab Hawk Mk 5" className="bsLink">
+                  {"Mk 5,"}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Mk_6,":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Smg/Ofab Hawk Mk 6" className="bsLink">
+                  {"Mk 6."}
                 </Link>{" "}
               </Fragment>
             );

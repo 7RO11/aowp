@@ -22,7 +22,7 @@ function BuildPrompt() {
         <Link to={"/select/Pistol"}>Pistol</Link>
         <Link to={"/select/Rifle"}>Rifle</Link>
         <Link to={"/select/Shotgun"}>Shotgun</Link>
-        <Link to={"/select/Smg"}>Smg</Link>
+        <Link to={"/select/Smg"}>Sub-Machine Gun</Link>
       </div>
     </Stage>
   );

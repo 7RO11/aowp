@@ -36,7 +36,7 @@ const db = {
       },
       profs: ["Enforcer", "Meta-Physicist", "Trader"],
       prk: false,
-      diff: 3,
+      diff: 4,
       auno: "https://auno.org/ao/db.php?id=249035",
     },
     "Howling Skull": {
@@ -1326,10 +1326,15 @@ const db = {
   },
   Smg: {
     // need more info
-    // https://auno.org/ao/db.php?id=160209
+    // https://auno.org/ao/db.php?id=160209 BBI Mamba GGFC 2388 where it drops? in game?
     // should it be added ?
-    // https://auno.org/ao/db.php?id=233247&ql=200
-    // https://auno.org/ao/db.php?id=211225&ql=200
+    // https://auno.org/ao/db.php?id=233247&ql=200 Defender of Troy, too weak
+    // https://auno.org/ao/db.php?id=211225&ql=200 Din Gun, weak manex style
+    // https://auno.org/ao/db.php?id=211265 Jake, buyable?, need more info, too slow in high ql
+    // https://auno.org/ao/db.php?id=306201 Mausser Particle Railgun, very weak, only good for crits, drops in time gated event
+    // https://auno.org/ao/db.php?id=265180 Ofab Hawk Mk 4, already 5 and 6 in. just mk 5 without fa
+    // https://auno.org/ao/db.php?id=281507 Rhat'Ata Gun, the same as Envy of the Xan, different specials
+    // https://auno.org/ao/db.php?id=157635 Sol Chironis Systems Professional about the same stats harder to get ot karen
     Blackbird: {
       name: "Blackbird",
       min: 80,
@@ -1373,7 +1378,7 @@ const db = {
           max: 220,
           type: "Smg",
           blurb:
-            "Upgrade result from Lord_of_Envy. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord_of_Envy. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match. Check Rhat'Ata Gun for a version that replaces FA with fling shot.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -1386,7 +1391,7 @@ const db = {
             attackCap: { value: "2750", quality: "" },
             init: { value: "Ranged", quality: "" },
             multi: { value: "1750", quality: "" },
-            specials: { value: "Burst, Full Auto", quality: "" },
+            specials: { value: "Burst, Full Auto", quality: "g" },
             reqs: {
               "Title level": { value: "6", quality: "r" },
               "Expansion sets": { value: "Legacy of the Xan?", quality: "r" },
@@ -1411,7 +1416,7 @@ const db = {
           max: 220,
           type: "Smg",
           blurb:
-            "Upgrade result from Lord_of_Envy. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord_of_Envy. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match. Check Rhat'Ata Gun for a version that replaces FA with fling shot.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -1424,7 +1429,7 @@ const db = {
             attackCap: { value: "2750", quality: "" },
             init: { value: "Ranged", quality: "" },
             multi: { value: "1750", quality: "" },
-            specials: { value: "Burst, Full Auto", quality: "" },
+            specials: { value: "Burst, Full Auto", quality: "g" },
             reqs: {
               Smg: { value: "2251", quality: "" },
               Burst: { value: "1689", quality: "" },
@@ -1442,6 +1447,42 @@ const db = {
           auno: "https://auno.org/ao/db.php?id=280724&patch=18085300",
         },
       ],
+    },
+    "Fantaghiro BBI-Viral": {
+      name: "Fantaghiro BBI-Viral",
+      min: 1,
+      max: 200,
+      type: "Smg",
+      blurb:
+        "One of the viral_weapon_upgrades_tradeskills. Weapon base is blitzable and in common pools. Viral Weapon Upgrade drops from aliens. Model listed is QL 200 interpolation. Better damage profile than most common SMGs, and full auto.",
+      stats: {
+        ql: { value: "1-184", quality: "r" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1s", quality: "g" },
+        rSpeed: { value: "1s", quality: "g" },
+        range: { value: "24 m", quality: "" },
+        minDamage: { value: "75", quality: "" },
+        maxDamage: { value: "398", quality: "g" },
+        critMod: { value: "298", quality: "" },
+        attackCap: { value: "1741", quality: "g" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Burst, Full Auto", quality: "g" },
+        reqs: {
+          "Expansion sets": { value: "Alien Invasion", quality: "r" },
+          Smg: { value: "1095", quality: "" },
+          Burst: { value: "822", quality: "" },
+          "Full auto": { value: "986", quality: "" },
+        },
+        mods: {
+          Sense: { value: "16", quality: "" },
+          "Defense modifier": { value: "5", quality: "" },
+        },
+      },
+      profs: ["Fixer", "Soldier"],
+      prk: false,
+      diff: 4,
+      auno: "https://auno.org/ao/db.php?id=248587",
     },
     "Gamma Ejector": {
       name: "Gamma Ejector",
@@ -1580,6 +1621,68 @@ const db = {
       prk: false,
       diff: 6,
       auno: "https://auno.org/ao/db.php?id=207252",
+    },
+    "Kyr'Ozch Machine Pistol": {
+      name: "Kyr'Ozch Machine Pistol",
+      min: 1,
+      max: 220,
+      type: "Smg",
+      blurb:
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. High damage min and speeds, but weaker damage max.",
+      stats: {
+        ql: { value: "1-300", quality: "" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "1.2s", quality: "g" },
+        rSpeed: { value: "1.2s", quality: "g" },
+        range: { value: "25 m", quality: "" },
+        minDamage: { value: "225", quality: "g" },
+        maxDamage: { value: "325", quality: "r" },
+        critMod: { value: "225", quality: "" },
+        attackCap: { value: "2400", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "1500", quality: "" },
+        specials: { value: "", quality: "r" },
+        reqs: {
+          "Expansion sets": { value: "Alien Invasion", quality: "r" },
+          Smg: { value: "2001", quality: "" },
+        },
+        mods: {},
+      },
+      profs: ["Fixer", "Soldier"],
+      prk: false,
+      diff: 5,
+      auno: "https://auno.org/ao/db.php?id=254653",
+    },
+    "Kyr'Ozch Submachine Gun": {
+      name: "Kyr'Ozch Submachine Gun",
+      min: 1,
+      max: 220,
+      type: "Smg",
+      blurb:
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. High damage min and speeds, but weaker damage max.",
+      stats: {
+        ql: { value: "1-300", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1.2s", quality: "g" },
+        rSpeed: { value: "1.2s", quality: "g" },
+        range: { value: "20 m", quality: "" },
+        minDamage: { value: "245", quality: "g" },
+        maxDamage: { value: "385", quality: "r" },
+        critMod: { value: "245", quality: "" },
+        attackCap: { value: "2400", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "", quality: "r" },
+        reqs: {
+          "Expansion sets": { value: "Alien Invasion", quality: "r" },
+          Smg: { value: "2001", quality: "" },
+        },
+        mods: {},
+      },
+      profs: ["Fixer", "Soldier"],
+      prk: false,
+      diff: 5,
+      auno: "https://auno.org/ao/db.php?id=254520",
     },
     "Light Miasma Beamer": {
       name: "Light Miasma Beamer",
@@ -1877,7 +1980,72 @@ const db = {
         },
       ],
     },
-    // https://auno.org/ao/db.php?id=157635 too similar to include
+    "Ofab Hawk Mk 5": {
+      name: "Ofab Hawk Mk 5",
+      min: 1,
+      max: 220,
+      type: "Smg",
+      blurb:
+        "Weapon base is buyable from battlestation vendors with victory points. Upgraded to higher marks with_alien_materials. The next version, Mk_6, is two handed. Long full auto cycle. High damage min and speeds. Check Mk 4 for the FA-less version.",
+      stats: {
+        ql: { value: "1-300", quality: "" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "1.2s", quality: "g" },
+        rSpeed: { value: "1.2s", quality: "g" },
+        range: { value: "20 m", quality: "" },
+        minDamage: { value: "258", quality: "g" },
+        maxDamage: { value: "405", quality: "" },
+        critMod: { value: "284", quality: "" },
+        attackCap: { value: "2600", quality: "g" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "1474", quality: "" },
+        specials: { value: "Burst, Full Auto", quality: "g" },
+        reqs: {
+          "Expansion sets": { value: "Lost Eden", quality: "r" },
+          Smg: { value: "2101", quality: "" },
+          Burst: { value: "1576", quality: "" },
+          "Full auto": { value: "1891", quality: "r" },
+        },
+        mods: {},
+      },
+      profs: [],
+      prk: false,
+      diff: 4,
+      auno: "https://auno.org/ao/db.php?id=265187",
+    },
+    "Ofab Hawk Mk 6": {
+      name: "Ofab Hawk Mk 6",
+      min: 1,
+      max: 220,
+      type: "Smg",
+      blurb:
+        "Weapon base is buyable from battlestation vendors with victory points. Upgraded to higher marks with_alien_materials. The previous version, Mk_5, is one handed. Long full auto cycle. Overall high damage profile.",
+      stats: {
+        ql: { value: "1-300", quality: "" },
+        dual: { value: "No", quality: "r" },
+        aSpeed: { value: "1.2s", quality: "g" },
+        rSpeed: { value: "1.2s", quality: "g" },
+        range: { value: "20 m", quality: "" },
+        minDamage: { value: "325", quality: "g" },
+        maxDamage: { value: "475", quality: "g" },
+        critMod: { value: "350", quality: "" },
+        attackCap: { value: "2600", quality: "g" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Burst, Full Auto", quality: "g" },
+        reqs: {
+          "Expansion sets": { value: "Lost Eden", quality: "r" },
+          Smg: { value: "2101", quality: "" },
+          Burst: { value: "1576", quality: "" },
+          "Full auto": { value: "1891", quality: "r" },
+        },
+        mods: {},
+      },
+      profs: ["Fixer", "Soldier"],
+      prk: false,
+      diff: 4,
+      auno: "https://auno.org/ao/db.php?id=265194",
+    },
     "OT Kerans Automatic Grinner": {
       name: "OT Kerans Automatic Grinner",
       min: 1,
@@ -2008,6 +2176,79 @@ const db = {
       prk: false,
       diff: 2,
       auno: "https://auno.org/ao/db.php?id=160499",
+    },
+    "Special Edition Kyr'Ozch Submachine Gun": {
+      versions: [
+        {
+          name: "Special Edition Kyr'Ozch Submachine Gun",
+          min: 151,
+          max: 200,
+          type: "Smg",
+          blurb:
+            "Drops from Sector_07_aliens. Fixer and Soldier only. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+          stats: {
+            ql: { value: "150", quality: "" },
+            dual: { value: "No", quality: "" },
+            aSpeed: { value: "1.2s", quality: "g" },
+            rSpeed: { value: "1.2s", quality: "g" },
+            range: { value: "25 m", quality: "" },
+            minDamage: { value: "180", quality: "g" },
+            maxDamage: { value: "272", quality: "" },
+            critMod: { value: "190", quality: "" },
+            attackCap: { value: "1500", quality: "g" },
+            init: { value: "Ranged", quality: "" },
+            multi: { value: "", quality: "" },
+            specials: { value: "Burst, Full Auto", quality: "g" },
+            reqs: {
+              "Expansion sets": { value: "Alien Invasion", quality: "r" },
+              Profession: { value: "Fixer or Soldier", quality: "r" },
+              Level: { value: "151", quality: "r" },
+              Smg: { value: "700", quality: "" },
+              Burst: { value: "500", quality: "" },
+              "Full auto": { value: "400", quality: "" },
+            },
+            mods: {},
+          },
+          profs: ["Fixer", "Soldier"],
+          prk: false,
+          diff: 5,
+          auno: "https://auno.org/ao/db.php?id=288295",
+        },
+        {
+          name: "Special Edition Kyr'Ozch Submachine Gun",
+          min: 151,
+          max: 200,
+          type: "Smg",
+          blurb:
+            "Drops from Sector_07_aliens. Fixer and Soldier only. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+          stats: {
+            ql: { value: "150", quality: "" },
+            dual: { value: "No", quality: "" },
+            aSpeed: { value: "1.2s", quality: "g" },
+            rSpeed: { value: "1.2s", quality: "g" },
+            range: { value: "25 m", quality: "" },
+            minDamage: { value: "180", quality: "g" },
+            maxDamage: { value: "272", quality: "" },
+            critMod: { value: "190", quality: "" },
+            attackCap: { value: "1500", quality: "g" },
+            init: { value: "Ranged", quality: "" },
+            multi: { value: "", quality: "" },
+            specials: { value: "Burst, Full Auto", quality: "g" },
+            reqs: {
+              "Expansion sets": { value: "Alien Invasion", quality: "r" },
+              Profession: { value: "Fixer or Soldier", quality: "r" },
+              Smg: { value: "700", quality: "" },
+              Burst: { value: "500", quality: "" },
+              "Full auto": { value: "400", quality: "" },
+            },
+            mods: {},
+          },
+          profs: ["Fixer", "Soldier"],
+          prk: true,
+          diff: 5,
+          auno: "https://auno.org/ao/db.php?id=288295",
+        },
+      ],
     },
     "Summer Shells SMP": {
       name: "Summer Shells SMP",
