@@ -1690,7 +1690,7 @@ const db = {
       max: 60,
       type: "Smg",
       blurb:
-        "Drops from Dynas. Fixer only. Decent early game SMG with a low barrier to entry. String crits but most fixers won't have any.",
+        "Drops from Dynas. Fixer only. Decent early game SMG with a low barrier to entry. Strong crits but most fixers won't have any.",
       stats: {
         ql: { value: "40-50", quality: "r" },
         dual: { value: "Yes", quality: "" },
