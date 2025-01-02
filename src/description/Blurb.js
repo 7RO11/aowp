@@ -439,6 +439,39 @@ function Blurb(props) {
                 </Link>{" "}
               </Fragment>
             );
+          // Shotgun
+          case "Greed_of_the_Xan.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Shotgun/Greed of the Xan" className="bsLink">
+                  {"Greed of the Xan. "}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Inamorata_Shotgun.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Shotgun/Inamorata Shotgun" className="bsLink">
+                  {"Inamorata Shotgun"}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Lord_of_Greed.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Shotgun/Lord of Greed" className="bsLink">
+                  {"Lord of Greed"}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Sacrosanct_Shotgun.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Shotgun/Sacrosanct Shotgun" className="bsLink">
+                  {"Sacrosanct Shotgun"}
+                </Link>{" "}
+              </Fragment>
+            );
           // SMG
           case "Blackbirds":
             return (
