@@ -476,7 +476,7 @@ function Blurb(props) {
           case "Blackbirds":
             return (
               <Fragment key={v4()}>
-                <Link to="/item/Smg/Blinded Blackbird" className="bsLink">
+                <Link to="/item/Smg/Blackbird" className="bsLink">
                   {"Blackbirds"}
                 </Link>{" "}
               </Fragment>
