@@ -1,5 +1,7 @@
+import { Fragment } from "react";
 import { Link, useParams } from "react-router-dom";
 import db from "../Itemdb";
+import { grammat } from "../utils";
 
 function Items(props) {
   const { type } = useParams();
@@ -80,8 +82,9 @@ function Items(props) {
     return true;
   }
   let key = 0;
+  let usedTypes = [];
   return !isProf ? (
-    <div className="itemBox" style={{ minHeight: `${section.length * 4}em` }}>
+    <div className="itemBox">
       {section.map((item) => {
         key++;
         return (
@@ -117,34 +120,48 @@ function Items(props) {
       })}
     </div>
   ) : (
-    <div className="itemBox" style={{ minHeight: `${section.length * 4}em` }}>
+    <div className="itemBox">
       {section.map((item) => {
         key++;
+        let pushType;
+        if (!usedTypes.includes(item.type)) {
+          usedTypes.push(item.type);
+          pushType = item.type;
+          console.log(usedTypes);
+        }
         return (
-          <p key={key}>
-            <Link
-              to={
-                item.type
-                  ? `/item/${item.type}/${item.name}`
-                  : `/item/${item["versions"][0].type}/${item["versions"][0].name}`
-              }
-              className={
-                item.type
-                  ? isGray(Number(props.level), item.min, item.max)
+          <Fragment key={key}>
+            {pushType ? (
+              <>
+                <h1>{grammat(item.type)}</h1>
+                <hr />
+              </>
+            ) : undefined}
+            <p>
+              <Link
+                to={
+                  item.type
+                    ? `/item/${item.type}/${item.name}`
+                    : `/item/${item["versions"][0].type}/${item["versions"][0].name}`
+                }
+                className={
+                  item.type
+                    ? isGray(Number(props.level), item.min, item.max)
+                      ? "grayed"
+                      : "white"
+                    : isGray(
+                        Number(props.level),
+                        item["versions"][0].min,
+                        item["versions"][0].max
+                      )
                     ? "grayed"
                     : "white"
-                  : isGray(
-                      Number(props.level),
-                      item["versions"][0].min,
-                      item["versions"][0].max
-                    )
-                  ? "grayed"
-                  : "white"
-              }
-            >
-              {item.name}
-            </Link>
-          </p>
+                }
+              >
+                {item.name}
+              </Link>
+            </p>
+          </Fragment>
         );
       })}
     </div>

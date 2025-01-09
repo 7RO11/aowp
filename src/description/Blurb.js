@@ -90,7 +90,7 @@ function Blurb(props) {
                   className="bsLink"
                   rel="noreferrer"
                 >
-                  {"IS."}
+                  {"Inner Sanctum."}
                 </a>{" "}
               </Fragment>
             );
@@ -119,6 +119,19 @@ function Blurb(props) {
                   rel="noreferrer"
                 >
                   {"aliens."}
+                </a>{" "}
+              </Fragment>
+            );
+          case "alien_generals.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/alien-invasion/gameplay-guides-3/alien-raiding-in-your-city"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"alien generals."}
                 </a>{" "}
               </Fragment>
             );
@@ -255,6 +268,19 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "Weapon_tradeskilled_from_alien_parts.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/alien-invasion/tradeskill-guides-3/general-crafting-2/apf-loot-tradeskills"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Weapon tradeskilled from alien_parts."}
+                </a>{" "}
+              </Fragment>
+            );
 
           case "different_special_attacks.":
             return (
@@ -266,6 +292,19 @@ function Blurb(props) {
                   rel="noreferrer"
                 >
                   {"different special attacks."}
+                </a>{" "}
+              </Fragment>
+            );
+          case "Tradeskilled_from_alien_parts":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/alien-invasion/tradeskill-guides-3/weapon-2/salabim-shotgun"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Tradeskilled from alien parts"}
                 </a>{" "}
               </Fragment>
             );
@@ -448,11 +487,27 @@ function Blurb(props) {
                 </Link>{" "}
               </Fragment>
             );
+          case "Home_Defender.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Shotgun/Home Defender" className="bsLink">
+                  {"Home Defender."}
+                </Link>{" "}
+              </Fragment>
+            );
           case "Inamorata_Shotgun.":
             return (
               <Fragment key={v4()}>
                 <Link to="/item/Shotgun/Inamorata Shotgun" className="bsLink">
                   {"Inamorata Shotgun"}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Krutt_Assault":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Shotgun/Krutt Assault 219" className="bsLink">
+                  {"Krutt Assault"}
                 </Link>{" "}
               </Fragment>
             );

@@ -7,8 +7,26 @@
   color: red;
 }
 
+.itemBox {
+  align-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  min-height: 100vh;
+}
+
 .itemBox p {
-  font-size: 1.5em;
+  font-size: 1.6em;
+  margin: 0;
+}
+
+.itemBox h1 {
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.itemBox hr {
+  margin: 0;
 }
 
 .numberIn {
