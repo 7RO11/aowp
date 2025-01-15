@@ -10,6 +10,8 @@ export function grammat(name) {
       return "Melee Energy";
     case "Martial arts":
       return "Martial Arts";
+    case "Ranged energy":
+      return "Ranged Energy";
     default:
       return name;
   }

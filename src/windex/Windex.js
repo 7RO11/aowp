@@ -31,6 +31,7 @@ function Windex() {
           <a href={"#Grenade"}>Grenade</a>
           <a href={"#Pistol"}>Pistol</a>
           <a href={"#Rifle"}>Rifle</a>
+          <a href={"#Ranged energy"}>Ranged Energy</a>
           <a href={"#Shotgun"}>Shotgun</a>
           <a href={"#Smg"}>Sub-Machine Guns</a>
         </div>
