@@ -29,6 +29,19 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "18.8_Subway_raid.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/condemned-subway-raid"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"18.8 Subway raid."}
+                </a>{" "}
+              </Fragment>
+            );
           case "TOTW.":
             return (
               <Fragment key={v4()}>
@@ -78,6 +91,19 @@ function Blurb(props) {
                   rel="noreferrer"
                 >
                   {"COH."}
+                </a>{" "}
+              </Fragment>
+            );
+          case "The_Reck.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/location-guides-5/the-reck"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"The Reck."}
                 </a>{" "}
               </Fragment>
             );
@@ -148,6 +174,20 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "Dreadloch_camps.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/lost-eden/encounter-guides/high-level-encounter/clan-dreadloch-camps-omni-quests"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Dreadloch camps."}
+                </a>{" "}
+              </Fragment>
+            );
+
           case "Juggernaut_raid.":
             return (
               <Fragment key={v4()}>
