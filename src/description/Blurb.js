@@ -120,6 +120,19 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "Home_Pyramid_raid.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/legacy-of-the-xan/encounter-guides-2/dark-pyramid-below"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Home Pyramid raid."}
+                </a>{" "}
+              </Fragment>
+            );
           // encounters
 
           case "3_different_raids.":
@@ -518,6 +531,8 @@ function Blurb(props) {
                 </Link>{" "}
               </Fragment>
             );
+          // bow
+
           // Shotgun
           case "Greed_of_the_Xan.":
             return (
@@ -539,7 +554,7 @@ function Blurb(props) {
             return (
               <Fragment key={v4()}>
                 <Link to="/item/Shotgun/Inamorata Shotgun" className="bsLink">
-                  {"Inamorata Shotgun"}
+                  {"Inamorata Shotgun."}
                 </Link>{" "}
               </Fragment>
             );
@@ -555,7 +570,7 @@ function Blurb(props) {
             return (
               <Fragment key={v4()}>
                 <Link to="/item/Shotgun/Lord of Greed" className="bsLink">
-                  {"Lord of Greed"}
+                  {"Lord of Greed."}
                 </Link>{" "}
               </Fragment>
             );
@@ -563,7 +578,7 @@ function Blurb(props) {
             return (
               <Fragment key={v4()}>
                 <Link to="/item/Shotgun/Sacrosanct Shotgun" className="bsLink">
-                  {"Sacrosanct Shotgun"}
+                  {"Sacrosanct Shotgun."}
                 </Link>{" "}
               </Fragment>
             );
