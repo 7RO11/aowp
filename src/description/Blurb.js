@@ -532,7 +532,14 @@ function Blurb(props) {
               </Fragment>
             );
           // bow
-
+          case "Chaos_of_the_Xan.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Bow/Chaos of the Xan" className="bsLink">
+                  {"Chaos of the Xan. "}
+                </Link>{" "}
+              </Fragment>
+            );
           // Shotgun
           case "Greed_of_the_Xan.":
             return (
