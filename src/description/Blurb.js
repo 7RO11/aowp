@@ -94,6 +94,19 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "Mantis_Den.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/mid-level-encounter/the-mantis-and-smugglers-den"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Mantis Den."}
+                </a>{" "}
+              </Fragment>
+            );
           case "The_Reck.":
             return (
               <Fragment key={v4()}>
@@ -130,6 +143,19 @@ function Blurb(props) {
                   rel="noreferrer"
                 >
                   {"Home Pyramid raid."}
+                </a>{" "}
+              </Fragment>
+            );
+          case "18.8_TOTW_raid.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/temple-of-the-three-winds-raid"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"18.8 TOTW raid."}
                 </a>{" "}
               </Fragment>
             );
@@ -308,6 +334,20 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "enhanced_further":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/tradeskill-guides-6/weapon-4/upgrading-mantis-weapons"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"enhanced further"}
+                </a>{" "}
+              </Fragment>
+            );
+
           case "sealed_weapon_receptacles.":
             return (
               <Fragment key={v4()}>
