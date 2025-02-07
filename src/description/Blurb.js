@@ -159,6 +159,33 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "Tarasque.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/camelot-castle"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Tarasque."}
+                </a>{" "}
+              </Fragment>
+            );
+          case "DeValos_loot.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/administrator-devalos"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"DeValos loot."}
+                </a>{" "}
+              </Fragment>
+            );
+
           // encounters
 
           case "3_different_raids.":
@@ -290,6 +317,19 @@ function Blurb(props) {
                   rel="noreferrer"
                 >
                   {"The Beast raid."}
+                </a>{" "}
+              </Fragment>
+            );
+          case "Tsunayoshi_Smith.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/location-guides-5/tsunayoshi-smith-vendor"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Tsunayoshi Smith."}
                 </a>{" "}
               </Fragment>
             );
@@ -576,7 +616,15 @@ function Blurb(props) {
             return (
               <Fragment key={v4()}>
                 <Link to="/item/Bow/Chaos of the Xan" className="bsLink">
-                  {"Chaos of the Xan. "}
+                  {"Chaos of the Xan."}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Lord_of_Chaos.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Bow/Lord of Chaos" className="bsLink">
+                  {"Lord of Chaos."}
                 </Link>{" "}
               </Fragment>
             );
