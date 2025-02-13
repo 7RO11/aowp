@@ -493,6 +493,34 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "escaped_prisoner_drops.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/shadowlands/tradeskill-guides-5/weapon-3/blade-of-khiones-will"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"escaped prisoner drops."}
+                </a>{" "}
+              </Fragment>
+            );
+
+          // specific mission rewards
+          case "Xan_Civilization_Quest.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/shadowlands/quests-guides-2/penumbra/xan-civilization-quest"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Xan Civilization Quest."}
+                </a>{" "}
+              </Fragment>
+            );
 
           // soft links inside aowp
           // 1hb
