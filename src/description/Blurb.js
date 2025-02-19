@@ -201,6 +201,19 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "Xan_weapon_upgrades.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/legacy-of-the-xan/tradeskill-guides-2/weapons/xan-weapon-upgrade"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Xan weapon upgrades."}
+                </a>{" "}
+              </Fragment>
+            );
           case "aliens.":
             return (
               <Fragment key={v4()}>

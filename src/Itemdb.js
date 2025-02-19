@@ -660,8 +660,6 @@ const db = {
     // https://auno.org/ao/db.php?id=128994 Rider Warblade dyna drop only or more?
     // https://auno.org/ao/db.php?id=253246 Odum Blade drops from alien general?
     // https://auno.org/ao/db.php?id=262572 Otek Sword where it drop? in game?
-    // https://auno.org/ao/db.php?id=225513 Sword of Lord Mordeth drops from lord mordeth in inferno where?
-    // https://auno.org/ao/db.php?id=225509 Sword of Sir Galahad same stats as lord mordeth sword, drops where?
     // should it be added
     // https://auno.org/ao/db.php?id=154505&ql=100 Immortal Katana, ql it drops in is mostly useless compared to totw options, maybe if you get locked out?
     // https://auno.org/ao/db.php?id=212664 Sancro/Ina 2he slow 2/5
@@ -1143,7 +1141,7 @@ const db = {
       name: "Kyr'Ozch Sword",
       min: 1,
       max: 200,
-      type: "Expansion sets",
+      type: "2h Edged",
       blurb:
         "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK.",
       stats: {
@@ -1795,6 +1793,173 @@ const db = {
       diff: 4,
       auno: "https://auno.org/ao/db.php?id=233285",
     },
+    "Sword of Lord Mordeth": {
+      versions: [
+        {
+          name: "Sword of Lord Mordeth",
+          min: 200,
+          max: 220,
+          type: "2h Edged",
+          blurb:
+            "Drops from Lord Mordeth, an Unredeemed boss in Inferno, Shadowlands. Keeper only. Drops in 2 QLs. 2he-ME weapon with outstanding max damage potential.",
+          stats: {
+            ql: { value: "199-200", quality: "r" },
+            dual: { value: "No", quality: "" },
+            aSpeed: { value: "1.8s", quality: "" },
+            rSpeed: { value: "1.5s", quality: "" },
+            range: { value: "3 m", quality: "" },
+            minDamage: { value: "90", quality: "" },
+            maxDamage: { value: "900", quality: "g" },
+            critMod: { value: "90", quality: "" },
+            attackCap: { value: "2500", quality: "" },
+            init: { value: "Melee", quality: "" },
+            multi: { value: "", quality: "" },
+            specials: {
+              value: "Fast Attack, Sneak Attack, Brawl",
+              quality: "",
+            },
+            reqs: {
+              Profession: { value: "Keeper", quality: "r" },
+              "2h Edged": { value: "1261", quality: "" },
+              "Melee energy": { value: "841", quality: "" },
+              "Fast attack": { value: "701", quality: "" },
+              Brawl: { value: "841", quality: "" },
+              "Sneak attack": { value: "900", quality: "" },
+            },
+            mods: {
+              "Max health": { value: "500", quality: "" },
+              "Defense modifier": { value: "10", quality: "" },
+            },
+          },
+          profs: ["Keeper"],
+          prk: false,
+          diff: 5,
+          auno: "https://auno.org/ao/db.php?id=225513",
+        },
+        {
+          name: "Sword of Lord Mordeth",
+          min: 200,
+          max: 220,
+          type: "2h Edged",
+          blurb:
+            "Drops from Lord Mordeth, an Unredeemed boss in Inferno, Shadowlands. Keeper only. Drops in 2 QLs. 2he-ME weapon with outstanding max damage potential. Pre 18.8, this weapon is significantly weaker. Slower attacks, lower MBS, no sneak attack.",
+          stats: {
+            ql: { value: "199-200", quality: "r" },
+            dual: { value: "No", quality: "" },
+            aSpeed: { value: "3.5s", quality: "r" },
+            rSpeed: { value: "3.5s", quality: "r" },
+            range: { value: "3 m", quality: "" },
+            minDamage: { value: "90", quality: "" },
+            maxDamage: { value: "900", quality: "g" },
+            critMod: { value: "90", quality: "" },
+            attackCap: { value: "2000", quality: "" },
+            init: { value: "Melee", quality: "" },
+            multi: { value: "", quality: "" },
+            specials: { value: "Fast Attack, Brawl", quality: "r" },
+            reqs: {
+              Profession: { value: "Keeper", quality: "r" },
+              "2h Edged": { value: "1261", quality: "" },
+              "Melee energy": { value: "841", quality: "" },
+              "Fast attack": { value: "701", quality: "" },
+              Brawl: { value: "841", quality: "" },
+            },
+            mods: {
+              "Max health": { value: "500", quality: "" },
+              "Defense modifier": { value: "10", quality: "" },
+              Scale: { value: "2", quality: "" },
+            },
+          },
+          profs: ["Keeper"],
+          prk: true,
+          diff: 5,
+          auno: "https://auno.org/ao/db.php?id=225513&patch=15000100",
+        },
+      ],
+    },
+    "Sword of Sir Galahad": {
+      versions: [
+        {
+          name: "Sword of Sir Galahad",
+          min: 200,
+          max: 220,
+          type: "2h Edged",
+          blurb:
+            "Drops from Sir Galahad, a Redeemed boss in Inferno, Shadowlands. Keeper only. Drops in 2 QLs. 2he-ME weapon with outstanding max damage potential.",
+          stats: {
+            ql: { value: "199-200", quality: "r" },
+            dual: { value: "No", quality: "" },
+            aSpeed: { value: "1.8s", quality: "" },
+            rSpeed: { value: "1.5s", quality: "" },
+            range: { value: "3 m", quality: "" },
+            minDamage: { value: "90", quality: "" },
+            maxDamage: { value: "900", quality: "g" },
+            critMod: { value: "90", quality: "" },
+            attackCap: { value: "2500", quality: "" },
+            init: { value: "Melee", quality: "" },
+            multi: { value: "", quality: "" },
+            specials: {
+              value: "Fast Attack, Sneak Attack, Brawl",
+              quality: "",
+            },
+            reqs: {
+              Profession: { value: "Keeper", quality: "r" },
+              "2h Edged": { value: "1261", quality: "" },
+              "Melee energy": { value: "841", quality: "" },
+              "Fast attack": { value: "701", quality: "" },
+              Brawl: { value: "841", quality: "" },
+              "Sneak attack": { value: "900", quality: "" },
+            },
+            mods: {
+              "Max health": { value: "500", quality: "" },
+              "Defense modifier": { value: "10", quality: "" },
+            },
+          },
+          profs: ["Keeper"],
+          prk: false,
+          diff: 5,
+          auno: "https://auno.org/ao/db.php?id=225513",
+        },
+        {
+          name: "Sword of Sir Galahad",
+          min: 200,
+          max: 220,
+          type: "2h Edged",
+          blurb:
+            "Drops from Sir Galahad, a Redeemed boss in Inferno, Shadowlands. Keeper only. Drops in 2 QLs. 2he-ME weapon with outstanding max damage potential. Pre 18.8, this weapon is significantly weaker. Slower attacks, lower MBS, no sneak attack.",
+          stats: {
+            ql: { value: "199-200", quality: "r" },
+            dual: { value: "No", quality: "" },
+            aSpeed: { value: "3.5s", quality: "r" },
+            rSpeed: { value: "3.5s", quality: "r" },
+            range: { value: "3 m", quality: "" },
+            minDamage: { value: "90", quality: "" },
+            maxDamage: { value: "900", quality: "g" },
+            critMod: { value: "90", quality: "" },
+            attackCap: { value: "2000", quality: "" },
+            init: { value: "Melee", quality: "" },
+            multi: { value: "", quality: "" },
+            specials: { value: "Fast Attack, Brawl", quality: "r" },
+            reqs: {
+              Profession: { value: "Keeper", quality: "r" },
+              "2h Edged": { value: "1261", quality: "" },
+              "Melee energy": { value: "841", quality: "" },
+              "Fast attack": { value: "701", quality: "" },
+              Brawl: { value: "841", quality: "" },
+            },
+            mods: {
+              "Max health": { value: "500", quality: "" },
+              "Defense modifier": { value: "10", quality: "" },
+              Scale: { value: "2", quality: "" },
+            },
+          },
+          profs: ["Keeper"],
+          prk: true,
+          diff: 5,
+          auno: "https://auno.org/ao/db.php?id=225513&patch=15000100",
+        },
+      ],
+    },
+
     "Sword of Sir Tristram": {
       name: "Sword of Sir Tristram",
       min: 1,
@@ -3383,17 +3548,169 @@ const db = {
     },
   },
   Rifle: {
-    "Assassins FDA Caterwaul 913": {
-      name: "Assassins FDA Caterwaul 913",
+    // should it be added
+    // https://auno.org/ao/db.php?id=160172 Custom KIWD 37 Hunter Crossbow good max but slow, 4/2 rifle-bow low ammo capacity
+    "Angst of the Xan": {
+      versions: [
+        {
+          name: "Angst of the Xan",
+          min: 215,
+          max: 220,
+          type: "Rifle",
+          blurb:
+            "Upgrade result from Lord_of_Angst. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+          stats: {
+            ql: { value: "300", quality: "" },
+            dual: { value: "No", quality: "" },
+            aSpeed: { value: "1.6s", quality: "" },
+            rSpeed: { value: "1.6s", quality: "" },
+            range: { value: "30 m", quality: "" },
+            minDamage: { value: "308", quality: "g" },
+            maxDamage: { value: "500", quality: "g" },
+            critMod: { value: "308", quality: "" },
+            attackCap: { value: "2750", quality: "g" },
+            init: { value: "Ranged", quality: "" },
+            multi: { value: "", quality: "" },
+            specials: { value: "Fling Shot, Aimed Shot", quality: "" },
+            reqs: {
+              "Expansion sets": { value: "Legacy of the Xan", quality: "r" },
+              "Title level": { value: "6", quality: "r" },
+              Rifle: { value: "2251", quality: "r" },
+              "Fling shot": { value: "1126", quality: "" },
+              "Aimed shot": { value: "1126", quality: "" },
+            },
+            mods: {
+              "Max health": { value: "600", quality: "" },
+              Concealment: { value: "120", quality: "" },
+              "Offense modifier": { value: "30", quality: "" },
+            },
+          },
+          profs: ["Agent"],
+          prk: false,
+          diff: 6,
+          auno: "https://auno.org/ao/db.php?id=280723",
+        },
+        {
+          name: "Angst of the Xan",
+          min: 215,
+          max: 220,
+          type: "Rifle",
+          blurb:
+            "Upgrade result from Lord_of_Angst. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+          stats: {
+            ql: { value: "300", quality: "" },
+            dual: { value: "No", quality: "" },
+            aSpeed: { value: "1.6s", quality: "" },
+            rSpeed: { value: "1.6s", quality: "" },
+            range: { value: "30 m", quality: "" },
+            minDamage: { value: "300", quality: "g" },
+            maxDamage: { value: "500", quality: "g" },
+            critMod: { value: "308", quality: "" },
+            attackCap: { value: "2750", quality: "g" },
+            init: { value: "Ranged", quality: "" },
+            multi: { value: "", quality: "" },
+            specials: { value: "Fling Shot, Aimed Shot", quality: "" },
+            reqs: {
+              Rifle: { value: "2251", quality: "r" },
+              "Fling shot": { value: "1126", quality: "" },
+              "Aimed shot": { value: "1126", quality: "" },
+            },
+            mods: {
+              "Max health": { value: "600", quality: "" },
+              Concealment: { value: "120", quality: "" },
+              "Offense modifier": { value: "30", quality: "" },
+            },
+          },
+          profs: ["Agent"],
+          prk: true,
+          diff: 6,
+          auno: "https://auno.org/ao/db.php?id=280723&patch=18000200",
+        },
+      ],
+    },
+    "Corrupted Lord of Angst": {
+      name: "Corrupted Lord of Angst",
+      min: 215,
+      max: 220,
+      type: "Rifle",
+      blurb:
+        "Drops during the Home_Pyramid_raid. Max damage/lower req side-grade of the Rifle Xan flavor.",
+      stats: {
+        ql: { value: "300", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1.9s", quality: "" },
+        rSpeed: { value: "1.9s", quality: "" },
+        range: { value: "30 m", quality: "" },
+        minDamage: { value: "200", quality: "" },
+        maxDamage: { value: "600", quality: "g" },
+        critMod: { value: "500", quality: "" },
+        attackCap: { value: "2600", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Fling Shot, Aimed Shot", quality: "" },
+        reqs: {
+          "Expansion sets": { value: "Legacy of the Xan", quality: "r" },
+          "Title level": { value: "7", quality: "r" },
+          Rifle: { value: "2000", quality: "" },
+          "Fling shot": { value: "1100", quality: "" },
+          "Aimed shot": { value: "1100", quality: "" },
+        },
+        mods: {
+          "Max health": { value: "600", quality: "" },
+          Concealment: { value: "120", quality: "" },
+          "Offense modifier": { value: "30", quality: "" },
+        },
+      },
+      profs: ["Agent"],
+      prk: false,
+      diff: 6,
+      auno: "https://auno.org/ao/db.php?id=302939",
+    },
+    "Distraction Rifle": {
+      name: "Distraction Rifle",
+      min: 215,
+      max: 220,
+      type: "Rifle",
+      blurb:
+        "Drops from Eliminator Shiro during the 18.8_Subway_raid. Level locked from 210. Hits have a 10% to proc a nano resist debuff.",
+      stats: {
+        ql: { value: "SPECIAL", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1.5s", quality: "" },
+        rSpeed: { value: "1.7s", quality: "" },
+        range: { value: "35 m", quality: "" },
+        minDamage: { value: "290", quality: "g" },
+        maxDamage: { value: "555", quality: "g" },
+        critMod: { value: "250", quality: "" },
+        attackCap: { value: "2650", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Fling Shot, Aimed Shot", quality: "" },
+        reqs: {
+          Level: { value: "210", quality: "r" },
+          Rifle: { value: "2200", quality: "" },
+          "Aimed shot": { value: "1300", quality: "" },
+          "Fling shot": { value: "1200", quality: "" },
+        },
+        mods: {},
+      },
+      profs: ["Agent"],
+      prk: false,
+      diff: 6,
+      auno: "https://auno.org/ao/db.php?id=305966",
+    },
+
+    "FDA Caterwaul 913": {
+      name: "FDA Caterwaul 913",
       min: 1,
       max: 200,
       type: "Rifle",
       blurb:
-        "Blitzable and part of common loot pools. Model listed is QL 200 interpolation. Classic agent rifle with good crits and regular damage.",
+        "Blitzable and part of common loot pools. Agent only. Classic agent rifle with good crits and regular damage.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
-        aSpeed: { value: "2.9s", quality: "" },
+        aSpeed: { value: "2.9s", quality: "r" },
         rSpeed: { value: "1.1s", quality: "g" },
         range: { value: "28 m", quality: "" },
         minDamage: { value: "10", quality: "" },
@@ -3404,7 +3721,7 @@ const db = {
         multi: { value: "", quality: "" },
         specials: { value: "Aimed Shot", quality: "" },
         reqs: {
-          Profession: { value: "Agent", quality: "" },
+          Profession: { value: "Agent", quality: "r" },
           Rifle: { value: "941", quality: "" },
           "Aimed shot": { value: "471", quality: "" },
         },
@@ -3417,6 +3734,45 @@ const db = {
       profs: ["Agent"],
       diff: 2,
     },
+    "Gan'Kar Rifle": {
+      name: "Gan'Kar Rifle",
+      min: 215,
+      max: 220,
+      type: "Rifle",
+      blurb:
+        "Upgraded rifle from the Xan_weapon_upgrades. Slightly more powerful with higher reqs.",
+      stats: {
+        ql: { value: "300", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1.5s", quality: "" },
+        rSpeed: { value: "1.5s", quality: "" },
+        range: { value: "35 m", quality: "" },
+        minDamage: { value: "350", quality: "g" },
+        maxDamage: { value: "580", quality: "g" },
+        critMod: { value: "500", quality: "g" },
+        attackCap: { value: "2750", quality: "g" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Fling Shot, Aimed Shot", quality: "" },
+        reqs: {
+          "Expansion sets": { value: "Legacy of the Xan", quality: "r" },
+          Level: { value: "201", quality: "r" },
+          Rifle: { value: "2501", quality: "r" },
+          "Fling shot": { value: "1201", quality: "" },
+          "Aimed shot": { value: "1751", quality: "" },
+        },
+        mods: {
+          "Max health": { value: "800", quality: "" },
+          Concealment: { value: "175", quality: "" },
+          "Offense modifier": { value: "50", quality: "" },
+        },
+      },
+      profs: ["Agent"],
+      prk: false,
+      diff: 6,
+      auno: "https://auno.org/ao/db.php?id=302164",
+    },
+
     "Shadowfade Rifle": {
       name: "Shadowfade Rifle",
       min: 1,
@@ -4380,7 +4736,7 @@ const db = {
     // https://auno.org/ao/db.php?id=233247&ql=200 Defender of Troy, too weak
     // https://auno.org/ao/db.php?id=211225&ql=200 Din Gun, weak manex style
     // https://auno.org/ao/db.php?id=211265 Jake, buyable?, need more info, too slow in high ql
-    // https://auno.org/ao/db.php?id=306201 Mausser Particle Railgun, very weak, only good for crits, drops in time gated event
+    // https://auno.org/ao/db.php?id=306201 Mausser Particle Railgun, very weak, only good for crits, drops in time gated event?
     // https://auno.org/ao/db.php?id=265180 Ofab Hawk Mk 4, already 5 and 6 in. just mk 5 without fa
     // https://auno.org/ao/db.php?id=281507 Rhat'Ata Gun, the same as Envy of the Xan, different specials
     // https://auno.org/ao/db.php?id=157635 Sol Chironis Systems Professional about the same stats harder to get ot karen
