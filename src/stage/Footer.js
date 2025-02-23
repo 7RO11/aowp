@@ -23,6 +23,9 @@ function Footer() {
       <Link className="footerLink" to={"/index"}>
         Index
       </Link>
+      <Link className="footerLink" to={"/roulette"}>
+        Roulette
+      </Link>
     </div>
   );
 }

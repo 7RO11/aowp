@@ -9,6 +9,7 @@ import Home from "./home/Home";
 import "./index.css";
 import ProfPrompt from "./profPrompt/ProfPrompt";
 import Policy from "./policy/Policy";
+import Roulette from "./roulette/Roulette";
 import Select from "./select/Select";
 import Windex from "./windex/Windex";
 
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
   {
     path: "/policy",
     element: <Policy />,
+  },
+  {
+    path: "/roulette",
+    element: <Roulette />,
   },
 ]);
 
