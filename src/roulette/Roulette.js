@@ -4,9 +4,13 @@ import Stage from "../stage/Stage";
 
 function Roulette() {
   const [breed, setBreed] = useState("Solitus");
+  const [isBreedLocked, setBreedLocked] = useState(false);
   const [profession, setProfession] = useState("Adventurer");
+  const [isProfessionLocked, setProfessionLocked] = useState(false);
   const [weaponType, setweaponType] = useState("Pistol");
+  const [isWeaponLocked, setWeaponLocked] = useState(false);
   const [goal, setGoal] = useState("Do something");
+  const [isGoalLocked, setGoalLocked] = useState(false);
   const breeds = ["Solitus", "Opifex", "Atrox", "Nanomage"];
   const profs = [
     "Adventurer",
@@ -55,23 +59,71 @@ function Roulette() {
         <button
           className="roulButton"
           onClick={() => {
-            setBreed(breeds[Math.floor(Math.random() * breeds.length)]);
-            setProfession(profs[Math.floor(Math.random() * profs.length)]);
-            setweaponType(
-              weaponTypes[Math.floor(Math.random() * weaponTypes.length)]
-            );
-            setGoal(goals[Math.floor(Math.random() * goals.length)]);
+            if (!isBreedLocked) {
+              setBreed(breeds[Math.floor(Math.random() * breeds.length)]);
+            }
+            if (!isProfessionLocked) {
+              setProfession(profs[Math.floor(Math.random() * profs.length)]);
+            }
+            if (!isWeaponLocked) {
+              setweaponType(
+                weaponTypes[Math.floor(Math.random() * weaponTypes.length)]
+              );
+            }
+            if (!isGoalLocked) {
+              setGoal(goals[Math.floor(Math.random() * goals.length)]);
+            }
           }}
         >
           Roll It!
         </button>
-        <h1>Breed</h1>
+        <h1>
+          Breed <span className="roulLock">Lock in?</span>
+          <input
+            type="checkbox"
+            className="roulCheck"
+            value={isBreedLocked}
+            onClick={() => {
+              setBreedLocked(!isBreedLocked);
+            }}
+          />
+        </h1>
         <h2>{breed}</h2>
-        <h1>Profession</h1>
+        <h1>
+          Profession <span className="roulLock">Lock in?</span>
+          <input
+            type="checkbox"
+            className="roulCheck"
+            value={isProfessionLocked}
+            onClick={() => {
+              setProfessionLocked(!isProfessionLocked);
+            }}
+          />
+        </h1>
         <h2>{profession}</h2>
-        <h1>Weapon Type</h1>
+        <h1>
+          Weapon Type <span className="roulLock">Lock in?</span>
+          <input
+            type="checkbox"
+            className="roulCheck"
+            value={isWeaponLocked}
+            onClick={() => {
+              setWeaponLocked(!isWeaponLocked);
+            }}
+          />
+        </h1>
         <h2>{weaponType}</h2>
-        <h1>Goal</h1>
+        <h1>
+          Goal <span className="roulLock">Lock in?</span>
+          <input
+            type="checkbox"
+            className="roulCheck"
+            value={isGoalLocked}
+            onClick={() => {
+              setGoalLocked(!isGoalLocked);
+            }}
+          />
+        </h1>
         <h2>{goal}</h2>
       </div>
     </Stage>
