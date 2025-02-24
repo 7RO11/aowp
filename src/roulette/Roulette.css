@@ -1,8 +1,27 @@
-.roulButton {
+.geneRoul {
+  font-size: 1.2em;
+}
+
+.holderRoul {
+  padding-left: 0;
+}
+
+select {
   font-size: 1.5em;
 }
 
+.roulButton {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
 .roulCheck {
+  height: 2em;
+  margin-left: 1em;
+  width: 2em;
+}
+
+.roulSCheck {
   height: 2em;
   margin-left: 1em;
   width: 2em;
@@ -15,4 +34,30 @@
 
 .rulesText {
   font-size: 1.5em;
+}
+
+.goalRoul,
+.weaponRoul,
+.breedRoul,
+.profRoul {
+  font-size: 1.5em;
+  font-weight: 900;
+  padding-left: 1em;
+}
+
+.goalRoul {
+  color: red;
+  padding-left: 0;
+}
+
+.weaponRoul {
+  color: aliceblue;
+}
+
+.breedRoul {
+  color: magenta;
+}
+
+.profRoul {
+  color: chartreuse;
 }

@@ -305,6 +305,38 @@ const db = {
   },
 
   "1h Edged": {
+    "Kyr'Ozch Axe": {
+      name: "Kyr'Ozch Axe",
+      min: 1,
+      max: 200,
+      type: "1h Edged",
+      blurb:
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK.",
+      stats: {
+        ql: { value: "1-300", quality: "" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "1.2s", quality: "g" },
+        rSpeed: { value: "1.2s", quality: "g" },
+        range: { value: "3 m", quality: "" },
+        minDamage: { value: "275", quality: "g" },
+        maxDamage: { value: "325", quality: "" },
+        critMod: { value: "275", quality: "" },
+        attackCap: { value: "2400", quality: "" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "1500", quality: "" },
+        specials: { value: "", quality: "" },
+        reqs: {
+          "Expansion sets": { value: "Alien Invasion", quality: "r" },
+          "1h Edged": { value: "2001", quality: "" },
+        },
+        mods: {},
+      },
+      profs: ["Enforcer", "Adventurer"],
+      prk: false,
+      diff: 5,
+      auno: "https://auno.org/ao/db.php?id=254688",
+    },
+
     "Super SOL Fire Executioner Type F": {
       name: "Super SOL Fire Executioner Type F",
       min: 1,
@@ -619,6 +651,38 @@ const db = {
       diff: 0,
       auno: "https://auno.org/ao/db.php?id=246709",
     },
+    "Kyr'Ozch Sledgehammer": {
+      name: "Kyr'Ozch Sledgehammer",
+      min: 1,
+      max: 200,
+      type: "2h Blunt",
+      blurb:
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK.",
+      stats: {
+        ql: { value: "1-300", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "2s", quality: "" },
+        rSpeed: { value: "2s", quality: "" },
+        range: { value: "4 m", quality: "" },
+        minDamage: { value: "375", quality: "g" },
+        maxDamage: { value: "525", quality: "" },
+        critMod: { value: "375", quality: "" },
+        attackCap: { value: "2400", quality: "" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "", quality: "" },
+        reqs: {
+          "Expansion sets": { value: "Alien Invasion", quality: "r" },
+          "2h Blunt": { value: "2001", quality: "" },
+        },
+        mods: {},
+      },
+      profs: ["Enforcer", "Meta-Physicist"],
+      prk: false,
+      diff: 5,
+      auno: "https://auno.org/ao/db.php?id=254730",
+    },
+
     "Punishment Rod": {
       name: "Punishment Rod",
       min: 185,
@@ -1379,8 +1443,8 @@ const db = {
     //   diff: 0,
     //   auno: "https://auno.org/ao/db.php?id=253246",
     // },
-    "Ofab Wolf Mk 6": {
-      name: "Ofab Wolf Mk 6",
+    "Ofab Wolf": {
+      name: "Ofab Wolf",
       min: 1,
       max: 200,
       type: "2h Edged",
@@ -2261,6 +2325,37 @@ const db = {
       diff: 4,
       auno: "https://auno.org/ao/db.php?id=208071",
     },
+    "Kyr'Ozch Energy Rapier": {
+      name: "Kyr'Ozch Energy Rapier",
+      min: 1,
+      max: 200,
+      type: "Melee energy",
+      blurb:
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK. Uses ranged inits instead of physical.",
+      stats: {
+        ql: { value: "1-300", quality: "" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "1s", quality: "g" },
+        rSpeed: { value: "1s", quality: "g" },
+        range: { value: "2 m", quality: "" },
+        minDamage: { value: "280", quality: "g" },
+        maxDamage: { value: "340", quality: "" },
+        critMod: { value: "340", quality: "" },
+        attackCap: { value: "2400", quality: "" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "1500", quality: "" },
+        specials: { value: "", quality: "" },
+        reqs: {
+          "Expansion sets": { value: "Alien Invasion", quality: "r" },
+          Piercing: { value: "2001", quality: "" },
+        },
+        mods: {},
+      },
+      profs: ["Enforcer", "Keeper"],
+      prk: false,
+      diff: 5,
+      auno: "https://auno.org/ao/db.php?id=254716",
+    },
   },
   Piercing: {
     "Fear-forged Blade": {
@@ -2294,8 +2389,71 @@ const db = {
       profs: ["Shade"],
       diff: 4,
     },
+    "Kyr'Ozch Spear": {
+      name: "Kyr'Ozch Spear",
+      min: 1,
+      max: 200,
+      type: "Piercing",
+      blurb:
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK. Uses ranged inits instead of physical.",
+      stats: {
+        ql: { value: "1-300", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1.5s", quality: "" },
+        rSpeed: { value: "1.5s", quality: "" },
+        range: { value: "4 m", quality: "" },
+        minDamage: { value: "360", quality: "g" },
+        maxDamage: { value: "460", quality: "" },
+        critMod: { value: "400", quality: "" },
+        attackCap: { value: "2400", quality: "" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "", quality: "" },
+        reqs: {
+          "Expansion sets": { value: "Alien Invasion", quality: "r" },
+          Piercing: { value: "2001", quality: "" },
+        },
+        mods: {},
+      },
+      profs: ["Shade"],
+      prk: false,
+      diff: 5,
+      auno: "https://auno.org/ao/db.php?id=254779",
+    },
   },
   "Assault rifle": {
+    "Kyr'Ozch Carbine": {
+      name: "Kyr'Ozch Carbine",
+      min: 1,
+      max: 200,
+      type: "Assault rifle",
+      blurb:
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK. Uses ranged inits instead of physical.",
+      stats: {
+        ql: { value: "1-300", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1.8s", quality: "" },
+        rSpeed: { value: "1.8s", quality: "" },
+        range: { value: "20 m", quality: "" },
+        minDamage: { value: "250", quality: "g" },
+        maxDamage: { value: "450", quality: "" },
+        critMod: { value: "250", quality: "" },
+        attackCap: { value: "2400", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "", quality: "" },
+        reqs: {
+          "Expansion sets": { value: "Alien Invasion", quality: "r" },
+          "Assault rifle": { value: "2001", quality: "" },
+        },
+        mods: {},
+      },
+      profs: ["Soldier"],
+      prk: false,
+      diff: 5,
+      auno: "https://auno.org/ao/db.php?id=254492",
+    },
+
     "Neutrino Flash": {
       name: "Neutrino Flash",
       min: 40,
@@ -2760,8 +2918,8 @@ const db = {
       diff: 6,
       auno: "https://auno.org/ao/db.php?id=244910",
     },
-    "Ofab Tiger Mk 6": {
-      name: "Ofab Tiger Mk 6",
+    "Ofab Tiger": {
+      name: "Ofab Tiger",
       min: 1,
       max: 200,
       type: "Bow",
@@ -2893,6 +3051,38 @@ const db = {
     },
   },
   Grenade: {
+    "Kyr'Ozch Grenade Gun": {
+      name: "Kyr'Ozch Grenade Gun",
+      min: 1,
+      max: 200,
+      type: "Grenade",
+      blurb:
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK.",
+      stats: {
+        ql: { value: "", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "2.2s", quality: "" },
+        rSpeed: { value: "2.2s", quality: "" },
+        range: { value: "25 m", quality: "" },
+        minDamage: { value: "240", quality: "g" },
+        maxDamage: { value: "540", quality: "" },
+        critMod: { value: "240", quality: "" },
+        attackCap: { value: "2400", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "", quality: "" },
+        reqs: {
+          "Expansion sets": { value: "Alien Invasion", quality: "r" },
+          Grenade: { value: "2001", quality: "" },
+        },
+        mods: {},
+      },
+      profs: ["Engineer"],
+      prk: false,
+      diff: 5,
+      auno: "https://auno.org/ao/db.php?id=254569",
+    },
+
     "Red Line Grenade Launcher": {
       name: "Red Line Grenade Launcher",
       min: 25,
@@ -2930,6 +3120,38 @@ const db = {
     },
   },
   Pistol: {
+    "Kyr'Ozch Pistol": {
+      name: "Kyr'Ozch Pistol",
+      min: 1,
+      max: 200,
+      type: "Pistol",
+      blurb:
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK.",
+      stats: {
+        ql: { value: "1-300", quality: "" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "1s", quality: "g" },
+        rSpeed: { value: "1s", quality: "g" },
+        range: { value: "25 m", quality: "" },
+        minDamage: { value: "225", quality: "g" },
+        maxDamage: { value: "325", quality: "" },
+        critMod: { value: "225", quality: "" },
+        attackCap: { value: "2400", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "1800", quality: "" },
+        specials: { value: "", quality: "" },
+        reqs: {
+          "Expansion sets": { value: "Alien Invasion", quality: "r" },
+          Pistol: { value: "2001", quality: "" },
+        },
+        mods: {},
+      },
+      profs: ["Engineer", "Adventurer", "Nano-technician"],
+      prk: false,
+      diff: 5,
+      auno: "https://auno.org/ao/db.php?id=254618",
+    },
+
     "Solar Powered Tinker Pistol": {
       name: "Solar Powered Tinker Pistol",
       min: 1,
@@ -4304,10 +4526,10 @@ const db = {
         },
       ],
     },
-    "Ofab Silverback Mk 6": {
+    "Ofab Silverback": {
       versions: [
         {
-          name: "Ofab Silverback Mk 6",
+          name: "Ofab Silverback",
           min: 1,
           max: 220,
           type: "Shotgun",
@@ -4340,7 +4562,7 @@ const db = {
           auno: "https://auno.org/ao/db.php?id=264898",
         },
         {
-          name: "Ofab Silverback Mk 6",
+          name: "Ofab Silverback",
           min: 220,
           max: 1,
           type: "Shotgun",
