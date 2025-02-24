@@ -301,9 +301,34 @@ function Roulette() {
             setGoal(event.target.value);
           }}
         >
+          <option value={"Kill Vergil Aeneid"}>Kill Vergil Aeneid</option>
           <option value={"Kill Abmouth"}>Kill Abmouth</option>
+          <option value={"Kill Lien"}>Kill Lien</option>
+          <option value={"Kill Nemetet"}>Kill Nemetet</option>
           <option value={"Kill Aztur"}>Kill Aztur</option>
+          <option value={"Kill Neleb"}>Kill Neleb</option>
+          <option value={"Kill Prototype Inferno"}>
+            Kill Prototype Inferno
+          </option>
+          <option value={"Kill Commander Jocasta"}>
+            Kill Commander Jocasta
+          </option>
           <option value={"Kill Lab Director"}>Kill Lab Director</option>
+          <option value={"Kill Trash King"}>Kill Trash King</option>
+          <option value={"Kill Mantis Queen"}>Kill Mantis Queen</option>
+          <option value={"Kill Administrator DeValos"}>
+            Kill Administrator DeValos
+          </option>
+          <option value={"Kill Tarasque"}>Kill Tarasque</option>
+          <option value={"Kill Hezak"}>Kill Hezak</option>
+          <option value={"Kill The Brood Mother"}>Kill The Brood Mother</option>
+          <option value={"Kill Diamondine Soldier"}>
+            Kill Diamondine Soldier
+          </option>
+          <option value={"Kill Ian Warr"}>Kill Ian Warr</option>
+          <option value={"Kill Obediency Enforcer"}>
+            Kill Obediency Enforcer
+          </option>
         </select>
       </div>
     </Stage>
