@@ -154,7 +154,7 @@ function Roulette() {
               setGoal(
                 doubleTrouble[Math.floor(Math.random() * doubleTrouble.length)]
               );
-            } else {
+            } else if (!isGoalLocked) {
               setGoal(goals[Math.floor(Math.random() * goals.length)]);
             }
           }}
