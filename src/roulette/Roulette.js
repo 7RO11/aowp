@@ -272,6 +272,8 @@ function Roulette() {
           <option value={"Bow"}>Bow</option>
           <option value={"Grenade"}>Grenade</option>
           <option value={"Pistol"}>Pistol</option>
+          <option value={"Ranged Energy"}>Ranged Energy</option>
+          <option value={"Rifle"}>Rifle</option>
           <option value={"Shotgun"}>Shotgun</option>
           <option value={"Sub-Machine Gun"}>Sub-Machine Gun</option>
         </select>

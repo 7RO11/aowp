@@ -20,8 +20,8 @@ function BuildPrompt() {
         <Link to={"/select/Bow"}>Bow</Link>
         <Link to={"/select/Grenade"}>Grenade</Link>
         <Link to={"/select/Pistol"}>Pistol</Link>
-        <Link to={"/select/Rifle"}>Rifle</Link>
         <Link to={"/select/Ranged energy"}>Ranged Energy</Link>
+        <Link to={"/select/Rifle"}>Rifle</Link>
         <Link to={"/select/Shotgun"}>Shotgun</Link>
         <Link to={"/select/Smg"}>Sub-Machine Gun</Link>
       </div>
