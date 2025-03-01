@@ -423,7 +423,7 @@ function Blurb(props) {
                   className="bsLink"
                   rel="noreferrer"
                 >
-                  {"Weapon tradeskilled from alien_parts."}
+                  {"Weapon tradeskilled from alien parts."}
                 </a>{" "}
               </Fragment>
             );
