@@ -227,6 +227,20 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          // oh no i did it again
+          case "alien_generals.2":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/alien-invasion/tradeskill-guides-3/weapon-2/niznos-bomb-blaster"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"alien generals."}
+                </a>{" "}
+              </Fragment>
+            );
           case "alien_generals.":
             return (
               <Fragment key={v4()}>
@@ -330,6 +344,19 @@ function Blurb(props) {
                   rel="noreferrer"
                 >
                   {"The Beast raid."}
+                </a>{" "}
+              </Fragment>
+            );
+          case "shadowlands_boss_drops.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/shadowlands/tradeskill-guides-5/weapon-3/prohibited-hand-mortar-of-bacam-xum"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Shadowlands boss drops."}
                 </a>{" "}
               </Fragment>
             );

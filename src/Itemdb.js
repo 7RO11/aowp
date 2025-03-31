@@ -795,7 +795,7 @@ const db = {
           "Nano init": { value: "-150", quality: "" },
         },
       },
-      profs: ["Enforcer", "Keeper", "Enforcer", "Keeper"],
+      profs: ["Keeper"],
       prk: false,
       diff: 5,
       auno: "https://auno.org/ao/db.php?id=269513",
@@ -995,7 +995,7 @@ const db = {
     },
     "Corrupted Lord of Pride": {
       name: "Corrupted Lord of Pride",
-      min: 215,
+      min: 205,
       max: 220,
       type: "2h Edged",
       blurb:
@@ -1595,7 +1595,7 @@ const db = {
       versions: [
         {
           name: "Pride of the Xan",
-          min: 200,
+          min: 190,
           max: 220,
           type: "2h Edged",
           blurb:
@@ -1635,7 +1635,7 @@ const db = {
         },
         {
           name: "Pride of the Xan",
-          min: 200,
+          min: 190,
           max: 220,
           type: "2h Edged",
           blurb:
@@ -2628,7 +2628,7 @@ const db = {
       versions: [
         {
           name: "Chaos of the Xan",
-          min: 200,
+          min: 190,
           max: 220,
           type: "Bow",
           blurb:
@@ -2665,7 +2665,7 @@ const db = {
         },
         {
           name: "Chaos of the Xan",
-          min: 200,
+          min: 190,
           max: 220,
           type: "Bow",
           blurb:
@@ -2702,7 +2702,7 @@ const db = {
     },
     "Corrupted Lord of Chaos": {
       name: "Corrupted Lord of Chaos",
-      min: 215,
+      min: 205,
       max: 220,
       type: "Bow",
       blurb:
@@ -2885,7 +2885,7 @@ const db = {
     },
     "Lord of Chaos": {
       name: "Lord of Chaos",
-      min: 200,
+      min: 190,
       max: 220,
       type: "Bow",
       blurb:
@@ -3088,6 +3088,149 @@ const db = {
     },
   },
   Grenade: {
+    // need more info
+    // https://auno.org/ao/db.php?id=211232 Ballistic Launcher Pistol where it drop?
+    // https://auno.org/ao/db.php?id=233324 Missile Launcher + Pistol in game?
+    // https://auno.org/ao/db.php?id=211274 Shock of Truth drops from sided sl mobs?
+    // should it be added
+    // https://auno.org/ao/db.php?id=244912 Lord of Sloth 3 magazine
+    //
+    // "Ballistic Launcher Pistol": {
+    //   name: "Ballistic Launcher Pistol",
+    //   min: 1,
+    //   max: 100,
+    //   type: "Grenade",
+    //   blurb: "",
+    //   stats: {
+    //     ql: { value: "1-300", quality: "" },
+    //     dual: { value: "Yes", quality: "" },
+    //     aSpeed: { value: "2s", quality: "" },
+    //     rSpeed: { value: "3.65s", quality: "r" },
+    //     range: { value: "30 m", quality: "" },
+    //     minDamage: { value: "100", quality: "" },
+    //     maxDamage: { value: "215", quality: "" },
+    //     critMod: { value: "12", quality: "" },
+    //     attackCap: { value: "603", quality: "" },
+    //     init: { value: "Ranged", quality: "" },
+    //     multi: { value: "471", quality: "" },
+    //     specials: { value: "", quality: "" },
+    //     reqs: {
+    //       "Expansion sets": { value: "Shadowlands", quality: "r" },
+    //       Grenade: { value: "426", quality: "" },
+    //       Pistol: { value: "284", quality: "" },
+    //     },
+    //     mods: {},
+    //   },
+    //   profs: ["Engineer"],
+    //   prk: false,
+    //   diff: 0,
+    //   auno: "https://auno.org/ao/db.php?id=211230&ql=100",
+    // },
+    "Corrupted Lord of Sloth": {
+      name: "Corrupted Lord of Sloth",
+      min: 205,
+      max: 220,
+      type: "Grenade",
+      blurb:
+        "Drops during the Home_Pyramid_raid. Level locked from 215. High overall stats with no special tricks.",
+      stats: {
+        ql: { value: "300", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1.5s", quality: "g" },
+        rSpeed: { value: "1.5s", quality: "g" },
+        range: { value: "30 m", quality: "" },
+        minDamage: { value: "250", quality: "" },
+        maxDamage: { value: "625", quality: "g" },
+        critMod: { value: "500", quality: "g" },
+        attackCap: { value: "2600", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Fling Shot", quality: "" },
+        reqs: {
+          "Expansion sets": { value: "Legacy of the Xan", quality: "r" },
+          "Title level": { value: "7", quality: "r" },
+          Grenade: { value: "2000", quality: "" },
+          "Fling shot": { value: "1126", quality: "" },
+        },
+        mods: {
+          "Max health": { value: "600", quality: "" },
+          "Matter creation": { value: "30", quality: "" },
+          "Time and space": { value: "30", quality: "" },
+          "Offense modifier": { value: "30", quality: "" },
+        },
+      },
+      profs: ["Engineer"],
+      prk: false,
+      diff: 6,
+      auno: "https://auno.org/ao/db.php?id=302943",
+    },
+    "Dreadloch Obliterator": {
+      name: "Dreadloch Obliterator",
+      min: 210,
+      max: 220,
+      type: "Grenade",
+      blurb:
+        "Drops from Dreadloch_camps. Level locked from 210. Hits have a 10% chance to proc an init debuff. Overall high stats.",
+      stats: {
+        ql: { value: "300", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "2s", quality: "" },
+        rSpeed: { value: "1.8s", quality: "" },
+        range: { value: "30 m", quality: "" },
+        minDamage: { value: "325", quality: "g" },
+        maxDamage: { value: "525", quality: "g" },
+        critMod: { value: "500", quality: "g" },
+        attackCap: { value: "2600", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Fling Shot", quality: "" },
+        reqs: {
+          "Expansion sets": { value: "Lost Eden", quality: "r" },
+          Level: { value: "210", quality: "r" },
+          Grenade: { value: "2001", quality: "" },
+          "Fling shot": { value: "1001", quality: "" },
+        },
+        mods: {},
+      },
+      profs: ["Engineer"],
+      prk: false,
+      diff: 5,
+      auno: "https://auno.org/ao/db.php?id=267127",
+    },
+    "Illegally Modified Dreadloch Obliterator": {
+      name: "Illegally Modified Dreadloch Obliterator",
+      min: 215,
+      max: 220,
+      type: "Grenade",
+      blurb:
+        "Drops from Abmouth during the 18.8_Subway_raid. Level locked from 215. Hits have a 15% chance to proc a init debuff. Higher stats than that of the Dreadloch Obliterator.",
+      stats: {
+        ql: { value: "300", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1.2s", quality: "g" },
+        rSpeed: { value: "1.3s", quality: "g" },
+        range: { value: "30 m", quality: "" },
+        minDamage: { value: "360", quality: "g" },
+        maxDamage: { value: "550", quality: "g" },
+        critMod: { value: "550", quality: "g" },
+        attackCap: { value: "2700", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Fling Shot, Burst", quality: "g" },
+        reqs: {
+          Level: { value: "215", quality: "r" },
+          Grenade: { value: "2200", quality: "" },
+          "Fling shot": { value: "1200", quality: "" },
+          Burst: { value: "1200", quality: "" },
+        },
+        mods: {},
+      },
+      profs: ["Engineer"],
+      prk: false,
+      diff: 6,
+      auno: "https://auno.org/ao/db.php?id=306005",
+    },
+
     "Kyr'Ozch Grenade Gun": {
       name: "Kyr'Ozch Grenade Gun",
       min: 1,
@@ -3118,6 +3261,148 @@ const db = {
       prk: false,
       diff: 5,
       auno: "https://auno.org/ao/db.php?id=254569",
+    },
+    "Nizno's Bomb Blaster": {
+      name: "Nizno's Bomb Blaster",
+      min: 25,
+      max: 220,
+      type: "Grenade",
+      blurb:
+        "Drops from parts on alien_generals.2 Engineer only. Get somewhat faster as the QL rises. High min damage and overall decent damage profile. Limited magazine capacity.",
+      stats: {
+        ql: { value: "1-300", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "2.2s", quality: "r" },
+        rSpeed: { value: "2.2s", quality: "r" },
+        range: { value: "10 m", quality: "" },
+        minDamage: { value: "300", quality: "g" },
+        maxDamage: { value: "450", quality: "" },
+        critMod: { value: "350", quality: "" },
+        attackCap: { value: "2300", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Fling Shot", quality: "" },
+        reqs: {
+          "Expansion sets": { value: "Alien Invasion", quality: "r" },
+          Profession: { value: "Engineer", quality: "r" },
+          Grenade: { value: "2201", quality: "" },
+          "Fling shot": { value: "1101", quality: "" },
+        },
+        mods: {},
+      },
+      profs: ["Engineer"],
+      prk: false,
+      diff: 5,
+      auno: "https://auno.org/ao/db.php?id=253233",
+    },
+    "OT M-110 Renegade SAW": {
+      name: "OT M-110 Renegade SAW",
+      min: 1,
+      max: 200,
+      type: "Grenade",
+      blurb:
+        "Blitzable, shop buyable, and in common loot pools. Speeds get faster as the QL rises. Rubi-Ka's holdout grenade weapon.",
+      stats: {
+        ql: { value: "1-200", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "2.4s", quality: "r" },
+        rSpeed: { value: "1.5s", quality: "r" },
+        range: { value: "18 m", quality: "" },
+        minDamage: { value: "16", quality: "" },
+        maxDamage: { value: "426", quality: "" },
+        critMod: { value: "167", quality: "" },
+        attackCap: { value: "2500", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "", quality: "" },
+        reqs: {
+          Grenade: { value: "969", quality: "" },
+          "Assault rifle": { value: "647", quality: "r" },
+        },
+        mods: {},
+      },
+      profs: ["Engineer"],
+      prk: false,
+      diff: 1,
+      auno: "https://auno.org/ao/db.php?id=124816",
+    },
+    "Prohibited Hand-Mortar of Bacam-Xum": {
+      versions: [
+        {
+          name: "Prohibited Hand-Mortar of Bacam-Xum",
+          min: 205,
+          max: 220,
+          type: "Grenade",
+          blurb:
+            "Tradeskilled from various shadowlands_boss_drops. Level locked from 215. Somewhat lower stats and reqs than other endgame options.",
+          stats: {
+            ql: { value: "250", quality: "" },
+            dual: { value: "No", quality: "" },
+            aSpeed: { value: "1.2s", quality: "g" },
+            rSpeed: { value: "1.2s", quality: "g" },
+            range: { value: "25 m", quality: "" },
+            minDamage: { value: "350", quality: "g" },
+            maxDamage: { value: "467", quality: "" },
+            critMod: { value: "563", quality: "g" },
+            attackCap: { value: "2600", quality: "" },
+            init: { value: "Ranged", quality: "" },
+            multi: { value: "", quality: "" },
+            specials: { value: "Fling Shot", quality: "" },
+            reqs: {
+              "Expansion sets": { value: "Shadowlands", quality: "r" },
+              "Title level": { value: "7", quality: "r" },
+              Grenade: { value: "1750", quality: "" },
+              "Fling shot": { value: "875", quality: "" },
+            },
+            mods: {
+              Intelligence: { value: "50", quality: "" },
+              "Mechanical engineering": { value: "120", quality: "" },
+              "Matter creation": { value: "75", quality: "" },
+            },
+          },
+          profs: ["Engineer"],
+          prk: false,
+          diff: 5,
+          auno: "https://auno.org/ao/db.php?id=246873",
+        },
+        {
+          name: "Prohibited Hand-Mortar of Bacam-Xum",
+          min: 205,
+          max: 220,
+          type: "Grenade",
+          blurb:
+            "Tradeskilled from various shadowlands_boss_drops. Level locked from 215. Somewhat lower stats and reqs than other endgame options.",
+          stats: {
+            ql: { value: "250", quality: "" },
+            dual: { value: "No", quality: "" },
+            aSpeed: { value: "1.5s", quality: "g" },
+            rSpeed: { value: "1.5s", quality: "g" },
+            range: { value: "25 m", quality: "" },
+            minDamage: { value: "350", quality: "g" },
+            maxDamage: { value: "467", quality: "" },
+            critMod: { value: "563", quality: "g" },
+            attackCap: { value: "2600", quality: "" },
+            init: { value: "Ranged", quality: "" },
+            multi: { value: "", quality: "" },
+            specials: { value: "Fling Shot", quality: "" },
+            reqs: {
+              "Expansion sets": { value: "Shadowlands", quality: "r" },
+              "Title level": { value: "7", quality: "r" },
+              Grenade: { value: "1750", quality: "" },
+              "Fling shot": { value: "875", quality: "" },
+            },
+            mods: {
+              Intelligence: { value: "50", quality: "" },
+              "Mechanical engineering": { value: "120", quality: "" },
+              "Matter creation": { value: "75", quality: "" },
+            },
+          },
+          profs: ["Engineer"],
+          prk: true,
+          diff: 5,
+          auno: "https://auno.org/ao/db.php?id=246873&patch=18041300",
+        },
+      ],
     },
 
     "Red Line Grenade Launcher": {
@@ -3154,6 +3439,84 @@ const db = {
       prk: false,
       diff: 4,
       auno: "https://auno.org/ao/db.php?id=208039",
+    },
+    "Sloth of the Xan": {
+      versions: [
+        {
+          name: "Sloth of the Xan",
+          min: 190,
+          max: 220,
+          type: "Grenade",
+          blurb:
+            "Upgrade result from Lord of Sloth. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+          stats: {
+            ql: { value: "300", quality: "" },
+            dual: { value: "No", quality: "" },
+            aSpeed: { value: "1.2s", quality: "g" },
+            rSpeed: { value: "1.2s", quality: "g" },
+            range: { value: "30 m", quality: "" },
+            minDamage: { value: "420", quality: "g" },
+            maxDamage: { value: "560", quality: "g" },
+            critMod: { value: "675", quality: "g" },
+            attackCap: { value: "2750", quality: "" },
+            init: { value: "Ranged", quality: "" },
+            multi: { value: "", quality: "" },
+            specials: { value: "Fling Shot", quality: "" },
+            reqs: {
+              "Expansion sets": { value: "Legacy of the Xan", quality: "r" },
+              "Title level": { value: "6", quality: "r" },
+              Grenade: { value: "2251", quality: "" },
+              "Fling shot": { value: "1126", quality: "" },
+            },
+            mods: {
+              "Max health": { value: "600", quality: "" },
+              "Matter creation": { value: "30", quality: "" },
+              "Time and space": { value: "30", quality: "" },
+              "Offense modifier": { value: "30", quality: "" },
+            },
+          },
+          profs: ["Engineer"],
+          prk: false,
+          diff: 6,
+          auno: "https://auno.org/ao/db.php?id=280727",
+        },
+        {
+          name: "Sloth of the Xan",
+          min: 190,
+          max: 220,
+          type: "Grenade",
+          blurb:
+            "Upgrade result from Lord of Sloth. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+          stats: {
+            ql: { value: "300", quality: "" },
+            dual: { value: "No", quality: "" },
+            aSpeed: { value: "1.5s", quality: "g" },
+            rSpeed: { value: "1.5s", quality: "g" },
+            range: { value: "30 m", quality: "" },
+            minDamage: { value: "420", quality: "g" },
+            maxDamage: { value: "560", quality: "g" },
+            critMod: { value: "675", quality: "g" },
+            attackCap: { value: "2750", quality: "" },
+            init: { value: "Ranged", quality: "" },
+            multi: { value: "", quality: "" },
+            specials: { value: "Fling Shot", quality: "" },
+            reqs: {
+              Grenade: { value: "2251", quality: "" },
+              "Fling shot": { value: "1126", quality: "" },
+            },
+            mods: {
+              "Max health": { value: "600", quality: "" },
+              "Matter creation": { value: "30", quality: "" },
+              "Time and space": { value: "30", quality: "" },
+              "Offense modifier": { value: "30", quality: "" },
+            },
+          },
+          profs: ["Engineer"],
+          prk: true,
+          diff: 6,
+          auno: "https://auno.org/ao/db.php?id=280727&patch=18010000",
+        },
+      ],
     },
   },
   Pistol: {
@@ -3821,7 +4184,7 @@ const db = {
       versions: [
         {
           name: "Angst of the Xan",
-          min: 215,
+          min: 190,
           max: 220,
           type: "Rifle",
           blurb:
@@ -3859,7 +4222,7 @@ const db = {
         },
         {
           name: "Angst of the Xan",
-          min: 215,
+          min: 190,
           max: 220,
           type: "Rifle",
           blurb:
@@ -4035,7 +4398,7 @@ const db = {
 
     "Corrupted Lord of Angst": {
       name: "Corrupted Lord of Angst",
-      min: 215,
+      min: 205,
       max: 220,
       type: "Rifle",
       blurb:
@@ -4660,7 +5023,7 @@ const db = {
       versions: [
         {
           name: "Greed of the Xan",
-          min: 200,
+          min: 190,
           max: 220,
           type: "Shotgun",
           blurb:
@@ -4697,7 +5060,7 @@ const db = {
         },
         {
           name: "Greed of the Xan",
-          min: 200,
+          min: 190,
           max: 220,
           type: "Shotgun",
           blurb:
@@ -4934,7 +5297,7 @@ const db = {
     },
     "Lord of Greed": {
       name: "Lord of Greed",
-      min: 200,
+      min: 190,
       max: 220,
       type: "Shotgun",
       blurb:
@@ -5582,7 +5945,7 @@ const db = {
       versions: [
         {
           name: "Envy of the Xan",
-          min: 200,
+          min: 190,
           max: 220,
           type: "Smg",
           blurb:
@@ -5620,7 +5983,7 @@ const db = {
         },
         {
           name: "Envy of the Xan",
-          min: 200,
+          min: 190,
           max: 220,
           type: "Smg",
           blurb:
@@ -5962,7 +6325,7 @@ const db = {
     },
     "Lord of Envy": {
       name: "Lord of Envy",
-      min: 200,
+      min: 190,
       max: 220,
       type: "Smg",
       blurb:
