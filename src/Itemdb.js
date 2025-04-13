@@ -3092,6 +3092,7 @@ const db = {
     // https://auno.org/ao/db.php?id=211232 Ballistic Launcher Pistol where it drop?
     // https://auno.org/ao/db.php?id=233324 Missile Launcher + Pistol in game?
     // https://auno.org/ao/db.php?id=211274 Shock of Truth drops from sided sl mobs?
+    // https://auno.org/ao/db.php?id=165375 Spider Poison Gland in game?
     // should it be added
     // https://auno.org/ao/db.php?id=244912 Lord of Sloth 3 magazine
     //
@@ -3295,6 +3296,41 @@ const db = {
       diff: 5,
       auno: "https://auno.org/ao/db.php?id=253233",
     },
+    "OT Hurler": {
+      name: "OT Hurler",
+      min: 80,
+      max: 150,
+      type: "Grenade",
+      blurb: "Drops from Dynas. Engineer only.",
+      stats: {
+        ql: { value: "140-150", quality: "r" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "2.25s", quality: "" },
+        rSpeed: { value: "2.5s", quality: "" },
+        range: { value: "20 m", quality: "" },
+        minDamage: { value: "75", quality: "" },
+        maxDamage: { value: "350", quality: "" },
+        critMod: { value: "200", quality: "" },
+        attackCap: { value: "2400", quality: "g" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "", quality: "r" },
+        reqs: {
+          Profession: { value: "Engineer", quality: "r" },
+          Grenade: { value: "775", quality: "" },
+        },
+        mods: {
+          Tutoring: { value: "20", quality: "" },
+          Chemistry: { value: "20", quality: "" },
+          "Breaking and entry": { value: "20", quality: "" },
+        },
+      },
+      profs: ["Engineer"],
+      prk: false,
+      diff: 3,
+      auno: "https://auno.org/ao/db.php?id=207999",
+    },
+
     "OT M-110 Renegade SAW": {
       name: "OT M-110 Renegade SAW",
       min: 1,
@@ -3518,8 +3554,229 @@ const db = {
         },
       ],
     },
+    "Special Edition Kyr'Ozch Grenade Gun": {
+      versions: [
+        {
+          name: "Special Edition Kyr'Ozch Grenade Gun",
+          min: 151,
+          max: 200,
+          type: "Grenade",
+          blurb:
+            "Drops from Sector_07_aliens. Engineer Only. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+          stats: {
+            ql: { value: "150", quality: "" },
+            dual: { value: "No", quality: "" },
+            aSpeed: { value: "1.5s", quality: "" },
+            rSpeed: { value: "1.5s", quality: "" },
+            range: { value: "30 m", quality: "" },
+            minDamage: { value: "262", quality: "g" },
+            maxDamage: { value: "380", quality: "" },
+            critMod: { value: "450", quality: "g" },
+            attackCap: { value: "1500", quality: "" },
+            init: { value: "Ranged", quality: "" },
+            multi: { value: "", quality: "" },
+            specials: { value: "Fling Shot", quality: "" },
+            reqs: {
+              "Expansion sets": { value: "Alien Invasion", quality: "r" },
+              Profession: { value: "Engineer", quality: "r" },
+              Level: { value: "151", quality: "r" },
+              Grenade: { value: "700", quality: "g" },
+              "Fling shot": { value: "350", quality: "" },
+            },
+            mods: {},
+          },
+          profs: ["Engineer"],
+          prk: false,
+          diff: 5,
+          auno: "https://auno.org/ao/db.php?id=288296",
+        },
+        {
+          name: "Special Edition Kyr'Ozch Grenade Gun",
+          min: 151,
+          max: 200,
+          type: "Grenade",
+          blurb:
+            "Drops from Sector_07_aliens. Engineer Only. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+          stats: {
+            ql: { value: "150", quality: "" },
+            dual: { value: "No", quality: "" },
+            aSpeed: { value: "1.5s", quality: "" },
+            rSpeed: { value: "1.5s", quality: "" },
+            range: { value: "30 m", quality: "" },
+            minDamage: { value: "262", quality: "g" },
+            maxDamage: { value: "380", quality: "" },
+            critMod: { value: "450", quality: "g" },
+            attackCap: { value: "1500", quality: "" },
+            init: { value: "Ranged", quality: "" },
+            multi: { value: "", quality: "" },
+            specials: { value: "Fling Shot", quality: "" },
+            reqs: {
+              "Expansion sets": { value: "Alien Invasion", quality: "r" },
+              Profession: { value: "Engineer", quality: "r" },
+              Grenade: { value: "700", quality: "g" },
+              "Fling shot": { value: "350", quality: "" },
+            },
+            mods: {},
+          },
+          profs: ["Engineer"],
+          prk: true,
+          diff: 5,
+          auno: "https://auno.org/ao/db.php?id=288296&patch=18041400",
+        },
+      ],
+    },
   },
   Pistol: {
+    // need more info
+    // https://auno.org/ao/db.php?id=163578 Pistol of the Buccaneer in game?
+    // should it be added
+    // https://auno.org/ao/db.php?id=243807 Argent Blaster somewhat slow high min damage, need more info on drop
+    "BBI Faithful 1000": {
+      name: "BBI Faithful 1000",
+      min: 205,
+      max: 220,
+      type: "Pistol",
+      blurb:
+        "Drops from Eumenides and Abmouth in the 18.8_Subway_raid. Adventurer only. Predictable damage profile. Equipping this weapon will virtually disable aimed shot.",
+      stats: {
+        ql: { value: "300", quality: "" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "1.2s", quality: "g" },
+        rSpeed: { value: "1.2s", quality: "g" },
+        range: { value: "25 m", quality: "" },
+        minDamage: { value: "225", quality: "g" },
+        maxDamage: { value: "275", quality: "r" },
+        critMod: { value: "200", quality: "" },
+        attackCap: { value: "2500", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "1750", quality: "" },
+        specials: { value: "Full Auto", quality: "" },
+        reqs: {
+          Profession: { value: "Adventurer", quality: "r" },
+          Pistol: { value: "2250", quality: "" },
+          "Full auto": { value: "1200", quality: "" },
+        },
+        mods: {
+          "Aimed shot": { value: "2000", quality: "" },
+          "Duck explosives": { value: "30", quality: "" },
+          "Dodge ranged": { value: "30", quality: "" },
+          "Evade close": { value: "30", quality: "" },
+        },
+      },
+      profs: ["Adventurer"],
+      prk: false,
+      diff: 6,
+      auno: "https://auno.org/ao/db.php?id=305980",
+    },
+
+    "BBI Faithful 750": {
+      versions: [
+        {
+          name: "BBI Faithful 750",
+          min: 1,
+          max: 200,
+          type: "Pistol",
+          blurb:
+            "Blitzable, shop buyable, and in common loot pools. Common holdout pistol for Adventurers.",
+          stats: {
+            ql: { value: "1-200", quality: "" },
+            dual: { value: "Yes", quality: "" },
+            aSpeed: { value: "2s", quality: "" },
+            rSpeed: { value: "2s", quality: "" },
+            range: { value: "16 m", quality: "" },
+            minDamage: { value: "30", quality: "" },
+            maxDamage: { value: "410", quality: "" },
+            critMod: { value: "200", quality: "" },
+            attackCap: { value: "2000", quality: "" },
+            init: { value: "Ranged", quality: "" },
+            multi: { value: "818", quality: "" },
+            specials: { value: "Fling Shot", quality: "" },
+            reqs: {
+              Profession: { value: "Adventurer", quality: "r" },
+              Pistol: { value: "1026", quality: "" },
+              "Fling shot": { value: "513", quality: "" },
+            },
+            mods: {
+              "Duck explosives": { value: "15", quality: "" },
+              "Dodge ranged": { value: "15", quality: "" },
+            },
+          },
+          profs: ["Adventurer"],
+          prk: false,
+          diff: 2,
+          auno: "https://auno.org/ao/db.php?id=159039",
+        },
+        {
+          name: "BBI Faithful 750",
+          min: 1,
+          max: 200,
+          type: "Pistol",
+          blurb:
+            "Blitzable, buyable in the trader shop, and in common loot pools. Common holdout pistol for Adventurers.",
+          stats: {
+            ql: { value: "1-200", quality: "" },
+            dual: { value: "Yes", quality: "" },
+            aSpeed: { value: "2s", quality: "" },
+            rSpeed: { value: "2s", quality: "" },
+            range: { value: "16 m", quality: "" },
+            minDamage: { value: "30", quality: "" },
+            maxDamage: { value: "410", quality: "" },
+            critMod: { value: "200", quality: "" },
+            attackCap: { value: "2000", quality: "" },
+            init: { value: "Ranged", quality: "" },
+            multi: { value: "818", quality: "" },
+            specials: { value: "Fling Shot", quality: "" },
+            reqs: {
+              Profession: { value: "Adventurer", quality: "r" },
+              Pistol: { value: "1026", quality: "" },
+              "Fling shot": { value: "513", quality: "" },
+            },
+            mods: {
+              "Duck explosives": { value: "15", quality: "" },
+              "Dodge ranged": { value: "15", quality: "" },
+            },
+          },
+          profs: ["Adventurer"],
+          prk: true,
+          diff: 1,
+          auno: "https://auno.org/ao/db.php?id=159039",
+        },
+      ],
+    },
+
+    "Joint Clans Scout Pistol": {
+      name: "Joint Clans Scout Pistol",
+      min: 1,
+      max: 200,
+      type: "Pistol",
+      blurb:
+        "Drops from Dynas. Adventurer only. Speeds get slower as the QL rises.",
+      stats: {
+        ql: { value: "1-200", quality: "" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "3s", quality: "r" },
+        rSpeed: { value: "1.5s", quality: "r" },
+        range: { value: "26 m", quality: "" },
+        minDamage: { value: "45", quality: "" },
+        maxDamage: { value: "420", quality: "" },
+        critMod: { value: "300", quality: "" },
+        attackCap: { value: "2000", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "804", quality: "" },
+        specials: { value: "Fling Shot", quality: "" },
+        reqs: {
+          Profession: { value: "Adventurer", quality: "r" },
+          Pistol: { value: "1051", quality: "" },
+          "Fling shot": { value: "526", quality: "" },
+        },
+        mods: { "Multi ranged": { value: "12", quality: "" } },
+      },
+      profs: ["Adventurer"],
+      prk: false,
+      diff: 3,
+      auno: "https://auno.org/ao/db.php?id=201261",
+    },
+
     "Kyr'Ozch Pistol": {
       name: "Kyr'Ozch Pistol",
       min: 1,
@@ -3586,13 +3843,13 @@ const db = {
       profs: ["Engineer", "Adventurer", "Nano-technician"],
       diff: 69,
     },
-    "Dark Pistol of The Revoked": {
-      name: "Dark Pistol of The Revoked",
-      min: 80,
-      max: 175,
+    "Dark Pistol": {
+      name: "Dark Pistol",
+      min: 60,
+      max: 150,
       type: "Pistol",
       blurb:
-        'Drops from Dark Cenobites & Summoners in COH. The mobs can be accessed in the entrance before you need a team to go deeper. Left hand and Bureaucrat only. Model listed is QL 100 interpolation. Named "Dark Pistol" in the 75-94 range.',
+        "Drops from Dark Cenobites & Summoners in COH. The mobs can be accessed in the entrance before you need a team to go deeper. Left hand and Bureaucrat only.",
       stats: {
         ql: { value: "75-94 + 100", quality: "r" },
         dual: { value: "Yes", quality: "r" },
