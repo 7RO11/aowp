@@ -320,6 +320,32 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "Diamondine_Soldier.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/diamondine-soldier"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Diamondine Soldier."}
+                </a>{" "}
+              </Fragment>
+            );
+          case "Inside_the_Machine.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/dust-brigade---inside-the-machine-db2"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Inside the Machine."}
+                </a>{" "}
+              </Fragment>
+            );
 
           case "Sector_07_aliens.":
             return (
@@ -563,6 +589,18 @@ function Blurb(props) {
             );
 
           // soft links inside aowp
+          // pistol
+          case "Tinker_Pistol.":
+            return (
+              <Fragment key={v4()}>
+                <Link
+                  to="/item/Pistol/Solar Powered Tinker Pistol"
+                  className="bsLink"
+                >
+                  {"Tinker Pistol."}
+                </Link>{" "}
+              </Fragment>
+            );
           // 1hb
           case "Howling_Skull.":
             return (
