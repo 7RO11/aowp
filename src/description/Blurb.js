@@ -413,6 +413,20 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "eye_mutant_loot.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/tradeskill-guides-6/weapon-4/eyemutant-orb-laser"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"eye mutant loot."}
+                </a>{" "}
+              </Fragment>
+            );
+
           case "Nano-Charged_weapon_and_a_bunch_of_SL_parts.":
             return (
               <Fragment key={v4()}>
@@ -572,6 +586,19 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "escaped_prisoners.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/quests-guides-3/escaped-prisoners"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"escaped prisoners."}
+                </a>{" "}
+              </Fragment>
+            );
 
           // specific mission rewards
           case "Xan_Civilization_Quest.":
@@ -601,6 +628,55 @@ function Blurb(props) {
                 </Link>{" "}
               </Fragment>
             );
+          case "Inamorata_Pistol.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Pistol/Inamorata Pistol" className="bsLink">
+                  {"Inamorata Pistol."}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Sacrosanct_Pistol.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Pistol/Sacrosanct Pistol" className="bsLink">
+                  {"Sacrosanct Pistol."}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "BBI_Faithful_750.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Pistol/BBI Faithful 750" className="bsLink">
+                  {"BBI Faithful 750."}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Lord_of_Lust.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Pistol/Lord of Lust" className="bsLink">
+                  {"Lord of Lust."}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Lust_of_the_Xan.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Pistol/Lust of the Xan" className="bsLink">
+                  {"Lust of the Xan."}
+                </Link>{" "}
+              </Fragment>
+            );
+          case "Lust_of_the_Xan":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/item/Pistol/Lust of the Xan" className="bsLink">
+                  {"Lust of the Xan"}
+                </Link>{" "}
+              </Fragment>
+            );
+
           // 1hb
           case "Howling_Skull.":
             return (
