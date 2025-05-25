@@ -127,7 +127,6 @@ function Items(props) {
         if (!usedTypes.includes(item.type)) {
           usedTypes.push(item.type);
           pushType = item.type;
-          console.log(usedTypes);
         }
         return (
           <Fragment key={key}>
