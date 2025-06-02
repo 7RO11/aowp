@@ -55,6 +55,20 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "Cyborg_Barracks.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/low-level-encounter/cyborg-barracks"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Cyborg Barracks."}
+                </a>{" "}
+              </Fragment>
+            );
+
           case "Steps_of_Madness.":
             return (
               <Fragment key={v4()}>
@@ -78,6 +92,19 @@ function Blurb(props) {
                   rel="noreferrer"
                 >
                   {"Foremans."}
+                </a>{" "}
+              </Fragment>
+            );
+          case "Foremans":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/quests-guides-3/biomare-quests-foremans"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Foremans"}
                 </a>{" "}
               </Fragment>
             );
@@ -187,6 +214,47 @@ function Blurb(props) {
             );
 
           // encounters
+          case "Dust_Brigade_Generals.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/dust-brigade-generals"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Dust Brigade Generals."}
+                </a>{" "}
+              </Fragment>
+            );
+
+          case "Fiery_Soldier.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/fiery-soldier"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Fiery Soldier."}
+                </a>{" "}
+              </Fragment>
+            );
+
+          case "Notum_Soldier.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/notum-soldier"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Notum Soldier."}
+                </a>{" "}
+              </Fragment>
+            );
 
           case "3_different_raids.":
             return (

@@ -20,7 +20,13 @@ function Footer() {
       <Link className="footerLink" to={"/about"}>
         About
       </Link>
-      <Link className="footerLink" to={"/index"}>
+      <Link
+        className="footerLink"
+        to={"/index"}
+        onClick={() => {
+          window.scrollTo(0, 0);
+        }}
+      >
         Index
       </Link>
       <Link className="footerLink" to={"/roulette"}>
