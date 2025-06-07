@@ -428,6 +428,19 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "Hollow_Island_raid.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/encounter-guides-3/high-level-encounter-2/hollow-island"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Hollow Island raid."}
+                </a>{" "}
+              </Fragment>
+            );
           case "The_Beast_raid.":
             return (
               <Fragment key={v4()}>
@@ -468,6 +481,19 @@ function Blurb(props) {
               </Fragment>
             );
           // tradeskills
+          case "Tradeskilled_from_Shadowlands_boss_loot.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/shadowlands/tradeskill-guides-5/weapon-3/sword-of-dawndusk"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Tradeskilled from Shadowlands boss loot."}
+                </a>{" "}
+              </Fragment>
+            );
           case "built_from_the_starting_solar_powered_pistol.":
             return (
               <Fragment key={v4()}>
