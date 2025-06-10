@@ -494,6 +494,19 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "One_of_the_mass_relocating_robot_tradeskills.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/tradeskill-guides-6/weapon-4/improving-melee-weapons"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"One of the mass relocating robot tradeskills."}
+                </a>{" "}
+              </Fragment>
+            );
           case "built_from_the_starting_solar_powered_pistol.":
             return (
               <Fragment key={v4()}>
