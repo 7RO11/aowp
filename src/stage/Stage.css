@@ -2,8 +2,9 @@
   background: rgb(40, 40, 40);
   background: linear-gradient(rgba(40, 40, 40, 1) 0%, rgba(50, 50, 50, 1) 100%);
   color: gainsboro;
+  /* margin-bottom: 10vh; */
   min-height: 100vh;
-  padding-bottom: 10vh;
+  /* padding-bottom: 10vh; */
 }
 
 /* @media only screen and (max-height: 900px) {
@@ -27,6 +28,7 @@
 .content {
   display: flex;
   flex-direction: column;
+  padding-bottom: 15vh;
   padding-left: 2vw;
   padding-right: 2vw;
 }
