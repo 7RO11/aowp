@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { v4 } from "uuid";
 import "./Windex.css";
 import db from "../Itemdb";
@@ -7,6 +7,7 @@ import Stage from "../stage/Stage";
 import Section from "./Section";
 
 function Windex() {
+  const [sortingControls, setsortingControls] = useState("alp");
   return (
     <Stage>
       <h1>Anarchy Online Weapon Pathing Index</h1>
@@ -43,11 +44,22 @@ function Windex() {
           Object.keys(db).map((section) => {
             return (
               <Fragment key={v4()}>
-                <h1 className="sectionHeadWin" id={section}>
-                  {grammat(section)}
-                </h1>
+                <div className="controls">
+                  <h1 className="sectionHeadWin" id={section}>
+                    {grammat(section)}
+                  </h1>
+                  <span>Sort by...</span>
+                  <span onClick={() => setsortingControls("alp")}>
+                    Alphabetical:
+                  </span>
+                  {sortingControls === "alp" ? <span>✓</span> : <span>X</span>}
+                  <span onClick={() => setsortingControls("min")}>
+                    Level min:
+                  </span>
+                  {sortingControls === "min" ? <span>✓</span> : <span>X</span>}
+                </div>
                 <hr></hr>
-                <Section section={section} />
+                <Section section={section} sortingControls={sortingControls} />
               </Fragment>
             );
           })

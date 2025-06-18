@@ -6418,10 +6418,10 @@ const db = {
     "Customized IMI Desert Reet 1000": {
       name: "Customized IMI Desert Reet 1000",
       min: 41,
-      max: 215,
+      max: 190,
       type: "Pistol",
       blurb:
-        "Drops from the Lab Director in Foremans and Notum_Soldier. Level locked from 41. Hits have a 5% chance to proc an instant damage program. No MBS cap makes this gun work in end game. The strongest pistol in class.",
+        "Drops from the Lab Director in Foremans and Notum_Soldier. Level locked from 41. Hits have a 5% chance to proc an instant damage program. The strongest pistol in class.",
       stats: {
         ql: { value: "SPECIAL", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -6431,7 +6431,7 @@ const db = {
         minDamage: { value: "65", quality: "" },
         maxDamage: { value: "143", quality: "g" },
         critMod: { value: "162", quality: "" },
-        attackCap: { value: "Unlimited", quality: "r" },
+        attackCap: { value: "", quality: "" },
         init: { value: "Ranged", quality: "" },
         multi: { value: "296", quality: "" },
         specials: { value: "Fling Shot, Burst", quality: "" },
