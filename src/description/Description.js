@@ -104,15 +104,15 @@ function Description() {
         <div>
           <h1>
             Stats
-            <span data-tooltip-id="legend" className="legend">
+            {/* <span data-tooltip-id="legend" className="legend">
               legend
-            </span>
+            </span> */}
           </h1>
-          <Tooltip id="legend" place="bottom">
+          {/* <Tooltip id="legend" place="bottom">
             <p>White: Nothing of note</p>
             <p className="g">Gold: Excellent</p>
             <p className="r">Red: Important to know/flaw</p>
-          </Tooltip>
+          </Tooltip> */}
 
           <table className="statsTable">
             <tbody>

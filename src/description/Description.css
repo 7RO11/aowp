@@ -50,8 +50,8 @@
 }
 /* classnames shortened to make weapon data entry easier */
 .g {
-  color: gold;
-  font-weight: bold;
+  /* color: gold;
+  font-weight: bold; */
 }
 
 .header {
@@ -69,8 +69,8 @@
 }
 
 .r {
-  color: red;
-  font-weight: bold;
+  /* color: red;
+  font-weight: bold; */
 }
 
 .statsTable {
