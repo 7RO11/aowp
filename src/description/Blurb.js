@@ -721,6 +721,45 @@ function Blurb(props) {
                 </a>{" "}
               </Fragment>
             );
+          case "Dust_Brigade_mission_reward.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/classic-ao/quests-guides-3/dust-brigade-peacekeeper-constad"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Dust Brigade mission reward."}
+                </a>{" "}
+              </Fragment>
+            );
+          case "Inferno_Anansi_mission_reward.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/shadowlands/quests-guides-2/inferno/the-anansi"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Inferno Anansi mission reward."}
+                </a>{" "}
+              </Fragment>
+            );
+          case "Scheol_scientist_mission_reward.":
+            return (
+              <Fragment key={v4()}>
+                <a
+                  target="_blank"
+                  href="https://www.ao-universe.com/guides/shadowlands/quests-guides-2/scheol/jobe-scientists"
+                  className="bsLink"
+                  rel="noreferrer"
+                >
+                  {"Scheol scientist mission_reward."}
+                </a>{" "}
+              </Fragment>
+            );
 
           // soft links inside aowp
           // pistol
