@@ -17,6 +17,16 @@
   color: red;
 }
 
+.indexLinkCont {
+  align-items: center;
+  display: flex;
+  height: 3em;
+}
+
+.hrIndex {
+  margin: 0;
+}
+
 .qNavBox {
   display: flex;
   width: 25%;
@@ -53,4 +63,9 @@
 .sectionHeadWin {
   color: aliceblue;
   font-style: italic;
+}
+
+.warningSmall {
+  font-size: 1.5em;
+  padding-left: 0;
 }

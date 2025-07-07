@@ -35,33 +35,33 @@ function Description() {
     }
   }
   let blurb = itemDisplay.blurb;
-  function getColor(diff) {
-    switch (diff) {
-      default:
-        return "royalblue";
-      case 0:
-        return "gray";
-      case 1:
-        return "rgb(0, 200, 0)";
-      case 2:
-        return "greenyellow";
-      case 3:
-        return "gold";
-      case 4:
-        return "orange";
-      case 5:
-        return "red";
-      case 6:
-        return "firebrick";
-      case 69:
-        return "royalblue";
-    }
-  }
+  // function getColor(diff) {
+  //   switch (diff) {
+  //     default:
+  //       return "royalblue";
+  //     case 0:
+  //       return "gray";
+  //     case 1:
+  //       return "rgb(0, 200, 0)";
+  //     case 2:
+  //       return "greenyellow";
+  //     case 3:
+  //       return "gold";
+  //     case 4:
+  //       return "orange";
+  //     case 5:
+  //       return "red";
+  //     case 6:
+  //       return "firebrick";
+  //     case 69:
+  //       return "royalblue";
+  //   }
+  // }
   return (
     <Stage>
       <div className="header">
         <h1>{itemDisplay.name}</h1>
-        <span
+        {/* <span
           className={"swords"}
           style={{ color: getColor(itemDisplay.diff) }}
           data-tooltip-id="diff"
@@ -74,7 +74,7 @@ function Description() {
             <span className="easy">Easy</span>{" "}
             <span className="hard">Hard</span>
           </div>
-        </Tooltip>
+        </Tooltip> */}
         {itemDisplay.auno ? (
           <a id="auno" target="_blank" rel="noreferrer" href={itemDisplay.auno}>
             auno
@@ -95,6 +95,17 @@ function Description() {
             </label>
             <span id="PRK">PRK?</span>
           </>
+        ) : (
+          <></>
+        )}
+        {db[type][item]["prk"] ? (
+          <div data-tooltip-id="warning" className="warning">
+            <Tooltip id="warning">
+              This is a custom Project Rubi-ka weapon. Information listed on
+              this page is liable to change.
+            </Tooltip>
+            ⚠️
+          </div>
         ) : (
           <></>
         )}

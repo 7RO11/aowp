@@ -193,6 +193,11 @@ input:checked + .sliderPRK {
   background-color: rgb(100, 100, 100);
 }
 
+.warning {
+  align-self: center;
+  font-size: 2em;
+}
+
 /* blurb */
 .bsBox {
   font-size: 1.5em;

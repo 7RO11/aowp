@@ -756,7 +756,7 @@ function Blurb(props) {
                   className="bsLink"
                   rel="noreferrer"
                 >
-                  {"Scheol scientist mission_reward."}
+                  {"Scheol scientist mission reward."}
                 </a>{" "}
               </Fragment>
             );

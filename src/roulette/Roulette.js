@@ -17,6 +17,7 @@ function Roulette() {
   const [isWeaponSpecific, setIsWeaponSpecific] = useState(false);
   const [weaponSpecific, setWeaponSpecific] = useState("Something");
   const [isRaids, setRaids] = useState(false);
+  const [isSanityCheck, setSanityCheck] = useState(false);
   const breeds = ["Solitus", "Opifex", "Atrox", "Nanomage"];
   const profs = [
     "Adventurer",
@@ -94,8 +95,9 @@ function Roulette() {
           }
         }
         if (
-          db[grammatReverse(weaponType)][item]["versions"][0].min === 1 &&
-          db[grammatReverse(weaponType)][item]["versions"][0].max === 200
+          (db[grammatReverse(weaponType)][item]["versions"][0].min === 1 &&
+            db[grammatReverse(weaponType)][item]["versions"][0].max === 200) ||
+          isSanityCheck
         ) {
           return true;
         }
@@ -112,8 +114,9 @@ function Roulette() {
         }
       }
       if (
-        db[grammatReverse(weaponType)][item].min === 1 &&
-        db[grammatReverse(weaponType)][item].max === 200
+        (db[grammatReverse(weaponType)][item].min === 1 &&
+          db[grammatReverse(weaponType)][item].max === 200) ||
+        isSanityCheck
       ) {
         return true;
       }
@@ -123,7 +126,7 @@ function Roulette() {
       weaponSection[Math.floor(Math.random() * weaponSection.length)];
     setWeaponSpecific(randomChoice);
     return;
-  }, [weaponType, profession]);
+  }, [weaponType, profession, isSanityCheck]);
 
   return (
     <Stage>
@@ -173,7 +176,7 @@ function Roulette() {
           <span className="profRoul">{profession}</span>
         </span>
         <h1>
-          Breed <span className="roulLock">Lock in?</span>
+          Breed <span className="roulLock">Lock in</span>
           <input
             type="checkbox"
             className="roulCheck"
@@ -195,7 +198,7 @@ function Roulette() {
           <option value={"Nanomage"}>Nanomage</option>
         </select>
         <h1>
-          Profession <span className="roulLock">Lock in?</span>
+          Profession <span className="roulLock">Lock in</span>
           <input
             type="checkbox"
             className="roulCheck"
@@ -226,7 +229,7 @@ function Roulette() {
           <option value={"Trader"}>Trader</option>
         </select>
         <h1>
-          Weapon Type <span className="roulLock">Lock in?</span>
+          Weapon Type <span className="roulLock">Lock in</span>
           <input
             type="checkbox"
             className="roulCheck"
@@ -236,22 +239,31 @@ function Roulette() {
             }}
           />
           <span>Specific</span>
-          <Tooltip id="warning" place="bottom">
-            <div className="colors"></div>
-            <div className="diffBox">
-              AOWP is under construction. <br /> Some weapon types are not
-              filled out and may only have one option.
-            </div>
-          </Tooltip>
-          <sup data-tooltip-id="warning" className="question">
-            ?
-          </sup>
           <input
             type="checkbox"
             className="roulSCheck"
             value={isWeaponLocked}
             onClick={() => {
               setIsWeaponSpecific(!isWeaponSpecific);
+            }}
+          />
+          <span>Sanity Check</span>
+          <Tooltip id="warning" place="bottom">
+            <div className="colors"></div>
+            <div className="diffBox">
+              Add/Remove the level relevency condition.
+            </div>
+          </Tooltip>
+          <sup data-tooltip-id="warning" className="question">
+            ?
+          </sup>
+          <input
+            defaultChecked
+            type="checkbox"
+            className="roulSCheck"
+            value={isSanityCheck}
+            onClick={() => {
+              setSanityCheck(!isSanityCheck);
             }}
           />
         </h1>
@@ -278,7 +290,7 @@ function Roulette() {
           <option value={"Sub-Machine Gun"}>Sub-Machine Gun</option>
         </select>
         <h1>
-          Goal <span className="roulLock">Lock in?</span>
+          Goal <span className="roulLock">Lock in</span>
           <input
             type="checkbox"
             className="roulCheck"

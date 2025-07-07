@@ -1,16 +1,5 @@
 const db = {
   "1h Blunt": {
-    // to do list
-    // need more info
-    // https://auno.org/ao/db.php?id=262632 Enhanced Otek Hammer, Otek Club confirmed not in game, enhanced version similar to ofab mk?
-    // https://auno.org/ao/db.php?id=262639 Enhanced Otek Mallet
-    // https://auno.org/ao/db.php?id=211241 Club of Muir-Mare in game?
-    // should it be added
-    // https://auno.org/ao/db.php?id=304616 Bloodjack ao birthday event
-    // https://auno.org/ao/db.php?id=244742 Lord of Abandonment slow, kinda weak for reqs
-    // https://auno.org/ao/db.php?id=211202 Callous Cudgel flat damage too slow
-    // https://auno.org/ao/db.php?id=212518 sancro/Inamorata Tonfa kind of weak 2/2
-    // https://auno.org/ao/db.php?id=305035 Skull of Anguish ao birthday event
     "Abandonment of the Xan": {
       versions: [
         {
@@ -19,7 +8,7 @@ const db = {
           max: 220,
           type: "1h Blunt",
           blurb:
-            "Upgrade result from Lord of Abandonment. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match. Check Rhat'Ata Gun for a version that replaces FA with fling shot.",
+            "Upgrade result from Lord of Abandonment. Upgrade drops during 3_different_raids.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -57,7 +46,7 @@ const db = {
           max: 220,
           type: "1h Blunt",
           blurb:
-            "Upgrade result from Lord of Abandonment. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match. Check Rhat'Ata Gun for a version that replaces FA with fling shot.",
+            "Upgrade result from Lord of Abandonment. Upgrade drops during 3_different_raids.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -130,7 +119,7 @@ const db = {
       max: 220,
       type: "1h Blunt",
       blurb:
-        "Drops from Ian Warr during the Mercenaries_Raid. Enforcer Only. An RK alternative to the Skull_of_Misery. Lots of specials but suffers from low MBS. +235 Max Health mod.",
+        "Drops from Ian Warr during the Mercenaries_Raid. Enforcer Only. An RK alternative to the Skull_of_Misery.",
       stats: {
         ql: { value: "200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -171,8 +160,7 @@ const db = {
       min: 175,
       max: 220,
       type: "1h Blunt",
-      blurb:
-        "Drops from Ian Warr during the Mercenaries_Raid. Less restrictive and powerful than the Blood_Bat, but doesn't lose out on MBS. +200 Max Health mod.",
+      blurb: "Drops from Ian Warr during the Mercenaries_Raid.",
       stats: {
         ql: { value: "200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -207,8 +195,7 @@ const db = {
       min: 205,
       max: 220,
       type: "1h Blunt",
-      blurb:
-        "Drops during the Home_Pyramid_raid. Max damage/lower req side-grade of the 2he Xan flavor.",
+      blurb: "Drops during the Home_Pyramid_raid.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -377,8 +364,7 @@ const db = {
           min: 190,
           max: 220,
           type: "1h Blunt",
-          blurb:
-            "One of the Xan_weapon_upgrades. Level locked from 190. Overall high stats.",
+          blurb: "One of the Xan_weapon_upgrades. Level locked from 190.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -417,8 +403,7 @@ const db = {
           min: 190,
           max: 220,
           type: "1h Blunt",
-          blurb:
-            "One of the Xan_weapon_upgrades. Level locked from 190. Overall high stats.",
+          blurb: "One of the Xan_weapon_upgrades. Level locked from 190.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -458,7 +443,7 @@ const db = {
       max: 200,
       type: "1h Blunt",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -489,7 +474,7 @@ const db = {
       max: 200,
       type: "1h Blunt",
       blurb:
-        "Drops from Mortiig bosses in Elysium, Shadowlands. Enforcer only. Notable locations include Spade Beach and Eastfang. High damage profile and low reqs make it an attractive weapon for mid-late game. Limited end game use due to low MBS.",
+        "Drops from Mortiig bosses in Elysium, Shadowlands. Enforcer only. Notable locations include Spade Beach and Eastfang.",
       stats: {
         ql: { value: "100-125", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -589,47 +574,13 @@ const db = {
       diff: 1,
       auno: "https://auno.org/ao/db.php?id=164057&ql=135",
     },
-
-    // "Skull of Anguish": {
-    //   name: "Skull of Anguish",
-    //   min: 205,
-    //   max: 220,
-    //   type: "1h Blunt",
-    //   blurb: "",
-    //   stats: {
-    //     ql: { value: "", quality: "" },
-    //     dual: { value: "Yes", quality: "" },
-    //     aSpeed: { value: "1.3s", quality: "" },
-    //     rSpeed: { value: "1.3s", quality: "" },
-    //     range: { value: "3 m", quality: "" },
-    //     minDamage: { value: "310", quality: "" },
-    //     maxDamage: { value: "420", quality: "" },
-    //     critMod: { value: "300", quality: "" },
-    //     attackCap: { value: "2500", quality: "" },
-    //     init: { value: "Melee", quality: "" },
-    //     multi: { value: "1500", quality: "" },
-    //     specials: { value: "Fast Attack, Brawl, Dimach", quality: "" },
-    //     reqs: {
-    //       "1h Blunt": { value: "2150", quality: "" },
-    //       Brawl: { value: "1250", quality: "" },
-    //       Dimach: { value: "500", quality: "" },
-    //       "Fast attack": { value: "1050", quality: "" },
-    //       Level: { value: "205", quality: "" },
-    //     },
-    //     mods: { "Max health": { value: "500", quality: "" } },
-    //   },
-    //   profs: ["Enforcer", "Meta-Physicist"],
-    //   prk: false,
-    //   diff: 0,
-    //   auno: "https://auno.org/ao/db.php?id=305035",
-    // },
     "Skull of Despair": {
       name: "Skull of Despair",
       min: 175,
       max: 220,
       type: "1h Blunt",
       blurb:
-        "Drops in third floor IS. Right hand only. One of the best in class, on RK. Low MBS limits end game potential. Compliments Skull_of_Misery.",
+        "Drops in third floor IS. Right hand only. Compliments Skull_of_Misery.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "Yes", quality: "r" },
@@ -658,7 +609,7 @@ const db = {
       max: 110,
       type: "1h Blunt",
       blurb:
-        "Drops from Lien the Memorystalker in TOTW. Right hand only. Typical upgrade from Howling_Skull. Compliments Skull_of_Woe. Powerful, quick 1h blunt weapon that will last you until Mortiig_Beaters.",
+        "Drops from Lien the Memorystalker in TOTW. Right hand only. Typical upgrade from Howling_Skull. Compliments Skull_of_Woe.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "Yes", quality: "r" },
@@ -689,7 +640,7 @@ const db = {
       max: 220,
       type: "1h Blunt",
       blurb:
-        "Drops in third floor IS. Left hand only. One of the best in class, on RK. Low MBS limits end game potential. Compliments Skull_of_Despair.",
+        "Drops in third floor IS. Left hand only. Compliments Skull_of_Despair.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "Yes", quality: "r" },
@@ -720,7 +671,7 @@ const db = {
       max: 110,
       type: "1h Blunt",
       blurb:
-        "Drops from Lien the Memorystalker in TOTW. Left hand only. Typical upgrade from Howling_Skull. Compliments Skull_of_Lamentation. Powerful, quick 1h blunt weapon that will last you until Mortiig_Beaters.",
+        "Drops from Lien the Memorystalker in TOTW. Left hand only. Typical upgrade from Howling_Skull. Compliments Skull_of_Lamentation.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -753,7 +704,7 @@ const db = {
           max: 200,
           type: "1h Blunt",
           blurb:
-            "Drops from Sector_07_aliens. Enforcer and Meta-Physicist only. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5+5% chance to proc an AAO buff.",
+            "Drops from Sector_07_aliens. Enforcer and Meta-Physicist only. Level locked to 151. Hits have a 5+5% chance to proc an AAO buff.",
           stats: {
             ql: { value: "SPECIAL", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -789,7 +740,7 @@ const db = {
           max: 200,
           type: "1h Blunt",
           blurb:
-            "Drops from Sector_07_aliens. Enforcer and Meta-Physicist only. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5+5% chance to proc an AAO buff.",
+            "Drops from Sector_07_aliens. Enforcer and Meta-Physicist only. Hits have a 5+5% chance to proc an AAO buff.",
           stats: {
             ql: { value: "SPECIAL", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -823,18 +774,6 @@ const db = {
   },
 
   "1h Edged": {
-    // should it be added
-    // https://auno.org/ao/db.php?id=305034 Boreal Blade of Inobak birthday event
-    // https://auno.org/ao/db.php?id=158322 Corroded Blade very hard to get at appropriate level, 150 camelot boss
-    // https://auno.org/ao/db.php?id=212513 Inamorata/sancro Cutlass slower than 000, more min damage
-    // https://auno.org/ao/db.php?id=238962 Shank of Maze min damage weapon, otherwise weak
-    // https://auno.org/ao/db.php?id=233426 Sword of Pure Light virtually not in game
-    // need more info
-    // https://auno.org/ao/db.php?id=163584 Ancient Adventurer Sword in game?
-    // https://auno.org/ao/db.php?id=158297 Antiquated Sword in game?
-    // https://auno.org/ao/db.php?id=211199 Derisory Blade common shadowlands drop? in stores?
-    // https://auno.org/ao/db.php?id=262777 Otek Dicer/slicer/eviscerator confirmed not in game
-    // https://auno.org/ao/db.php?id=246052 Scimitar of Spetses drops in inferno where?
     "Blade of Aesthetic Rage": {
       name: "Blade of Aesthetic Rage",
       min: 40,
@@ -871,38 +810,6 @@ const db = {
       diff: 3,
       auno: "https://auno.org/ao/db.php?id=208074",
     },
-    // "Boreal Blade of Inobak": {
-    //   name: "Boreal Blade of Inobak",
-    //   min: 205,
-    //   max: 220,
-    //   type: "1h Edged",
-    //   blurb: "",
-    //   stats: {
-    //     ql: { value: "", quality: "" },
-    //     dual: { value: "Yes", quality: "" },
-    //     aSpeed: { value: "1.2s", quality: "" },
-    //     rSpeed: { value: "1.2s", quality: "" },
-    //     range: { value: "3 m", quality: "" },
-    //     minDamage: { value: "301", quality: "" },
-    //     maxDamage: { value: "341", quality: "" },
-    //     critMod: { value: "250", quality: "" },
-    //     attackCap: { value: "2500", quality: "" },
-    //     init: { value: "Melee", quality: "" },
-    //     multi: { value: "1500", quality: "" },
-    //     specials: { value: "Fast Attack, Dimach", quality: "" },
-    //     reqs: {
-    //       Level: { value: "205", quality: "" },
-    //       "1h Edged": { value: "2150", quality: "" },
-    //       "Fast attack": { value: "1050", quality: "" },
-    //       Dimach: { value: "400", quality: "" },
-    //     },
-    //     mods: { "Max health": { value: "200", quality: "" } },
-    //   },
-    //   profs: ["Enforcer", "Adventurer"],
-    //   prk: false,
-    //   diff: 6,
-    //   auno: "https://auno.org/ao/db.php?id=305034",
-    // },
     "Ceremonial Blade": {
       name: "Ceremonial Blade",
       min: 201,
@@ -1126,7 +1033,7 @@ const db = {
           max: 220,
           type: "1h Edged",
           blurb:
-            "Upgrade result from Lord of Hatred. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord of Hatred. Upgrade drops during 3_different_raids.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -1170,7 +1077,7 @@ const db = {
           max: 220,
           type: "1h Edged",
           blurb:
-            "Upgrade result from Lord of Hatred. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord of Hatred. Upgrade drops during 3_different_raids.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -1313,7 +1220,7 @@ const db = {
       max: 200,
       type: "1h Edged",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -1343,8 +1250,7 @@ const db = {
       min: 190,
       max: 215,
       type: "1h Edged",
-      blurb:
-        "Drops during The_Beast_raid. Somewhat lesser compared to other end-game options. Upgrades to Hatred of the Xan.",
+      blurb: "Drops during The_Beast_raid. Upgrades to Hatred of the Xan.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -1487,7 +1393,7 @@ const db = {
       name: "Ofab Mongoose",
       min: 1,
       max: 200,
-      type: "Expansion sets",
+      type: "1h Edged",
       blurb:
         "Weapon base is buyable from battlestation vendors with victory points. Upgraded to higher marks with_alien_materials.",
       stats: {
@@ -1660,12 +1566,37 @@ const db = {
     },
   },
   "2h Blunt": {
-    // need more info
-    // https://auno.org/ao/db.php?id=211238 Plastic Pole common sl drop?
-    // should it be added
-    // https://auno.org/ao/db.php?id=245786 Maul of Menestyr 3/3 slow but 400-600 damage
-    // https://auno.org/ao/db.php?id=250163 Adapting Notum Lever 3/2 slow 200-550 alien tradeskill
-    // https://auno.org/ao/db.php?id=267760 Viper Staff 1.5/10 1163-2178 strange
+    "Absolution Hammer": {
+      name: "Absolution Hammer",
+      min: 40,
+      max: 100,
+      type: "2h Blunt",
+      blurb: "Drops from hammer-wielding cultists in TOTW. PRK only.",
+      stats: {
+        ql: { value: "SPECIAL", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "2.1s", quality: "" },
+        rSpeed: { value: "2.1s", quality: "" },
+        range: { value: "3 m", quality: "" },
+        minDamage: { value: "101", quality: "" },
+        maxDamage: { value: "242", quality: "" },
+        critMod: { value: "37", quality: "" },
+        attackCap: { value: "700", quality: "" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Brawl, Dimach", quality: "" },
+        reqs: {
+          "2h Blunt": { value: "301", quality: "" },
+          Brawl: { value: "151", quality: "" },
+          Dimach: { value: "101", quality: "" },
+        },
+        mods: {},
+      },
+      auno: false,
+      profs: ["Enforcer", "Meta-Physicist"],
+      diff: 69,
+      prk: true,
+    },
     "Aggressive Staff of Julian Redfire": {
       versions: [
         {
@@ -1780,7 +1711,7 @@ const db = {
       max: 220,
       type: "2h Blunt",
       blurb:
-        "Drops from Dreadloch_camps. Hits have a 5% chance to proc an AAD debuff. Overall high stats.",
+        "Drops from Dreadloch_camps. Hits have a 5% chance to proc an AAD debuff. ",
       stats: {
         ql: { value: "", quality: "" },
         dual: { value: "No", quality: "" },
@@ -1816,7 +1747,7 @@ const db = {
           max: 220,
           type: "2h Blunt",
           blurb:
-            "Upgrade result from Lord of Gluttony. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord of Gluttony. Upgrade drops during 3_different_raids.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -1853,7 +1784,7 @@ const db = {
           max: 220,
           type: "2h Blunt",
           blurb:
-            "Upgrade result from Lord of Gluttony. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord of Gluttony. Upgrade drops during 3_different_raids.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -1962,8 +1893,7 @@ const db = {
       min: 25,
       max: 60,
       type: "2h Blunt",
-      blurb:
-        "Drops from Dynas. Enforcer only. Notorious level 1 twink weapon due to low reqs, high damage and specials.",
+      blurb: "Drops from Dynas. Enforcer only.",
       stats: {
         ql: { value: "40-50", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -2002,7 +1932,7 @@ const db = {
       max: 200,
       type: "2h Blunt",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -2181,7 +2111,7 @@ const db = {
           max: 125,
           type: "2h Blunt",
           blurb:
-            "Neleb the Deranged's rod. The weapon base drops from Neleb, and is then upgraded with items you find in Steps_of_Madness. The best early game 2h Blunt weapon due to high damage and low equip checks. Hits transfer 5 nano from the target to the user.",
+            "Neleb the Deranged's rod. The weapon base drops from Neleb, and is then upgraded with items you find in Steps_of_Madness. Hits transfer 5 nano from the target to the user.",
           stats: {
             ql: { value: "53", quality: "" },
             dual: { value: "No", quality: "" },
@@ -2212,7 +2142,7 @@ const db = {
           max: 125,
           type: "2h Blunt",
           blurb:
-            "Neleb the Deranged's rod. The weapon base drops from Neleb, and is then upgraded with items you find in Steps_of_Madness. The best early game 2h Blunt weapon due to high damage and low equip checks. Hits transfer 20 nano from the target to the user, making it a popular choice among enforcers and doctors to cast heals in prolonged engagements.",
+            "Neleb the Deranged's rod. The weapon base drops from Neleb, and is then upgraded with items you find in Steps_of_Madness. Hits transfer 20 nano from the target to the user.",
           stats: {
             ql: { value: "53", quality: "" },
             dual: { value: "No", quality: "" },
@@ -2281,7 +2211,7 @@ const db = {
       max: 220,
       type: "2h Blunt",
       blurb:
-        "Drops from Obediency_Enforcer. Enforcer only and level locked to 185. Slow attack speed but high max damage makes it an effective RK end-game weapon. Low MBS limits it compared to expansion alternatives.",
+        "Drops from Obediency_Enforcer. Enforcer only and level locked to 185.",
       stats: {
         ql: { value: "200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -2316,7 +2246,7 @@ const db = {
           max: 200,
           type: "2h Blunt",
           blurb:
-            "Drops from Sector_07_aliens. Enforcer only. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc an AAO buff.",
+            "Drops from Sector_07_aliens. Enforcer only. Level locked to 151. Hits have a 5% chance to proc an AAO buff.",
           stats: {
             ql: { value: "150", quality: "" },
             dual: { value: "No", quality: "" },
@@ -2352,7 +2282,7 @@ const db = {
           max: 200,
           type: "2h Blunt",
           blurb:
-            "Drops from Sector_07_aliens. Enforcer only. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc an AAO buff.",
+            "Drops from Sector_07_aliens. Enforcer only. Hits have a 5% chance to proc an AAO buff.",
           stats: {
             ql: { value: "150", quality: "" },
             dual: { value: "No", quality: "" },
@@ -2390,7 +2320,7 @@ const db = {
       max: 40,
       type: "2h Blunt",
       blurb:
-        "Drops from Workman Striker mobs in the Subway. One high level Workman Striker mob can be found in deep Subway to drop the higher QLs. Model listed is QL 30 interpolation. QL is hidden in game. Breed locked to Atrox. High damage makes up for slow attacks.",
+        "Drops from Workman Striker mobs in the Subway. One high level Workman Striker mob can be found in deep Subway to drop the higher QLs. Model listed is QL 30 interpolation. QL is hidden in game. Breed locked to Atrox.",
       stats: {
         ql: { value: "10-30", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -2549,8 +2479,7 @@ const db = {
           min: 150,
           max: 220,
           type: "2h Edged",
-          blurb:
-            "Drops from Tuq'usk, a dynaboss in Inferno. Keeper only. Overall excellent damage profile minus damage min.",
+          blurb: "Drops from Tuq'usk, a dynaboss in Inferno. Keeper only.",
           stats: {
             ql: { value: "240-260", quality: "r" },
             dual: { value: "No", quality: "" },
@@ -2586,7 +2515,7 @@ const db = {
           max: 220,
           type: "2h Edged",
           blurb:
-            "Drops from Tuq'usk, a dynaboss in Inferno. Keeper only. Overall excellent damage profile minus damage min. Drops Fast attack.",
+            "Drops from Tuq'usk, a dynaboss in Inferno. Keeper only. Missing Fast attack.",
           stats: {
             ql: { value: "240-260", quality: "r" },
             dual: { value: "No", quality: "" },
@@ -2624,8 +2553,7 @@ const db = {
           min: 80,
           max: 175,
           type: "2h Edged",
-          blurb:
-            "Drops from Dynas. Enforcer and Keeper only. Easy reqs and high max damage.",
+          blurb: "Drops from Dynas. Enforcer and Keeper only.",
           stats: {
             ql: { value: "140-150", quality: "r" },
             dual: { value: "No", quality: "" },
@@ -2661,8 +2589,7 @@ const db = {
           min: 80,
           max: 175,
           type: "2h Edged",
-          blurb:
-            "Drops from Dynas. Enforcer only. Easy reqs and high max damage.",
+          blurb: "Drops from Dynas. Enforcer only.",
           stats: {
             ql: { value: "140-150", quality: "r" },
             dual: { value: "No", quality: "" },
@@ -2701,8 +2628,7 @@ const db = {
       min: 215,
       max: 220,
       type: "2h Edged",
-      blurb:
-        "Drops from Binyacht the Faithful during the 18.8_TOTW_raid. Carries a slight edge over the Xan weapons.",
+      blurb: "Drops from Binyacht the Faithful during the 18.8_TOTW_raid.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -2739,8 +2665,7 @@ const db = {
       min: 205,
       max: 220,
       type: "2h Edged",
-      blurb:
-        "Drops during the Home_Pyramid_raid. Max damage/lower req side-grade of the 2he Xan flavor.",
+      blurb: "Drops during the Home_Pyramid_raid.",
       stats: {
         ql: { value: "", quality: "" },
         dual: { value: "No", quality: "" },
@@ -2781,7 +2706,7 @@ const db = {
       max: 50,
       type: "2h Edged",
       blurb:
-        "Drops from named mobs in TOTW. Slow attacks but high damage. Upgrades naturally to Frost_Scythe_of_the_Legionnaire.",
+        "Drops from named mobs in TOTW. Upgrades naturally to Frost_Scythe_of_the_Legionnaire.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "No", quality: "" },
@@ -2812,7 +2737,7 @@ const db = {
       max: 215,
       type: "2h Edged",
       blurb:
-        "Drops in IS. Powerful 2he weapon with flat damage. Carries a -1110 to melee init and -150 to nano init, making the speeds misleading. Lacks crit, specials and MBS.",
+        "Drops in IS. Carries a -1110 to melee init and -150 to nano init, making the speeds misleading.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "No", quality: "" },
@@ -2845,7 +2770,7 @@ const db = {
       max: 80,
       type: "2h Edged",
       blurb:
-        "Drops from Deathless Legionnaires in TOTW. Flat damage makes it an effective weapon against armored SL mobs. Upgrades naturally to Stygian_Desolator.",
+        "Drops from Deathless Legionnaires in TOTW. Upgrades naturally to Stygian_Desolator.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "No", quality: "" },
@@ -2876,7 +2801,7 @@ const db = {
       max: 50,
       type: "2h Edged",
       blurb:
-        "Sold by Shadowlands melee weapons vendors in the sided gardens. Part of some common SL loot pools. A powerful enf and keeper sword that gets worse as it levels. Model listed is QL 29 interpolation. Upgrades to Energy_Scythe.",
+        "Sold by Shadowlands melee weapons vendors in the sided gardens. Part of some common SL loot pools. Model listed is QL 29 interpolation. Upgrades to Energy_Scythe.",
       stats: {
         ql: { value: "1-300", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -2908,8 +2833,7 @@ const db = {
       min: 1,
       max: 200,
       type: "2h Edged",
-      blurb:
-        "Sold by Shadowlands garden vendors. Enforcer and Keeper only. High min damage.",
+      blurb: "Sold by Shadowlands garden vendors. Enforcer and Keeper only.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -2948,7 +2872,7 @@ const db = {
       max: 200,
       type: "2h Edged",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -2979,7 +2903,7 @@ const db = {
       max: 50,
       type: "2h Edged",
       blurb:
-        "Drops from Dynas. 2he-ME sword with good crits and min damage. Doesn't see much use due to overlap with TOTW arsenal.",
+        "Drops from Dynas. Doesn't see much use due to overlap with TOTW arsenal.",
       stats: {
         ql: { value: "40-80", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -3011,8 +2935,7 @@ const db = {
       min: 1,
       max: 200,
       type: "2h Edged",
-      blurb:
-        "Blitzable and part of common loot pools. Classic holdout 2he weapon.",
+      blurb: "Blitzable and part of common loot pools.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -3044,7 +2967,7 @@ const db = {
       max: 220,
       type: "2h Edged",
       blurb:
-        "Drops from Vergil in the 18.8_Subway_raid. Level locked from 215. Overall high stats. Hits have a 5% chance to proc an init debuff.",
+        "Drops from Vergil in the 18.8_Subway_raid. Level locked from 215. Hits have a 5% chance to proc an init debuff.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -3120,7 +3043,7 @@ const db = {
       max: 220,
       type: "2h Edged",
       blurb:
-        "Drops from Aztur the Immortal during the 18.8_TOTW_raid. Level locked to 210+. Hits have a 5% chance to proc a combined DOT, AAO/AAD debuff. Overall excellent stats.",
+        "Drops from Aztur the Immortal during the 18.8_TOTW_raid. Level locked to 210+. Hits have a 5% chance to proc a combined DOT, AAO/AAD debuff.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "No", quality: "" },
@@ -3151,39 +3074,6 @@ const db = {
       diff: 6,
       auno: "https://auno.org/ao/db.php?id=305530",
     },
-    // "Odum Blade": {
-    //   name: "Odum Blade",
-    //   min: 220,
-    //   max: 1,
-    //   type: "Expansion sets",
-    //   blurb: "",
-    //   stats: {
-    //     ql: { value: "", quality: "" },
-    //     dual: { value: "No", quality: "" },
-    //     aSpeed: { value: "2.5s", quality: "" },
-    //     rSpeed: { value: "2.5s", quality: "" },
-    //     range: { value: "2 m", quality: "" },
-    //     minDamage: { value: "305", quality: "" },
-    //     maxDamage: { value: "630", quality: "" },
-    //     critMod: { value: "100", quality: "" },
-    //     attackCap: { value: "2350", quality: "" },
-    //     init: { value: "Melee", quality: "" },
-    //     multi: { value: "", quality: "" },
-    //     specials: { value: "Fast Attack, Brawl", quality: "" },
-    //     reqs: {
-    //       "Expansion sets": { value: "", quality: "" },
-    //       "2h Edged": { value: "1575", quality: "" },
-    //       "Melee energy": { value: "1050", quality: "" },
-    //       "Fast attack": { value: "875", quality: "" },
-    //       Brawl: { value: "1050", quality: "" },
-    //     },
-    //     mods: { "Max health": { value: "200", quality: "" } },
-    //   },
-    //   profs: [],
-    //   prk: false,
-    //   diff: 0,
-    //   auno: "https://auno.org/ao/db.php?id=253246",
-    // },
     "Ofab Wolf": {
       name: "Ofab Wolf",
       min: 1,
@@ -3340,7 +3230,7 @@ const db = {
           max: 220,
           type: "2h Edged",
           blurb:
-            "Upgrade result from Lord of Pride. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord of Pride. Upgrade drops during 3_different_raids.",
           stats: {
             ql: { value: "", quality: "" },
             dual: { value: "No", quality: "" },
@@ -3380,7 +3270,7 @@ const db = {
           max: 220,
           type: "2h Edged",
           blurb:
-            "Upgrade result from Lord_of_Greed. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord_of_Greed. Upgrade drops during 3_different_raids.",
           stats: {
             ql: { value: "", quality: "" },
             dual: { value: "No", quality: "" },
@@ -3420,7 +3310,7 @@ const db = {
       max: 200,
       type: "2h Edged",
       blurb:
-        "Drops from the Mantis Queen in the Mantis_Den. Level locked from 161. Heavy hitting 2he weapon with special speed caps. Can be enhanced_further with Diamondine Soldier loot.",
+        "Drops from the Mantis Queen in the Mantis_Den. Level locked from 161. Can be enhanced_further with Diamondine Soldier loot.",
       stats: {
         ql: { value: "200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -3459,7 +3349,7 @@ const db = {
           max: 200,
           type: "2h Edged",
           blurb:
-            "Drops from Sector_07_aliens. Enforcer and Keeper only. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc an AAO buff.",
+            "Drops from Sector_07_aliens. Enforcer and Keeper only. Level locked to 151. Hits have a 5% chance to proc an AAO buff.",
           stats: {
             ql: { value: "150", quality: "" },
             dual: { value: "No", quality: "" },
@@ -3495,7 +3385,7 @@ const db = {
           max: 200,
           type: "2h Edged",
           blurb:
-            "Drops from Sector_07_aliens. Enforcer and Keeper only. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc an AAO buff.",
+            "Drops from Sector_07_aliens. Enforcer and Keeper only. Hits have a 5% chance to proc an AAO buff.",
           stats: {
             ql: { value: "150", quality: "" },
             dual: { value: "No", quality: "" },
@@ -3532,7 +3422,7 @@ const db = {
       max: 130,
       type: "2h Edged",
       blurb:
-        "Aztur the Immortal's sword. Drops in TOTW. Hits have a 6% to activate its proc, which applies a DOT and AAD/AAO debuff. Exceptional damage profile with a high MBS gives it a lot of potential. Arguably the best weapon in class and often a fallback choice for professions with poor weapon paths.",
+        "Aztur the Immortal's sword. Drops in TOTW. Hits have a 6% to activate its proc, which applies a DOT and AAD/AAO debuff.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "No", quality: "" },
@@ -3606,7 +3496,7 @@ const db = {
           max: 220,
           type: "2h Edged",
           blurb:
-            "Drops from Lord Mordeth, an Unredeemed boss in Inferno, Shadowlands. Keeper only. Drops in 2 QLs. 2he-ME weapon with outstanding max damage potential.",
+            "Drops from Lord Mordeth, an Unredeemed boss in Inferno, Shadowlands. Keeper only.",
           stats: {
             ql: { value: "199-200", quality: "r" },
             dual: { value: "No", quality: "" },
@@ -3647,7 +3537,7 @@ const db = {
           max: 220,
           type: "2h Edged",
           blurb:
-            "Drops from Lord Mordeth, an Unredeemed boss in Inferno, Shadowlands. Keeper only. Drops in 2 QLs. 2he-ME weapon with outstanding max damage potential. Pre 18.8, this weapon is significantly weaker. Slower attacks, lower MBS, no sneak attack.",
+            "Drops from Lord Mordeth, an Unredeemed boss in Inferno, Shadowlands. Keeper only.",
           stats: {
             ql: { value: "199-200", quality: "r" },
             dual: { value: "No", quality: "" },
@@ -3689,7 +3579,7 @@ const db = {
           max: 220,
           type: "2h Edged",
           blurb:
-            "Drops from Sir Galahad, a Redeemed boss in Inferno, Shadowlands. Keeper only. Drops in 2 QLs. 2he-ME weapon with outstanding max damage potential.",
+            "Drops from Sir Galahad, a Redeemed boss in Inferno, Shadowlands. Keeper only.",
           stats: {
             ql: { value: "199-200", quality: "r" },
             dual: { value: "No", quality: "" },
@@ -3730,7 +3620,7 @@ const db = {
           max: 220,
           type: "2h Edged",
           blurb:
-            "Drops from Sir Galahad, a Redeemed boss in Inferno, Shadowlands. Keeper only. Drops in 2 QLs. 2he-ME weapon with outstanding max damage potential. Pre 18.8, this weapon is significantly weaker. Slower attacks, lower MBS, no sneak attack.",
+            "Drops from Sir Galahad, a Redeemed boss in Inferno, Shadowlands. Keeper only.",
           stats: {
             ql: { value: "199-200", quality: "r" },
             dual: { value: "No", quality: "" },
@@ -3770,8 +3660,7 @@ const db = {
       min: 1,
       max: 200,
       type: "2h Edged",
-      blurb:
-        "Sold from Shadowlands garden merchants. Keeper only. Mostly used early-game, the parry and riposte reqs become cumbersome.",
+      blurb: "Sold from Shadowlands garden merchants. Keeper only.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -3809,8 +3698,7 @@ const db = {
       min: 80,
       max: 175,
       type: "2h Edged",
-      blurb:
-        "Drops from Dryad Dynas in Adonis, Shadowlands. Keeper only. High max damage, speeds, and low reqs make this an attractive option for the leveling Keeper. Held back by min damage and MBS.",
+      blurb: "Drops from Dryad Dynas in Adonis, Shadowlands. Keeper only.",
       stats: {
         ql: { value: "140-160", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -3847,8 +3735,7 @@ const db = {
       min: 60,
       max: 125,
       type: "2h Edged",
-      blurb:
-        "Drops from Dynas. Breed locked to Solitus. Clan only. Carried by max damage and specials.",
+      blurb: "Drops from Dynas. Breed locked to Solitus. Clan only.",
       stats: {
         ql: { value: "100-125", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -4005,7 +3892,7 @@ const db = {
       max: 220,
       type: "Martial arts",
       blurb:
-        "Drops during the Home_Pyramid_raid. Level locked from 205. Right hand only. Left hand version is Corrupted Lady of Wisdom. Overall high stats.",
+        "Drops during the Home_Pyramid_raid. Level locked from 205. Right hand only. Left hand version is Corrupted Lady of Wisdom. ",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "Yes", quality: "r" },
@@ -4044,7 +3931,7 @@ const db = {
       max: 220,
       type: "Martial arts",
       blurb:
-        "Drops from Dreadloch_camps. Level locked from 210. Hits have a 2% chance to proc a nano init and heal modifier debuff. Overall high stats.",
+        "Drops from Dreadloch_camps. Level locked from 210. Hits have a 2% chance to proc a nano init and heal modifier debuff. ",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -4189,7 +4076,7 @@ const db = {
           max: 220,
           type: "Martial arts",
           blurb:
-            "One of the Xan_weapon_upgrades. Level locked from 190. Comes in left and right hand versions. Overall high stats.",
+            "One of the Xan_weapon_upgrades. Level locked from 190. Comes in left and right hand versions. ",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "Yes", quality: "r" },
@@ -4229,7 +4116,7 @@ const db = {
           max: 220,
           type: "Martial arts",
           blurb:
-            "One of the Xan_weapon_upgrades. Comes in left and right hand versions. Overall high stats.",
+            "One of the Xan_weapon_upgrades. Comes in left and right hand versions. ",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "Yes", quality: "r" },
@@ -4269,7 +4156,7 @@ const db = {
       max: 200,
       type: "Martial arts",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Hits have a 5*4% chance to proc an AAO buff. Overall decent stats with higher damage min than most of RK.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Hits have a 5*4% chance to proc an AAO buff. ",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -4302,8 +4189,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Martial arts",
-      blurb:
-        "Blitzable and part of common loot pools. Hard for MAs to use because of the 1hb and multi check, but sees some use on traders due to high damage from MA drain transfers.",
+      blurb: "Blitzable and part of common loot pools. ",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -4340,7 +4226,7 @@ const db = {
           max: 200,
           type: "Martial arts",
           blurb:
-            "Sold in stores and craftable_with_weapon_upgrade_kits. Popular among traders for the additional attack bar to proc perks.",
+            "Sold in stores and craftable_with_weapon_upgrade_kits. Uses an additional attack bar.",
           stats: {
             ql: { value: "1-300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -4373,7 +4259,7 @@ const db = {
           max: 200,
           type: "1h Blunt",
           blurb:
-            "Last known to be buyable from Weapon Fragment stores in ICC and craftable_with_weapon_upgrade_kits. Popular among traders for the additional attack bar to proc perks. Uses 1h Blunt skill instead of Martial Arts.",
+            "Last known to be buyable from Weapon Fragment stores in ICC and craftable_with_weapon_upgrade_kits. Uses an additional attack bar. Uses 1h Blunt skill instead of Martial Arts.",
           stats: {
             ql: { value: "1-300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -4447,7 +4333,7 @@ const db = {
           max: 200,
           type: "Martial arts",
           blurb:
-            "Drops from Sector_07_aliens. Shade and MA Only. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5*2% chance to proc a AAO buff.",
+            "Drops from Sector_07_aliens. Shade and MA Only. Level locked to 151. Hits have a 5*2% chance to proc a AAO buff.",
           stats: {
             ql: { value: "SPECIAL", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -4482,7 +4368,7 @@ const db = {
           max: 200,
           type: "Martial arts",
           blurb:
-            "Drops from Sector_07_aliens. Shade and MA Only. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5*2% chance to proc a AAO buff.",
+            "Drops from Sector_07_aliens. Shade and MA Only. Hits have a 5*2% chance to proc a AAO buff.",
           stats: {
             ql: { value: "SPECIAL", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -4516,6 +4402,39 @@ const db = {
   "Melee energy": {
     // need more info
     // https://auno.org/ao/db.php?id=230890 Freezing Device drops?
+    "B-19 Modified Breathing Space - Vacuum Creator": {
+      name: "B-19 Modified Breathing Space - Vacuum Creator",
+      min: 50,
+      max: 100,
+      type: "Melee energy",
+      blurb:
+        "Drops from Reverend Hyuan in TOTW. Hits have a 10% chance to proc a DOT. PRK only.",
+      stats: {
+        ql: { value: "SPECIAL", quality: "" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "1.2s", quality: "" },
+        rSpeed: { value: "1.2s", quality: "" },
+        range: { value: "3 m", quality: "" },
+        minDamage: { value: "71", quality: "" },
+        maxDamage: { value: "149", quality: "" },
+        critMod: { value: "93", quality: "" },
+        attackCap: { value: "700", quality: "" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "196", quality: "" },
+        specials: { value: "Fast Attack, Sneak Attack, Dimach", quality: "" },
+        reqs: {
+          "Melee energy": { value: "305", quality: "" },
+          "Fast Attack": { value: "137", quality: "" },
+          "Sneak Attack": { value: "137", quality: "" },
+          Dimach: { value: "101", quality: "" },
+        },
+        mods: {},
+      },
+      auno: false,
+      profs: ["Enforcer", "Keeper"],
+      diff: 69,
+      prk: true,
+    },
     "Dusk & Dawn of the Xan": {
       versions: [
         {
@@ -4610,8 +4529,7 @@ const db = {
       min: 25,
       max: 60,
       type: "Melee energy",
-      blurb:
-        "Drops from Dynas. Meta-Physicist only. QL makes it hard to drop when you can first equip. AAD mods, low reqs and damage make it an attractive alternative to creation shields.",
+      blurb: "Drops from Dynas. Meta-Physicist only.",
       stats: {
         ql: { value: "50", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -4673,6 +4591,38 @@ const db = {
       auno: "https://auno.org/ao/db.php?id=254702",
     },
 
+    "Prototype Energy Katana": {
+      name: "Prototype Energy Katana",
+      min: 25,
+      max: 50,
+      type: "Melee energy",
+      blurb: "Drops from Integrated Emissary in the Subway. PRK only.",
+      stats: {
+        ql: { value: "SPECIAL", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1.5s", quality: "" },
+        rSpeed: { value: "1.5s", quality: "" },
+        range: { value: "4 m", quality: "" },
+        minDamage: { value: "40", quality: "" },
+        maxDamage: { value: "95", quality: "" },
+        critMod: { value: "15", quality: "" },
+        attackCap: { value: "300", quality: "" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Fast Attack, Dimach", quality: "" },
+        reqs: {
+          "Melee energy": { value: "151", quality: "" },
+          "Fast Attack": { value: "91", quality: "" },
+          Dimach: { value: "71", quality: "" },
+        },
+        mods: {},
+      },
+      auno: false,
+      profs: ["Enforcer", "Keeper"],
+      diff: 69,
+      prk: true,
+    },
+
     Sockdolager: {
       name: "Sockdolager",
       min: 70,
@@ -4717,7 +4667,7 @@ const db = {
           max: 200,
           type: "Melee energy",
           blurb:
-            "Drops from Sector_07_aliens. Shade, Keeper, and Enforcer Only. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+            "Drops from Sector_07_aliens. Shade, Keeper, and Enforcer Only. Level locked to 151. Hits have a 5% chance to proc a AAO buff.",
           stats: {
             ql: { value: "SPECIAL", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -4756,7 +4706,7 @@ const db = {
           max: 200,
           type: "Melee energy",
           blurb:
-            "Drops from Sector_07_aliens. Shade, Keeper, and Enforcer Only. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+            "Drops from Sector_07_aliens. Shade, Keeper, and Enforcer Only. Level locked to 151. Hits have a 5% chance to proc a AAO buff.",
           stats: {
             ql: { value: "SPECIAL", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -5006,7 +4956,7 @@ const db = {
           max: 220,
           type: "Piercing",
           blurb:
-            "Upgrade result from Lord of Deceit. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord of Deceit. Upgrade drops during 3_different_raids. ",
           stats: {
             ql: { value: "", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -5048,7 +4998,7 @@ const db = {
           max: 220,
           type: "Piercing",
           blurb:
-            "Upgrade result from Lord of Deceit. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord of Deceit. Upgrade drops during 3_different_raids. ",
           stats: {
             ql: { value: "", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -5372,7 +5322,7 @@ const db = {
       max: 200,
       type: "Piercing",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK. Uses ranged inits instead of physical.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks.  Uses ranged inits instead of physical.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -5404,7 +5354,7 @@ const db = {
       max: 200,
       type: "Piercing",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK. Uses ranged inits instead of physical.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks.  Uses ranged inits instead of physical.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -5668,7 +5618,7 @@ const db = {
           max: 200,
           type: "Piercing",
           blurb:
-            "Drops from Sector_07_aliens. Shade Only. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+            "Drops from Sector_07_aliens. Shade Only. Level locked to 151. Hits have a 5% chance to proc a AAO buff.",
           stats: {
             ql: { value: "SPECIAL", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -5707,7 +5657,7 @@ const db = {
           max: 200,
           type: "Piercing",
           blurb:
-            "Drops from Sector_07_aliens. Shade Only. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+            "Drops from Sector_07_aliens. Shade Only. Hits have a 5% chance to proc a AAO buff.",
           stats: {
             ql: { value: "SPECIAL", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -5895,7 +5845,7 @@ const db = {
           max: 220,
           type: "Assault rifle",
           blurb:
-            "Upgrade result from Lord of Anger. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord of Anger. Upgrade drops during 3_different_raids. ",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -5933,7 +5883,7 @@ const db = {
           max: 220,
           type: "Assault rifle",
           blurb:
-            "Upgrade result from Lord of Anger. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord of Anger. Upgrade drops during 3_different_raids. ",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -5971,7 +5921,7 @@ const db = {
       max: 50,
       type: "Assault rifle",
       blurb:
-        "Drops from common pools in the Shadowlands. Model listed is QL 50 interpolation. Speeds get much slower as the QL rises. A decent holdout AR in the early game.",
+        "Drops from common pools in the Shadowlands. Model listed is QL 50 interpolation. Speeds get much slower as the QL rises.",
       stats: {
         ql: { value: "1-300", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -6007,8 +5957,7 @@ const db = {
       min: 205,
       max: 220,
       type: "Assault rifle",
-      blurb:
-        "Drops during the Home_Pyramid_raid. Level locked from 205. End game Xan AR tuned for max damage.",
+      blurb: "Drops during the Home_Pyramid_raid. Level locked from 205. ",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6045,8 +5994,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Assault rifle",
-      blurb:
-        "Drops from Dynas. Soldier only. Popular assault rifle despite being AR-RE.",
+      blurb: "Drops from Dynas. Soldier only.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6084,7 +6032,7 @@ const db = {
       max: 220,
       type: "Assault rifle",
       blurb:
-        "Drops from Dreadloch_camps. Level locked from 210. Hits have a 5% chance to proc a run speed debuff. Notorious unlocked AR with high stats and relatively low bar to entry.",
+        "Drops from Dreadloch_camps. Level locked from 210. Hits have a 5% chance to proc a run speed debuff.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6117,8 +6065,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Assault rifle",
-      blurb:
-        "Blitzable, drops from common loot pools, and shop buyable. Accessible, fast AR with decent crits.",
+      blurb: "Blitzable, drops from common loot pools, and shop buyable.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6220,8 +6167,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Assault rifle",
-      blurb:
-        "Drops from random mission side loot. Soldier only. Slow attack speed.",
+      blurb: "Drops from random mission side loot. Soldier only.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6258,7 +6204,7 @@ const db = {
       max: 220,
       type: "Assault rifle",
       blurb:
-        "Drops from Abmouth during the 18.8_Subway_raid. Level locked from 215. Hits have a 7% and 3% chance to proc a run speed debuff and root, respectively. Overall high stats. Could be modified a little more.",
+        "Drops from Abmouth during the 18.8_Subway_raid. Level locked from 215. Hits have a 7% and 3% chance to proc a run speed debuff and root, respectively.  Could be modified a little more.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6293,7 +6239,7 @@ const db = {
       max: 200,
       type: "Assault rifle",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK. Uses ranged inits instead of physical.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks.  Uses ranged inits instead of physical.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6324,8 +6270,7 @@ const db = {
       min: 150,
       max: 200,
       type: "Assault rifle",
-      blurb:
-        "Drops from Fiery_Soldier. Soldier only. Slow AR that checks duck explosives.",
+      blurb: "Drops from Fiery_Soldier. Soldier only. Checks duck explosives.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6394,7 +6339,7 @@ const db = {
       max: 200,
       type: "Assault rifle",
       blurb:
-        "Drops from Mortiig bosses in Elysium, Shadowlands. Soldier only. Notable locations include Spade Beach and Eastfang. High damage profile and low reqs make it an attractive weapon for mid-late game. Limited end game use due to low MBS.",
+        "Drops from Mortiig bosses in Elysium, Shadowlands. Soldier only. Notable locations include Spade Beach and Eastfang. ",
       stats: {
         ql: { value: "100-125", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -6429,8 +6374,7 @@ const db = {
       min: 100,
       max: 200,
       type: "Assault rifle",
-      blurb:
-        "Drops from Dust_Brigade_Generals. Higher than average crits for an AR, but uses heavy weapons.",
+      blurb: "Drops from Dust_Brigade_Generals.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6502,7 +6446,7 @@ const db = {
       max: 100,
       type: "Assault rifle",
       blurb:
-        "Drops from Notum Habit in Steps_of_Madness. The best early game assault rifle with good damage and fast attacks. Hits have a 5% chance to proc a reflect shutdown.",
+        "Drops from Notum Habit in Steps_of_Madness. Hits have a 5% chance to proc a reflect shutdown.",
       stats: {
         ql: { value: "50", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6531,8 +6475,7 @@ const db = {
       min: 125,
       max: 200,
       type: "Assault rifle",
-      blurb:
-        "Drops from Notum_Soldier. Soldier only. Powerful endgame AR-RE weapon for Rubi-Ka.",
+      blurb: "Drops from Notum_Soldier. Soldier only.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6572,8 +6515,7 @@ const db = {
           min: 1,
           max: 200,
           type: "Assault rifle",
-          blurb:
-            "Blitzable, drops from common loot pools, shop buyable. A decent holdout AR-RE weapon.",
+          blurb: "Blitzable, drops from common loot pools, shop buyable.",
           stats: {
             ql: { value: "1-200", quality: "" },
             dual: { value: "No", quality: "" },
@@ -6606,7 +6548,7 @@ const db = {
           max: 200,
           type: "Assault rifle",
           blurb:
-            "Blitzable, drops from common loot pools, shop buyable. Buyable from the Trader Shop. A decent holdout AR-RE weapon.",
+            "Blitzable, drops from common loot pools, shop buyable. Buyable from the Trader Shop. ",
           stats: {
             ql: { value: "1-200", quality: "" },
             dual: { value: "No", quality: "" },
@@ -6640,8 +6582,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Assault rifle",
-      blurb:
-        "Blitzable, drops from common loot pools, shop buyable. A decent holdout AR-RE weapon with a focus on crits.",
+      blurb: "Blitzable, drops from common loot pools, shop buyable.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6708,7 +6649,7 @@ const db = {
       max: 200,
       type: "Assault rifle",
       blurb:
-        "Crafted from a Nano-Charged_weapon_and_a_bunch_of_SL_parts. Soldier only. Starts at QL 50. Excellent damage profile but arduous crafting recipe.",
+        "Crafted from a Nano-Charged_weapon_and_a_bunch_of_SL_parts. Soldier only. ",
       stats: {
         ql: { value: "50-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6742,7 +6683,7 @@ const db = {
       max: 200,
       type: "Assault rifle",
       blurb:
-        "Drops from Sector_07_aliens. Engineer Only. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+        "Drops from Sector_07_aliens. Engineer Only. Level locked to 151. Hits have a 5% chance to proc a AAO buff.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6781,8 +6722,7 @@ const db = {
       min: 80,
       max: 200,
       type: "Bow",
-      blurb:
-        "Drops from Dynas. Martial Artist only. Slow, hard-hitting bow with specials.",
+      blurb: "Drops from Dynas. Martial Artist only.",
       stats: {
         ql: { value: "200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6818,8 +6758,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Bow",
-      blurb:
-        "Drops from Hecklers in the Shadowlands. Breed locked to Opifex. Slow, hard-hitting bow that gets aimed shot at QL 200.",
+      blurb: "Drops from Hecklers in the Shadowlands. Breed locked to Opifex.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6853,8 +6792,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Bow",
-      blurb:
-        "Part of common loot pools. Model listed is QL 200 interpolation. Decent damage profile makes it one of the few viable bows. Crits stack well with Martial Artists.",
+      blurb: "Part of common loot pools.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6880,13 +6818,45 @@ const db = {
       diff: 2,
       auno: "https://auno.org/ao/db.php?id=165059&ql=200",
     },
+    "Bow of Forsaken Reveries": {
+      name: "Bow of Forsaken Reveries",
+      min: 40,
+      max: 100,
+      type: "Bow",
+      blurb:
+        "Unknown acquisition means. Likely drops in Steps_of_Madness. Current stats are from screenshots. Hits have a 10% chance to proc an instant damage program. PRK only.",
+      stats: {
+        ql: { value: "SPECIAL", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1.3s", quality: "" },
+        rSpeed: { value: "1.3s", quality: "" },
+        range: { value: "25 m", quality: "" },
+        minDamage: { value: "103", quality: "" },
+        maxDamage: { value: "195", quality: "" },
+        critMod: { value: "69", quality: "" },
+        attackCap: { value: "800", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Fling Shot, Aimed Shot", quality: "" },
+        reqs: {
+          Bow: { value: "321", quality: "" },
+          "Fling Shot": { value: "151", quality: "" },
+          "Aimed Shot": { value: "151", quality: "" },
+        },
+        mods: {},
+      },
+      auno: false,
+      profs: ["Martial Artist", "Meta-Physicist"],
+      diff: 69,
+      prk: true,
+    },
     "Bow of the Double Nimbus": {
       name: "Bow of the Double Nimbus",
       min: 1,
       max: 200,
       type: "Bow",
       blurb:
-        "Drops from common Shadowlands loot pools. Slow bow with a predictable damage output. The min-max damage window slims as the QL rises.",
+        "Drops from common Shadowlands loot pools. The min-max damage window slims as the QL rises.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -6919,7 +6889,7 @@ const db = {
           max: 220,
           type: "Bow",
           blurb:
-            "Upgrade result from Lord_of_Chaos. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match. Uses ranged inits instead of physical.",
+            "Upgrade result from Lord_of_Chaos. Upgrade drops during 3_different_raids. Uses ranged inits instead of physical.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -6956,7 +6926,7 @@ const db = {
           max: 220,
           type: "Bow",
           blurb:
-            "Upgrade result from Lord_of_Greed. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match. Uses ranged inits instead of physical.",
+            "Upgrade result from Lord_of_Greed. Upgrade drops during 3_different_raids. Uses ranged inits instead of physical.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -6992,8 +6962,7 @@ const db = {
       min: 205,
       max: 220,
       type: "Bow",
-      blurb:
-        "Drops during the Home_Pyramid_raid. Carries a slight edge over the Xan weapons.",
+      blurb: "Drops during the Home_Pyramid_raid. ",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -7032,7 +7001,7 @@ const db = {
           max: 220,
           type: "Bow",
           blurb:
-            "Drops from Dreadloch_camps. Meta-Physicist only. Uses ranged inits instead of physical. Hits have a 10% chance to proc a Nano init+Nano damage debuff. Strong end-game bow with a more support/PVP focus.",
+            "Drops from Dreadloch_camps. Meta-Physicist only. Uses ranged inits instead of physical. Hits have a 10% chance to proc a Nano init+Nano damage debuff. ",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -7069,7 +7038,7 @@ const db = {
           max: 220,
           type: "Bow",
           blurb:
-            "Drops from Dreadloch_camps. Meta-Physicist only. Uses ranged inits instead of physical. Hits have a 10% chance to proc a Nano init+Nano damage debuff. Strong end-game bow with a more support/PVP focus.",
+            "Drops from Dreadloch_camps. Meta-Physicist only. Uses ranged inits instead of physical. Hits have a 10% chance to proc a Nano init+Nano damage debuff. ",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -7108,7 +7077,7 @@ const db = {
       max: 220,
       type: "Bow",
       blurb:
-        "Drops from The Psion in the 18.8_Subway_raid. Meta-Physicist only. Level locked from 215. Uses ranged inits instead of physical. Overall high stats. Hits have a 15% chance to proc a Nano init+Nano damage debuff.",
+        "Drops from The Psion in the 18.8_Subway_raid. Meta-Physicist only. Level locked from 215. Uses ranged inits instead of physical.  Hits have a 15% chance to proc a Nano init+Nano damage debuff.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -7145,7 +7114,7 @@ const db = {
       max: 200,
       type: "Bow",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK. Uses ranged inits instead of physical.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks.  Uses ranged inits instead of physical.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -7175,8 +7144,7 @@ const db = {
       min: 190,
       max: 220,
       type: "Bow",
-      blurb:
-        "Drops during The_Beast_raid. Somewhat lesser compared to other end-game options. Upgrades to Chaos_of_the_Xan.",
+      blurb: "Drops during The_Beast_raid. Upgrades to Chaos_of_the_Xan.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -7245,8 +7213,7 @@ const db = {
           min: 1,
           max: 200,
           type: "Bow",
-          blurb:
-            "Blitzable. Somewhat slow bow with a typical RK damage profile.",
+          blurb: "Blitzable.",
           stats: {
             ql: { value: "1-200", quality: "" },
             dual: { value: "No", quality: "" },
@@ -7277,8 +7244,7 @@ const db = {
           min: 1,
           max: 200,
           type: "Bow",
-          blurb:
-            "Blitzable and buyable in the Trader shop. Somewhat slow bow with a typical RK damage profile.",
+          blurb: "Blitzable and buyable in the Trader shop.",
           stats: {
             ql: { value: "1-200", quality: "" },
             dual: { value: "No", quality: "" },
@@ -7311,8 +7277,7 @@ const db = {
       min: 15,
       max: 40,
       type: "Bow",
-      blurb:
-        "Drops from Dynas. Martial Artist only. Flat damage profile and prof lock makes this a specialist item for PVP.",
+      blurb: "Drops from Dynas. Martial Artist only.",
       stats: {
         ql: { value: "40-50", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -7382,45 +7347,12 @@ const db = {
     // https://auno.org/ao/db.php?id=165375 Spider Poison Gland in game?
     // should it be added
     // https://auno.org/ao/db.php?id=244912 Lord of Sloth 3 magazine
-    //
-    // "Ballistic Launcher Pistol": {
-    //   name: "Ballistic Launcher Pistol",
-    //   min: 1,
-    //   max: 100,
-    //   type: "Grenade",
-    //   blurb: "",
-    //   stats: {
-    //     ql: { value: "1-300", quality: "" },
-    //     dual: { value: "Yes", quality: "" },
-    //     aSpeed: { value: "2s", quality: "" },
-    //     rSpeed: { value: "3.65s", quality: "r" },
-    //     range: { value: "30 m", quality: "" },
-    //     minDamage: { value: "100", quality: "" },
-    //     maxDamage: { value: "215", quality: "" },
-    //     critMod: { value: "12", quality: "" },
-    //     attackCap: { value: "603", quality: "" },
-    //     init: { value: "Ranged", quality: "" },
-    //     multi: { value: "471", quality: "" },
-    //     specials: { value: "", quality: "" },
-    //     reqs: {
-    //       "Expansion sets": { value: "Shadowlands", quality: "r" },
-    //       Grenade: { value: "426", quality: "" },
-    //       Pistol: { value: "284", quality: "" },
-    //     },
-    //     mods: {},
-    //   },
-    //   profs: ["Engineer"],
-    //   prk: false,
-    //   diff: 0,
-    //   auno: "https://auno.org/ao/db.php?id=211230&ql=100",
-    // },
     "Corrupted Lord of Sloth": {
       name: "Corrupted Lord of Sloth",
       min: 205,
       max: 220,
       type: "Grenade",
-      blurb:
-        "Drops during the Home_Pyramid_raid. Level locked from 215. High overall stats with no special tricks.",
+      blurb: "Drops during the Home_Pyramid_raid. Level locked from 215.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -7458,7 +7390,7 @@ const db = {
       max: 220,
       type: "Grenade",
       blurb:
-        "Drops from Dreadloch_camps. Level locked from 210. Hits have a 10% chance to proc an init debuff. Overall high stats.",
+        "Drops from Dreadloch_camps. Level locked from 210. Hits have a 10% chance to proc an init debuff. ",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -7491,7 +7423,7 @@ const db = {
       max: 220,
       type: "Grenade",
       blurb:
-        "Drops from Abmouth during the 18.8_Subway_raid. Level locked from 215. Hits have a 15% chance to proc a init debuff. Higher stats than that of the Dreadloch Obliterator.",
+        "Drops from Abmouth during the 18.8_Subway_raid. Level locked from 215. Hits have a 15% chance to proc a init debuff.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -7525,7 +7457,7 @@ const db = {
       max: 200,
       type: "Grenade",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. ",
       stats: {
         ql: { value: "", quality: "" },
         dual: { value: "No", quality: "" },
@@ -7556,7 +7488,7 @@ const db = {
       max: 220,
       type: "Grenade",
       blurb:
-        "Drops from parts on alien_generals.2 Engineer only. Get somewhat faster as the QL rises. High min damage and overall decent damage profile. Limited magazine capacity.",
+        "Drops from parts on alien_generals.2 Engineer only. Get somewhat faster as the QL rises. Limited magazine capacity.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -7624,7 +7556,7 @@ const db = {
       max: 200,
       type: "Grenade",
       blurb:
-        "Blitzable, shop buyable, and in common loot pools. Speeds get faster as the QL rises. Rubi-Ka's holdout grenade weapon.",
+        "Blitzable, shop buyable, and in common loot pools. Speeds get faster as the QL rises.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -7657,7 +7589,7 @@ const db = {
           max: 220,
           type: "Grenade",
           blurb:
-            "Tradeskilled from various shadowlands_boss_drops. Level locked from 215. Somewhat lower stats and reqs than other endgame options.",
+            "Tradeskilled from various shadowlands_boss_drops. Level locked from 215. ",
           stats: {
             ql: { value: "250", quality: "" },
             dual: { value: "No", quality: "" },
@@ -7694,7 +7626,7 @@ const db = {
           max: 220,
           type: "Grenade",
           blurb:
-            "Tradeskilled from various shadowlands_boss_drops. Level locked from 215. Somewhat lower stats and reqs than other endgame options.",
+            "Tradeskilled from various shadowlands_boss_drops. Level locked from 215. ",
           stats: {
             ql: { value: "250", quality: "" },
             dual: { value: "No", quality: "" },
@@ -7733,8 +7665,7 @@ const db = {
       min: 25,
       max: 60,
       type: "Grenade",
-      blurb:
-        "Drops from Dynas. Engineer only. Right hand only. Slow hits and big damage.",
+      blurb: "Drops from Dynas. Engineer only. Right hand only.",
       stats: {
         ql: { value: "40-50", quality: "" },
         dual: { value: "Yes", quality: "r" },
@@ -7771,7 +7702,7 @@ const db = {
           max: 220,
           type: "Grenade",
           blurb:
-            "Upgrade result from Lord of Sloth. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord of Sloth. Upgrade drops during 3_different_raids. ",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -7809,7 +7740,7 @@ const db = {
           max: 220,
           type: "Grenade",
           blurb:
-            "Upgrade result from Lord of Sloth. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord of Sloth. Upgrade drops during 3_different_raids. ",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -7849,7 +7780,7 @@ const db = {
           max: 200,
           type: "Grenade",
           blurb:
-            "Drops from Sector_07_aliens. Engineer Only. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+            "Drops from Sector_07_aliens. Engineer Only. Level locked to 151. Hits have a 5% chance to proc a AAO buff.",
           stats: {
             ql: { value: "150", quality: "" },
             dual: { value: "No", quality: "" },
@@ -7883,7 +7814,7 @@ const db = {
           max: 200,
           type: "Grenade",
           blurb:
-            "Drops from Sector_07_aliens. Engineer Only. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+            "Drops from Sector_07_aliens. Engineer Only. Hits have a 5% chance to proc a AAO buff.",
           stats: {
             ql: { value: "150", quality: "" },
             dual: { value: "No", quality: "" },
@@ -7929,13 +7860,51 @@ const db = {
     // https://auno.org/ao/db.php?id=157628 IMI Tellus TT huh
     // https://auno.org/ao/db.php?id=162902 Ithaca Ki12 Vulture crit pistol-shotgun advy only
     // https://auno.org/ao/db.php?id=123973 OT Boomer M30 crit pistol that tops at 120
+    "Arm of the Disciple": {
+      name: "Arm of the Disciple",
+      min: 40,
+      max: 100,
+      type: "Pistol",
+      blurb: "Drops from pistol-wielding cultists in TOTW. PRK only.",
+      stats: {
+        ql: { value: "SPECIAL", quality: "" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "1.7s", quality: "" },
+        rSpeed: { value: "1.7s", quality: "" },
+        range: { value: "15 m", quality: "" },
+        minDamage: { value: "49", quality: "" },
+        maxDamage: { value: "131", quality: "" },
+        critMod: { value: "92", quality: "" },
+        attackCap: { value: "700", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "203", quality: "" },
+        specials: { value: "Fling Shot, Burst", quality: "" },
+        reqs: {
+          Pistol: { value: "301", quality: "" },
+          "Fling shot": { value: "151", quality: "" },
+          Burst: { value: "201", quality: "" },
+        },
+        mods: {},
+      },
+      auno: false,
+      profs: [
+        "Adventurer",
+        "Bureaucrat",
+        "Doctor",
+        "Engineer",
+        "Meta-Physicist",
+        "Nano-technician",
+      ],
+      diff: 69,
+      prk: true,
+    },
     "BBI Faithful 1000": {
       name: "BBI Faithful 1000",
       min: 205,
       max: 220,
       type: "Pistol",
       blurb:
-        "Drops from Eumenides and Abmouth in the 18.8_Subway_raid. Adventurer only. Predictable damage profile. Equipping this weapon will virtually disable aimed shot.",
+        "Drops from Eumenides and Abmouth in the 18.8_Subway_raid. Adventurer only. Equipping this weapon will virtually disable aimed shot.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -7974,8 +7943,7 @@ const db = {
           min: 1,
           max: 200,
           type: "Pistol",
-          blurb:
-            "Blitzable, shop buyable, and in common loot pools. Common holdout pistol for Adventurers.",
+          blurb: "Blitzable, shop buyable, and in common loot pools. ",
           stats: {
             ql: { value: "1-200", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -8010,7 +7978,7 @@ const db = {
           max: 200,
           type: "Pistol",
           blurb:
-            "Blitzable, buyable in the trader shop, and in common loot pools. Common holdout pistol for Adventurers.",
+            "Blitzable, buyable in the trader shop, and in common loot pools. ",
           stats: {
             ql: { value: "1-200", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -8046,8 +8014,7 @@ const db = {
       min: 70,
       max: 200,
       type: "Pistol",
-      blurb:
-        "Drops from Dynas. A basic pistol with low reqs and no specials. Hits poison AC.",
+      blurb: "Drops from Dynas. Hits poison AC.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -8084,8 +8051,7 @@ const db = {
       min: 205,
       max: 220,
       type: "Pistol",
-      blurb:
-        "Drops during the Home_Pyramid_raid. Level locked from 205. High overall stats.",
+      blurb: "Drops during the Home_Pyramid_raid. Level locked from 205. ",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -8131,7 +8097,7 @@ const db = {
       max: 190,
       type: "Pistol",
       blurb:
-        "Drops from the Lab Director in Foremans and Notum_Soldier. Level locked from 41. Hits have a 5% chance to proc an instant damage program. The strongest pistol in class.",
+        "Drops from the Lab Director in Foremans and Notum_Soldier. Level locked from 41. Hits have a 5% chance to proc an instant damage program. ",
       stats: {
         ql: { value: "SPECIAL", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -8207,8 +8173,7 @@ const db = {
       min: 125,
       max: 210,
       type: "Pistol",
-      blurb:
-        "Drops from Diamondine_Soldier. Atrox only. Powerful RK pistol that excels with crits and low AC targets.",
+      blurb: "Drops from Diamondine_Soldier. Atrox only.",
       stats: {
         ql: { value: "200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -8253,8 +8218,7 @@ const db = {
       min: 60,
       max: 200,
       type: "Pistol",
-      blurb:
-        "Blitzable, shop buyable, and drops from common loot pools. Pistol-RE weapon that trades damage for crits.",
+      blurb: "Blitzable, shop buyable, and drops from common loot pools. ",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -8293,7 +8257,7 @@ const db = {
       max: 220,
       type: "Pistol",
       blurb:
-        "Drops from Dreadloch_camps. Doctor only. High min damage and fast speeds. Carries a 5% heal modifier.",
+        "Drops from Dreadloch_camps. Doctor only. Carries a 5% heal modifier.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -8329,7 +8293,7 @@ const db = {
       max: 220,
       type: "Pistol",
       blurb:
-        "Drops from Dreadloch_camps. Doctor only. High min damage and fast speeds. Carries a 3% nano discount.",
+        "Drops from Dreadloch_camps. Doctor only. Carries a 3% nano discount.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -8364,8 +8328,7 @@ const db = {
       min: 150,
       max: 220,
       type: "Pistol",
-      blurb:
-        "Drops from Dreadloch_camps. Bureaucrat only. High min damage and fast speeds.",
+      blurb: "Drops from Dreadloch_camps. Bureaucrat only. ",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -8403,7 +8366,7 @@ const db = {
           max: 220,
           type: "Pistol",
           blurb:
-            "Drops from Inside_the_Machine. Engineer only. Powerful end-game standalone pistol. It is typically used in the crafting recipe for the Tinker_Pistol. Uses 100% pistol + 10% mechanical engineering as attack skills.",
+            "Drops from Inside_the_Machine. Engineer only. Uses 100% pistol + 10% mechanical engineering as attack skills.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -8441,7 +8404,7 @@ const db = {
           max: 220,
           type: "Pistol",
           blurb:
-            "Drops from Inside_the_Machine. Engineer only. Powerful end-game standalone pistol. It is typically used in the crafting recipe for the Tinker_Pistol. Uses 50% pistol + 50% mechanical engineering as attack skills.",
+            "Drops from Inside_the_Machine. Engineer only. Uses 50% pistol + 50% mechanical engineering as attack skills.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -8481,7 +8444,7 @@ const db = {
       max: 220,
       type: "Pistol",
       blurb:
-        "Drops during the 18.8_TOTW_raid. Level locked from 201. Hits have a 4% chance to proc an instant damage program. Execeptional damage profile, even for endgame pistols. The king of DD as of writing.",
+        "Drops during the 18.8_TOTW_raid. Level locked from 201. Hits have a 4% chance to proc an instant damage program.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -8556,8 +8519,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Pistol",
-      blurb:
-        "Tradeskilled from eye_mutant_loot. Engineer only. Drops are rare and the pistol mediocre, making this weapon commonly overlooked.",
+      blurb: "Tradeskilled from eye_mutant_loot. Engineer only. ",
       stats: {
         ql: { value: "1-225", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -8636,7 +8598,7 @@ const db = {
       max: 200,
       type: "Pistol",
       blurb:
-        "Blitzable, shop buyable, and drops from common loot pools. Attack speed gets 0.01s faster between QL 1-200.  Pistol that trades damage for crits.",
+        "Blitzable, shop buyable, and drops from common loot pools. Attack speed gets 0.01s faster between QL 1-200. ",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -8676,7 +8638,7 @@ const db = {
       max: 200,
       type: "Pistol",
       blurb:
-        "Drops from Redeemed mobs in the Shadowlands. Can be upgraded to a turn_spirit_weapon. Effectively an omni Sacrosanct_Pistol. Gets slower as the QL rises. The base carries better max damage than the radiant RK selection.",
+        "Drops from Redeemed mobs in the Shadowlands. Can be upgraded to a turn_spirit_weapon. Effectively an omni Sacrosanct_Pistol. Gets slower as the QL rises. ",
       stats: {
         ql: { value: "100-200", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -8712,43 +8674,6 @@ const db = {
       diff: 3,
       auno: "https://auno.org/ao/db.php?id=212217",
     },
-    // "Ithaca Ki12 Vulture": {
-    //   name: "Ithaca Ki12 Vulture",
-    //   min: 60,
-    //   max: 200,
-    //   type: "Pistol",
-    //   blurb:
-    //     "Tradeskilled from sealed_weapon_receptacles. Adventurer only.",
-    //   stats: {
-    //     ql: { value: "1-200", quality: "" },
-    //     dual: { value: "Yes", quality: "" },
-    //     aSpeed: { value: "1.5s", quality: "" },
-    //     rSpeed: { value: "1.5s", quality: "" },
-    //     range: { value: "22 m", quality: "" },
-    //     minDamage: { value: "50", quality: "" },
-    //     maxDamage: { value: "230", quality: "r" },
-    //     critMod: { value: "500", quality: "g" },
-    //     attackCap: { value: "2300", quality: "" },
-    //     init: { value: "Ranged", quality: "" },
-    //     multi: { value: "796", quality: "" },
-    //     specials: { value: "Fling Shot", quality: "" },
-    //     reqs: {
-    //       Profession: { value: "Adventurer", quality: "r" },
-    //       Pistol: { value: "901", quality: "" },
-    //       Shotgun: { value: "601", quality: "" },
-    //       "Fling shot": { value: "501", quality: "" },
-    //     },
-    //     mods: {
-    //       Sense: { value: "5", quality: "" },
-    //       "Ranged init": { value: "25", quality: "" },
-    //       Perception: { value: "25", quality: "" },
-    //     },
-    //   },
-    //   profs: ["Adventurer"],
-    //   prk: false,
-    //   diff: 4,
-    //   auno: "https://auno.org/ao/db.php?id=162902",
-    // },
     "Jobe Explorer Personal Pistol": {
       name: "Jobe Explorer Personal Pistol",
       min: 80,
@@ -8856,7 +8781,7 @@ const db = {
       max: 200,
       type: "Pistol",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. ",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -8886,8 +8811,7 @@ const db = {
       min: 60,
       max: 200,
       type: "Pistol",
-      blurb:
-        "Blitzable, shop buyable, and drops from common loot pools. Pistol-RE weapon that trades damage for crits.",
+      blurb: "Blitzable, shop buyable, and drops from common loot pools. ",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -8928,7 +8852,7 @@ const db = {
           min: 1,
           max: 200,
           type: "Pistol",
-          blurb: "Drops from Dynas. A decent unlocked holdout pistol for RK.",
+          blurb: "Drops from Dynas. ",
           stats: {
             ql: { value: "1-200", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -8965,8 +8889,7 @@ const db = {
           min: 1,
           max: 200,
           type: "Pistol",
-          blurb:
-            "Drops from Dynas. Adventurer only. Slightly less damage and easier reqs than a BBI_Faithful_750.",
+          blurb: "Drops from Dynas. Adventurer only.",
           stats: {
             ql: { value: "1-200", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -9039,8 +8962,7 @@ const db = {
       min: 190,
       max: 220,
       type: "Pistol",
-      blurb:
-        "Drops during The_Beast_raid. High stats overall. Upgrades to Lust_of_the_Xan.",
+      blurb: "Drops during The_Beast_raid. Upgrades to Lust_of_the_Xan.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -9085,7 +9007,7 @@ const db = {
           max: 220,
           type: "Pistol",
           blurb:
-            "Upgrade result from Lord_of_Lust. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord_of_Lust. Upgrade drops during 3_different_raids. ",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -9131,7 +9053,7 @@ const db = {
           max: 220,
           type: "Pistol",
           blurb:
-            "Upgrade result from Lord_of_Lust. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord_of_Lust. Upgrade drops during 3_different_raids. ",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -9217,8 +9139,7 @@ const db = {
       min: 175,
       max: 215,
       type: "Pistol",
-      blurb:
-        "Drops during the Mercenaries_Raid. Level locked from 175. High max damage and low MBS.",
+      blurb: "Drops during the Mercenaries_Raid. Level locked from 175. ",
       stats: {
         ql: { value: "200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -9299,8 +9220,7 @@ const db = {
       min: 190,
       max: 220,
       type: "Pistol",
-      blurb:
-        "One of the Xan_weapon_upgrades. Lust_of_the_Xan tuned for slightly higher min damage.",
+      blurb: "One of the Xan_weapon_upgrades. ",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -9345,8 +9265,7 @@ const db = {
       min: 60,
       max: 200,
       type: "Pistol",
-      blurb:
-        "Blitzable, shop buyable, and in common loot pools. Pistol that exchanges regular damages for crits.",
+      blurb: "Blitzable, shop buyable, and in common loot pools. ",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -9416,8 +9335,7 @@ const db = {
       min: 190,
       max: 215,
       type: "Pistol",
-      blurb:
-        "Drops from escaped_prisoners. Adventurer only. Overall high stats.",
+      blurb: "Drops from escaped_prisoners. Adventurer only. ",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -9457,7 +9375,7 @@ const db = {
       max: 200,
       type: "Pistol",
       blurb:
-        "Drops during the Mercenaries_Raid. Adventurer only. Level locked from 175. High max damage and low MBS.",
+        "Drops during the Mercenaries_Raid. Adventurer only. Level locked from 175. ",
       stats: {
         ql: { value: "200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -9530,8 +9448,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Pistol",
-      blurb:
-        "Tradeskilled from sealed_weapon_receptacles. Adventurer only. Carries a balanced mix of damage and crits.",
+      blurb: "Tradeskilled from sealed_weapon_receptacles. Adventurer only. ",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -9564,7 +9481,7 @@ const db = {
       max: 200,
       type: "Pistol",
       blurb:
-        "Drops from Unredeemed mobs in the Shadowlands. Can be upgraded to a turn_spirit_weapon. Effectively a clan Inamorata_Pistol. Gets slower as the QL rises. The base carries better max damage than the radiant RK selection.",
+        "Drops from Unredeemed mobs in the Shadowlands. Can be upgraded to a turn_spirit_weapon. Effectively a clan Inamorata_Pistol. ",
       stats: {
         ql: { value: "100-300", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -9676,7 +9593,7 @@ const db = {
       max: 220,
       type: "Pistol",
       blurb:
-        'Pistol built_from_the_starting_solar_powered_pistol. Right hand only. Model listed is QL 1 interpolation. One of the few "leveling weapons" in the game. Has to be upgraded with items roughly every 40 levels. End game variants are powerful but weapon smithing checks can make it hard to use off-class.',
+        'Pistol built_from_the_starting_solar_powered_pistol. Right hand only. Model listed is QL 1 interpolation. One of the few "leveling weapons" in the game. Has to be upgraded with items roughly every 40 levels.',
       stats: {
         ql: { value: "Interpolated", quality: "r" },
         dual: { value: "Yes", quality: "r" },
@@ -9709,8 +9626,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Pistol",
-      blurb:
-        "Drops from Dynas. Excellent max damage. Speeds get slower as the QL rises.",
+      blurb: "Drops from Dynas. Speeds get slower as the QL rises.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -9747,8 +9663,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Pistol",
-      blurb:
-        "Drops from Dynas. Excellent max damage. Speeds get slower as the QL rises.",
+      blurb: "Drops from Dynas. Speeds get slower as the QL rises.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -9790,7 +9705,7 @@ const db = {
           max: 200,
           type: "Pistol",
           blurb:
-            "Drops from Sector_07_aliens. Profession locked to a bunch of professions. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+            "Drops from Sector_07_aliens. Profession locked to a bunch of professions. Level locked to 151. Hits have a 5% chance to proc a AAO buff.",
           stats: {
             ql: { value: "SPECIAL", quality: "r" },
             dual: { value: "Yes", quality: "" },
@@ -9836,7 +9751,7 @@ const db = {
           max: 200,
           type: "Pistol",
           blurb:
-            "Drops from Sector_07_aliens. Profession locked to a bunch of professions. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+            "Drops from Sector_07_aliens. Profession locked to a bunch of professions. Level locked to 151. Hits have a 5% chance to proc a AAO buff.",
           stats: {
             ql: { value: "SPECIAL", quality: "r" },
             dual: { value: "Yes", quality: "" },
@@ -9882,8 +9797,7 @@ const db = {
       min: 80,
       max: 190,
       type: "Pistol",
-      blurb:
-        "Drops from Wardog in The_Reck. Notorious mid-late game chase pistol with low reqs.",
+      blurb: "Drops from Wardog in The_Reck.",
       stats: {
         ql: { value: "SPECIAL", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -9923,7 +9837,7 @@ const db = {
       max: 200,
       type: "Pistol",
       blurb:
-        "Blitzable, shop buyable, and in common loot pools. RK's unlocked holdout pistol. Commonly found in low Qls in the backyard shops.",
+        "Blitzable, shop buyable, and in common loot pools. Commonly found in low Qls in the backyard shops.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -9963,8 +9877,7 @@ const db = {
           min: 190,
           max: 220,
           type: "Pistol",
-          blurb:
-            "One of the Xan_weapon_upgrades. Lust_of_the_Xan tuned for flat damage and aimed shot. Disables full auto.",
+          blurb: "One of the Xan_weapon_upgrades. Disables full auto.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -10009,8 +9922,7 @@ const db = {
           min: 190,
           max: 220,
           type: "Pistol",
-          blurb:
-            "One of the Xan_weapon_upgrades. Lust_of_the_Xan tuned for flat damage and aimed shot. Disables full auto.",
+          blurb: "One of the Xan_weapon_upgrades. Disables full auto.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -10099,8 +10011,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Ranged energy",
-      blurb:
-        "Drops from sided mobs in the Shadowlands. Fast RE weapon missing specials.",
+      blurb: "Drops from sided mobs in the Shadowlands. ",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -10131,7 +10042,7 @@ const db = {
       max: 220,
       type: "Ranged energy",
       blurb:
-        "Drops from Dreadloch_camps. Level locked from 210. Strong end-game RE weapon where min damage is important. Hits have a 2% chance to proc an AC debuff.",
+        "Drops from Dreadloch_camps. Level locked from 210. Hits have a 2% chance to proc an AC debuff.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -10165,7 +10076,7 @@ const db = {
       max: 220,
       type: "Ranged energy",
       blurb:
-        "Drops from Dreadloch_camps. Level locked from 210. Overall high stats. Hits have a 5% chance to proc an AC debuff.",
+        "Drops from Dreadloch_camps. Level locked from 210.  Hits have a 5% chance to proc an AC debuff.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -10198,8 +10109,7 @@ const db = {
       min: 60,
       max: 200,
       type: "Ranged energy",
-      blurb:
-        "Blitzable, shop buyable, and in common loot pools. RE-Shotgun that exchanges regular damages for crits.",
+      blurb: "Blitzable, shop buyable, and in common loot pools.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -10230,8 +10140,7 @@ const db = {
       min: 15,
       max: 50,
       type: "Ranged energy",
-      blurb:
-        "Drops from Dynas. Bureaucrat only. Carries a good damage profile, but RE conflicts with Bureaucrat's shiny brain slot.",
+      blurb: "Drops from Dynas. Bureaucrat only.",
       stats: {
         ql: { value: "40-50", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -10267,8 +10176,7 @@ const db = {
       min: 60,
       max: 200,
       type: "Ranged energy",
-      blurb:
-        "Blitzable, shop buyable, and in common loot pools. RE-AR that exchanges regular damages for crits.",
+      blurb: "Blitzable, shop buyable, and in common loot pools.",
       stats: {
         ql: { value: "15-200", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -10299,7 +10207,7 @@ const db = {
       max: 220,
       type: "Ranged energy",
       blurb:
-        "Drops from Vergil in the 18.8_Subway_raid. Level locked from 215. Overall high stats. Hits have a 5% chance to proc an AC debuff.",
+        "Drops from Vergil in the 18.8_Subway_raid. Level locked from 215.  Hits have a 5% chance to proc an AC debuff.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -10327,13 +10235,47 @@ const db = {
       diff: 6,
       auno: "https://auno.org/ao/db.php?id=305998",
     },
+
+    "Khalum's Reliance": {
+      name: "Khalum's Reliance",
+      min: 60,
+      max: 125,
+      type: "Ranged energy",
+      blurb:
+        "Unconfirmed acquisition means. Likely drops from Khalum in TOTW. Current stats are from screenshots. Checks duck explosions. PRK only.",
+      stats: {
+        ql: { value: "SPECIAL", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "2.3s", quality: "" },
+        rSpeed: { value: "2.3s", quality: "" },
+        range: { value: "25 m", quality: "" },
+        minDamage: { value: "103", quality: "" },
+        maxDamage: { value: "254", quality: "" },
+        critMod: { value: "173", quality: "" },
+        attackCap: { value: "700", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Burst, Full Auto", quality: "" },
+        reqs: {
+          "Ranged energy": { value: "403", quality: "" },
+          "Full auto": { value: "206", quality: "" },
+          Burst: { value: "171", quality: "" },
+        },
+        mods: {},
+      },
+      auno: false,
+      profs: ["Soldier", "Trader", "Fixer"],
+      diff: 69,
+      prk: true,
+    },
+
     "Kyr'Ozch Energy Carbine": {
       name: "Kyr'Ozch Energy Carbine",
       min: 1,
       max: 200,
       type: "Ranged energy",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. ",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -10364,7 +10306,7 @@ const db = {
       max: 200,
       type: "Ranged energy",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. ",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -10389,12 +10331,42 @@ const db = {
       diff: 5,
       auno: "https://auno.org/ao/db.php?id=254639",
     },
+    "Overcharged Nova Flow - Mk IV": {
+      name: "Overcharged Nova Flow - Mk IV",
+      min: 25,
+      max: 50,
+      type: "Ranged energy",
+      blurb: "Drops from Eumenidies in the Subway. PRK only.",
+      stats: {
+        ql: { value: "SPECIAL", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1.5s", quality: "" },
+        rSpeed: { value: "1.5s", quality: "" },
+        range: { value: "20 m", quality: "" },
+        minDamage: { value: "38", quality: "" },
+        maxDamage: { value: "90", quality: "" },
+        critMod: { value: "35", quality: "" },
+        attackCap: { value: "400", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Burst", quality: "" },
+        reqs: {
+          "Ranged energy": { value: "151", quality: "" },
+          Burst: { value: "96", quality: "" },
+        },
+        mods: {},
+      },
+      auno: false,
+      profs: ["Soldier", "Trader", "Fixer"],
+      diff: 69,
+      prk: true,
+    },
     "Skawt's Compact Plasma Emitter": {
       name: "Skawt's Compact Plasma Emitter",
       min: 80,
       max: 175,
       type: "Ranged energy",
-      blurb: "Drops from Skawt in The_Reck. Cream of the crop RK RE weapon.",
+      blurb: "Drops from Skawt in The_Reck.",
       stats: {
         ql: { value: "100", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -10424,7 +10396,7 @@ const db = {
       min: 125,
       max: 200,
       type: "Ranged energy",
-      blurb: "Drops from Skawt in The_Reck. Cream of the crop RK RE weapon.",
+      blurb: "Drops from Skawt in The_Reck.",
       stats: {
         ql: { value: "200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -10455,8 +10427,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Ranged energy",
-      blurb:
-        "Drops from Dynas. Ranged Energy-Heavy Weapon with moderate stats. RE req is lower than typical, but takes HW instead.",
+      blurb: "Drops from Dynas.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -10488,8 +10459,7 @@ const db = {
       min: 15,
       max: 50,
       type: "Ranged energy",
-      blurb:
-        "Drops from Dynas. Doctor only. Carries a good damage profile, but RE conflicts with Doctor's shiny brain slot.",
+      blurb: "Drops from Dynas. Doctor only.",
       stats: {
         ql: { value: "40-50", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -10526,7 +10496,7 @@ const db = {
           max: 200,
           type: "Ranged energy",
           blurb:
-            "Drops from Sector_07_aliens. Profession locked to a bunch of professions. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+            "Drops from Sector_07_aliens. Profession locked to a bunch of professions. Level locked to 151. Hits have a 5% chance to proc a AAO buff.",
           stats: {
             ql: { value: "", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -10564,7 +10534,7 @@ const db = {
           max: 200,
           type: "Ranged energy",
           blurb:
-            "Drops from Sector_07_aliens. Profession locked to a bunch of professions. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+            "Drops from Sector_07_aliens. Profession locked to a bunch of professions. Level locked to 151. Hits have a 5% chance to proc a AAO buff.",
           stats: {
             ql: { value: "", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -10650,7 +10620,7 @@ const db = {
           max: 220,
           type: "Rifle",
           blurb:
-            "Upgrade result from Lord_of_Angst. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord_of_Angst. Upgrade drops during 3_different_raids. ",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -10688,7 +10658,7 @@ const db = {
           max: 220,
           type: "Rifle",
           blurb:
-            "Upgrade result from Lord_of_Angst. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord_of_Angst. Upgrade drops during 3_different_raids. ",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -10725,7 +10695,7 @@ const db = {
       min: 25,
       max: 50,
       type: "Rifle",
-      blurb: "Drops from Dynas. Agent only. Overall good stats.",
+      blurb: "Drops from Dynas. Agent only. ",
       stats: {
         ql: { value: "40-50", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -10761,8 +10731,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Rifle",
-      blurb:
-        "Drops from common loot pools and blitzable. Slow Rifle-Bow with low reqs and decent damage.",
+      blurb: "Drops from common loot pools and blitzable.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -10796,8 +10765,7 @@ const db = {
           min: 1,
           max: 200,
           type: "Rifle",
-          blurb:
-            "Sold by weapon specific venders. Agent only. Aimed shot-less rifle with decent damage and a long attack windup.",
+          blurb: "Sold by weapon specific venders. Agent only. ",
           stats: {
             ql: { value: "1-200", quality: "" },
             dual: { value: "No", quality: "" },
@@ -10828,8 +10796,7 @@ const db = {
           min: 1,
           max: 200,
           type: "Rifle",
-          blurb:
-            "Sold in the Trader shop. Agent only. Aimed shot-less rifle with decent damage and a long attack windup.",
+          blurb: "Sold in the Trader shop. Agent only. ",
           stats: {
             ql: { value: "1-200", quality: "" },
             dual: { value: "No", quality: "" },
@@ -10863,8 +10830,7 @@ const db = {
       min: 205,
       max: 220,
       type: "Rifle",
-      blurb:
-        "Drops during the Home_Pyramid_raid. Max damage/lower req side-grade of the Rifle Xan flavor.",
+      blurb: "Drops during the Home_Pyramid_raid. ",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -10935,8 +10901,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Rifle",
-      blurb:
-        "Blitzable and part of common loot pools. Agent only. Classic agent rifle with good crits and regular damage.",
+      blurb: "Blitzable and part of common loot pools. Agent only.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -10969,8 +10934,7 @@ const db = {
       min: 215,
       max: 220,
       type: "Rifle",
-      blurb:
-        "Upgraded rifle from the Xan_weapon_upgrades. Slightly more powerful with higher reqs.",
+      blurb: "Upgraded rifle from the Xan_weapon_upgrades.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -11010,7 +10974,7 @@ const db = {
           max: 220,
           type: "Rifle",
           blurb:
-            "Weapon_tradeskilled_from_alien_parts. Weapon base drops during The Beast raid. Agent only. Level locked from 201. Higher stats and lower reqs than the standard Lord of Angst. Has a 25% chance to proc an untaunt.",
+            "Weapon_tradeskilled_from_alien_parts. Weapon base drops during The Beast raid. Agent only. Level locked from 201. Has a 25% chance to proc an untaunt.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -11048,7 +11012,7 @@ const db = {
           max: 220,
           type: "Rifle",
           blurb:
-            "Weapon_tradeskilled_from_alien_parts. Weapon base drops during The Beast raid. Agent only. Level locked from 210. Higher stats and lower reqs than the standard Lord of Angst. Has a 10% chance to proc an untaunt.",
+            "Weapon_tradeskilled_from_alien_parts. Weapon base drops during The Beast raid. Agent only. Level locked from 210. Has a 10% chance to proc an untaunt.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -11087,8 +11051,7 @@ const db = {
       min: 100,
       max: 175,
       type: "Rifle",
-      blurb:
-        "Drops from Dynas. Agent only. Overall decent stats lacking specials. Checks duck-explosives.",
+      blurb: "Drops from Dynas. Agent only. Checks duck-explosives.",
       stats: {
         ql: { value: "140-150", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -11122,8 +11085,7 @@ const db = {
       min: 150,
       max: 215,
       type: "Rifle",
-      blurb:
-        "Drops from Tiunissik in Inferno, Shadowlands. Agent only. Overall good stats.",
+      blurb: "Drops from Tiunissik in Inferno, Shadowlands. Agent only. ",
       stats: {
         ql: { value: "240-260", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -11160,7 +11122,7 @@ const db = {
       max: 200,
       type: "Rifle",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. ",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -11192,7 +11154,7 @@ const db = {
       max: 200,
       type: "Rifle",
       blurb:
-        "Drops from high rank officers in the OT base in Avalon or clan base in Wailing Wastes. Agent only. Level locked from 150. High max damage and decent crits make an effective RK PvM rifle.",
+        "Drops from high rank officers in the OT base in Avalon or clan base in Wailing Wastes. Agent only. Level locked from 150.",
       stats: {
         ql: { value: "200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -11230,7 +11192,7 @@ const db = {
       max: 200,
       type: "Rifle",
       blurb:
-        "One of the viral_weapon_upgrades_tradeskills. Weapon base is blitzable and in common pools. Viral Weapon Upgrade drops from aliens. A decent unlocked rifle with a medium barrier to entry.",
+        "One of the viral_weapon_upgrades_tradeskills. Weapon base is blitzable and in common pools. Viral Weapon Upgrade drops from aliens.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -11300,7 +11262,7 @@ const db = {
       max: 200,
       type: "Rifle",
       blurb:
-        "Crafted from a Nano-Charged_weapon_and_a_bunch_of_SL_parts. Agent only. Starts at QL 50. Excellent damage profile but arduous crafting recipe.",
+        "Crafted from a Nano-Charged_weapon_and_a_bunch_of_SL_parts. Agent only. ",
       stats: {
         ql: { value: "50-200", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -11330,13 +11292,13 @@ const db = {
 
     "Shadowfade Rifle": {
       name: "Shadowfade Rifle",
-      min: 1,
-      max: 200,
+      min: 40,
+      max: 100,
       type: "Rifle",
       blurb:
-        "Demo weapon listing for PRK only weapons. Examination will be reserved until seen in game. Current stats are from screenshots.",
+        "Unknown acquisition means. Current stats are from screenshots. PRK only.",
       stats: {
-        ql: { value: "1", quality: "" },
+        ql: { value: "SPECIAL", quality: "" },
         dual: { value: "No", quality: "" },
         aSpeed: { value: "1.5s", quality: "" },
         rSpeed: { value: "1.5s", quality: "" },
@@ -11365,8 +11327,7 @@ const db = {
       min: 70,
       max: 175,
       type: "Rifle",
-      blurb:
-        "Drops from Dynas. Clan/Neutral only. Fast Rifle-Bow with decent crits and low reqs.",
+      blurb: "Drops from Dynas. Clan/Neutral only.",
       stats: {
         ql: { value: "100-150", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -11403,8 +11364,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Rifle",
-      blurb:
-        "Drops from common loot pools. Unlocked, accessible rifle with decent overall stats and good crits.",
+      blurb: "Drops from common loot pools.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -11444,13 +11404,42 @@ const db = {
     // https://auno.org/ao/db.php?id=124255 OT M50caw Shotgun slightly worse sidegrade Krutt Assault
     // https://auno.org/ao/db.php?id=243766 Pocket Cannon very slow 3.5/3.5 only ql 200+ no stat interpolation
     // https://auno.org/ao/db.php?id=123056 Medium Shotgun not super weak but home defender is too good
+    "Cries from the Aether": {
+      name: "Cries from the Aether",
+      min: 40,
+      max: 100,
+      type: "Shotgun",
+      blurb: "Drops from shotgun-wielding cultists in TOTW. PRK only.",
+      stats: {
+        ql: { value: "SPECIAL", quality: "" },
+        dual: { value: "No", quality: "" },
+        aSpeed: { value: "1.5s", quality: "" },
+        rSpeed: { value: "1s", quality: "" },
+        range: { value: "25 m", quality: "" },
+        minDamage: { value: "79", quality: "" },
+        maxDamage: { value: "193", quality: "" },
+        critMod: { value: "50", quality: "" },
+        attackCap: { value: "700", quality: "" },
+        init: { value: "Ranged", quality: "" },
+        multi: { value: "", quality: "" },
+        specials: { value: "Fling Shot", quality: "" },
+        reqs: {
+          Shotgun: { value: "321", quality: "" },
+          "Fling shot": { value: "157", quality: "" },
+        },
+        mods: {},
+      },
+      auno: false,
+      profs: ["Trader"],
+      diff: 69,
+      prk: true,
+    },
     "Eye Wind Onehander": {
       name: "Eye Wind Onehander",
       min: 60,
       max: 200,
       type: "Shotgun",
-      blurb:
-        "Blitzable and part of common loot pools. Classic PVP shotgun. Useful for putting a bunch of specials in your offhand with enough crits. Regular damage suffers.",
+      blurb: "Blitzable and part of common loot pools.",
       stats: {
         ql: { value: "1-188", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -11489,7 +11478,7 @@ const db = {
           max: 220,
           type: "Shotgun",
           blurb:
-            "Upgrade result from Lord_of_Greed. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord_of_Greed. Upgrade drops during 3_different_raids. ",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -11526,7 +11515,7 @@ const db = {
           max: 220,
           type: "Shotgun",
           blurb:
-            "Upgrade result from Lord_of_Greed. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match.",
+            "Upgrade result from Lord_of_Greed. Upgrade drops during 3_different_raids. ",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -11563,7 +11552,7 @@ const db = {
       max: 200,
       type: "Shotgun",
       blurb:
-        "Drops from sided mobs in the Shadowlands. Profession locked to Trader. Right hand only. Multi check ranges from 4 to 748 depending on QL. High damages make this gun tick for mid-game traders without crits.",
+        "Drops from sided mobs in the Shadowlands. Profession locked to Trader. Right hand only. Multi check ranges from 4 to 748 depending on QL.",
       stats: {
         ql: { value: "100-200", quality: "r" },
         dual: { value: "Yes", quality: "r" },
@@ -11595,7 +11584,7 @@ const db = {
       max: 200,
       type: "Shotgun",
       blurb:
-        "Blitzable, shop buyable and part of common loot pools. Powerful and accessible. Gets a little bit faster as the QL rises.",
+        "Blitzable, shop buyable and part of common loot pools. Gets a little bit faster as the QL rises.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -11627,7 +11616,7 @@ const db = {
       max: 200,
       type: "Shotgun",
       blurb:
-        "Drops from Redeemed mobs in the Shadowlands. Can be upgraded to a turn_spirit_weapon. Effectively an omni Sacrosanct_Shotgun. The base carries better max damage and worse crits than the radiant RK selection. The upgraded version is the hardest hitting shotgun in the game.",
+        "Drops from Redeemed mobs in the Shadowlands. Can be upgraded to a turn_spirit_weapon. Effectively an omni Sacrosanct_Shotgun.",
       stats: {
         ql: { value: "100-300", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -11661,8 +11650,7 @@ const db = {
       min: 60,
       max: 200,
       type: "Shotgun",
-      blurb:
-        "Blitzable, shop buyable and part of common loot pools. A faster Krutt_Assault with aimed shot.",
+      blurb: "Blitzable, shop buyable and part of common loot pools.",
       stats: {
         ql: { value: "1-199", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -11698,8 +11686,7 @@ const db = {
       max: 200,
       type: "Shotgun",
       auno: "https://auno.org/ao/db.php?id=124284",
-      blurb:
-        "Blitzable, shop buyable and part of common loot pools. Notorious crit shotgun.",
+      blurb: "Blitzable, shop buyable and part of common loot pools.",
       stats: {
         ql: { value: "1-184", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -11732,7 +11719,7 @@ const db = {
       max: 220,
       type: "Shotgun",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. Overall decent stats with higher damage min than most of RK.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. ",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -11762,8 +11749,7 @@ const db = {
       min: 190,
       max: 220,
       type: "Shotgun",
-      blurb:
-        "Drops during The_Beast_raid. High stats overall, but shotgun req makes it virtually Trader only. Upgrades to Greed_of_the_Xan.",
+      blurb: "Drops during The_Beast_raid. Upgrades to Greed_of_the_Xan.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -11797,8 +11783,7 @@ const db = {
       min: 175,
       max: 200,
       type: "Shotgun",
-      blurb:
-        "Drops in IS. Strong regular damage and weak crits make this weapon stand out amongst most of the RK shotguns.",
+      blurb: "Drops in IS.",
       stats: {
         ql: { value: "1", quality: "" },
         dual: { value: "No", quality: "" },
@@ -11828,8 +11813,7 @@ const db = {
       min: 80,
       max: 150,
       type: "Shotgun",
-      blurb:
-        "Drops from Dynas. Trader only. Carries more regular damage and less crits than Home_Defender.",
+      blurb: "Drops from Dynas. Trader only.",
       stats: {
         ql: { value: "140-150", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -11864,8 +11848,7 @@ const db = {
           min: 1,
           max: 200,
           type: "Shotgun",
-          blurb:
-            "Drops from Shadowlands common loot pools. Trader only. Slow, hard hitting shotgun.",
+          blurb: "Drops from Shadowlands common loot pools. Trader only. ",
           stats: {
             ql: { value: "1-200", quality: "" },
             dual: { value: "No", quality: "" },
@@ -11901,7 +11884,7 @@ const db = {
           max: 200,
           type: "Shotgun",
           blurb:
-            "Drops from Shadowlands common loot pools. Trader only. Slow, hard hitting shotgun. NODROP flagged.",
+            "Drops from Shadowlands common loot pools. Trader only. NODROP flagged.",
           stats: {
             ql: { value: "1-200", quality: "" },
             dual: { value: "No", quality: "" },
@@ -12008,8 +11991,7 @@ const db = {
       min: 15,
       max: 60,
       type: "Shotgun",
-      blurb:
-        "Drops from Dynas. Trader only. The classic early game shotgun. Max damage carries this weapon.",
+      blurb: "Drops from Dynas. Trader only.",
       stats: {
         ql: { value: "40-50", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -12045,7 +12027,7 @@ const db = {
       max: 200,
       type: "Shotgun",
       blurb:
-        "Drops from Unredeemed mobs in the Shadowlands. Can be upgraded to a turn_spirit_weapon. Effectively a clan Inamorata_Shotgun. The base carries better max damage and worse crits than the radiant RK selection. The upgraded version is the hardest hitting shotgun in the game.",
+        "Drops from Unredeemed mobs in the Shadowlands. Can be upgraded to a turn_spirit_weapon. Effectively a clan Inamorata_Shotgun.",
       stats: {
         ql: { value: "100-300", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -12080,7 +12062,7 @@ const db = {
       max: 220,
       type: "Shotgun",
       blurb:
-        "Tradeskilled_from_alien_parts dropped from alien_generals. Trader only. Gets faster as the QL rises. High min damage.",
+        "Tradeskilled_from_alien_parts dropped from alien_generals. Trader only. Gets faster as the QL rises.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -12112,8 +12094,7 @@ const db = {
       min: 20,
       max: 50,
       type: "Shotgun",
-      blurb:
-        "Drops from Dynas. Soldier only. Uncommon burst shotgun with a good damage profile.",
+      blurb: "Drops from Dynas. Soldier only.",
       stats: {
         ql: { value: "40-50", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -12151,7 +12132,7 @@ const db = {
           max: 200,
           type: "Shotgun",
           blurb:
-            "Drops from Sector_07_aliens. Trader only. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+            "Drops from Sector_07_aliens. Trader only. Level locked to 151. Hits have a 5% chance to proc a AAO buff.",
           stats: {
             ql: { value: "150", quality: "" },
             dual: { value: "No", quality: "" },
@@ -12185,7 +12166,7 @@ const db = {
           max: 200,
           type: "Shotgun",
           blurb:
-            "Drops from Sector_07_aliens. Trader only. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+            "Drops from Sector_07_aliens. Trader only. Hits have a 5% chance to proc a AAO buff.",
           stats: {
             ql: { value: "150", quality: "" },
             dual: { value: "No", quality: "" },
@@ -12221,7 +12202,7 @@ const db = {
       max: 200,
       type: "Shotgun",
       blurb:
-        "Blitzable, shop buyable and part of common loot pools. Dual shotgun pistol with high crits and low damage. Attack speed gets faster as QL gets higher. Regular damage is front loaded, weapon can be used decently in low QLs without crits and in high QLs with crits.",
+        "Blitzable, shop buyable and part of common loot pools. Attack speed gets faster as QL gets higher.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -12253,7 +12234,7 @@ const db = {
       max: 200,
       type: "Shotgun",
       blurb:
-        "Drops from common loot pools, but not shop buyable or blitzable. Profession locked to Trader and Agent. A dual shotgun with decent overall stats, making it an attractive option early-game when crits are sparse.",
+        "Drops from common loot pools, but not shop buyable or blitzable. Profession locked to Trader and Agent.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -12290,7 +12271,7 @@ const db = {
           max: 220,
           type: "Shotgun",
           blurb:
-            "Weapon_tradeskilled_from_alien_parts. Base is in common loot pools and blitzable. Trader and level locked. Overall powerful shotgun without specials. Has a chance to proc an AAO debuff based on Alchemist and Distill Life perks.",
+            "Weapon_tradeskilled_from_alien_parts. Base is in common loot pools and blitzable. Trader and level locked. Has a chance to proc an AAO debuff based on Alchemist and Distill Life perks.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -12325,7 +12306,7 @@ const db = {
           max: 220,
           type: "Shotgun",
           blurb:
-            "Weapon_tradeskilled_from_alien_parts. Base is in common loot pools and blitzable. Trader and level locked. Overall powerful shotgun without specials. Has a chance to proc an AAO debuff based on Alchemist and Distill Life perks.",
+            "Weapon_tradeskilled_from_alien_parts. Base is in common loot pools and blitzable. Trader and level locked. Has a chance to proc an AAO debuff based on Alchemist and Distill Life perks.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "No", quality: "" },
@@ -12374,7 +12355,7 @@ const db = {
       max: 200,
       type: "Smg",
       blurb:
-        "Drops from Cenobite Shadows in COH. Profession locked to Fixer and Soldier. Stats vary significantly across the 5 QLs. Cream of the crop RK SMG.",
+        "Drops from Cenobite Shadows in COH. Profession locked to Fixer and Soldier. Stats vary significantly across the 5 QLs.",
       stats: {
         ql: { value: "100-105", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -12411,7 +12392,7 @@ const db = {
           max: 220,
           type: "Smg",
           blurb:
-            "Upgrade result from Lord_of_Envy. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match. Check Rhat'Ata Gun for a version that replaces FA with fling shot.",
+            "Upgrade result from Lord_of_Envy. Upgrade drops during 3_different_raids. Check Rhat'Ata Gun for a version that replaces FA with fling shot.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -12449,7 +12430,7 @@ const db = {
           max: 220,
           type: "Smg",
           blurb:
-            "Upgrade result from Lord_of_Envy. Upgrade drops during 3_different_raids. Your typical Xan end-game weapon with the stats to match. Check Rhat'Ata Gun for a version that replaces FA with fling shot.",
+            "Upgrade result from Lord_of_Envy. Upgrade drops during 3_different_raids. Check Rhat'Ata Gun for a version that replaces FA with fling shot.",
           stats: {
             ql: { value: "300", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -12487,7 +12468,7 @@ const db = {
       max: 200,
       type: "Smg",
       blurb:
-        "One of the viral_weapon_upgrades_tradeskills. Weapon base is blitzable and in common pools. Viral Weapon Upgrade drops from aliens. Better damage profile than most common SMGs, and full auto.",
+        "One of the viral_weapon_upgrades_tradeskills. Weapon base is blitzable and in common pools. Viral Weapon Upgrade drops from aliens. ",
       stats: {
         ql: { value: "1-184", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -12522,8 +12503,7 @@ const db = {
       min: 41,
       max: 100,
       type: "Smg",
-      blurb:
-        "Drops from bodyguards in Foremans. Hard to obtain when you pass the reqs, the bodyguards are likely to be 40 levels higher than you. A decent smg in a drought. Virtually right hand only because of the multi check.",
+      blurb: "Drops from bodyguards in Foremans.",
       stats: {
         ql: { value: "68", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -12553,8 +12533,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Smg",
-      blurb:
-        "Blitzable and part of common loot pools. Fixer only. Hard hitting RK pistol SMG. Low burst cycle.",
+      blurb: "Blitzable and part of common loot pools. Fixer only.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -12591,7 +12570,7 @@ const db = {
       max: 220,
       type: "Smg",
       blurb:
-        "Drops from Redeemed mobs in the Shadowlands. Can be upgraded to a turn_spirit_weapon. Effectively an omni Sacrosanct_Blaster. The base is on par with the usual radiant RK selection, but can be improved past it.",
+        "Drops from Redeemed mobs in the Shadowlands. Can be upgraded to a turn_spirit_weapon. Effectively an omni Sacrosanct_Blaster.",
       stats: {
         ql: { value: "100-300", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -12625,8 +12604,7 @@ const db = {
       min: 175,
       max: 200,
       type: "Smg",
-      blurb:
-        "Drops during the Juggernaut_raid. Clan only. Somewhat better damage profile than other unlocked pure SMGs, but generally overlooked since the raid is challenging and infrequent.",
+      blurb: "Drops during the Juggernaut_raid. Clan only.",
       stats: {
         ql: { value: "200-225", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -12661,7 +12639,7 @@ const db = {
       max: 220,
       type: "Smg",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. High damage min and speeds, but weaker damage max.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -12692,7 +12670,7 @@ const db = {
       max: 220,
       type: "Smg",
       blurb:
-        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks. High damage min and speeds, but weaker damage max.",
+        "Drops from aliens. Different sectors house different QLs. Can be upraded to different_special_attacks.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -12722,8 +12700,7 @@ const db = {
       min: 20,
       max: 60,
       type: "Smg",
-      blurb:
-        "Drops from Dynas. Fixer only. Decent early game SMG with a low barrier to entry. Strong crits but most fixers won't have any.",
+      blurb: "Drops from Dynas. Fixer only.",
       stats: {
         ql: { value: "40-50", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -12758,8 +12735,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Smg",
-      blurb:
-        "Blitzable, drops from common loot pools, and shop buyable. What it lacks in damage it makes up for in accessibility. Effectively a higher req, higher damage version of Sleekmaster_Classic.",
+      blurb: "Blitzable, drops from common loot pools, and shop buyable.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -12790,8 +12766,7 @@ const db = {
       min: 190,
       max: 220,
       type: "Smg",
-      blurb:
-        "Drops during The_Beast_raid. Overall a weak SMG, only really notable for its min damage. Upgrades to Envy_of_the_Xan.",
+      blurb: "Drops during The_Beast_raid. Upgrades to Envy_of_the_Xan.",
       stats: {
         ql: { value: "300", quality: "" },
         dual: { value: "No", quality: "" },
@@ -12826,8 +12801,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Smg",
-      blurb:
-        "Drops from Dynas. The hardest hitting SMG in the game. Full aggro to make it usable is an antipattern for the solo fixer.",
+      blurb: "Drops from Dynas.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -12857,8 +12831,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Smg",
-      blurb:
-        "Tradeskilled_from_Mausser_Particle_Streamer. Mausser_Particle_Streamer is in common loot pools, shops and is blitzable. Little bit better than MPS.",
+      blurb: "Tradeskilled_from_Mausser_Particle_Streamer.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -12889,7 +12862,7 @@ const db = {
       max: 200,
       type: "Smg",
       blurb:
-        "Part common loot pools, shops and is blitzable. Tradeskills into Mausser_Chemical_Streamer. Typically used as a holdout weapon until you can get something better.",
+        "Part common loot pools, shops and is blitzable. Tradeskills into Mausser_Chemical_Streamer.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -12920,7 +12893,7 @@ const db = {
       max: 200,
       type: "Smg",
       blurb:
-        "Drops from Mortiig bosses in Elysium, Shadowlands. Fixer only. Notable locations include Spade Beach and Eastfang. High damage profile and low reqs make it an attractive weapon for mid-late game. Limited end game use due to low MBS.",
+        "Drops from Mortiig bosses in Elysium, Shadowlands. Fixer only. Notable locations include Spade Beach and Eastfang. ",
       stats: {
         ql: { value: "100-125", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -12954,8 +12927,7 @@ const db = {
           min: 1,
           max: 200,
           type: "Smg",
-          blurb:
-            "Blitzable, drops from common loot pools, and shop buyable. A little bit faster than some other holdouts.",
+          blurb: "Blitzable, drops from common loot pools, and shop buyable. ",
           stats: {
             ql: { value: "1-200", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -12986,7 +12958,7 @@ const db = {
           max: 200,
           type: "Smg",
           blurb:
-            "Blitzable, drops from common loot pools, and shop buyable from trader shops. A little bit faster than some other holdouts.",
+            "Blitzable, drops from common loot pools, and shop buyable from trader shops. ",
           stats: {
             ql: { value: "1-200", quality: "" },
             dual: { value: "Yes", quality: "" },
@@ -13019,7 +12991,7 @@ const db = {
       max: 220,
       type: "Smg",
       blurb:
-        "Weapon base is buyable from battlestation vendors with victory points. Upgraded to higher marks with_alien_materials. The next version, Mk_6, is two handed. Long full auto cycle. High damage min and speeds. Check Mk 4 for the FA-less version.",
+        "Weapon base is buyable from battlestation vendors with victory points. Upgraded to higher marks with_alien_materials. The next version, Mk_6, is two handed.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -13052,7 +13024,7 @@ const db = {
       max: 220,
       type: "Smg",
       blurb:
-        "Weapon base is buyable from battlestation vendors with victory points. Upgraded to higher marks with_alien_materials. The previous version, Mk_5, is one handed. Long full auto cycle. Overall high damage profile.",
+        "Weapon base is buyable from battlestation vendors with victory points. Upgraded to higher marks with_alien_materials. The previous version, Mk_5, is one handed.",
       stats: {
         ql: { value: "1-300", quality: "" },
         dual: { value: "No", quality: "r" },
@@ -13084,8 +13056,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Smg",
-      blurb:
-        "Blitzable, drops from common loot pools, and shop buyable. An unremarkable holdout SMG.",
+      blurb: "Blitzable, drops from common loot pools, and shop buyable.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "No", quality: "" },
@@ -13116,7 +13087,7 @@ const db = {
       max: 200,
       type: "Smg",
       blurb:
-        "Crafted from a Nano-Charged_weapon_and_a_bunch_of_SL_parts. Fixer only. Starts at QL 50. Excellent damage profile but arduous crafting recipe.",
+        "Crafted from a Nano-Charged_weapon_and_a_bunch_of_SL_parts. Fixer only. ",
       stats: {
         ql: { value: "50-200", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -13149,7 +13120,7 @@ const db = {
       max: 200,
       type: "Smg",
       blurb:
-        "Drops from Unredeemed mobs in the Shadowlands. Can be upgraded to a turn_spirit_weapon. Effectively a clan Inamorata_Blaster. The base is on par with the usual radiant RK selection, but can be improved past it.",
+        "Drops from Unredeemed mobs in the Shadowlands. Can be upgraded to a turn_spirit_weapon. Effectively a clan Inamorata_Blaster.",
       stats: {
         ql: { value: "100-300", quality: "r" },
         dual: { value: "No", quality: "" },
@@ -13183,8 +13154,7 @@ const db = {
       min: 1,
       max: 200,
       type: "Smg",
-      blurb:
-        "Blitzable, drops from common loot pools, and shop buyable.  What it lacks in damage it makes up for in accessibility. Effectively a lower req, lower damage version of Light_Suppressor.",
+      blurb: "Blitzable, drops from common loot pools, and shop buyable.",
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -13218,7 +13188,7 @@ const db = {
           max: 200,
           type: "Smg",
           blurb:
-            "Drops from Sector_07_aliens. Fixer and Soldier only. Level locked to 151. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+            "Drops from Sector_07_aliens. Fixer and Soldier only. Level locked to 151. Hits have a 5% chance to proc a AAO buff.",
           stats: {
             ql: { value: "150", quality: "" },
             dual: { value: "No", quality: "" },
@@ -13253,7 +13223,7 @@ const db = {
           max: 200,
           type: "Smg",
           blurb:
-            "Drops from Sector_07_aliens. Fixer and Soldier only. Stronger and easier reqs than normal Kyr'Ozch weapons at this QL. Hits have a 5% chance to proc a AAO buff.",
+            "Drops from Sector_07_aliens. Fixer and Soldier only. Hits have a 5% chance to proc a AAO buff.",
           stats: {
             ql: { value: "150", quality: "" },
             dual: { value: "No", quality: "" },
@@ -13289,7 +13259,7 @@ const db = {
       max: 200,
       type: "Smg",
       blurb:
-        'Somewhat rare SMG that comes from sealed_weapon_receptacles. Comes in 4 different flavors, but the "Shells" version is the most competitive. Shotgun check may be awkward for fixers. Defense checks against duck explosions.',
+        'Crafted from sealed_weapon_receptacles. Comes in 4 different flavors, but the "Shells" version is the most competitive. Checks against duck explosions.',
       stats: {
         ql: { value: "1-200", quality: "" },
         dual: { value: "Yes", quality: "" },
@@ -13319,8 +13289,7 @@ const db = {
       min: 100,
       max: 200,
       type: "Smg",
-      blurb:
-        "Drops from Dynas. Fixer only. Overall medicore dual-wield SMG. Time is likely better spent farming for Blackbirds than this, but it is passable.",
+      blurb: "Drops from Dynas. Fixer only.",
       stats: {
         ql: { value: "140-150", quality: "r" },
         dual: { value: "Yes", quality: "" },
@@ -13357,7 +13326,7 @@ const db = {
       max: 220,
       type: "Smg",
       blurb:
-        "Drops from Spirits in Inferno, Shadowlands. Fixer only. Stats are fixed between QLs except MBS. High crits, damage min and MBS help this gun push past what Blackbirds can do.",
+        "Drops from Spirits in Inferno, Shadowlands. Fixer only. Stats are fixed between QLs except MBS.",
       stats: {
         ql: { value: "240-260", quality: "r" },
         dual: { value: "No", quality: "" },

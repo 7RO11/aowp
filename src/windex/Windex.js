@@ -58,7 +58,7 @@ function Windex() {
                   </span>
                   {sortingControls === "min" ? <span>✓</span> : <span>X</span>}
                 </div>
-                <hr></hr>
+                <hr className="hrIndex"></hr>
                 <Section section={section} sortingControls={sortingControls} />
               </Fragment>
             );
