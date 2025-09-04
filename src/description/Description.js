@@ -57,6 +57,79 @@ function Description() {
   //       return "royalblue";
   //   }
   // }
+
+  function getComparison(itemName, stat) {
+    let compareItem = db[itemDisplay.type][itemName];
+    // special case since its combined stats
+    if (stat === "damage") {
+      let compareMinColor = "whitesmoke";
+      let compareMinDiff = 0;
+      let compareMin = compareItem["stats"]["minDamage"]["value"];
+      if (compareMin >= itemDisplay["stats"]["minDamage"]["value"]) {
+        compareMinColor = "green";
+        compareMinDiff =
+          compareMin - itemDisplay["stats"]["minDamage"]["value"];
+      } else {
+        compareMinColor = "red";
+        compareMinDiff = `-${
+          itemDisplay["stats"]["minDamage"]["value"] - compareMin
+        }`;
+      }
+
+      let compareMaxColor = "whitesmoke";
+      let compareMaxDiff = 0;
+      let compareMax = compareItem["stats"]["maxDamage"]["value"];
+      if (compareMax >= itemDisplay["stats"]["maxDamage"]["value"]) {
+        compareMaxColor = "green";
+        compareMaxDiff =
+          compareMax - itemDisplay["stats"]["maxDamage"]["value"];
+      } else {
+        compareMaxColor = "red";
+        compareMaxDiff = `-${
+          itemDisplay["stats"]["maxDamage"]["value"] - compareMax
+        }`;
+      }
+
+      let compareCritColor = "whitesmoke";
+      let compareCritDiff = 0;
+      let compareCrit = compareItem["stats"]["critMod"]["value"];
+      if (compareCrit >= itemDisplay["stats"]["critMod"]["value"]) {
+        compareCritColor = "green";
+        compareCritDiff =
+          compareCrit - itemDisplay["stats"]["critMod"]["value"];
+      } else {
+        compareCritColor = "red";
+        compareCritDiff = `-${
+          itemDisplay["stats"]["critMod"]["value"] - compareCrit
+        }`;
+      }
+
+      return (
+        <div>
+          <span>
+            {compareMin}{" "}
+            <span style={{ color: compareMinColor, fontStyle: "italic" }}>
+              {compareMinDiff}
+            </span>
+          </span>{" "}
+          -
+          <span>
+            {compareMax}{" "}
+            <span style={{ color: compareMaxColor, fontStyle: "italic" }}>
+              {compareMaxDiff}
+            </span>
+          </span>{" "}
+          <span>
+            ({compareCrit}){" "}
+            <span style={{ color: compareCritColor, fontStyle: "italic" }}>
+              {compareCritDiff}
+            </span>
+          </span>{" "}
+        </div>
+      );
+    }
+    return compareItem["stats"][stat];
+  }
   return (
     <Stage>
       <div className="header">
@@ -161,6 +234,16 @@ function Description() {
                       mods significantly higher than max damage suggest that
                       this may be a crit weapon.
                     </p>
+                  </Tooltip>
+                  <span data-tooltip-id="compare" className="statEnd">
+                    + -
+                  </span>
+                  <Tooltip id="compare" place="right">
+                    <div>
+                      {itemDisplay.comparisons
+                        ? getComparison(itemDisplay.comparisons[0], "damage")
+                        : "thats crazy bro"}
+                    </div>
                   </Tooltip>
                 </td>
               </tr>

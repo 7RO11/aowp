@@ -1,5 +1,38 @@
 const db = {
   "1h Blunt": {
+    "870 1h Blunt Level 300": {
+      name: "870 1h Blunt Level 300",
+      min: 190,
+      max: 220,
+      type: "1h Blunt",
+      blurb: "Generic baseline weapon for the 000 1h blunt flavor.",
+      stats: {
+        ql: { value: "1-300", quality: "" },
+        dual: { value: "Yes", quality: "" },
+        aSpeed: { value: "1.5s", quality: "" },
+        rSpeed: { value: "1.5s", quality: "" },
+        range: { value: "3 m", quality: "" },
+        minDamage: { value: "140", quality: "" },
+        maxDamage: { value: "440", quality: "" },
+        critMod: { value: "240", quality: "" },
+        attackCap: { value: "2400", quality: "" },
+        init: { value: "Melee", quality: "" },
+        multi: { value: "1200", quality: "" },
+        specials: { value: "Fast Attack, Brawl, Dimach", quality: "" },
+        reqs: {
+          "1h Blunt": { value: "1501", quality: "" },
+          Brawl: { value: "901", quality: "" },
+          "Fast attack": { value: "751", quality: "" },
+          Dimach: { value: "301", quality: "" },
+        },
+        mods: {},
+      },
+      profs: ["Enforcer", "Meta-Physicist"],
+      prk: false,
+      diff: 0,
+      auno: "https://auno.org/ao/db.php?id=271077",
+    },
+
     "Abandonment of the Xan": {
       versions: [
         {
@@ -39,6 +72,7 @@ const db = {
           prk: false,
           diff: 6,
           auno: "https://auno.org/ao/db.php?id=280717",
+          comparisons: ["870 1h Blunt Level 300"],
         },
         {
           name: "Abandonment of the Xan",
@@ -2389,17 +2423,6 @@ const db = {
     },
   },
   "2h Edged": {
-    // need more info
-    // https://auno.org/ao/db.php?id=125110 Blade of Mourning, where it drop? dynas? conflicting reports on breed locks
-    // https://auno.org/ao/db.php?id=211204 Glaive of the Proselyte where it drop?
-    // https://auno.org/ao/db.php?id=128994 Rider Warblade dyna drop only or more?
-    // https://auno.org/ao/db.php?id=253246 Odum Blade drops from alien general?
-    // https://auno.org/ao/db.php?id=262572 Otek Sword where it drop? in game?
-    // should it be added
-    // https://auno.org/ao/db.php?id=154505&ql=100 Immortal Katana, ql it drops in is mostly useless compared to totw options, maybe if you get locked out?
-    // https://auno.org/ao/db.php?id=212664 Sancro/Ina 2he slow 2/5
-    // https://auno.org/ao/db.php?id=244783 Lord of Pride low min, missing specials, slow 3.3/3.3
-    // https://auno.org/ao/db.php?id=305032 Obsidian Defiler variant of Obsidian Desecrator drops during time-gated event?
     "Abyssal Desecrator": {
       name: "Abyssal Desecrator",
       min: 125,
@@ -3809,12 +3832,6 @@ const db = {
   },
 
   "Martial arts": {
-    // need more info
-    // https://auno.org/ao/db.php?id=160201 Bang-Bang Glove drops?
-    // should it be added
-    // https://auno.org/ao/db.php?id=305036 Masterwork Tool of Torturing time gated event, only for 210+ MA
-    // https://auno.org/ao/db.php?id=306174 Bone of a Champion time gated event
-    // https://auno.org/ao/db.php?id=293997 Lord of Wisdom kinda slow 2.5/2.5, harder to get/less powerful than other min damage weapons
     "Blades of Boltar": {
       versions: [
         {
@@ -4400,8 +4417,6 @@ const db = {
     },
   },
   "Melee energy": {
-    // need more info
-    // https://auno.org/ao/db.php?id=230890 Freezing Device drops?
     "B-19 Modified Breathing Space - Vacuum Creator": {
       name: "B-19 Modified Breathing Space - Vacuum Creator",
       min: 50,
@@ -4823,18 +4838,6 @@ const db = {
     },
   },
   Piercing: {
-    // need more info
-    // https://auno.org/ao/db.php?id=206084 Incan Blood Tainter in game?
-    // https://auno.org/ao/db.php?id=238982 Bloodlust nodrop? drops from where all?
-    // https://auno.org/ao/db.php?id=208098 Newland Fish Knife drops from dynas?
-    // https://auno.org/ao/db.php?id=211196 Obfuscating Dagger drops where?
-    // https://auno.org/ao/db.php?id=245768 Piercing Evil drops where?
-    // https://auno.org/ao/db.php?id=238994 Spear of Forbidden Ceremonies nodrop? drops where?
-    // https://auno.org/ao/db.php?id=233188 Staff of Pelias 2 auno entries? in game?
-    // should it be added
-    // https://auno.org/ao/db.php?id=212765 Inamorata Trident slow 2/4, takes me
-    // https://auno.org/ao/db.php?id=244779 Lord of Deceit slow 3/3
-    // https://auno.org/ao/db.php?id=305026 Slayerdroid Notum-Imbued Claw time gated event
     "Aleksander's Punchknife": {
       name: "Aleksander's Punchknife",
       min: 1,
@@ -5792,15 +5795,6 @@ const db = {
     },
   },
   "Assault rifle": {
-    // need more info
-    // https://auno.org/ao/db.php?id=200960 MTI Martins Simple AR01 kinda slow, in game?
-    // https://auno.org/ao/db.php?id=202787 AF Atomic not in game according to ao universe
-    // https://auno.org/ao/db.php?id=262549 Otek Assault Rifle in game?
-    // https://auno.org/ao/db.php?id=245678 JAME Blaster drops where in adonis?
-    // should it be added
-    // https://auno.org/ao/db.php?id=244802 Lord of Anger 3/3 slow
-    // https://auno.org/ao/db.php?id=121949 Gatling Saw 20k compared to the eradictor, somewhat worse
-    // https://auno.org/ao/db.php?id=160140 Heavy Suppressor 2.5/2.5, 3 specials ar-smg
     "Airframed Blaster Betatype": {
       name: "Airframed Blaster Betatype",
       min: 40,
@@ -6264,7 +6258,6 @@ const db = {
       diff: 5,
       auno: "https://auno.org/ao/db.php?id=254492",
     },
-    // drops from containers in missions?
     "Master of Combustion": {
       name: "Master of Combustion",
       min: 150,
@@ -6367,8 +6360,6 @@ const db = {
       diff: 4,
       auno: "https://auno.org/ao/db.php?id=246344",
     },
-
-    // drops from dynas?
     "Mother Nitrogena": {
       name: "Mother Nitrogena",
       min: 100,
@@ -6714,9 +6705,6 @@ const db = {
     },
   },
   Bow: {
-    // should it be added?
-    // https://auno.org/ao/db.php?id=211211 Great Bow of Premonition weaker nimbus bow
-    // https://auno.org/ao/db.php?id=212367 Sancro/Ina bow slow 3/3
     "Bang of Thunder": {
       name: "Bang of Thunder",
       min: 80,
@@ -7340,13 +7328,6 @@ const db = {
     },
   },
   Grenade: {
-    // need more info
-    // https://auno.org/ao/db.php?id=211232 Ballistic Launcher Pistol where it drop?
-    // https://auno.org/ao/db.php?id=233324 Missile Launcher + Pistol in game?
-    // https://auno.org/ao/db.php?id=211274 Shock of Truth drops from sided sl mobs?
-    // https://auno.org/ao/db.php?id=165375 Spider Poison Gland in game?
-    // should it be added
-    // https://auno.org/ao/db.php?id=244912 Lord of Sloth 3 magazine
     "Corrupted Lord of Sloth": {
       name: "Corrupted Lord of Sloth",
       min: 205,
@@ -7845,21 +7826,6 @@ const db = {
     },
   },
   Pistol: {
-    // need more info
-    // https://auno.org/ao/db.php?id=163578 Pistol of the Buccaneer in game?
-    // https://auno.org/ao/db.php?id=233224 Bodyguard Blaster in game?
-    // https://auno.org/ao/db.php?id=211213 Cavalier Pistol in game?
-    // https://auno.org/ao/db.php?id=123825 Freedom Arms 3927 G2 in game? drops from holiday events?
-    // https://auno.org/ao/db.php?id=140395 Sparkling Freedom Arms 3927 in game?
-    // https://auno.org/ao/db.php?id=262529 Otek Pistol in game?
-    // should it be added
-    // https://auno.org/ao/db.php?id=243807 Argent Blaster somewhat slow high min damage, need more info on drop
-    // https://auno.org/ao/db.php?id=243787 Painkiller kinda slow 3/3 adv only, endgame shadowlands drop?
-    // https://auno.org/ao/db.php?id=202783 Sentient Corrosion Sprayer high reqs, somewhat slow, one of the notum wars weapons
-    // https://auno.org/ao/db.php?id=305021 Sinister Pistol of The Revoked crat only pistol, drops in events?
-    // https://auno.org/ao/db.php?id=157628 IMI Tellus TT huh
-    // https://auno.org/ao/db.php?id=162902 Ithaca Ki12 Vulture crit pistol-shotgun advy only
-    // https://auno.org/ao/db.php?id=123973 OT Boomer M30 crit pistol that tops at 120
     "Arm of the Disciple": {
       name: "Arm of the Disciple",
       min: 40,
@@ -9998,14 +9964,6 @@ const db = {
     },
   },
   "Ranged energy": {
-    // need more info
-    // https://auno.org/ao/db.php?id=211271 Heavy Impulse Rifle
-    // https://auno.org/ao/db.php?id=202781 Revolving Cold Laser
-    // should it be added
-    // https://auno.org/ao/db.php?id=233351 Excellent Minion Fire/Ice Spouter, sancrocent/imao re weapon, worse than destruction, no upgrade path?
-    // https://auno.org/ao/db.php?id=245733 Lost Faith/Hope kinda slow/weak, only high ql, where it drop?
-    // https://auno.org/ao/db.php?id=248577 Premium Kaetans Supernova ai upgrade, too slow?
-    // https://auno.org/ao/db.php?id=123437 Premium Netgun clip too small, niche re-rifle, otherwise mediocre stats
     Destruction: {
       name: "Destruction",
       min: 1,
@@ -10602,16 +10560,6 @@ const db = {
     },
   },
   Rifle: {
-    // need more info
-    // https://auno.org/ao/db.php?id=262564 Otek Rifle
-    // should it be added
-    // https://auno.org/ao/db.php?id=160172 Custom KIWD 37 Hunter Crossbow good max but slow, 4/2 rifle-bow low ammo capacity
-    // https://auno.org/ao/db.php?id=211220 Rod of Repayment decent damage, slow 1/5
-    // https://auno.org/ao/db.php?id=244821 Lord of Angst, slow 3/3, higher reqs than the agent locked version. high rifle check
-    // https://auno.org/ao/db.php?id=206293 Timmy Gun 100 flat damage, 1/1 could see use on a +dmg build
-    // https://auno.org/ao/db.php?id=124002 O.E.T. Co. Type 77a Lovemaker low req crit rifle crippled by magazine size
-    // https://auno.org/ao/db.php?id=212352 Sancro rifle slow 3/3 and lazy
-    // https://auno.org/ao/db.php?id=257131 Silenced Kyr'Ozch Rifle - Type 3 a kyr rifle with 1.8/1.8 instead of 2/2 and a bunch more locks
     "Angst of the Xan": {
       versions: [
         {
@@ -11395,15 +11343,6 @@ const db = {
     },
   },
   Shotgun: {
-    // need more info
-    // https://auno.org/ao/db.php?id=211222 Braggadocio where it drop? in game?
-    // https://auno.org/ao/db.php?id=262538 Otek Shotgun where it drop? in game?
-    // https://auno.org/ao/db.php?id=211268 Shooter of the Porter + Door Keeper where it drop? in game?
-    // should it be added
-    // https://auno.org/ao/db.php?id=122614 Blackhole Mk IX very slow 3.5/3.5 max damage decent
-    // https://auno.org/ao/db.php?id=124255 OT M50caw Shotgun slightly worse sidegrade Krutt Assault
-    // https://auno.org/ao/db.php?id=243766 Pocket Cannon very slow 3.5/3.5 only ql 200+ no stat interpolation
-    // https://auno.org/ao/db.php?id=123056 Medium Shotgun not super weak but home defender is too good
     "Cries from the Aether": {
       name: "Cries from the Aether",
       min: 40,
@@ -12339,16 +12278,6 @@ const db = {
     },
   },
   Smg: {
-    // need more info
-    // https://auno.org/ao/db.php?id=160209 BBI Mamba GGFC 2388 where it drops? in game?
-    // should it be added ?
-    // https://auno.org/ao/db.php?id=233247&ql=200 Defender of Troy, too weak
-    // https://auno.org/ao/db.php?id=211225&ql=200 Din Gun, weak manex style
-    // https://auno.org/ao/db.php?id=211265 Jake, buyable?, need more info, too slow in high ql
-    // https://auno.org/ao/db.php?id=306201 Mausser Particle Railgun, very weak, only good for crits, drops in time gated event?
-    // https://auno.org/ao/db.php?id=265180 Ofab Hawk Mk 4, already 5 and 6 in. just mk 5 without fa
-    // https://auno.org/ao/db.php?id=281507 Rhat'Ata Gun, the same as Envy of the Xan, different specials
-    // https://auno.org/ao/db.php?id=157635 Sol Chironis Systems Professional about the same stats harder to get ot karen
     Blackbird: {
       name: "Blackbird",
       min: 80,

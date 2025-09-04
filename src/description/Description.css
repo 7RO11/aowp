@@ -73,6 +73,10 @@
   font-weight: bold; */
 }
 
+.statEnd {
+  float: right;
+}
+
 .statsTable {
   color: whitesmoke;
   font-size: 1.5em;
