@@ -96,6 +96,37 @@ function About() {
         I am not officially involved with Anarchy Online, Funcom, or the Project
         Rubi-Ka development team.
       </p>
+      <hr />
+      <p className="blurb">
+        I've made a custom GUI for Anarchy Online. It replaces the mannequin in
+        the wear tabs. Perhaps it fits your tastes?
+      </p>
+      <p className="blurb">
+        <a
+          href="https://drive.google.com/file/d/1gSoNjH9xgiVYZSfL8v4jsOqrTVJedzUR/view?usp=sharing"
+          className="aboutLink"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Normal Wear Demo
+        </a>{" "}
+        <a
+          href="https://drive.google.com/file/d/1ClUctOLvahd2G3JN0M5AYIr9TvOUI0HX/view?usp=sharing"
+          className="aboutLink"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Implant Wear Demo
+        </a>{" "}
+        <a
+          href="https://drive.google.com/file/d/1tXM2m6vN4UtowEWUgikK2XH3DlMv_ZbW/view?usp=sharing"
+          className="aboutLink"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Download
+        </a>{" "}
+      </p>
     </Stage>
   );
 }
