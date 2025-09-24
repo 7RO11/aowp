@@ -10307,7 +10307,7 @@ const db = {
         attackCap: { value: "400", quality: "" },
         init: { value: "Ranged", quality: "" },
         multi: { value: "", quality: "" },
-        specials: { value: "Burst", quality: "" },
+        specials: { value: "Fling shot, Burst", quality: "" },
         reqs: {
           "Ranged energy": { value: "151", quality: "" },
           Burst: { value: "96", quality: "" },
