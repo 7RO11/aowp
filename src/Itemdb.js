@@ -7530,38 +7530,38 @@ const db = {
       diff: 3,
       auno: "https://auno.org/ao/db.php?id=207999",
     },
-
-    "OT M-110 Renegade SAW": {
-      name: "OT M-110 Renegade SAW",
-      min: 1,
-      max: 200,
-      type: "Grenade",
-      blurb:
-        "Blitzable, shop buyable, and in common loot pools. Speeds get faster as the QL rises.",
-      stats: {
-        ql: { value: "1-200", quality: "" },
-        dual: { value: "No", quality: "" },
-        aSpeed: { value: "2.4s", quality: "r" },
-        rSpeed: { value: "1.5s", quality: "r" },
-        range: { value: "18 m", quality: "" },
-        minDamage: { value: "16", quality: "" },
-        maxDamage: { value: "426", quality: "" },
-        critMod: { value: "167", quality: "" },
-        attackCap: { value: "2500", quality: "" },
-        init: { value: "Ranged", quality: "" },
-        multi: { value: "", quality: "" },
-        specials: { value: "", quality: "" },
-        reqs: {
-          Grenade: { value: "969", quality: "" },
-          "Assault rifle": { value: "647", quality: "r" },
-        },
-        mods: {},
-      },
-      profs: ["Engineer"],
-      prk: false,
-      diff: 1,
-      auno: "https://auno.org/ao/db.php?id=124816",
-    },
+    // discovered no clip = 1 bullet
+    // "OT M-110 Renegade SAW": {
+    //   name: "OT M-110 Renegade SAW",
+    //   min: 1,
+    //   max: 200,
+    //   type: "Grenade",
+    //   blurb:
+    //     "Blitzable, shop buyable, and in common loot pools. Speeds get faster as the QL rises.",
+    //   stats: {
+    //     ql: { value: "1-200", quality: "" },
+    //     dual: { value: "No", quality: "" },
+    //     aSpeed: { value: "2.4s", quality: "r" },
+    //     rSpeed: { value: "1.5s", quality: "r" },
+    //     range: { value: "18 m", quality: "" },
+    //     minDamage: { value: "16", quality: "" },
+    //     maxDamage: { value: "426", quality: "" },
+    //     critMod: { value: "167", quality: "" },
+    //     attackCap: { value: "2500", quality: "" },
+    //     init: { value: "Ranged", quality: "" },
+    //     multi: { value: "", quality: "" },
+    //     specials: { value: "", quality: "" },
+    //     reqs: {
+    //       Grenade: { value: "969", quality: "" },
+    //       "Assault rifle": { value: "647", quality: "r" },
+    //     },
+    //     mods: {},
+    //   },
+    //   profs: ["Engineer"],
+    //   prk: false,
+    //   diff: 1,
+    //   auno: "https://auno.org/ao/db.php?id=124816",
+    // },
     "Prohibited Hand-Mortar of Bacam-Xum": {
       versions: [
         {
