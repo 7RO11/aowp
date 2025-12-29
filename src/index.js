@@ -12,6 +12,8 @@ import Policy from "./policy/Policy";
 import Roulette from "./roulette/Roulette";
 import Select from "./select/Select";
 import Windex from "./windex/Windex";
+import Guide from "./guides/Guide";
+import Goggles from "./guides/Goggles";
 
 const router = createBrowserRouter([
   {
@@ -49,6 +51,14 @@ const router = createBrowserRouter([
   {
     path: "/roulette",
     element: <Roulette />,
+  },
+  {
+    path: "/guides",
+    element: <Guide />,
+  },
+  {
+    path: "/guides/Sentient Targeting Goggles",
+    element: <Goggles />,
   },
 ]);
 

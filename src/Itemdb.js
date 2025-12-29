@@ -1603,7 +1603,7 @@ const db = {
     "Absolution Hammer": {
       name: "Absolution Hammer",
       min: 40,
-      max: 100,
+      max: 80,
       type: "2h Blunt",
       blurb: "Drops from hammer-wielding cultists in TOTW. PRK only.",
       stats: {
@@ -4283,25 +4283,24 @@ const db = {
             aSpeed: { value: "1.5s", quality: "g" },
             rSpeed: { value: "1.5s", quality: "g" },
             range: { value: "3 m", quality: "" },
-            minDamage: { value: "240", quality: "" },
-            maxDamage: { value: "340", quality: "" },
+            minDamage: { value: "140", quality: "" },
+            maxDamage: { value: "440", quality: "g" },
             critMod: { value: "240", quality: "" },
             attackCap: { value: "2400", quality: "g" },
-            init: { value: "Melee", quality: "r" },
+            init: { value: "Physical", quality: "r" },
             multi: { value: "1200", quality: "r" },
             specials: { value: "Fast Attack, Brawl, Dimach", quality: "g" },
             reqs: {
-              "1h Blunt": { value: "2001", quality: "r" },
-              Brawl: { value: "1201", quality: "" },
-              "Fast attack": { value: "1001", quality: "" },
-              Dimach: { value: "401", quality: "" },
+              "Martial arts": { value: "1501", quality: "r" },
+              Brawl: { value: "901", quality: "" },
+              "Fast attack": { value: "751", quality: "" },
+              Dimach: { value: "301", quality: "" },
             },
-            mods: {},
+            profs: ["Enforcer", "Meta-Physicist", "Trader"],
+            prk: true,
+            auno: "https://auno.org/ao/db.php?id=271047&patch=17060000",
+            diff: 0,
           },
-          profs: ["Enforcer", "Meta-Physicist", "Trader"],
-          prk: true,
-          auno: "https://auno.org/ao/db.php?id=271047&patch=17060000",
-          diff: 0,
         },
       ],
     },
@@ -6812,7 +6811,7 @@ const db = {
       max: 100,
       type: "Bow",
       blurb:
-        "Unknown acquisition means. Likely drops in Steps_of_Madness. Current stats are from screenshots. Hits have a 10% chance to proc an instant damage program. PRK only.",
+        "Drops from Jealousy in Steps_of_Madness. Hits have a 10% chance to proc an instant damage program. PRK only.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "No", quality: "" },
@@ -10199,8 +10198,7 @@ const db = {
       min: 60,
       max: 125,
       type: "Ranged energy",
-      blurb:
-        "Unconfirmed acquisition means. Likely drops from Khalum in TOTW. Current stats are from screenshots. Checks duck explosions. PRK only.",
+      blurb: "Drops from Khalum in TOTW. Checks duck explosions. PRK only.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "No", quality: "" },
@@ -11245,7 +11243,7 @@ const db = {
       max: 100,
       type: "Rifle",
       blurb:
-        "Unknown acquisition means. Current stats are from screenshots. PRK only.",
+        "Drops from Reverend Dashell in TOTW. Hits have a 10% to proc an AAO debuff. PRK only.",
       stats: {
         ql: { value: "SPECIAL", quality: "" },
         dual: { value: "No", quality: "" },
@@ -11347,7 +11345,7 @@ const db = {
     "Cries from the Aether": {
       name: "Cries from the Aether",
       min: 40,
-      max: 100,
+      max: 80,
       type: "Shotgun",
       blurb: "Drops from shotgun-wielding cultists in TOTW. PRK only.",
       stats: {

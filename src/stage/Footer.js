@@ -32,6 +32,9 @@ function Footer() {
       <Link className="footerLink" to={"/roulette"}>
         Roulette
       </Link>
+      <Link className="footerLink" to={"/guides"}>
+        PRK Guides
+      </Link>
     </div>
   );
 }

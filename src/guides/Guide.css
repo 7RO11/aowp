@@ -1,0 +1,33 @@
+.guideContext {
+  color: yellow;
+  font-size: 1.5em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.guideLink {
+  color: gainsboro;
+  font-size: 3em;
+  margin-bottom: 1vh;
+  transition: 0.2s;
+}
+
+.guideLink:hover {
+  color: magenta;
+}
+
+.guidePic {
+  border: none;
+  max-height: 15em;
+  width: 25em;
+}
+
+.guideText {
+  font-size: 1.8em;
+}
+
+.statsPic {
+  border: none;
+  max-height: 100em;
+  max-width: 40em;
+}
