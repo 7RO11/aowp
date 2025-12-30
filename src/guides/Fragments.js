@@ -213,7 +213,7 @@ function Fragments() {
         >
           AO-Universe article
         </a>{" "}
-        on them. The are 3 differences between retail and PRK however.
+        on them. There are 3 differences between retail and PRK however.
       </p>
       <ul className="guideText">
         <li>
