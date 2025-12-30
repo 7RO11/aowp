@@ -14,6 +14,8 @@ import Select from "./select/Select";
 import Windex from "./windex/Windex";
 import Guide from "./guides/Guide";
 import Goggles from "./guides/Goggles";
+import Pills from "./guides/Pills";
+import Fragments from "./guides/Fragments";
 
 const router = createBrowserRouter([
   {
@@ -59,6 +61,14 @@ const router = createBrowserRouter([
   {
     path: "/guides/Sentient Targeting Goggles",
     element: <Goggles />,
+  },
+  {
+    path: "/guides/Nano Buff Pills",
+    element: <Pills />,
+  },
+  {
+    path: "/guides/Weapon Data Fragments",
+    element: <Fragments />,
   },
 ]);
 

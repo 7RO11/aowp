@@ -15,7 +15,7 @@ function Goggles() {
         with the Wetware magazine instruction item that drops in the Subway. You
         won't need anything from the Subway, however everything needed to craft
         this piece can be found in Fair Trade. You'll want to set aside at least
-        5000 credits to make this and expect to shop around for low QL parts.
+        5,000 credits to make this and expect to shop around for low QL parts.
       </p>
       <p className="guideText">
         Following the magazine, you'll need to buy a Targeting Scope from Ranged
@@ -34,7 +34,7 @@ function Goggles() {
       <p className="guideText">
         The Bio Analyzing Computer is relatively expensive so you'll want to
         shop around for that part if credits are tight. At 500 CL, a QL 7 cost
-        about 2500.
+        about 2,500.
       </p>
       <img src={gog2} alt="Crafting step part 2" className="guidePic" />
       <p className="guideContext">The Bio Analyzing Computer can be any QL.</p>
@@ -69,7 +69,7 @@ function Goggles() {
         must-have for any shotgun or rifle users as they regularly have high
         critical modifiers. It should be noted that weapons such as Diamondine
         Kick Pistol which use shotgun and pistol will not be viable due to the
-        -4000 in all non-shotgun/rifle weapon skills. Burst is neither debuffed
+        -4,000 in all non-shotgun/rifle weapon skills. Burst is neither debuffed
         or buffed.
       </p>
     </Stage>

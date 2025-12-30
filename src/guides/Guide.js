@@ -11,6 +11,16 @@ function Guide() {
           Sentient Targeting Goggles
         </Link>
       </p>
+      <p>
+        <Link className="guideLink" to={"/guides/Nano Buff Pills"}>
+          Nano Buff Pills
+        </Link>
+      </p>
+      <p>
+        <Link className="guideLink" to={"/guides/Weapon Data Fragments"}>
+          Weapon Data Fragments
+        </Link>
+      </p>
     </Stage>
   );
 }

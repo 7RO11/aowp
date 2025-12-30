@@ -1,6 +1,12 @@
+.derekPic {
+  border: none;
+  max-height: 50em;
+  max-width: 20em;
+}
+
 .guideContext {
   color: yellow;
-  font-size: 1.5em;
+  font-size: 1.8em;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -26,8 +32,38 @@
   font-size: 1.8em;
 }
 
+.guideWarn {
+  color: red;
+  text-decoration: underline;
+  font-size: 2em;
+  font-weight: bold;
+}
+
 .statsPic {
   border: none;
   max-height: 100em;
   max-width: 40em;
+}
+
+.weaponIcon {
+  border: none;
+  height: 3em;
+  max-height: 5em;
+  max-width: 5em;
+}
+
+.zeroTable {
+  font-size: 1.8em;
+}
+
+.zeroTable img {
+  padding-right: 0;
+}
+
+.zeroTable td {
+  padding-left: 0.25em;
+}
+
+.zeroTable tr:nth-child(even) {
+  background-color: rgb(80, 80, 80);
 }
