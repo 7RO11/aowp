@@ -16,6 +16,8 @@ import Guide from "./guides/Guide";
 import Goggles from "./guides/Goggles";
 import Pills from "./guides/Pills";
 import Fragments from "./guides/Fragments";
+import Dummy from "./guides/Dummy";
+import StepsArrows from "./guides/StepsArrows";
 
 const router = createBrowserRouter([
   {
@@ -69,6 +71,14 @@ const router = createBrowserRouter([
   {
     path: "/guides/Weapon Data Fragments",
     element: <Fragments />,
+  },
+  {
+    path: "/guides/andre bot hole sux eggs",
+    element: <Dummy />,
+  },
+  {
+    path: "/guides/Steps of Madness Special Arrows",
+    element: <StepsArrows />,
   },
 ]);
 

@@ -1,3 +1,9 @@
+.arrowsPic {
+  border: none;
+  max-height: 50em;
+  max-width: 20em;
+}
+
 .derekPic {
   border: none;
   max-height: 50em;
@@ -54,6 +60,8 @@
 
 .zeroTable {
   font-size: 1.8em;
+  margin-left: 0;
+  margin-right: auto;
 }
 
 .zeroTable img {
@@ -62,6 +70,7 @@
 
 .zeroTable td {
   padding-left: 0.25em;
+  padding-right: 0.5em;
 }
 
 .zeroTable tr:nth-child(even) {

@@ -21,6 +21,14 @@ function Guide() {
           Weapon Data Fragments
         </Link>
       </p>
+      <p>
+        <Link
+          className="guideLink"
+          to={"/guides/Steps of Madness Special Arrows"}
+        >
+          Steps of Madness Special Arrows
+        </Link>
+      </p>
     </Stage>
   );
 }

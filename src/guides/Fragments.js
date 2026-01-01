@@ -199,7 +199,7 @@ function Fragments() {
       </table>
       <p className="guideContext">
         There are a few more that I could list but they start trading between
-        inconsequential modifers or have multiple names for the same line. In
+        inconsequential modifiers or have multiple names for the same line. In
         general, you'll want to pick weapons with dual wield and duck-explosions
         evade check.
       </p>
