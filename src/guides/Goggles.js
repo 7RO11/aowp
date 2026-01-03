@@ -18,9 +18,26 @@ function Goggles() {
         5,000 credits to make this and expect to shop around for low QL parts.
       </p>
       <p className="guideText">
-        Following the magazine, you'll need to buy a Targeting Scope from Ranged
-        Weapons Components in the tradeskill department. Then you'll need a
-        Night Vision Goggles from Basic Devices in the main store room.
+        Following the magazine, you'll need to buy a{" "}
+        <a
+          href="https://prk.tinkeringidiot.com/items/137189"
+          className="aboutLink"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Targeting Scope
+        </a>{" "}
+        from Ranged Weapons Components in the tradeskill department. Then you'll
+        need a{" "}
+        <a
+          href="https://prk.tinkeringidiot.com/items/29738"
+          className="aboutLink"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Night Vision Goggles
+        </a>{" "}
+        from Basic Devices in the main store room.
       </p>
       <img src={gog1} alt="Crafting step part 1" className="guidePic" />
       <p className="guideContext">The Targeting Scope can be any QL.</p>
@@ -28,8 +45,17 @@ function Goggles() {
       <p className="guideText">
         This leaves you with a different item also called Targeting Scope and
         some vague instructions looking for an analyzer. The item your looking
-        for is Bio Analyzing Computer sold in Mechanical and Electrical
-        Engineering Components found in the tradeskill department.
+        for is{" "}
+        <a
+          href="https://prk.tinkeringidiot.com/items/156020"
+          className="aboutLink"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Bio Analyzing Computer
+        </a>{" "}
+        sold in Mechanical and Electrical Engineering Components found in the
+        tradeskill department.
       </p>
       <p className="guideText">
         The Bio Analyzing Computer is relatively expensive so you'll want to
@@ -41,8 +67,17 @@ function Goggles() {
       <p className="guideContext">This process requires no skills.</p>
       <p className="guideText">
         You'll now have a Bio-Analyzing Targeting Goggles which calls for a
-        mystery serum. The serum is called XU-11 Serum and can be found in
-        Pharmacy and Chemistry Components next to the previous shop terminal.
+        mystery serum. The serum is called{" "}
+        <a
+          href="https://prk.tinkeringidiot.com/items/154908"
+          className="aboutLink"
+          target="_blank"
+          rel="noreferrer"
+        >
+          XU-11 Serum
+        </a>{" "}
+        and can be found in Pharmacy and Chemistry Components next to the
+        previous shop terminal.
       </p>
       <img src={gog3} alt="Crafting step part 3" className="guidePic" />
       <p className="guideContext">The XU-11 Serum can be any QL.</p>
@@ -50,14 +85,32 @@ function Goggles() {
       <p className="guideText">
         You should now have a Activated Bio-Analyzing Targeting Goggles. The
         last step is more straight forward, since it lists the item needed in
-        the description. Nano Circuitry Wire can be found in General Components.
+        the description.{" "}
+        <a
+          href="https://prk.tinkeringidiot.com/items/150918"
+          className="aboutLink"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Nano Circuitry Wire
+        </a>{" "}
+        can be found in General Components.
       </p>
       <img src={gog4} alt="Crafting step part 4" className="guidePic" />
       <p className="guideContext">The Nano Circuitry Wire can be any QL.</p>
       <p className="guideContext">This process requires no skills.</p>
       <p className="guideText">
-        Your Sentient Targeting Goggles are now complete. Each step of the
-        process and the product are NODROP, but all of the ingredients are not.
+        Your{" "}
+        <a
+          href="https://prk.tinkeringidiot.com/items/500015"
+          className="aboutLink"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Sentient Targeting Goggles
+        </a>{" "}
+        are now complete. Each step of the process and the product are NODROP,
+        but all of the ingredients are not.
       </p>
       <img src={gog5} alt="Goggles stats" className="statsPic" />
       <p className="guideContext">
@@ -67,10 +120,17 @@ function Goggles() {
       <p className="guideText">
         The most notable modifier is the +15 critical increase. This scope is a
         must-have for any shotgun or rifle users as they regularly have high
-        critical modifiers. It should be noted that weapons such as Diamondine
-        Kick Pistol which use shotgun and pistol will not be viable due to the
-        -4,000 in all non-shotgun/rifle weapon skills. Burst is neither debuffed
-        or buffed.
+        critical modifiers. It should be noted that weapons such as{" "}
+        <a
+          href="https://prk.tinkeringidiot.com/items/165168"
+          className="aboutLink"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Diamondine Kick Pistol
+        </a>{" "}
+        which use shotgun and pistol will not be viable due to the -4,000 in all
+        non-shotgun/rifle weapon skills. Burst is neither debuffed or buffed.
       </p>
     </Stage>
   );

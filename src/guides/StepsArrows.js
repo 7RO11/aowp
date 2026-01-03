@@ -27,8 +27,15 @@ function StepsArrows() {
       <p className="guideText">
         There are 5 different ethers that produce different effects. Once you
         have gathered some, head to your Fair Trade tradeskill department. Find
-        the terminal Ranged Weapon Components, inside it you'll want to buy
-        Reet-Tech Metaplast Arrowshafts.
+        the terminal Ranged Weapon Components, inside it you'll want to buy{" "}
+        <a
+          href="https://prk.tinkeringidiot.com/items/158575"
+          className="aboutLink"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Reet-Tech Metaplast Arrowshafts.
+        </a>
       </p>
       <table className="zeroTable">
         <thead>
@@ -41,14 +48,33 @@ function StepsArrows() {
             <td>
               <img src={und} alt="blue arrows craft" className="arrowsPic" />
             </td>
-            <td>Undertow</td>
+            <td>
+              <a
+                href="https://prk.tinkeringidiot.com/items/500042"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Undertow - Special Arrows
+              </a>
+            </td>
             <td>Health/nano lifetap over time</td>
           </tr>
           <tr>
             <td>
               <img src={fury} alt="red arrows craft" className="arrowsPic" />
             </td>
-            <td>Fury's Blaze</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/500038"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Fury's Blaze - Special Arrows
+              </a>
+            </td>
             <td>Area of effect damage over time</td>
           </tr>
           <tr>
@@ -59,7 +85,17 @@ function StepsArrows() {
                 className="arrowsPic"
               />
             </td>
-            <td>Engulfing Void</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/500039"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Engulfing Void - Special Arrows
+              </a>
+            </td>
             <td>Blind/AAO Debuff</td>
           </tr>
           <tr>
@@ -70,14 +106,34 @@ function StepsArrows() {
                 className="arrowsPic"
               />
             </td>
-            <td>Agoraphobia</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/500040"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Agoraphobia - Special Arrows
+              </a>
+            </td>
             <td>7 second root</td>
           </tr>
           <tr>
             <td>
               <img src={arach} alt="green arrows craft" className="arrowsPic" />
             </td>
-            <td>Arachnophobia</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/500041"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Arachnophobia - Special Arrows
+              </a>
+            </td>
             <td>Instant damage, chance to fear</td>
           </tr>
         </tbody>

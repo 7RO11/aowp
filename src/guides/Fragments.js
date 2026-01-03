@@ -24,9 +24,17 @@ function Fragments() {
     <Stage>
       <h1>How to use Weapon Data Fragments</h1>
       <p className="guideText">
-        After killing mobs inside the Subway for a while, you'll likely find a
-        Weapon Data Fragment. Right clicking the fragment will cause it to
-        vanish, and will increment the Data Fragments stat on your character.
+        After killing mobs inside the Subway for a while, you'll likely find a{" "}
+        <a
+          href="https://prk.tinkeringidiot.com/items/500000"
+          className="aboutLink"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Weapon Data Fragment.
+        </a>{" "}
+        Right clicking the fragment will cause it to vanish, and will increment
+        the Data Fragments stat on your character.
       </p>
       <img src={fragment} alt="Fragment icon" className="guidePic" />
       <p className="guideContext">
@@ -70,7 +78,16 @@ function Fragments() {
             <td>
               <img src={bj} alt="blackjack" className="weaponIcon" />
             </td>
-            <td>Blackjack</td>
+            <td>
+              <a
+                href="https://prk.tinkeringidiot.com/items/271078"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Blackjack - 000
+              </a>
+            </td>
             <td>1h Blunt</td>
             <td>1% chance stun proc, checks duck-explosions</td>
           </tr>
@@ -78,7 +95,16 @@ function Fragments() {
             <td>
               <img src={bjo} alt="blackjohn" className="weaponIcon" />
             </td>
-            <td>Blackjohn</td>
+            <td>
+              <a
+                href="https://prk.tinkeringidiot.com/items/271350"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Blackjohn - 000
+              </a>
+            </td>
             <td>2h Blunt</td>
             <td>1% chance stun proc</td>
           </tr>
@@ -86,7 +112,17 @@ function Fragments() {
             <td>
               <img src={beam} alt="beam" className="weaponIcon" />
             </td>
-            <td>Support Beam</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/271407"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Support Beam - 000
+              </a>
+            </td>
             <td>2h Blunt</td>
             <td>Atrox only, checks duck-explosions</td>
           </tr>
@@ -94,7 +130,17 @@ function Fragments() {
             <td>
               <img src={tri} alt="tripler" className="weaponIcon" />
             </td>
-            <td>Tripler</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/271129"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Tripler - 000
+              </a>
+            </td>
             <td>1h Edged</td>
             <td>1h edged modifier</td>
           </tr>
@@ -102,7 +148,17 @@ function Fragments() {
             <td>
               <img src={bla} alt="bladestaff" className="weaponIcon" />
             </td>
-            <td>Bladestaff</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/271199"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Bladestaff - 000
+              </a>
+            </td>
             <td>2h Edged</td>
             <td>2h edged modifier</td>
           </tr>
@@ -110,7 +166,17 @@ function Fragments() {
             <td>
               <img src={glo} alt="glove" className="weaponIcon" />
             </td>
-            <td>Nano-Charged Stun Glove</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/271038"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Nano-Charged Stun Glove - 000
+              </a>
+            </td>
             <td>Martial Arts</td>
             <td>MA combined attack</td>
           </tr>
@@ -119,7 +185,17 @@ function Fragments() {
             <td>
               <img src={joi} alt="joint pistol" className="weaponIcon" />
             </td>
-            <td>Joint Clans Scout Pistol</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/271673"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Joint Clans Scout Pistol - 000
+              </a>
+            </td>
             <td>Pistol</td>
             <td>Multi ranged modifier</td>
           </tr>
@@ -127,7 +203,17 @@ function Fragments() {
             <td>
               <img src={pol} alt="pol pistol" className="weaponIcon" />
             </td>
-            <td>Polizziotto M200</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/271649"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Polizziotto M200 - 000
+              </a>
+            </td>
             <td>Pistol</td>
             <td>Perception modifier</td>
           </tr>
@@ -135,7 +221,17 @@ function Fragments() {
             <td>
               <img src={ori} alt="ori pistol" className="weaponIcon" />
             </td>
-            <td>The Original Plasma-Emitter</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/271577"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                The Original Plasma-Emitter - 000
+              </a>
+            </td>
             <td>Pistol</td>
             <td>Checks duck-explosions</td>
           </tr>
@@ -143,7 +239,17 @@ function Fragments() {
             <td>
               <img src={keran} alt="kerans smg" className="weaponIcon" />
             </td>
-            <td>Kerans Automatic Grinner</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/271951"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Kerans Automatic Grinner - 000
+              </a>
+            </td>
             <td>Sub-machine Gun</td>
             <td>Hits poison AC</td>
           </tr>
@@ -151,7 +257,17 @@ function Fragments() {
             <td>
               <img src={vip} alt="viper smg" className="weaponIcon" />
             </td>
-            <td>Viper IX</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/271967"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Viper IX - 000
+              </a>
+            </td>
             <td>Sub-machine Gun</td>
             <td>Dual wield</td>
           </tr>
@@ -159,7 +275,17 @@ function Fragments() {
             <td>
               <img src={bip} alt="bipower shotgun" className="weaponIcon" />
             </td>
-            <td>MTI M Bipower </td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/271814"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                MTI M Bipower - 000
+              </a>
+            </td>
             <td>Shotgun</td>
             <td>Dual wield, multi ranged modifier</td>
           </tr>
@@ -167,7 +293,17 @@ function Fragments() {
             <td>
               <img src={hom} alt="defender shotgun" className="weaponIcon" />
             </td>
-            <td>Home Defender</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/271822"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Home Defender - 000
+              </a>
+            </td>
             <td>Shotgun</td>
             <td>Dual wield, max health modifier</td>
           </tr>
@@ -175,7 +311,17 @@ function Fragments() {
             <td>
               <img src={dia} alt="diablo smg" className="weaponIcon" />
             </td>
-            <td>El Diablo</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/272027"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                El Diablo - 000
+              </a>
+            </td>
             <td>Ranged Energy</td>
             <td>Dual wield, checks duck-explosions</td>
           </tr>
@@ -183,7 +329,17 @@ function Fragments() {
             <td>
               <img src={mti} alt="mti rifle" className="weaponIcon" />
             </td>
-            <td>MTI SL70</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/271497"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                MTI SL70 - 000
+              </a>
+            </td>
             <td>Rifle</td>
             <td>Dodge ranged modifier</td>
           </tr>
@@ -191,7 +347,17 @@ function Fragments() {
             <td>
               <img src={ree} alt="ree crossbow" className="weaponIcon" />
             </td>
-            <td>Reet-Tech Crossbow</td>
+            <td>
+              {" "}
+              <a
+                href="https://prk.tinkeringidiot.com/items/271441"
+                className="aboutLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Reet-Tech Crossbow - 000
+              </a>
+            </td>
             <td>Bow</td>
             <td>Dodge ranged modifier</td>
           </tr>

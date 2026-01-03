@@ -76,3 +76,7 @@
 .zeroTable tr:nth-child(even) {
   background-color: rgb(80, 80, 80);
 }
+
+.zeroTable tr:nth-child(odd) {
+  background-color: black;
+}
