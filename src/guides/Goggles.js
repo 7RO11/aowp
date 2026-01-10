@@ -41,7 +41,9 @@ function Goggles() {
       </p>
       <img src={gog1} alt="Crafting step part 1" className="guidePic" />
       <p className="guideContext">The Targeting Scope can be any QL.</p>
-      <p className="guideContext">This process requires no skills.</p>
+      <p className="guideContext">
+        This process requires 100 in Computer Literacy.
+      </p>
       <p className="guideText">
         This leaves you with a different item also called Targeting Scope and
         some vague instructions looking for an analyzer. The item your looking
@@ -64,7 +66,9 @@ function Goggles() {
       </p>
       <img src={gog2} alt="Crafting step part 2" className="guidePic" />
       <p className="guideContext">The Bio Analyzing Computer can be any QL.</p>
-      <p className="guideContext">This process requires no skills.</p>
+      <p className="guideContext">
+        This process requires 100 in Computer Literacy.
+      </p>
       <p className="guideText">
         You'll now have a Bio-Analyzing Targeting Goggles which calls for a
         mystery serum. The serum is called{" "}
@@ -81,7 +85,9 @@ function Goggles() {
       </p>
       <img src={gog3} alt="Crafting step part 3" className="guidePic" />
       <p className="guideContext">The XU-11 Serum can be any QL.</p>
-      <p className="guideContext">This process requires no skills.</p>
+      <p className="guideContext">
+        This process requires 100 in Pharmacological Technology.
+      </p>
       <p className="guideText">
         You should now have a Activated Bio-Analyzing Targeting Goggles. The
         last step is more straight forward, since it lists the item needed in
@@ -98,7 +104,9 @@ function Goggles() {
       </p>
       <img src={gog4} alt="Crafting step part 4" className="guidePic" />
       <p className="guideContext">The Nano Circuitry Wire can be any QL.</p>
-      <p className="guideContext">This process requires no skills.</p>
+      <p className="guideContext">
+        This process requires 100 in Pharmacological Technology.
+      </p>
       <p className="guideText">
         Your{" "}
         <a
