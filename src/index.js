@@ -18,6 +18,7 @@ import Pills from "./guides/Pills";
 import Fragments from "./guides/Fragments";
 import Dummy from "./guides/Dummy";
 import StepsArrows from "./guides/StepsArrows";
+import Ejector from "./guides/Ejector";
 
 const router = createBrowserRouter([
   {
@@ -80,11 +81,15 @@ const router = createBrowserRouter([
     path: "/guides/Steps of Madness Special Arrows",
     element: <StepsArrows />,
   },
+  {
+    path: "/guides/Fusion Ejector",
+    element: <Ejector />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </React.StrictMode>,
 );

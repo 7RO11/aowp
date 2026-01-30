@@ -14,6 +14,15 @@ function Blurb(props) {
                 {word + " "}
               </span>
             );
+          // links to prk guides
+          case "Tradeskilled_from_2_ejectors.":
+            return (
+              <Fragment key={v4()}>
+                <Link to="/guides/Fusion Ejector" className="bsLink">
+                  {"Tradeskilled from 2 ejectors."}
+                </Link>{" "}
+              </Fragment>
+            );
           // hard links outside aowp
           // dungeons
           case "Subway.":

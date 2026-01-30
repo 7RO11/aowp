@@ -29,6 +29,11 @@ function Guide() {
           Steps of Madness Special Arrows
         </Link>
       </p>
+      <p>
+        <Link className="guideLink" to={"/guides/Fusion Ejector"}>
+          Fusion Ejector
+        </Link>
+      </p>
     </Stage>
   );
 }
