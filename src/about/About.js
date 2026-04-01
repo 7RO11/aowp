@@ -98,6 +98,21 @@ function About() {
       </p>
       <hr />
       <p className="blurb">
+        ClickSaver mod for Project Rubi-ka. It features a new delay variable and
+        bundles a db file from retail AO.
+      </p>
+      <p className="blurb">
+        <a
+          href="https://drive.google.com/file/d/1hA3ycupzLSUJ9rCFZIioFXkDxhXmMegH/view?usp=drive_link"
+          className="aboutLink"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Download
+        </a>
+      </p>
+      <hr />
+      <p className="blurb">
         I've made a custom GUI for Anarchy Online. It replaces the mannequin in
         the wear tabs. Perhaps it fits your tastes?
       </p>
