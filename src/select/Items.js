@@ -38,6 +38,9 @@ function Items(props) {
             if (version.prk) {
               continue;
             }
+            if (!version["profs"]) {
+              continue;
+            }
             for (const prof of version["profs"]) {
               if (prof === type) {
                 section.push(version);
