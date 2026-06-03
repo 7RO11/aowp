@@ -19,6 +19,7 @@ import Fragments from "./guides/Fragments";
 import Dummy from "./guides/Dummy";
 import StepsArrows from "./guides/StepsArrows";
 import Ejector from "./guides/Ejector";
+import Armor from "./guides/Armor";
 
 const router = createBrowserRouter([
   {
@@ -61,8 +62,13 @@ const router = createBrowserRouter([
     path: "/guides",
     element: <Guide />,
   },
+  // oops part 69
   {
     path: "/guides/Sentient Targeting Goggles",
+    element: <Goggles />,
+  },
+  {
+    path: "/guides/Sentient-Targeting-Goggles",
     element: <Goggles />,
   },
   {
@@ -70,7 +76,15 @@ const router = createBrowserRouter([
     element: <Pills />,
   },
   {
+    path: "/guides/Nano-Buff-Pills",
+    element: <Pills />,
+  },
+  {
     path: "/guides/Weapon Data Fragments",
+    element: <Fragments />,
+  },
+  {
+    path: "/guides/Weapon-Data-Fragments",
     element: <Fragments />,
   },
   {
@@ -78,12 +92,28 @@ const router = createBrowserRouter([
     element: <Dummy />,
   },
   {
+    path: "/guides/andre-bot-hole-sux-eggs",
+    element: <Dummy />,
+  },
+  {
     path: "/guides/Steps of Madness Special Arrows",
+    element: <StepsArrows />,
+  },
+  {
+    path: "/guides/Steps-of-Madness-Special-Arrows",
     element: <StepsArrows />,
   },
   {
     path: "/guides/Fusion Ejector",
     element: <Ejector />,
+  },
+  {
+    path: "/guides/Fusion-Ejector",
+    element: <Ejector />,
+  },
+  {
+    path: "/guides/Armors",
+    element: <Armor />,
   },
 ]);
 

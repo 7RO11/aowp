@@ -31,7 +31,7 @@
 .guidePic {
   border: none;
   max-height: 15em;
-  width: 25em;
+  width: fit-content;
 }
 
 .guideText {

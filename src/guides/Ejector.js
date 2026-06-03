@@ -29,7 +29,12 @@ function Ejector() {
         </a>
       </p>
 
-      <img src={fusion} alt="ejector craft" className="guidePic" />
+      <img
+        src={fusion}
+        alt="ejector craft"
+        className="guidePic"
+        style={{ width: "20rem" }}
+      />
       <p className="guideContext">This process requires no skills.</p>
       <p className="guideContext">
         <Link className="aboutLink" to={"/item/Smg/Fusion Ejector"}>
