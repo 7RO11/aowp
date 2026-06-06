@@ -20,6 +20,16 @@ import Dummy from "./guides/Dummy";
 import StepsArrows from "./guides/StepsArrows";
 import Ejector from "./guides/Ejector";
 import Armor from "./guides/Armor";
+import Newcomers from "./guides/armors/Newcomers";
+import SalamanderVest from "./guides/armors/SalamanderVest";
+import OmniMed from "./guides/armors/OmniMed";
+import Rhino from "./guides/armors/Rhino";
+import Miys from "./guides/armors/Miys";
+import MMelee from "./guides/armors/MMelee";
+import MNano from "./guides/armors/MNano";
+import MRanged from "./guides/armors/MRanged";
+import MScary from "./guides/armors/MScary";
+import MTank from "./guides/armors/MTank";
 
 const router = createBrowserRouter([
   {
@@ -114,6 +124,46 @@ const router = createBrowserRouter([
   {
     path: "/guides/Armors",
     element: <Armor />,
+  },
+  {
+    path: "/guides/Armors/Newcomers",
+    element: <Newcomers />,
+  },
+  {
+    path: "/guides/Armors/Salamander-Vest",
+    element: <SalamanderVest />,
+  },
+  {
+    path: "/guides/Armors/Omni-Med",
+    element: <OmniMed />,
+  },
+  {
+    path: "/guides/Armors/Rhinoman-Leather",
+    element: <Rhino />,
+  },
+  {
+    path: "/guides/Armors/Miys",
+    element: <Miys />,
+  },
+  {
+    path: "/guides/Armors/Miys/Melee",
+    element: <MMelee />,
+  },
+  {
+    path: "/guides/Armors/Miys/Nano",
+    element: <MNano />,
+  },
+  {
+    path: "/guides/Armors/Miys/Ranged",
+    element: <MRanged />,
+  },
+  {
+    path: "/guides/Armors/Miys/Scary",
+    element: <MScary />,
+  },
+  {
+    path: "/guides/Armors/Miys/Tank",
+    element: <MTank />,
   },
 ]);
 
