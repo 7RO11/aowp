@@ -37,7 +37,7 @@ function Goggles() {
         >
           Night Vision Goggles
         </a>{" "}
-        from Basic Devices in the main store room.
+        from Basic Tools in the main store room.
       </p>
       <img src={gog1} alt="Crafting step part 1" className="guidePic" />
       <p className="guideContext">The Targeting Scope can be any QL.</p>
