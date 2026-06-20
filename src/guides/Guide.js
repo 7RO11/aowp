@@ -39,6 +39,11 @@ function Guide() {
           Armors and You
         </Link>
       </p>
+      <p>
+        <Link className="guideLink" to={"/guides/Twinking-XP"}>
+          Twinking % Add. Xp
+        </Link>
+      </p>
     </Stage>
   );
 }

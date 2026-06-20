@@ -30,6 +30,7 @@ import MNano from "./guides/armors/MNano";
 import MRanged from "./guides/armors/MRanged";
 import MScary from "./guides/armors/MScary";
 import MTank from "./guides/armors/MTank";
+import Exp from "./guides/Exp";
 
 const router = createBrowserRouter([
   {
@@ -146,24 +147,28 @@ const router = createBrowserRouter([
     element: <Miys />,
   },
   {
-    path: "/guides/Armors/Miys/Melee",
+    path: "/guides/Armors/Miys-Melee",
     element: <MMelee />,
   },
   {
-    path: "/guides/Armors/Miys/Nano",
+    path: "/guides/Armors/Miys-Nano",
     element: <MNano />,
   },
   {
-    path: "/guides/Armors/Miys/Ranged",
+    path: "/guides/Armors/Miys-Ranged",
     element: <MRanged />,
   },
   {
-    path: "/guides/Armors/Miys/Scary",
+    path: "/guides/Armors/Miys-Scary",
     element: <MScary />,
   },
   {
-    path: "/guides/Armors/Miys/Tank",
+    path: "/guides/Armors/Miys-Tank",
     element: <MTank />,
+  },
+  {
+    path: "/guides/Twinking-XP",
+    element: <Exp />,
   },
 ]);
 

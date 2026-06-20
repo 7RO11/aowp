@@ -49,27 +49,27 @@ function Miys() {
         Mantis in Southern Foul Hill's Mantis Den do not drop Miy's.
       </p>
       <p>
-        <Link className="guideLink" to={"/guides/Armors/Miys/Melee"}>
+        <Link className="guideLink" to={"/guides/Armors/Miys-Melee"}>
           Miy's Melee
         </Link>
       </p>
       <p>
-        <Link className="guideLink" to={"/guides/Armors/Miys/Nano"}>
+        <Link className="guideLink" to={"/guides/Armors/Miys-Nano"}>
           Miy's Nano
         </Link>
       </p>
       <p>
-        <Link className="guideLink" to={"/guides/Armors/Miys/Ranged"}>
+        <Link className="guideLink" to={"/guides/Armors/Miys-Ranged"}>
           Miy's Ranged
         </Link>
       </p>
       <p>
-        <Link className="guideLink" to={"/guides/Armors/Miys/Scary"}>
+        <Link className="guideLink" to={"/guides/Armors/Miys-Scary"}>
           Miy's Scary
         </Link>
       </p>
       <p>
-        <Link className="guideLink" to={"/guides/Armors/Miys/Tank"}>
+        <Link className="guideLink" to={"/guides/Armors/Miys-Tank"}>
           Miy's Tank
         </Link>
       </p>
