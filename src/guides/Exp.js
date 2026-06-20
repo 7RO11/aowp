@@ -186,7 +186,7 @@ function Exp() {
         </a>
       </h1>
       <p className="guideText">
-        Given by Ergo to enter the Shadowlands zone. Right finger only.
+        Given by Ergo to enter the next Shadowlands zone. Right finger only.
       </p>
       <h1>Back</h1>
       <h1>
