@@ -208,6 +208,17 @@ function Exp() {
         Adventurer only pistol from Milky Way prisoners. Requires 2000/2100
         pistol.
       </p>
+      <h1>
+        <a
+          href="https://auno.org/ao/db.php?id=205736"
+          className="aboutLink"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Briefcase of Holding +1%
+        </a>
+      </h1>
+      <p className="guideText">Tradeskilled Bureaucrat psych weapon.</p>
       <p className="guideText">
         The lowest stage tinker pistol to buff % Add. Xp is not obtainable
         (Hollow Island) as of writing.
